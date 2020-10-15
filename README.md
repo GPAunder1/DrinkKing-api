@@ -1,19 +1,20 @@
 # Google Map API Client
+Project to gather useful information from Google Map API
 
 ## Resources
-- Maps
-- Directions
-- Places
-
-## Elements
 - [Maps](https://developers.google.com/maps/documentation/embed/get-started)
 - [Directions](https://developers.google.com/maps/documentation/directions/overview)
+- [Places](https://developers.google.com/places/web-service/overview)
+
+## Elements
+- Maps
+- Directions
   - start location
   - end location
   - distance
   - duration
   - travel_mode
-- [Places](https://developers.google.com/places/web-service/overview)
+- Places
   - name
   - address
   - location
