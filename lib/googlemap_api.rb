@@ -65,7 +65,7 @@ module CodePraise
 end
 # ----test code----
 # require 'yaml'
-# token = YAML.safe_load(File.read('../../config/secrets.yml'))['api_token']
+# token = YAML.safe_load(File.read('../config/secrets.yml'))['api_token']
 # test = CodePraise::GooglemapApi.new(token)
 # places = test.nearbyplaces("飲料", [24.7961217,120.9966699])
 # places.map { |place| puts place.name }
