@@ -6,7 +6,7 @@ require_relative 'nearbyplace'
 module CodePraise
   # Library for googlemapAPI
   class GooglemapApi
-    API_ROOT = 'https://maps.googleapis.com/maps/ap'
+    API_ROOT = 'https://maps.googleapis.com/maps/api'
     ERROR = {
       404 => 'HTTP Not Found.',
       'ZERO_RESULTS' => 'No result.',
