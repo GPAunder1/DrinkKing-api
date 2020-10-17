@@ -1,1 +1,3 @@
 config/secrets.yml
+spec/fixtures/googlemap_results.yml
+lib/test.rb
