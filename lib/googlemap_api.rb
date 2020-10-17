@@ -6,7 +6,7 @@ require_relative 'nearbyplace'
 module CodePraise
   # Library for googlemapAPI
   class GooglemapApi
-    API_ROOT = 'https://maps.googleapis.com/maps/api'
+    API_ROOT = 'https://maps.googleapis.com/maps/ap'
     ERROR = {
       404 => 'HTTP Not Found.',
       'ZERO_RESULTS' => 'No result.',
@@ -51,7 +51,7 @@ module CodePraise
 
     def call_api_url(url)
       result = HTTP.get(url)
-      http_successful?(result) ? result : ERROR[result.code]
+      http_successful?(result) ? result : (return ERROR[result.code])
 
       result = result.parse
       api_successful?(result) ? result : ERROR[result['status']]
@@ -71,5 +71,6 @@ end
 # require 'yaml'
 # token = YAML.safe_load(File.read('../config/secrets.yml'))['api_token']
 # test = CodePraise::GooglemapApi.new(token)
-# places = test.nearbyplaces("飲料", [24.7961217,120.9966699])
+# places = test.nearbyplaces("飲料", [24.7961217, 120.9966699])
+# puts places
 # places.map { |place| puts place.name }
