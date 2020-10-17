@@ -28,7 +28,7 @@ findnearbyplaces_url = api_path(
   'location=24.7961217,120.9966699&rankby=distance&keyword=飲料&language=zh-TW'
 )
 
-response = call_api_url(config, findnearbyplaces_url).parse # convert httpresponse to hash
+response = call_api_url(findnearbyplaces_url).parse # convert httpresponse to hash
 # response['status'] return the status code of response
 places = response['results']
 
