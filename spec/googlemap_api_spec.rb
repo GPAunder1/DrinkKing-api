@@ -14,7 +14,7 @@ describe 'Testing GooglemapApi Library' do
   describe 'Place information' do
     it 'checking the shop name' do
       places = CodePraise::GooglemapApi.new(TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699])
-      _(places[0].name).must_equal CORRECT[0]['name']
+      _(places.size).must_equal CORRECT.size
     end
 
     it 'checking bad token' do
