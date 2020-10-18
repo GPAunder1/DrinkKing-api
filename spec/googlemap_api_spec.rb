@@ -11,20 +11,22 @@ TOKEN = YAML.safe_load(File.read('../config/secrets.yml'))['api_token']
 CORRECT = YAML.safe_load(File.read('./fixtures/googlemap_results.yml'))
 
 describe 'Testing GooglemapApi Library' do
-  it 'checking the shop name' do
-    places = CodePraise::GooglemapApi.new(TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699])
-    puts places[0].name
-    _(places[0].name).must_equal CORRECT[0]['name']
-  end
-  it 'checking bad token' do
-    _(proc do
-      CodePraise::GooglemapApi.new(BAD_TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699])
-    end).must_raise CodePraise::GooglemapApi::ERROR::REQUEST_DENIED
-  end
+  describe 'Place information' do
+    it 'checking the shop name' do
+      places = CodePraise::GooglemapApi.new(TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699])
+      _(places[0].name).must_equal CORRECT[0]['name']
+    end
 
-  it 'checking result' do
-    _(proc do
-      CodePraise::GooglemapApi.new(TOKEN).nearbyplaces(GARBLE, [24.7961217, 120.9966699])
-    end).must_raise CodePraise::GooglemapApi::ERROR::ZERO_RESULTS
+    it 'checking bad token' do
+      _(CodePraise::GooglemapApi.new(BAD_TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699])).must_equal 'The provided API key is invalid.'
+    end
+
+    it 'checking no result' do
+      _(CodePraise::GooglemapApi.new(TOKEN).nearbyplaces(GARBLE, [24.7961217, 120.9966699])).must_equal 'No result.'
+    end
+
+    it 'checking input error' do
+      _(CodePraise::GooglemapApi.new(TOKEN).nearbyplaces(GARBLE, 120.9966699)).must_equal 'Location must be an array.'
+    end
   end
 end
