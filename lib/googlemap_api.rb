@@ -13,7 +13,8 @@ module CodePraise
       'OVER_QUERY_LIMIT' => 'API request is over quota.',
       'REQUEST_DENIED' => 'The provided API key is invalid.',
       'INVALID_REQUEST' => 'The query parameter is missing.',
-      'UNKNOWN_ERROR' => 'Unknown Error.'
+      'UNKNOWN_ERROR' => 'Unknown Error.',
+      'PLACE_INPUT_ERROR' => 'Location must be an array.'
     }.freeze
 
     def initialize(token)
@@ -23,6 +24,7 @@ module CodePraise
     # request nearbysearch_api
     # parameter:location - an array contains with latitude and longitude
     def nearbyplaces(keyword, location)
+      return ERROR['PLACE_INPUT_ERROR'] unless location.is_a? Array
       path = "location=#{location[0]},#{location[1]}&rankby=distance&keyword=#{keyword}&language=zh-TW"
       req_url = api_path('place', 'nearbysearch', path)
       nearbyplaces_data = call_api_url(req_url)
