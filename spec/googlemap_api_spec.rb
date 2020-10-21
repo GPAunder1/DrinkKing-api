@@ -7,8 +7,8 @@ describe 'Testing GooglemapApi Library' do
     c.cassette_library_dir = CASSETTES_FOLDER
     c.hook_into :webmock
 
-    c.filter_sensitive_data('<GOOGLEMAP_TOKEN') { TOKEN }
-    c.filter_sensitive_data('<GOOGLEMAP_TOKEN_ESC') { CGI.escape(TOKEN) }
+    c.filter_sensitive_data('<GOOGLEMAP_TOKEN>') { TOKEN }
+    c.filter_sensitive_data('<GOOGLEMAP_TOKEN_ESC>') { CGI.escape(TOKEN) }
   end
   before do
     VCR.insert_cassette CASSETTE_FILE,
