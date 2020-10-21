@@ -1,16 +1,25 @@
 # frozen_string_literal: true
 
-require 'minitest/autorun'
-require 'minitest/rg'
-require 'yaml'
-require_relative '../lib/googlemap_api'
-
-GARBLE = 'dcnisndisncsdc'
-BAD_TOKEN = 'snidnsicndsivndsivdsv'
-TOKEN = YAML.safe_load(File.read('../config/secrets.yml'))['api_token']
-CORRECT = YAML.safe_load(File.read('./fixtures/googlemap_results.yml'))
+require_relative 'spec_helper'
 
 describe 'Testing GooglemapApi Library' do
+  VCR.configure do |c|
+    c.cassette_library_dir = CASSETTES_FOLDER
+    c.hook_into :webmock
+
+    c.filter_sensitive_data('<GOOGLEMAP_TOKEN') { TOKEN }
+    c.filter_sensitive_data('<GOOGLEMAP_TOKEN_ESC') { CGI.escape(TOKEN) }
+  end
+  before do
+    VCR.insert_cassette CASSETTE_FILE,
+                        record: :new_episodes,
+                        match_requests_on: %i[method uri headers]
+  end
+
+  after do
+    VCR.eject_cassette
+  end
+
   describe 'Place information' do
     it 'checking the shop name' do
       places = CodePraise::GooglemapApi.new(TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699])
