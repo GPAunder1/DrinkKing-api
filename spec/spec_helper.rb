@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require 'simplecov'
 SimpleCov.start
 
@@ -8,7 +9,6 @@ require 'yaml'
 require_relative '../lib/googlemap_api'
 require 'vcr'
 require 'webmock'
-
 
 GARBLE = 'dcnisndisncsdc'
 BAD_TOKEN = 'snidnsicndsivndsivdsv'

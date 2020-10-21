@@ -10,6 +10,7 @@ describe 'Testing GooglemapApi Library' do
     c.filter_sensitive_data('<GOOGLEMAP_TOKEN>') { TOKEN }
     c.filter_sensitive_data('<GOOGLEMAP_TOKEN_ESC>') { CGI.escape(TOKEN) }
   end
+
   before do
     VCR.insert_cassette CASSETTE_FILE,
                         record: :new_episodes,
@@ -27,7 +28,8 @@ describe 'Testing GooglemapApi Library' do
     end
 
     it 'checking bad token' do
-      _(CodePraise::GooglemapApi.new(BAD_TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699])).must_equal 'The provided API key is invalid.'
+      _(CodePraise::GooglemapApi.new(BAD_TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699]))
+        .must_equal 'The provided API key is invalid.'
     end
 
     it 'checking no result' do
