@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/timchen/NTHU/SOA/api_project/lib/googlemap_api.rb": {
+      "/mnt/c/ubuntu_share/teamproject/api_project/lib/googlemap_api.rb": {
         "lines": [
           null,
           null,
@@ -30,9 +30,14 @@
           null,
           1,
           4,
+          null,
           3,
           3,
           3,
+          3,
+          null,
+          null,
+          1,
           3,
           21,
           null,
@@ -73,17 +78,10 @@
           3,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null
         ]
       },
-      "/Users/timchen/NTHU/SOA/api_project/lib/nearbyplace.rb": {
+      "/mnt/c/ubuntu_share/teamproject/api_project/lib/nearbyplace.rb": {
         "lines": [
           null,
           null,
@@ -118,6 +116,6 @@
         ]
       }
     },
-    "timestamp": 1603261262
+    "timestamp": 1603299478
   }
 }
