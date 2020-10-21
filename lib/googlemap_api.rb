@@ -25,13 +25,18 @@ module CodePraise
     # parameter:location - an array contains with latitude and longitude
     def nearbyplaces(keyword, location)
       return ERROR['PLACE_INPUT_ERROR'] unless location.is_a? Array
+
       path = "location=#{location[0]},#{location[1]}&rankby=distance&keyword=#{keyword}&language=zh-TW"
       req_url = api_path('place', 'nearbysearch', path)
-      nearbyplaces_data = call_api_url(req_url)
-      if nearbyplaces_data.is_a? Hash
-        nearbyplaces_data['results'].map { |place_data| Nearbyplace.new(place_data) }
+      result = call_api_url(req_url)
+      placedata_or_error?(result)
+    end
+
+    def placedata_or_error?(result)
+      if result.is_a? Hash
+        result['results'].map { |place_data| Nearbyplace.new(place_data) }
       else
-        nearbyplaces_data
+        result
       end
     end
 
@@ -69,10 +74,3 @@ module CodePraise
     end
   end
 end
-# ----test code----
-# require 'yaml'
-# token = YAML.safe_load(File.read('../config/secrets.yml'))['api_token']
-# test = CodePraise::GooglemapApi.new(token)
-# places = test.nearbyplaces("飲料", [24.7961217, 120.9966699])
-# puts places
-# places.map { |place| puts place.name }
