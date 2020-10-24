@@ -23,7 +23,7 @@ module CodePraise
       Prasers::ApiResponseParser.new(nearbyplaces_response).map_place
     end
 
-    # Sends out HTTP requests to Github
+    # Sends out HTTP requests to GoogleMap
     class Request
       def initialize(root, token)
         @root = root
@@ -46,7 +46,7 @@ module CodePraise
       end
     end
 
-    # Decorates HTTP responses from Github with success/error
+    # Decorates HTTP and API responses from GoogleMap with success/error
     class Response < SimpleDelegator
       HTTP_ERROR = {
         404 => 'HTTP Not Found.'
