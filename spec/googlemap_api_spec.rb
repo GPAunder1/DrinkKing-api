@@ -32,6 +32,20 @@ describe 'Testing GooglemapApi Library' do
         .must_equal 'The provided API key is invalid.'
     end
 
+    it 'checking methods of nearbyplace' do
+      places = CodePraise::GooglemapApi.new(TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699])
+      names = places.map(&:name)
+      address = places.map(&:address)
+      location = places.map(&:location)
+      opening_now = places.map(&:opening_now)
+      rating = places.map(&:rating)
+      assert(names.none?(&:nil?))
+      assert(address.none?(&:nil?))
+      assert(location.none?(&:nil?))
+      assert(opening_now.none?(&:nil?))
+      assert(rating.none?(&:nil?))
+    end
+
     it 'checking no result' do
       _(CodePraise::GooglemapApi.new(TOKEN).nearbyplaces(GARBLE, [24.7961217, 120.9966699])).must_equal 'No result.'
     end

@@ -25,7 +25,7 @@ places.map do |place|
   result['name'] = place['name']
   result['address'] = place['vicinity']
   result['location'] = place['geometry']['location']
-  result['open_now'] = place['opening_hours']['open_now'] unless place['opening_hours'].nil?
+  result['open_now'] = place['opening_hours'].nil? ? '' : place['opening_hours']['open_now']
   result['rating'] = place['rating']
   results << result
 end
