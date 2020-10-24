@@ -8,15 +8,15 @@ module CodePraise
     end
 
     def name
-      @nearbyplace['name']
+      @nearbyplace['name'] unless @nearbyplace['name']
     end
 
     def address
-      @nearbyplace['vicinity']
+      @nearbyplace['vicinity'] unless @nearbyplace['address']
     end
 
     def location
-      @nearbyplace['geometry']['location']
+      @nearbyplace['geometry']['location'] unless @nearbyplace['geometry']['location']
     end
 
     def opening_now
