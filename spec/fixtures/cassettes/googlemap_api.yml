@@ -21,9 +21,11 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Sat, 24 Oct 2020 07:22:50 GMT
+      - Sat, 24 Oct 2020 19:19:57 GMT
       Expires:
-      - Sat, 24 Oct 2020 07:27:50 GMT
+      - Sat, 24 Oct 2020 19:24:57 GMT
+      Cache-Control:
+      - public, max-age=300
       Server:
       - scaffolding on HTTPServer2
       X-Xss-Protection:
@@ -31,11 +33,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=664
-      Cache-Control:
-      - public, max-age=300
-      Age:
-      - '133'
+      - gfet4t7; dur=576
       Alt-Svc:
       - h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443";
         ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443";
@@ -53,7 +51,7 @@ http_interactions:
       string: |
         {
            "html_attributions" : [],
-           "next_page_token" : "CqQCHQEAANb9GBLvFW6jdCxyyUUde9W7pUw8PSFAf7KU5RnQ2890B40Kbnyw4bI4dcR7NVWTMjCWkxAGPdP0EMJbYSKdSPE_Ci4OHXAeBOVxUZrHaynZuAZsWzcGD9dSRRFq69NJzKoISs83bDFN1DKLEILcJoo-VqOP2wEotLuVwJ1wiHk60hMRWb48xuc1CkD-5_amEEk-Yn-0Rf-gN2ciQIPN_NmYaUyq_HjcXVEFxQv5LeWCJQjB3DqOuAusmYuygGVbstQGfq4OPlQBda-A3YRnWKIuMNJSf8jK1ytwM9v67nEG_5_I9K0gSAGXLdxV9f6gv98VDwFQF7YGe9075a0DpvgDrzL2_oyKRqTjUw-K6kiP_kRqB46wrmRMzSe9Vqr3CRIQmVgZ-v3zbROHs2eu1BU64BoU-NxPXo2WJpAJshxmq2tJuwxTZi8",
+           "next_page_token" : "CqQCHQEAANrQkZOP_Ouai1pAzYOauqHs0t0eLsDDqAT6D1Y-wbQzu6VQ74ahigh84cTLSqiyomK5acvtnGIOTbkS0F5CiUgQzn7qKraEwdCV3uWDvY97yuvyYMZC9REj0sq61iyi3N5x1GkU5IyKr2bjWe2WkJVHktQ3X537u9C1XYobV6QM1N7pdYBQaWMgZ1R28HS9PbLBvWyXBXTerDALZdQ1fIEY-FmOtLOTGkTITSBZlBvDc7qDOPY60x640y2IJYljv6wm94DZNALJ-3S5ELH_zcR2DEPgikLV2ehKCHSeuycx4EwgvmIIMCBrujXzad-INu3BBEF8_MorE4slSWVMlIKjic1hekAa8QmIrhzweJGh-Ibm8JLpTwMK1TdZ6pQVWhIQV0JhB8HaWwakr3HtGcRyoxoUtkJOnbRhGFuguX-bezEGPGcfUOY",
            "results" : [
               {
                  "business_status" : "OPERATIONAL",
@@ -76,7 +74,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
                  "name" : "粹飲Pure Drink",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -84,7 +82,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/108303825789914019950\"\u003ema Ka\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAJ0mWoB8xNazKweQnY8ZMBbkgveb5fPeZ83z4NxooiMOClxJU9yxARGJrt7r0rJkesDMmhTixWn0zIxi0uiMbFjUDhIBv0v-iEfKvKZCLNyL7eDgu0XxmlZtFxCaV8jdjEhCjZX2pQaLwRzpyoTMgbjUyGhTxXNqOeFxKfsyWjyGMLtTxifp1uQ",
+                       "photo_reference" : "CmRaAAAAL1p0F79Ze9UvS4GMqWp7_337Nqo3m452925Z_2Jy0WoQg1iS0SHYVZjXkDQ_yyf4lK6GWS-T_3OxuNLO0mVwDnEnFO4TuqLufuc7JG3jKeBokUV-OM5loIkc6waNApOoEhAdwjnED2b8nYzVo14KVtXaGhRXcs4FonsEwyEuw20BpbyrImFJJQ",
                        "width" : 2612
                     }
                  ],
@@ -99,52 +97,6 @@ http_interactions:
                  "types" : [ "point_of_interest", "establishment" ],
                  "user_ratings_total" : 16,
                  "vicinity" : "東區建功路5號"
-              },
-              {
-                 "business_status" : "OPERATIONAL",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 24.79762,
-                       "lng" : 120.9960218
-                    },
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 24.79893282989272,
-                          "lng" : 120.9973414298928
-                       },
-                       "southwest" : {
-                          "lat" : 24.79623317010727,
-                          "lng" : 120.9946417701073
-                       }
-                    }
-                 },
-                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-                 "name" : "鮮茶道-清大店",
-                 "opening_hours" : {
-                    "open_now" : true
-                 },
-                 "photos" : [
-                    {
-                       "height" : 632,
-                       "html_attributions" : [
-                          "\u003ca href=\"https://maps.google.com/maps/contrib/109665090117947936405\"\u003e鮮茶道-清大店\u003c/a\u003e"
-                       ],
-                       "photo_reference" : "CmRaAAAAtR6R8bKPuECaSxlpxj2xH2eOYLGPGGe-2GTZyAcfDCQDhJOnH8SFZYOtO-JCNdK9BgF3kSlKLZ7jwW8DyFYYBVww1bMGn0mcBCIM3k5cF5cI58Ud6TQd5M4r3Qq_DdzKEhDxEnX7doBfKAjNrhlS3LX4GhSZpDZdth4xMD8O11DLBZnLLCbrFA",
-                       "width" : 632
-                    }
-                 ],
-                 "place_id" : "ChIJW9SvJnM2aDQRE24IBUXWN4U",
-                 "plus_code" : {
-                    "compound_code" : "QXXW+2C 東區 新竹市",
-                    "global_code" : "7QP2QXXW+2C"
-                 },
-                 "price_level" : 1,
-                 "rating" : 4.1,
-                 "reference" : "ChIJW9SvJnM2aDQRE24IBUXWN4U",
-                 "scope" : "GOOGLE",
-                 "types" : [ "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 67,
-                 "vicinity" : "東區光復路二段440號"
               },
               {
                  "business_status" : "OPERATIONAL",
@@ -167,7 +119,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
                  "name" : "大苑子茶飲專賣店 新竹清大店",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -175,7 +127,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/106468958982602997771\"\u003eYang Evan\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAeBZydUQVyEjCsB0OnYLqijNBeCeKntvlRiBzEOzdZiEiwx9tdRQKgowEvxXDKHrRTCpqMVRvmL7r1LayXDIwfO-4T6wLvllmUhUbucawdzOkkfOyX4FmZ7JoOc4OQwUnEhCIjJ6k2JBcp2sj5zitlNnnGhTydt9L1XecHuKbdCgbdGjfQt3NwA",
+                       "photo_reference" : "CmRaAAAAmBcHHdQLN8RWTXYhg-6UKHpxrAiSf0utUGD8hQHsL_uqTyLtD-I_YL7MI3TOYa7DWxbJaYAwLKigJpmg5_BDZ-pYOMYExPydbt9fWTRM0FholhWmbRMSX9_ODN4V83mmEhCQDsJ3VqZp-M3dmAhIDPuzGhQPVDJKnPb9BwQn9CK_T6ocM5vfzg",
                        "width" : 4032
                     }
                  ],
@@ -212,7 +164,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
                  "name" : "CoCo都可(新竹清大店)",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -220,7 +172,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/102576135425980357927\"\u003eCO CO都可流行生活飲食\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAfq6QSWSkdtpxYziliUJL2Oz5sGjO8xjiEnYUe6BczZ3sevD3cOHVmkhKuYGk7-I7NzoQByHy0TMV6CDXgD0LtRRfyjvsCoGKQu0s-2ZmWAEJVBqa5jIT1QeqnUKul4MhEhDPm5EMOLfVdTI9VjIsGj4bGhRVBcYjTNFdBo8xmG2BjPM7g9KJHg",
+                       "photo_reference" : "CmRaAAAAQqjeN-TUnBZUT3EoJ98wsf10oSYK7TUrz-OClxFA-p8amWto4k8ndqgHaebs9DHakdF7wqLAXV3YcYPKJlZs5MGr3BLDc6moj968E0ztKQOW6JRhDpMSsQnZiT5zOYdWEhA8P-p9o5FkZzGHDGrIyZxaGhST2MkbR2L5lmhonIv9_jkUzVAong",
                        "width" : 1040
                     }
                  ],
@@ -258,7 +210,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
                  "name" : "迷客夏milkshop 新竹建功店",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -266,7 +218,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/111205115616782724342\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAR_6Lq0vxPYxe_jxFlBS3UyeJNcyKRUggNzqUbASdYQ5FNk7zLu3dLpIJjQDmwqecUQoQygYfVPNkP88NPvoCmaB25tiT22-pjqxVfMwopBAkpx_9_dz1DZeEGOSxWGJJEhDv2w7Wpfc9AGR3SKSsRTGKGhTy6U6Fm-B8-9PcD-6Gwel7ik_FTw",
+                       "photo_reference" : "CmRaAAAAsMWT2CTD9yR2G5doPxCts03ZeR0CjcVBTG9CQ7U9OIYN-6Ih37MB7ZlWTt_Wrvu9Po21G5Ndj27joJY6IjKXTleurF_FKxgOta8EMTqUW37E6IB5ViVh63xpEAeH32mlEhDYM9kyx1wJSTg9_Qu4aqiYGhTr6NHwWlJzMac8mTzBuk2VWdnz8A",
                        "width" : 4032
                     }
                  ],
@@ -304,7 +256,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
                  "name" : "茶匠町（清大總店）",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -312,7 +264,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/111178482133496733739\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAA49yTaWnnwo-wpjOkpK1SgRfwf_z5bI5kWnusdObL4V-opvrGurnYxm1kLzZohWfyoWnzsJE7068YP14Ld4eFh8gQcQ87y2vfl8-K8psqZ0SSXVaUK7W8sWaNC47WIVWfEhAhSwCpJNfPid0B4wQqnF0YGhSI9pTt3UwGysyZavw7DqOJmsYqNg",
+                       "photo_reference" : "CmRaAAAAZY8lhtVFlw9qRpnRrUWtUh4PnCfNe8dmyfWThlnrx0NNL0XjKEo59lN2D4tckb6QMev-HB0Al2PylMsxBUZZVsCz5xkpGPitHmIqSB0vEEwu1WCmV88uPAVV-RZpgwXxEhC6CNjgi25uy1wCG6bxSBBQGhTXmElTlFgDt2LikGk8o87dfnmP3A",
                        "width" : 2204
                     }
                  ],
@@ -349,7 +301,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
                  "name" : "清心福全建新店 珍珠奶茶手搖飲料專賣店",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -357,7 +309,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/104966924876614392126\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAHR9lNfhp1rV8aEIVdtENc6sk4-7Js-TuTWKqJ3m3RmAroo-HGxAeZc3kQmHvtbMYok3_5GhiMIsD8Ep5jvztF7r7S4Pg2VrLisT_De15oJifaznKaQ4P1ijudzkYqb8ZEhDt8KSNJGjwaSVTGk3iB7AHGhT0ZISRBAoEYTaR4Jgz0abfWg9Q9w",
+                       "photo_reference" : "CmRaAAAA6ZnWhJPP1SRrB4Zom5jz1KULQjqnjOlVOwT2t_ADjCks5JOpp0TWdMrcB2fMcPPHV9XwqRiA8c30ojC_oE5oe9AxOmXvkpiWPGR2Q06QdokdkD3yKUtGBsL0Xshl7cuAEhDoiZKO-K9mjep3nZYcQO1hGhSIBwkTYpt4YfusDxMbioO_nWqO_w",
                        "width" : 1270
                     }
                  ],
@@ -395,7 +347,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
                  "name" : "和敬清寂-新竹清大店",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -403,7 +355,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/118394850288870595981\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRZAAAAtPi8JfdP5wyER-CjqPALL5CrJP3Lr6ECWrS33Cz57HO5c0Kk0xwh-3bn0I-OlbniudTwyBhb9HmzB3IgnBUsCMFRmJs2jao2KxYUKt-3rf3F03ToRMODyD_cSGka6cayEhB3AVWoVUGfP-PwVPp3-x69GhQnwyq2B_jxAV1UZcSjBXPl7ea_vA",
+                       "photo_reference" : "CmRZAAAAsWlDsoWoj-Fvl8t5SE7PQtfjvi2f2FRTSBfGz85rqtmjipAZrwV6apCBcTsAiuKdCEC4xbXeW1hRbkiQDpU9FGOk4YzNBvhEr-cLotMHgVxrI-qztyQ6wq997LgQ_My_EhB8Dma2adp4TLBla1wE6T_8GhRBJOSl_liu-kMDAy96h1UGs3eA0Q",
                        "width" : 1109
                     }
                  ],
@@ -416,7 +368,7 @@ http_interactions:
                  "reference" : "ChIJv9RY2ZI3aDQRzXLQMS8aa4U",
                  "scope" : "GOOGLE",
                  "types" : [ "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 18,
+                 "user_ratings_total" : 19,
                  "vicinity" : "東區建新路7號1樓"
               },
               {
@@ -440,7 +392,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
                  "name" : "珍煮丹 新竹清大店",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -448,7 +400,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/102419978762938830582\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAwFVtiUo7FlrUIw0w7aHN4veDBh3x1yowUZP55I88Olt_7VAffJPAeC8SyRSq1Gv77fgdfxz__JC1wJ1J3SMGFyrHJJztppTovqLG6mUfmmFfpVzEPCiaXHXPnjwmFFpZEhB0npLSVVoM0lqkPOwujiVSGhSvF6ydvj0bw84m0D6MJwOHIuZ1QA",
+                       "photo_reference" : "CmRaAAAAS1Z48oYP7vqAM6VCb0wNjOO0WNxP2DAR4W2IMhvBmsMRz3DdthuN8NB8cuNeVQyByy4yDqRWLtFA64OVdxDr4Uo7eifRtbi1J1QpWQVss4s25ucBbCXxLyhyrZMDNjY_EhB53QYV-Tefp3avAFZ_0NN4GhSdGeGSWFLRQ2EBOMjI60rnzOYi-A",
                        "width" : 2655
                     }
                  ],
@@ -485,7 +437,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
                  "name" : "思茶MissingTea手作飲品 新竹清大店",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -493,7 +445,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/114017452596147342372\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAf6VNW6-OHYMhuWVi83H6soKreTG-kWdx5UDCKcy14Dv_Wv9o5tc0r_I5x5OvY1fSwO1a-TiH53gQOzVtn3Ckr7r_J0b2ZtVdkKlR7Oaf2A7xB_1spsftygoKNzC3IzmUEhACg_A_vVIx2Mo_NxBvXJ1xGhSahaB59DKBD4gz0hKvuz4PCBA0UQ",
+                       "photo_reference" : "CmRaAAAAHv2sepMlj7AjUpAplznOoxtwe8DOnR0GixfKPdNL2Qzo6MLBIZpkkmbSRXbKcQC0IT6WykLMxbXCxRf8_g306Cf9bC_L7owwcKwagBrM70wx0XRKrQfodNtIHB4fxTJuEhD5ATKrRFK9ieGPK_dGj5sWGhRDvW7egLsRIxexNFdSmJt0gDw6Mg",
                        "width" : 2084
                     }
                  ],
@@ -530,7 +482,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
                  "name" : "茶湯會 新竹清大店",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -538,7 +490,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/110211360364023690164\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAT0vQdx1VDBRGkkuf4IHu-dJb-Cb9naS_0XrydM1AXVURIC7fQ-YMBW_SxnUo0iVVr5UQAEU1qnpBBAN-BuJ46G-GDTFB8wYD6tsGvu7PsWwAQfbPikW4hGMt3pi2NP2aEhBgxcqZbHPMOsFFDKRmgLC9GhSfbVvjWG0S3FZsuPEIgqj-QGsb4A",
+                       "photo_reference" : "CmRaAAAAecy4yZDfsJ-ymL9S918fVRBbKkClAwcIzJF6qd7HZKgFmWCXn0S0CoFCwfoE2NUB2vaXoY8XH0zLm10UQZZqyiWDvbfLapOV3zbUZrUSoYtEoGT0WSPs3uUSf2GPibhpEhAw-lSHILsdx7G72_R_biNcGhQzsG5kJcyNpoD1ndnArLTAoDMcEA",
                        "width" : 1478
                     }
                  ],
@@ -583,7 +535,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117369892098716671152\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAXn3nhpmAkfOKSWaIKmhQG_arBwjuFiuBSlwX8HInT-ueZKaYCRFvSqbxVkVXJWPIWOUCvyLzYTSMbs4gBjHTpF4AsF_6zuP9hRPWLr-f_UH3omjdEvY1bVoKK-4Pl2vyEhDGU0t59RFiWHXB4hNXB57TGhSOpZqiAW8Pg5hpJthXvF9oNa_VCg",
+                       "photo_reference" : "CmRaAAAAilBS5djaGYMqZ6wyFtp8GV2X-06fB0tx2qSGINpenz0pQrPa8V2-jiGo2bhKJio5FUvcniEh2S7ULPDIwX_Z5kYsf4RmcNVuMF-NWKbhnasFZGLtD5HId_4gLNt4-oVLEhDq38e0cO6pWZlYJLb304rYGhQ1ZmZF5QYg1ucExcsCJnX802arhw",
                        "width" : 5184
                     }
                  ],
@@ -621,11 +573,11 @@ http_interactions:
                  "name" : "加茗飲料店",
                  "photos" : [
                     {
-                       "height" : 4208,
+                       "height" : 2714,
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117157345919607716555\"\u003eDavid Yen\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAApJ8XKXjNfkp8hkXbeSDMR4RDoOHJhZtXcBjJILRuW9K_uXS-xVCIR5he0cEHIkbA2HW6ud2NYXFbhsipZo7JIFBaIGaLnMm0TPh3pnEGr0w135hhZWQ0ZkNXbfTNv-WoEhAagqCQdg8w98Mk5r-3deUTGhRDo9_HJPhlxltYBPZhii5-lE9_UA",
+                       "photo_reference" : "CmRaAAAA3aHvIFjq0fRX8hG4MCNqvxejPay-DU18mR9mL8GvBH9Qa196rbBvPpizxlQ-sInFfOg296FB8Snb7HxX-ufHIFaIqiWC19Dh7tDcLI31tcUpySIkuDwJTdDjqIK-NctwEhDPS7vrSCxJn0082lBnaTdoGhQzCyTmPOGh1297Uh21GqgwP-qK_A",
                        "width" : 2368
                     }
                  ],
@@ -662,7 +614,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
                  "name" : "小佐お茶作-新竹馬偕店",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -670,7 +622,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/113886700181399924771\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAipVOfWg1iLiDU8Huv28mxi_t4wfkCNTtExq4E_1_SdwbgepoZsVYaAnBV_O0n0JJ1dBwifwJRLsRebktxt-rZZYxztE3UYF-yzNxvc0HFJjaZbAb3Tq6uv5a2Nz1i3gwEhDQ0MOvn17inRzhh8bSrAHuGhQxPYLpUA_UhDlTN9Ce2yP1ZSqk3A",
+                       "photo_reference" : "CmRaAAAAebNvvWp9MP-VpuEjiOzwWR0Q-3Os7QQiu8RUjHmiJUbPPczWaGMi0XTlBB7Ux3XVIpTsZlL8vqp1dFVxguS6peUcrECQUtJRJ5Wcz1Grha8TUWJnnzQyNGqgAjS6WENnEhBP8tqXmALTQC_RTjt5zQPIGhSDvb-4jAePcbtVm6XWlPpNBcFNEg",
                        "width" : 1152
                     }
                  ],
@@ -707,7 +659,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
                  "name" : "清心福全(大學店)",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -715,7 +667,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/107213284355704031820\"\u003eKevin Wang\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAY5W_vfdi4zI49IXB-7MthKkTxdi8V5PYKeW-iviQQeZRAheFX8aBcv6x8UvI5EzrWAPLnNoh9btyy1Y-Z05r-G8-ls9dixbJDzIUwLZYx_346QCl472cwzFtYmLaXwF4EhD0Scxalerjw-NMhAgisQ3fGhS9UdR7qTEuZ2ueg72NLXm2UQqpdw",
+                       "photo_reference" : "CmRaAAAA8pVgFTrCSrRwua5FJXbS-UsnnsYRLGE3PkGYcwda5mtfdbYqilON1sGLIzC8wZzg35ipdqJ1FjgEvCvqOJBP-2M8uyKMSRq5HMoy57T5vYIKNHUZnIwPWVakm3oayodfEhDmVbzFXwlx-pfGr5dC5IjSGhT74LPe_oBJJDR9Du9RRU-L1vmCsw",
                        "width" : 4032
                     }
                  ],
@@ -761,7 +713,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/100146120627442927494\"\u003eNeson Shih\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAT0368IYbTbXL6u4sPZKTGhMQiiFFAthD4kKYKAnVcKQOGNtiT5fgLzamXOrIJYkqqiESR6N92DUacwobuNipAFhSmkv_wiqUqrmwYj0rzKtUvoMCogcT8KV4SghTaFLlEhBgOMKrzWRu3GV9qppcJ0EdGhQbXAy6563P852ZdJAGP9YdUY6z-w",
+                       "photo_reference" : "CmRaAAAA2adttvNH_cN1XrD6dSsFHCtK0neu3UF8uhbRbH_6mn9EevXLKe-KSskef5iGbbqp2hDMMKbLarRSdYJ4xBWl42lYwpWY-GOdP9QqAohpT-kTut2_wqeeam3SdU-K2dyaEhCKBPVybXsXW1o4-W_3OeD4GhRgVVkj_roJ89hI-xzieJREiJMQDQ",
                        "width" : 2448
                     }
                  ],
@@ -806,7 +758,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117722476106303126361\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAa83w7ubqWOEjUJh3IiCGh3dV9MFNwXKUGAfCyTDbLmWL3jx_IzrQtfQpDH2YxDkZUNGFLtplH5jua0Q8FR0vgET6rlreulvwM9nWzEl6-5R3wmzJdNBUZF-tNSAqRod1EhDDYGU4fbV0z8JdAnmCKJxIGhRecL4NH9WGV28QNfvJsxo4G0jyZg",
+                       "photo_reference" : "CmRaAAAAH32LN4eCA3hsGMFmNKHjHxiC2vdUf45-DVbBAL7xhsrhHhyMt2sDdH3MS2XSMmCVVE2WPqlV0FC2ONX2-FU5Rxe-PX4he2f91QCWiAbl_wQtjoArEbmJb-xcAUjdLN8_EhDYY6Oif-Re9_P7qqbGoQ_UGhR3fIiX6xKLfmRRFFg8wOBeECGehw",
                        "width" : 2040
                     }
                  ],
@@ -843,7 +795,7 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
                  "name" : "Chatime日出茶太-新竹忠孝店(加盟)",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -851,7 +803,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/101320982610309676524\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAjXsKnbgzAxFW8lKtm5ZUX8B31Al-jZ5GkReoZhSFlF5qecYOBIyIBMhecf5Td2wuP9RI4mSvvA99dvKbC_W02OODi0FQ7yo3jCQnEDMw23sdx6oeFu8UYqlZljrBNJiwEhB0fiCZgTqPV3sUzJYfu426GhTk417LHwXlmbc8cqwevQgi-O2uEw",
+                       "photo_reference" : "CmRaAAAA9-8iaqwZmfqi9gu-nV5GGuZT52mS9qTyeXrESI7OaKQJb1wwrTZLT4LfN_gBQad0q0uWcZdbM4vOtG-v5yfPxlgudq8PbpMzQKwcQtM3purKiEDykgPitBF9h7tauE-AEhCe7NgxjNrkT3FrRXcH9v3dGhSz06RWRaHvzVn-F22BKb6G-g0dPQ",
                        "width" : 1804
                     }
                  ],
@@ -896,7 +848,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/106903038425823480222\"\u003e蔡瑞峯\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAA3aWf6MK6klBuYtomZ3FOwaSxDx2VYME0_RY3h7yUN5Tfxdj34ZlqCPdXynn4Cci0-DPg-GmFK7IWc3b-kU0_7xC13QBMYdEJLvfDlXGSrp_zx-BnItbtMhdVQXoDtoJDEhC5op36d-zw_y6HsDeBJKeaGhQx4JzXs7pBEE4Dy0fVZGpUiVmB_Q",
+                       "photo_reference" : "CmRaAAAA02E2FbevT0MUuLvIfajR6-Y2WKFVN3OnJB_9x5Z1ATtHWx-BqvOvMr7l8vCMr67oFHXRyxcQon6oxi1oRIZuHxKV7-WiFwcUsEDbLkGscbiAU8nkdQU28oPAoOxlwi4-EhCsSHpqLaN1pWLdJoPMuybAGhTmjkk3bGult2KW7Vu-U73Nn64xMg",
                        "width" : 3000
                     }
                  ],
@@ -916,108 +868,97 @@ http_interactions:
                  "business_status" : "OPERATIONAL",
                  "geometry" : {
                     "location" : {
-                       "lat" : 24.8049702,
-                       "lng" : 120.9893011
+                       "lat" : 24.7845809,
+                       "lng" : 120.9995623
                     },
                     "viewport" : {
                        "northeast" : {
-                          "lat" : 24.80637397989272,
-                          "lng" : 120.9906891298927
+                          "lat" : 24.78583697989272,
+                          "lng" : 121.0011605298927
                        },
                        "southwest" : {
-                          "lat" : 24.80367432010728,
-                          "lng" : 120.9879894701073
+                          "lat" : 24.78313732010728,
+                          "lng" : 120.9984608701073
                        }
                     }
                  },
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-                 "name" : "精典泰迪的奶茶舖-新竹忠孝店",
+                 "name" : "Coco都可茶飲 新竹交大店",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
-                       "height" : 2880,
+                       "height" : 4032,
                        "html_attributions" : [
-                          "\u003ca href=\"https://maps.google.com/maps/contrib/106909419181302741029\"\u003e丁勻\u003c/a\u003e"
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/101643820823137654634\"\u003eFU Chen\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAknPGTwwSWfNsHe_uuNRnrWf-m2uIRb7lPHUjQfFUJXi4paEHKOIw_rpGG7ZbcmNSmMbzPA_sp9UHBIKmU9W5hE_dqnM2H-FLX8ENSc8-K1IBTBXmYuAS-xfzAV5GN-Q0EhDbcDqcX4tV1bG5xTvc063bGhSHawN41DypgRhEIdZYQ0_biDc9Yg",
-                       "width" : 2160
+                       "photo_reference" : "CmRaAAAAmI5SEtVUft9xCq4U6F35DRWwt_MAgKaA6PvflTTKNdJYJFVqSrZjcjE-G5rTMERUUudD4e2-Ru6hpBCUBROjRL70aJd_ityU0heb6Rwf90zzgmW8WQHjHawHxVdr-_M0EhB9k9oz0u76mR_Wf-a12wY3GhQkglLn1xBeS9Us1FnmzNkFq47DAQ",
+                       "width" : 2268
                     }
                  ],
-                 "place_id" : "ChIJeXcHDXg3aDQRCrvg9NFGqjg",
+                 "place_id" : "ChIJXcxn59w3aDQRc_Q54dy8DX8",
                  "plus_code" : {
-                    "compound_code" : "RX3Q+XP 東區 新竹市",
-                    "global_code" : "7QP2RX3Q+XP"
+                    "compound_code" : "QXMX+RR 東區 新竹市",
+                    "global_code" : "7QP2QXMX+RR"
                  },
-                 "rating" : 5,
-                 "reference" : "ChIJeXcHDXg3aDQRCrvg9NFGqjg",
+                 "price_level" : 1,
+                 "rating" : 4.4,
+                 "reference" : "ChIJXcxn59w3aDQRc_Q54dy8DX8",
                  "scope" : "GOOGLE",
                  "types" : [ "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 3,
-                 "vicinity" : "東區忠孝路171號"
+                 "user_ratings_total" : 33,
+                 "vicinity" : "東區大學路1001-2號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7848624,
+                       "lng" : 120.9898383
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.78626787989272,
+                          "lng" : 120.9912323298928
+                       },
+                       "southwest" : {
+                          "lat" : 24.78356822010728,
+                          "lng" : 120.9885326701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "樂活鮮瓶新竹寶山門市",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1152,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103100350344858434600\"\u003e林鈺珀\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAW7c7NZEmkPqaRqFnT5cijGIU5qprQ13bFpzjAiYtN9eMmiumblg2MMKf5H_748vhKtC_lIOJKMHXBx_xmEzsfmsaYeAGshOUB8b0V6sjP8ef6T_Qm9BKd0Sz67r8gxRJEhDEc9Os2REgdAIW-rIMj0NaGhTEdTfXCyGH43d7GUVoMBCsp-MuUA",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJa4UkoQc2aDQRPiuBJuUgGT0",
+                 "plus_code" : {
+                    "compound_code" : "QXMQ+WW 東區 新竹市",
+                    "global_code" : "7QP2QXMQ+WW"
+                 },
+                 "rating" : 4.4,
+                 "reference" : "ChIJa4UkoQc2aDQRPiuBJuUgGT0",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 23,
+                 "vicinity" : "東區寶山路412號"
               }
            ],
            "status" : "OK"
         }
-  recorded_at: Sat, 24 Oct 2020 07:25:01 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=dcnisndisncsdc&language=zh-TW&location=24.7961217,120.9966699&rankby=distance
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      Connection:
-      - close
-      Host:
-      - maps.googleapis.com
-      User-Agent:
-      - http.rb/4.4.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Sat, 24 Oct 2020 07:22:49 GMT
-      Expires:
-      - Sat, 24 Oct 2020 07:27:49 GMT
-      Server:
-      - scaffolding on HTTPServer2
-      X-Xss-Protection:
-      - '0'
-      X-Frame-Options:
-      - SAMEORIGIN
-      Server-Timing:
-      - gfet4t7; dur=194
-      Cache-Control:
-      - public, max-age=300
-      Age:
-      - '134'
-      Alt-Svc:
-      - h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443";
-        ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443";
-        ma=2592000; v="46,43"
-      Accept-Ranges:
-      - none
-      Vary:
-      - Accept-Encoding
-      Connection:
-      - close
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "html_attributions" : [],
-           "results" : [],
-           "status" : "ZERO_RESULTS"
-        }
-  recorded_at: Sat, 24 Oct 2020 07:25:01 GMT
+  recorded_at: Sat, 24 Oct 2020 19:19:57 GMT
 - request:
     method: get
     uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=snidnsicndsivndsivdsv&keyword=%E9%A3%B2%E6%96%99&language=zh-TW&location=24.7961217,120.9966699&rankby=distance
@@ -1039,7 +980,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Sat, 24 Oct 2020 07:25:03 GMT
+      - Sat, 24 Oct 2020 19:19:57 GMT
       Pragma:
       - no-cache
       Expires:
@@ -1053,7 +994,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=5
+      - gfet4t7; dur=3
       Alt-Svc:
       - h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443";
         ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443";
@@ -1075,5 +1016,60 @@ http_interactions:
            "results" : [],
            "status" : "REQUEST_DENIED"
         }
-  recorded_at: Sat, 24 Oct 2020 07:25:01 GMT
+  recorded_at: Sat, 24 Oct 2020 19:19:57 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=dcnisndisncsdc&language=zh-TW&location=24.7961217,120.9966699&rankby=distance
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 24 Oct 2020 19:19:58 GMT
+      Expires:
+      - Sat, 24 Oct 2020 19:24:58 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=170
+      Alt-Svc:
+      - h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443";
+        ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443";
+        ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+  recorded_at: Sat, 24 Oct 2020 19:19:57 GMT
 recorded_with: VCR 6.0.0
