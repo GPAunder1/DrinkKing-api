@@ -4,77 +4,70 @@
   location:
     lat: 24.7963383
     lng: 120.9980553
-  open_now: true
+  open_now: false
   rating: 4.7
-- name: 鮮茶道-清大店
-  address: 東區光復路二段440號
-  location:
-    lat: 24.79762
-    lng: 120.9960218
-  open_now: true
-  rating: 4.1
 - name: 大苑子茶飲專賣店 新竹清大店
   address: 東區建功一路12號
   location:
     lat: 24.7969615
     lng: 120.9983823
-  open_now: true
+  open_now: false
   rating: 3.9
 - name: CoCo都可(新竹清大店)
   address: 東區建功路16號
   location:
     lat: 24.7963121
     lng: 120.9986176
-  open_now: true
+  open_now: false
   rating: 3.7
 - name: 迷客夏milkshop 新竹建功店
   address: 東區建功一路28號
   location:
     lat: 24.797338
     lng: 120.9982533
-  open_now: true
+  open_now: false
   rating: 4.3
 - name: 茶匠町（清大總店）
   address: 東區建功一路36號台灣號
   location:
     lat: 24.797507
     lng: 120.99814
-  open_now: true
+  open_now: false
   rating: 4
 - name: 清心福全建新店 珍珠奶茶手搖飲料專賣店
   address: 東區建新路34號
   location:
     lat: 24.79812
     lng: 120.99696
-  open_now: true
+  open_now: false
   rating: 3.5
 - name: 和敬清寂-新竹清大店
   address: 東區建新路7號1樓
   location:
     lat: 24.7981113
     lng: 120.9961122
-  open_now: true
+  open_now: false
   rating: 4.1
 - name: 珍煮丹 新竹清大店
   address: 東區建功一路45-3號
   location:
     lat: 24.7980048
     lng: 120.9977792
-  open_now: true
+  open_now: false
   rating: 4.4
 - name: 思茶MissingTea手作飲品 新竹清大店
   address: 東區建新路46號
   location:
     lat: 24.798229
     lng: 120.9972061
-  open_now: true
+  open_now: false
   rating: 4.9
 - name: 茶湯會 新竹清大店
   address: 東區建功一路68-1號
   location:
     lat: 24.7985643
     lng: 120.997848
-  open_now: true
+  open_now: false
   rating: 3.6
 - name: 台灣艾斯朵 Taiwan Ice Store(每日快閃店)
   address: 東區建功一路47巷4號
@@ -95,14 +88,14 @@
   location:
     lat: 24.8007187
     lng: 120.9914204
-  open_now: true
+  open_now: false
   rating: 5
 - name: 清心福全(大學店)
   address: 東區光復路二段22号號
   location:
     lat: 24.7919789
     lng: 121.0036894
-  open_now: true
+  open_now: false
   rating: 3.4
 - name: ICE TEA
   address: 1, No. 291號光復路二段東區
@@ -123,7 +116,7 @@
   location:
     lat: 24.801727
     lng: 120.9903348
-  open_now: true
+  open_now: false
   rating: 3.1
 - name: Candy糖糖
   address: 東區
@@ -132,10 +125,17 @@
     lng: 121.0068827
   open_now: false
   rating: 5
-- name: 精典泰迪的奶茶舖-新竹忠孝店
-  address: 東區忠孝路171號
+- name: Coco都可茶飲 新竹交大店
+  address: 東區大學路1001-2號
   location:
-    lat: 24.8049702
-    lng: 120.9893011
-  open_now: true
-  rating: 5
+    lat: 24.7845809
+    lng: 120.9995623
+  open_now: false
+  rating: 4.4
+- name: 樂活鮮瓶新竹寶山門市
+  address: 東區寶山路412號
+  location:
+    lat: 24.7848624
+    lng: 120.9898383
+  open_now: false
+  rating: 4.4
