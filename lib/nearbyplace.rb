@@ -8,23 +8,29 @@ module CodePraise
     end
 
     def name
-      @nearbyplace['name']
+      @nearbyplace['name'] ||= ''
     end
 
     def address
-      @nearbyplace['vicinity']
+      @nearbyplace['vicinity'] ||= ''
     end
 
     def location
-      @nearbyplace['geometry']['location']
+      geometry = @nearbyplace['geometry']
+      return '' unless geometry
+
+      geometry['location']
     end
 
     def opening_now
-      @nearbyplace['opening_hours']['open_now'] unless @nearbyplace['opening_hours'].nil?
+      opening_hours = @nearbyplace['opening_hours']
+      return '' unless opening_hours
+
+      opening_hours['open_now']
     end
 
     def rating
-      @nearbyplace['rating']
+      @nearbyplace['rating'] ||= ''
     end
   end
 end

@@ -1,0 +1,19 @@
+---
+# Apply latest Ruby style guide and newly introduced cops
+AllCops:
+  TargetRubyVersion: 2.7.1
+  NewCops: enable
+  Exclude:
+    - lib/test.rb
+
+# ignore block length in test code only
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - spec/**/*
+
+# allow unsafe YAML loading in test code only
+Security/YAMLLoad:
+  Enabled: true
+  Exclude:
+    - spec/**/*
