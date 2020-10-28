@@ -1,5 +1,6 @@
 # Google Map API Client
-Project to gather useful information from Google Map API
+Project to gather useful information from Google Map API.
+It is easy for you to gather the nearest drink shop from you
 
 ## Resources
 - [Maps](https://developers.google.com/maps/documentation/embed/get-started)
@@ -18,12 +19,11 @@ Project to gather useful information from Google Map API
   - name
   - address
   - location
-  - opening hours
+  - opening now
   - rating
-  - review
 
 ## Entities
 objects expected to use in the project:
 - Map
 - direction (ex: how to go and how long it will take to go to the direction)
-- Places (ex: shop name, location, ratings and reviews)
+- Shop (ex: shop name, location, and rating)
