@@ -23,35 +23,24 @@ describe 'Testing GooglemapApi Library' do
 
   describe 'Place information' do
     it 'checking the shop name' do
-      places = CodePraise::GooglemapApi.new(TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699])
+      places = CodePraise::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
       _(places.size).must_equal CORRECT.size
     end
 
     it 'checking bad token' do
-      _(CodePraise::GooglemapApi.new(BAD_TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699]))
+      _(CodePraise::Googlemap::ShopMapper.new(BAD_TOKEN).find(KEYWORD))
         .must_equal 'The provided API key is invalid.'
     end
 
-    it 'checking methods of nearbyplace' do
-      places = CodePraise::GooglemapApi.new(TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699])
-      names = places.map(&:name)
-      address = places.map(&:address)
-      location = places.map(&:location)
-      opening_now = places.map(&:opening_now)
-      rating = places.map(&:rating)
-      assert(names.none?(&:nil?))
-      assert(address.none?(&:nil?))
-      assert(location.none?(&:nil?))
-      assert(opening_now.none?(&:nil?))
-      assert(rating.none?(&:nil?))
+    it 'checking attritube of each shop' do
+      places = CodePraise::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
+      places.map do |place|
+        assert(%i[name address location opening_now rating].all? { |s| place.to_h.key? s })
+      end
     end
 
     it 'checking no result' do
-      _(CodePraise::GooglemapApi.new(TOKEN).nearbyplaces(GARBLE, [24.7961217, 120.9966699])).must_equal 'No result.'
-    end
-
-    it 'checking input error' do
-      _(CodePraise::GooglemapApi.new(TOKEN).nearbyplaces(GARBLE, 120.9966699)).must_equal 'Location must be an array.'
+      _(CodePraise::Googlemap::ShopMapper.new(TOKEN).find(GARBLE)).must_equal 'No result.'
     end
   end
 end

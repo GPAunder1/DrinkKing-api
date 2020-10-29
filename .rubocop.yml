@@ -17,3 +17,8 @@ Security/YAMLLoad:
   Enabled: true
   Exclude:
     - spec/**/*
+
+Lint/NonDeterministicRequireOrder:
+  Enabled: true
+  Exclude:
+    - "**/init.rb"

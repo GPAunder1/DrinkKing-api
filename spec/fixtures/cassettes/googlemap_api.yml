@@ -7,6 +7,8 @@ http_interactions:
       encoding: UTF-8
       string: ''
     headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
       Connection:
       - close
       Host:
@@ -21,9 +23,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Sat, 24 Oct 2020 19:19:57 GMT
+      - Thu, 29 Oct 2020 18:43:00 GMT
       Expires:
-      - Sat, 24 Oct 2020 19:24:57 GMT
+      - Thu, 29 Oct 2020 18:48:00 GMT
       Cache-Control:
       - public, max-age=300
       Server:
@@ -33,7 +35,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=576
+      - gfet4t7; dur=650
       Alt-Svc:
       - h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443";
         ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443";
@@ -51,7 +53,7 @@ http_interactions:
       string: |
         {
            "html_attributions" : [],
-           "next_page_token" : "CqQCHQEAANrQkZOP_Ouai1pAzYOauqHs0t0eLsDDqAT6D1Y-wbQzu6VQ74ahigh84cTLSqiyomK5acvtnGIOTbkS0F5CiUgQzn7qKraEwdCV3uWDvY97yuvyYMZC9REj0sq61iyi3N5x1GkU5IyKr2bjWe2WkJVHktQ3X537u9C1XYobV6QM1N7pdYBQaWMgZ1R28HS9PbLBvWyXBXTerDALZdQ1fIEY-FmOtLOTGkTITSBZlBvDc7qDOPY60x640y2IJYljv6wm94DZNALJ-3S5ELH_zcR2DEPgikLV2ehKCHSeuycx4EwgvmIIMCBrujXzad-INu3BBEF8_MorE4slSWVMlIKjic1hekAa8QmIrhzweJGh-Ibm8JLpTwMK1TdZ6pQVWhIQV0JhB8HaWwakr3HtGcRyoxoUtkJOnbRhGFuguX-bezEGPGcfUOY",
+           "next_page_token" : "AcnaJv045DkQ0G9VUihcie_jSH0H_f9uJGyG9Qa1NeLzEdkl0_LtfsZF7ATn8-PV_63sObiJOArXbvn2TUgg-cVo4StyXzu2tbgFBY1bBnujig9M9C-atKgRlci46feey2LZobBvTgLiyRhJ_zIOQV97cp0gfGl68PPBhsGECbg8ADT7baMBjCU3zD37T8p_Ouk8cX69aA6kTqyJneHIAjd7ekdcwKfEVZ343eRB0z2nVmOnacmztSz1g_JDm6hbu_sgqNd3CE6uzjNykITgVDKO93T5YEXV2rDIdelrFiP4G4arCE9ZOfFtN7ZVG83ToUh9DBbszmwfEfrrkU2LxiAO4rLG8mFof7AoxEYPX6PGzuB5JpW15VqlIvwsStOUzy2WFMqypSrZGUi_R1hNbse3dzmSk8pJU_tNYWWgkcsoDwnG-Lmm6dGa",
            "results" : [
               {
                  "business_status" : "OPERATIONAL",
@@ -82,7 +84,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/108303825789914019950\"\u003ema Ka\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAL1p0F79Ze9UvS4GMqWp7_337Nqo3m452925Z_2Jy0WoQg1iS0SHYVZjXkDQ_yyf4lK6GWS-T_3OxuNLO0mVwDnEnFO4TuqLufuc7JG3jKeBokUV-OM5loIkc6waNApOoEhAdwjnED2b8nYzVo14KVtXaGhRXcs4FonsEwyEuw20BpbyrImFJJQ",
+                       "photo_reference" : "CmRaAAAAbq3GIc3lBeQjZnOf8opHICEVeBntNlmhEEzP8nkdipdoXnXdasq-IqIwNPPCxqC4IUEPzT7uTv8Cr0hP27wsB7GF_2qvSp_bU1tJOrNPeKi9txx4FOWACxADNAeqznccEhB_zGok13bmaffPjzH7FeMrGhTgqsP_xVXBXEKxwacWexv17gJLdg",
                        "width" : 2612
                     }
                  ],
@@ -95,7 +97,7 @@ http_interactions:
                  "reference" : "ChIJjRg70kY3aDQR8vjd3f5yqMY",
                  "scope" : "GOOGLE",
                  "types" : [ "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 16,
+                 "user_ratings_total" : 17,
                  "vicinity" : "東區建功路5號"
               },
               {
@@ -127,7 +129,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/106468958982602997771\"\u003eYang Evan\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAmBcHHdQLN8RWTXYhg-6UKHpxrAiSf0utUGD8hQHsL_uqTyLtD-I_YL7MI3TOYa7DWxbJaYAwLKigJpmg5_BDZ-pYOMYExPydbt9fWTRM0FholhWmbRMSX9_ODN4V83mmEhCQDsJ3VqZp-M3dmAhIDPuzGhQPVDJKnPb9BwQn9CK_T6ocM5vfzg",
+                       "photo_reference" : "CmRaAAAAKr9Sjw-SdAhe66jE-xifu4qFLNCw58MIvuLW2DhtbMjz0rfSW0Cgww64dPMLhpml2vhG6HhSgx6IyCXXGyKwo1oEoplijt_1thQtBu24Iu0zQz9QGc5fczhRVE4MKw6eEhBAgqegIRRjCxDWiRycjKtDGhTyLe2reaCIF354hWHN26BcQ0CbXA",
                        "width" : 4032
                     }
                  ],
@@ -172,7 +174,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/102576135425980357927\"\u003eCO CO都可流行生活飲食\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAQqjeN-TUnBZUT3EoJ98wsf10oSYK7TUrz-OClxFA-p8amWto4k8ndqgHaebs9DHakdF7wqLAXV3YcYPKJlZs5MGr3BLDc6moj968E0ztKQOW6JRhDpMSsQnZiT5zOYdWEhA8P-p9o5FkZzGHDGrIyZxaGhST2MkbR2L5lmhonIv9_jkUzVAong",
+                       "photo_reference" : "CmRaAAAAY5EKeioxaYq3LrMUYinqCbN-aYqDv5fU3N0Ol6G58xt6jQ9Xm11SQWXyidxguzec3ix34pzpTjP8BBORLRnCVXYOO_x2E7RY-ojCLR4Tjz4vwVQBFHLu_0DBj7X0PxstEhBgzQ1fPGmvEBoXbNSJ1PpGGhT8T-M_9as5SI8aJNFJ-UH2Afgz-A",
                        "width" : 1040
                     }
                  ],
@@ -186,7 +188,7 @@ http_interactions:
                  "reference" : "ChIJPWTxrHI2aDQRgwROCdR6mME",
                  "scope" : "GOOGLE",
                  "types" : [ "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 130,
+                 "user_ratings_total" : 131,
                  "vicinity" : "東區建功路16號"
               },
               {
@@ -218,7 +220,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/111205115616782724342\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAsMWT2CTD9yR2G5doPxCts03ZeR0CjcVBTG9CQ7U9OIYN-6Ih37MB7ZlWTt_Wrvu9Po21G5Ndj27joJY6IjKXTleurF_FKxgOta8EMTqUW37E6IB5ViVh63xpEAeH32mlEhDYM9kyx1wJSTg9_Qu4aqiYGhTr6NHwWlJzMac8mTzBuk2VWdnz8A",
+                       "photo_reference" : "CmRaAAAAu-pBggD5hYN68cTd9wDlY3KkKYPbg7pQhePZJfQygW7Wa6bG2biQc2griWvPxqMPVhy-cacWzYwq2WdBmMKUHiYjBylD1nHmUNOde8SJ-Fj31_SrhswOzXvX9dmokO8eEhDMFLnF4XpAn0VF38QS5yQvGhQdty1XOgydI_njflNScd3HZTbWxA",
                        "width" : 4032
                     }
                  ],
@@ -232,7 +234,7 @@ http_interactions:
                  "reference" : "ChIJR_IYS7s3aDQRGkmp7SRVhhI",
                  "scope" : "GOOGLE",
                  "types" : [ "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 91,
+                 "user_ratings_total" : 92,
                  "vicinity" : "東區建功一路28號"
               },
               {
@@ -264,7 +266,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/111178482133496733739\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAZY8lhtVFlw9qRpnRrUWtUh4PnCfNe8dmyfWThlnrx0NNL0XjKEo59lN2D4tckb6QMev-HB0Al2PylMsxBUZZVsCz5xkpGPitHmIqSB0vEEwu1WCmV88uPAVV-RZpgwXxEhC6CNjgi25uy1wCG6bxSBBQGhTXmElTlFgDt2LikGk8o87dfnmP3A",
+                       "photo_reference" : "CmRaAAAAQKJzni_TnPXlUaidII9npyGonlq1pik6ze3CBjF4yQyVJ1kSVIlV5QDjuzmYily_c1JsA1t8-UaajGEFVyiBnDWrsBynElRvqlFoq3hbFriY391qF5Ah-AGpnzI1b-gHEhAjnPrMYVKAIhMltbP9ufU8GhQVmPRFjxHRyGgY-3-leror3fBAmQ",
                        "width" : 2204
                     }
                  ],
@@ -309,7 +311,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/104966924876614392126\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAA6ZnWhJPP1SRrB4Zom5jz1KULQjqnjOlVOwT2t_ADjCks5JOpp0TWdMrcB2fMcPPHV9XwqRiA8c30ojC_oE5oe9AxOmXvkpiWPGR2Q06QdokdkD3yKUtGBsL0Xshl7cuAEhDoiZKO-K9mjep3nZYcQO1hGhSIBwkTYpt4YfusDxMbioO_nWqO_w",
+                       "photo_reference" : "CmRaAAAAu7eBiyhf5NEKKGCiqydhFw0s_5VcAunqTRee9QH9bkf_hgCp_l0_oR890UuSFJ-CCjv1vM8mf257EpFh2LX6Kj9inO1B8A-PdjrPiEeiYPvejOzDbcZt--n90xBCIXsdEhDAga2XuBxeghaFDH-iJrasGhQBw1JHIC-FRgP6PsSFbPGMb6SUYQ",
                        "width" : 1270
                     }
                  ],
@@ -323,7 +325,7 @@ http_interactions:
                  "reference" : "ChIJ8aSd6HI2aDQR7RYEUydnY2g",
                  "scope" : "GOOGLE",
                  "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 81,
+                 "user_ratings_total" : 82,
                  "vicinity" : "東區建新路34號"
               },
               {
@@ -355,7 +357,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/118394850288870595981\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRZAAAAsWlDsoWoj-Fvl8t5SE7PQtfjvi2f2FRTSBfGz85rqtmjipAZrwV6apCBcTsAiuKdCEC4xbXeW1hRbkiQDpU9FGOk4YzNBvhEr-cLotMHgVxrI-qztyQ6wq997LgQ_My_EhB8Dma2adp4TLBla1wE6T_8GhRBJOSl_liu-kMDAy96h1UGs3eA0Q",
+                       "photo_reference" : "CmRZAAAAucJn2cCY0mnDu_EL6besnKmgh99VTZaI28idKJndEMAsGk22j3MKV_tMQCQ2rtdB1qJjaIhreWukbrZgQLaR094fv3RR_gUyccU2PuvZFG_PSdrBN6ylcDpOnqo9CpTOEhCJ5iUp8yxSIjafY10Gai43GhRzf9E72U7K_jfxvE4PO3Caf1YU5A",
                        "width" : 1109
                     }
                  ],
@@ -400,7 +402,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/102419978762938830582\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAS1Z48oYP7vqAM6VCb0wNjOO0WNxP2DAR4W2IMhvBmsMRz3DdthuN8NB8cuNeVQyByy4yDqRWLtFA64OVdxDr4Uo7eifRtbi1J1QpWQVss4s25ucBbCXxLyhyrZMDNjY_EhB53QYV-Tefp3avAFZ_0NN4GhSdGeGSWFLRQ2EBOMjI60rnzOYi-A",
+                       "photo_reference" : "CmRaAAAAsTrF3ue_oFhObbE2UQCaeEN9LFoy9ZgMc9z_m60WFDoq5M0yFwVJQb5Nuev6R1D6v53iG4YiNQfPLOg1hMWSYW1nIIfeXGShxYasc2UAsrTsfWNKrtXBp4RxjoG9EEuPEhCv6wvDI4lBUlhYg6dR1nOOGhSDh604-oxLjDNIMDcvsGe6AqvNmA",
                        "width" : 2655
                     }
                  ],
@@ -413,7 +415,7 @@ http_interactions:
                  "reference" : "ChIJmaw0xj83aDQRMAEnm52Bk30",
                  "scope" : "GOOGLE",
                  "types" : [ "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 28,
+                 "user_ratings_total" : 30,
                  "vicinity" : "東區建功一路45-3號"
               },
               {
@@ -445,7 +447,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/114017452596147342372\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAHv2sepMlj7AjUpAplznOoxtwe8DOnR0GixfKPdNL2Qzo6MLBIZpkkmbSRXbKcQC0IT6WykLMxbXCxRf8_g306Cf9bC_L7owwcKwagBrM70wx0XRKrQfodNtIHB4fxTJuEhD5ATKrRFK9ieGPK_dGj5sWGhRDvW7egLsRIxexNFdSmJt0gDw6Mg",
+                       "photo_reference" : "CmRaAAAAqJ-squl3h_qgr0iA2afJqe9bRhmJhFoBCTeGI-_qzm7sANxb3Vs28o2VTEQsCUf1GbkKJoea9ISZlfkljDbnaw9cc6wqjPbcIkUkw_L7m6bKrD0-63b2X0HOjtsXux2oEhDdaQcKPUQ6nlqmdni46esnGhQQ-Coo-uma2XLQ2uRXb2vwnJjepw",
                        "width" : 2084
                     }
                  ],
@@ -458,7 +460,7 @@ http_interactions:
                  "reference" : "ChIJYSfjW083aDQR7clpJNhT7rk",
                  "scope" : "GOOGLE",
                  "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 321,
+                 "user_ratings_total" : 323,
                  "vicinity" : "東區建新路46號"
               },
               {
@@ -490,7 +492,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/110211360364023690164\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAecy4yZDfsJ-ymL9S918fVRBbKkClAwcIzJF6qd7HZKgFmWCXn0S0CoFCwfoE2NUB2vaXoY8XH0zLm10UQZZqyiWDvbfLapOV3zbUZrUSoYtEoGT0WSPs3uUSf2GPibhpEhAw-lSHILsdx7G72_R_biNcGhQzsG5kJcyNpoD1ndnArLTAoDMcEA",
+                       "photo_reference" : "CmRaAAAApJpA2DyQepk_EsPA-vTQCjr168zV6ORc2DVBSZxdjk60KNDaBEy0V8zIFAnDgrcKn8ir3zkcG47_ZwqmRQYg_ghUV4MdA5jUYC7ODMGEZ69A7SJsfM02CvopSUHFUquXEhDrj2tWazdp_HqeTkJFvc18GhQxh-vXWLujUKIU6oO78L4MZYZ0MA",
                        "width" : 1478
                     }
                  ],
@@ -535,7 +537,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117369892098716671152\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAilBS5djaGYMqZ6wyFtp8GV2X-06fB0tx2qSGINpenz0pQrPa8V2-jiGo2bhKJio5FUvcniEh2S7ULPDIwX_Z5kYsf4RmcNVuMF-NWKbhnasFZGLtD5HId_4gLNt4-oVLEhDq38e0cO6pWZlYJLb304rYGhQ1ZmZF5QYg1ucExcsCJnX802arhw",
+                       "photo_reference" : "CmRaAAAAWzlGs7QMp3WdebvmNAO03fpjWfD5dQzifXUJ_Hsbwl_JTBP2_wgAgyCkuufj64saQQhcFFTEF8OjHvk5HzL7pKqHK4EYdr4J5LKUZ4pACFSOYQJeOCBOPTQXfYD1dpavEhDGO3UflOP9f5oSVpu4kgULGhQRsgOyc_2VQEepjZNTao6jbO4tCQ",
                        "width" : 5184
                     }
                  ],
@@ -577,7 +579,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117157345919607716555\"\u003eDavid Yen\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAA3aHvIFjq0fRX8hG4MCNqvxejPay-DU18mR9mL8GvBH9Qa196rbBvPpizxlQ-sInFfOg296FB8Snb7HxX-ufHIFaIqiWC19Dh7tDcLI31tcUpySIkuDwJTdDjqIK-NctwEhDPS7vrSCxJn0082lBnaTdoGhQzCyTmPOGh1297Uh21GqgwP-qK_A",
+                       "photo_reference" : "CmRaAAAAmLoTmw4HC3Ic_J4d59RGmN0tqXQgxVZiPaI3EOTGARDOMIF99cbs9N7_x6eKHDFlL6fOMKvQqa83I30-ubBh4WIEKo-WvuY-yHDFLtfe2F4vnBvdMd30TwWdass1PWTFEhDb9uYacS80I5wDijwgb1L0GhSlhrZIKOk2bcVESrLA4OS7T-bNuQ",
                        "width" : 2368
                     }
                  ],
@@ -622,7 +624,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/113886700181399924771\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAebNvvWp9MP-VpuEjiOzwWR0Q-3Os7QQiu8RUjHmiJUbPPczWaGMi0XTlBB7Ux3XVIpTsZlL8vqp1dFVxguS6peUcrECQUtJRJ5Wcz1Grha8TUWJnnzQyNGqgAjS6WENnEhBP8tqXmALTQC_RTjt5zQPIGhSDvb-4jAePcbtVm6XWlPpNBcFNEg",
+                       "photo_reference" : "CmRaAAAAfIDMWlzDd9eD8_bWTA0zhDhW-O0cTS-Fool4J2Ug5cIFPED4PFqfAWPjsRcS6xNWdFhj9GtvaDkx1RYCCPU-qKa5VHvdJemBXU3VD3uAmEavWsXJCmJNpwuWHlc4OCzPEhDNTABP6ajpbzQ6H54YrOknGhRiNuPAqfViY5G3n54RmsnSERqnYw",
                        "width" : 1152
                     }
                  ],
@@ -667,7 +669,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/107213284355704031820\"\u003eKevin Wang\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAA8pVgFTrCSrRwua5FJXbS-UsnnsYRLGE3PkGYcwda5mtfdbYqilON1sGLIzC8wZzg35ipdqJ1FjgEvCvqOJBP-2M8uyKMSRq5HMoy57T5vYIKNHUZnIwPWVakm3oayodfEhDmVbzFXwlx-pfGr5dC5IjSGhT74LPe_oBJJDR9Du9RRU-L1vmCsw",
+                       "photo_reference" : "CmRaAAAAhiDKOc7okDks0O4jhIcVyVV701pj6oJobBp5DSVcCacBRWYfCPJ7vxKlvVAVrKtw3W_MP1siHCabpjWocBWRbhHg7yRS28X3_Ubr24USVjnz2ardOz1ABHQLjUb_v79DEhCxum6tZWmcEId7kX2R93PrGhTW0n71lZKQ7tPaBQosbRGNAf1dEQ",
                        "width" : 4032
                     }
                  ],
@@ -713,7 +715,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/100146120627442927494\"\u003eNeson Shih\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAA2adttvNH_cN1XrD6dSsFHCtK0neu3UF8uhbRbH_6mn9EevXLKe-KSskef5iGbbqp2hDMMKbLarRSdYJ4xBWl42lYwpWY-GOdP9QqAohpT-kTut2_wqeeam3SdU-K2dyaEhCKBPVybXsXW1o4-W_3OeD4GhRgVVkj_roJ89hI-xzieJREiJMQDQ",
+                       "photo_reference" : "CmRaAAAA-HI0IDD6lmfQa3ucMdVqNLiVJsqC33rT-sX4jlT-SH35jq65W6biSj43YDUptdck9tHJXKBGtJSy4_lz_I_XEVDNykYtAqSiiwfMWg-c5oSe2p0Si39LHi_7IFDveRUTEhDYrsoQndkSIK5GSlgT997SGhTheGvOXjKqV-vo-xf3HU4uFoUBvg",
                        "width" : 2448
                     }
                  ],
@@ -758,7 +760,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117722476106303126361\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAH32LN4eCA3hsGMFmNKHjHxiC2vdUf45-DVbBAL7xhsrhHhyMt2sDdH3MS2XSMmCVVE2WPqlV0FC2ONX2-FU5Rxe-PX4he2f91QCWiAbl_wQtjoArEbmJb-xcAUjdLN8_EhDYY6Oif-Re9_P7qqbGoQ_UGhR3fIiX6xKLfmRRFFg8wOBeECGehw",
+                       "photo_reference" : "CmRaAAAAXwFdjpDHY3dtG-FNZCSOWknsFUOYXRm3wgVuFV2Com8FbmDrbjJdHwu-jpSVLqx-NpDXKgLmRn6FklCMyBaGEJdqy9flRe9sKT3sFpFptzmstUqTxZl4hyTMHYzJlX-JEhBkfEabdCFjdcTA4mKX-gJOGhS4FQxvrqT_HgYON_rC9Uk7vvXInQ",
                        "width" : 2040
                     }
                  ],
@@ -771,7 +773,7 @@ http_interactions:
                  "reference" : "ChIJK4q7v4k3aDQRFxpNPVidLZ8",
                  "scope" : "GOOGLE",
                  "types" : [ "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 11,
+                 "user_ratings_total" : 10,
                  "vicinity" : "TW 樹林頭夜市, 竹北夜市"
               },
               {
@@ -803,7 +805,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/101320982610309676524\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAA9-8iaqwZmfqi9gu-nV5GGuZT52mS9qTyeXrESI7OaKQJb1wwrTZLT4LfN_gBQad0q0uWcZdbM4vOtG-v5yfPxlgudq8PbpMzQKwcQtM3purKiEDykgPitBF9h7tauE-AEhCe7NgxjNrkT3FrRXcH9v3dGhSz06RWRaHvzVn-F22BKb6G-g0dPQ",
+                       "photo_reference" : "CmRaAAAAiClmktMSQKIh_U7pWgMglJSNfkc3HOtebFT1xpdsZ5u8ikA2eTiJp3xySTlowBETwZkUuLhUkEpyqGCaXZP3whJS7OSG1BAZEcz-56gATcvCkuwpp8faZ7VuADEb0EV_EhDeoTBvp97KDbpAM6Okyqy-GhTrUG8XbE9wYbMl0lJkuePM58KPSw",
                        "width" : 1804
                     }
                  ],
@@ -848,7 +850,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/106903038425823480222\"\u003e蔡瑞峯\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAA02E2FbevT0MUuLvIfajR6-Y2WKFVN3OnJB_9x5Z1ATtHWx-BqvOvMr7l8vCMr67oFHXRyxcQon6oxi1oRIZuHxKV7-WiFwcUsEDbLkGscbiAU8nkdQU28oPAoOxlwi4-EhCsSHpqLaN1pWLdJoPMuybAGhTmjkk3bGult2KW7Vu-U73Nn64xMg",
+                       "photo_reference" : "CmRaAAAAAZNmaLDVODEcUc32nqwJfpyDhkKEhCclkmwz40H6DZmjkC7SpXggFWEhCbzB0fx_RHO0WAHgqSKWUd4vJyxCOdCNjc5CINg4cu2t5ir-GkNSp9NBbPJY2l-glIMBwa04EhCbOhS7UdxrO-SOWFs7Z6afGhQnZsnldI5dSi-T0KtNxZH42AU6eg",
                        "width" : 3000
                     }
                  ],
@@ -893,7 +895,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/101643820823137654634\"\u003eFU Chen\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAmI5SEtVUft9xCq4U6F35DRWwt_MAgKaA6PvflTTKNdJYJFVqSrZjcjE-G5rTMERUUudD4e2-Ru6hpBCUBROjRL70aJd_ityU0heb6Rwf90zzgmW8WQHjHawHxVdr-_M0EhB9k9oz0u76mR_Wf-a12wY3GhQkglLn1xBeS9Us1FnmzNkFq47DAQ",
+                       "photo_reference" : "CmRaAAAA7Xv3Rapc8v8E9LDDrBB0_H3s5tVX3ZBGCF-AUOXXWz0M93nYgeyKejhvNuCODRJ39u-oWDESDVZ8j6-XGiDhBMoHy8HCJ6yoVC5eGUwf7fX5--6H-dbY5C083ufYHYYIEhDrSLkUdQmKt1kUmNhJasmqGhSQnlwIrAre1Ts3HYwwn0cBShFRoQ",
                        "width" : 2268
                     }
                  ],
@@ -939,7 +941,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/103100350344858434600\"\u003e林鈺珀\u003c/a\u003e"
                        ],
-                       "photo_reference" : "CmRaAAAAW7c7NZEmkPqaRqFnT5cijGIU5qprQ13bFpzjAiYtN9eMmiumblg2MMKf5H_748vhKtC_lIOJKMHXBx_xmEzsfmsaYeAGshOUB8b0V6sjP8ef6T_Qm9BKd0Sz67r8gxRJEhDEc9Os2REgdAIW-rIMj0NaGhTEdTfXCyGH43d7GUVoMBCsp-MuUA",
+                       "photo_reference" : "CmRaAAAAIW-j8zGxJ7MtWad9ZD7Ad8d3ePJjXjDvulJCjWeOWh7POPS1yOXKPa-9vOJZklzNmPuT-HlFP9_xgYrDsuAeF9mg2fTlnV-QgpkCcwsh_BtSCKbRmhiAfwykYfWFw8QFEhARSpCujzoIR077XaNePkdUGhR-IFMb29le3f9GiDQF6vhwifti4A",
                        "width" : 2048
                     }
                  ],
@@ -958,7 +960,7 @@ http_interactions:
            ],
            "status" : "OK"
         }
-  recorded_at: Sat, 24 Oct 2020 19:19:57 GMT
+  recorded_at: Thu, 29 Oct 2020 18:42:59 GMT
 - request:
     method: get
     uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=snidnsicndsivndsivdsv&keyword=%E9%A3%B2%E6%96%99&language=zh-TW&location=24.7961217,120.9966699&rankby=distance
@@ -966,6 +968,8 @@ http_interactions:
       encoding: UTF-8
       string: ''
     headers:
+      Authorization:
+      - token snidnsicndsivndsivdsv
       Connection:
       - close
       Host:
@@ -980,7 +984,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Sat, 24 Oct 2020 19:19:57 GMT
+      - Thu, 29 Oct 2020 18:43:00 GMT
       Pragma:
       - no-cache
       Expires:
@@ -1016,7 +1020,7 @@ http_interactions:
            "results" : [],
            "status" : "REQUEST_DENIED"
         }
-  recorded_at: Sat, 24 Oct 2020 19:19:57 GMT
+  recorded_at: Thu, 29 Oct 2020 18:42:59 GMT
 - request:
     method: get
     uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=dcnisndisncsdc&language=zh-TW&location=24.7961217,120.9966699&rankby=distance
@@ -1024,6 +1028,8 @@ http_interactions:
       encoding: UTF-8
       string: ''
     headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
       Connection:
       - close
       Host:
@@ -1038,9 +1044,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Sat, 24 Oct 2020 19:19:58 GMT
+      - Thu, 29 Oct 2020 18:43:00 GMT
       Expires:
-      - Sat, 24 Oct 2020 19:24:58 GMT
+      - Thu, 29 Oct 2020 18:48:00 GMT
       Cache-Control:
       - public, max-age=300
       Server:
@@ -1050,7 +1056,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=170
+      - gfet4t7; dur=175
       Alt-Svc:
       - h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443";
         ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443";
@@ -1071,5 +1077,5 @@ http_interactions:
            "results" : [],
            "status" : "ZERO_RESULTS"
         }
-  recorded_at: Sat, 24 Oct 2020 19:19:57 GMT
+  recorded_at: Thu, 29 Oct 2020 18:43:00 GMT
 recorded_with: VCR 6.0.0
