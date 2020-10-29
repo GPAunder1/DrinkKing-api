@@ -2,6 +2,10 @@
 
 source 'https://rubygems.org'
 
+# Validation
+gem 'dry-struct', '~> 1.3'
+gem 'dry-types', '~> 1.4'
+
 # Networking
 gem 'http', '~> 4.0'
 
