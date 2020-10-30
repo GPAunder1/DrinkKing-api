@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-require 'yaml'
-require_relative 'googlemap_api'
+# require 'yaml'
+# require_relative 'googlemap_api'
+require 'init'
 
 CONFIG = YAML.safe_load(File.read('./config/secrets.yml'))
 TOKEN = CONFIG['api_token']
