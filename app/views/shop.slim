@@ -1,0 +1,11 @@
+.container
+  .row
+    .h1
+      'Result
+    .row
+      - shops.each do |shop|
+        .col-sm-12
+        .span #{shop.name} ----------#{shop.address}
+        / #{shop.address}
+        / .col-sm-12
+    / =shop.name

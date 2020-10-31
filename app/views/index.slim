@@ -1,2 +1,31 @@
 .container
-  h1 'hiii'
+  / form role="form" action="/shop" method='POST' id='show-project-form'
+  /   .row.vertical-align.query-bar
+  /     .col-md-2.col-sm-3
+  /       .text-right Drinking :
+  /     .col-md-8.col-sm-6
+  /     input{
+  /       type='text' name='drinking_shop'
+  /       id='drinking_shop_input' class="form-control"
+  /       value="迷客夏"
+  /       placeholder="可不可"
+  /     }
+  /     .col-md-2.col-sm-3
+  /     button {
+  /       type='submit' id='repo-form-submit' class='submit' value='submit' class="btn btn-success"
+  /     } Show Project
+  /     .row
+  /       .col-md-12.blank-row
+
+  form role="form" action="/shop" method='POST' id='show-drink-shop-form'
+    .form-group
+      label for="exampleInputEmail1"  Enter drinking keyword
+      input {
+        type='text' name='drinking_shop'
+        id='drinking_shop_input' class="form-control"
+        placeholder="可不可"
+      } /
+    .form-group
+      button {
+        type='submit' id='repo-form-submit' class='submit' value='submit' class="btn btn-success"
+      }Submit
