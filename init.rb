@@ -2,7 +2,7 @@
 
 # require 'pry'
 
-%w[lib app config]
+%w[app config]
   .each do |folder|
     require_relative "#{folder}/init"
   end
