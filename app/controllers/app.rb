@@ -4,7 +4,7 @@ require 'roda'
 require 'slim'
 
 module CodePraise
-  # Roda
+  # The class is responible for routing the url
   class App < Roda
     plugin :render, engine: 'slim', views: 'app/views'
     plugin :assets, css: 'style.css', path: 'app/views/assets'
