@@ -1,11 +1,20 @@
 .container
   .row
-    .h1
-      'Result
-    .row
-      - shops.each do |shop|
-        .col-sm-12
-        .span #{shop.name} ----------#{shop.address}
-        / #{shop.address}
-        / .col-sm-12
-    / =shop.name
+    h1 Result
+  .row
+    .table-responsive
+      table.table.table-striped
+        thead
+          tr
+            th name
+            th address
+            th opening now?
+            th rating
+          tbody
+            - shops.each do |shop|
+              tr
+                td #{shop.name}
+                td
+                  a href="https://www.google.com/maps/place/#{shop.location['lat']},#{shop.location['lng']}" target="_blank" #{shop.address}
+                td #{shop.opening_now}
+                td #{shop.rating}
