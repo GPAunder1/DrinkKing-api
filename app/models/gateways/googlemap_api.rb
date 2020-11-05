@@ -17,6 +17,11 @@ module CodePraise
         Request.new(@token).places(keyword, location, picked_api)
       end
 
+      def placedetails_data(placeid)
+        picked_api = Picker::ApiPicker.new('place', 'placedetails').pick
+        Request.new(@token).placedetails(placeid, picked_api)
+      end
+
       # Sends out HTTP requests to GoogleMap
       class Request
         API_ROOT = 'https://maps.googleapis.com/maps/api'
@@ -27,8 +32,19 @@ module CodePraise
 
         def places(keyword, location, picked_api)
           parameter = "location=#{location[0]},#{location[1]}&rankby=distance&keyword=#{keyword}&language=zh-TW"
-          url = "#{API_ROOT}/#{picked_api}/json?key=#{@token}&#{parameter}"
+          url = get_request_url(picked_api, parameter)
           call_api_url(url)
+        end
+
+        def placedetails(placeid, picked_api)
+          parameter = "place_id=#{placeid}&language=zh-TW"\
+                      '&fields=formatted_address,formatted_phone_number,opening_hours,reviews,url'
+          url = get_request_url(picked_api, parameter)
+          call_api_url(url)
+        end
+
+        def get_request_url(picked_api, parameter)
+          "#{API_ROOT}/#{picked_api}/json?key=#{@token}&#{parameter}"
         end
 
         def call_api_url(url)
@@ -59,7 +75,7 @@ module CodePraise
           return HTTP_ERROR[code] unless code == 200
 
           api_statuscode = parse['status']
-          api_statuscode == 'OK' ? parse['results'] : API_ERROR[api_statuscode]
+          api_statuscode == 'OK' ? parse['results'] || parse['result'] : API_ERROR[api_statuscode]
         end
       end
     end
