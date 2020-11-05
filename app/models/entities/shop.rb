@@ -6,11 +6,15 @@ module CodePraise
     class Shop < Dry::Struct
       include Dry.Types
 
-      attribute :name,        Strict::String
-      attribute :address,     Strict::String
-      attribute :location,    Strict::Hash
-      attribute :opening_now, Strict::Bool.optional
-      attribute :rating,      Strict::Integer | Strict::Float
+      attribute :id,            Strict::String
+      attribute :name,          Strict::String
+      attribute :address,       Strict::String
+      attribute :location,      Strict::Hash
+      attribute :phone_number,  Strict::String
+      attribute :map_url,       Strict::String
+      attribute :opening_now,   Strict::String.optional
+      attribute :rating,        Strict::Integer | Strict::Float
+      attribute :reviews,       Strict::Array.of(Review)
     end
   end
 end

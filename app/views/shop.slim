@@ -6,15 +6,17 @@
       table.table.table-striped
         thead
           tr
-            th name
-            th address
-            th opening now?
-            th rating
+            th Name
+            th Address
+            th Phone Number
+            th Opening Now?
+            th Rating
           tbody
             - shops.each do |shop|
               tr
                 td #{shop.name}
                 td
-                  a href="https://www.google.com/maps/place/#{shop.location['lat']},#{shop.location['lng']}" target="_blank" #{shop.address}
+                  a href="#{shop.map_url}" target="_blank" #{shop.address}
+                td #{shop.phone_number}
                 td #{shop.opening_now}
                 td #{shop.rating}

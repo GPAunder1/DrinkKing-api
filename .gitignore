@@ -1,4 +1,4 @@
 config/secrets.yml
-lib/test.rb
+lib/*
 coverage/*
 !coverage/.resultset.json

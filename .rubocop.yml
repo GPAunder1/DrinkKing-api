@@ -12,6 +12,9 @@ Metrics/BlockLength:
   Exclude:
     - spec/**/*
 
+Metrics/MethodLength:
+  ExcludedMethods: ['build_entity']
+
 # allow unsafe YAML loading in test code only
 Security/YAMLLoad:
   Enabled: true
@@ -22,3 +25,6 @@ Lint/NonDeterministicRequireOrder:
   Enabled: true
   Exclude:
     - "**/init.rb"
+
+Style/HashLikeCase:
+  MinBranchesCount: 5
