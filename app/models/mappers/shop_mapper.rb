@@ -34,6 +34,7 @@ module CodePraise
 
       def build_entity
         CodePraise::Entity::Shop.new(
+          id: id,
           name: name,
           address: address,
           location: location,
@@ -43,6 +44,9 @@ module CodePraise
       end
 
       private
+      def id
+        @data['place_id'] ||= nil
+      end
 
       def name
         @data['name'] ||= nil
@@ -63,7 +67,7 @@ module CodePraise
         opening_hours = @data['opening_hours']
         return nil unless opening_hours
 
-        opening_hours['open_now']
+        opening_hours['open_now'] ? "opening" : "closed"
       end
 
       def rating
