@@ -2,8 +2,6 @@
 
 require 'rake/testtask'
 
-CODE = 'app/'
-
 task :default do
   puts `rake -T`
 end
@@ -70,6 +68,8 @@ namespace :vcr do
 end
 
 namespace :quality do
+  CODE = 'app/'
+
   desc 'run all quality checks'
   task all: %i[rubocop reek flog]
 
@@ -78,7 +78,7 @@ namespace :quality do
   end
 
   task :reek do
-    sh 'reek'
+    sh "reek #{CODE}"
   end
 
   task :flog do

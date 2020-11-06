@@ -17,7 +17,6 @@ Sequel.migration do
       String      :opening_now
       Float       :rating
 
-
       DateTime :created_at
       DateTime :updated_at
     end

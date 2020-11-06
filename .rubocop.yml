@@ -11,6 +11,7 @@ Metrics/BlockLength:
   Enabled: true
   Exclude:
     - spec/**/*
+    - Rakefile
 
 Metrics/MethodLength:
   ExcludedMethods: ['build_entity']
@@ -28,3 +29,13 @@ Lint/NonDeterministicRequireOrder:
 
 Style/HashLikeCase:
   MinBranchesCount: 5
+
+Style/HashSyntax:
+  Enabled: true
+  Exclude:
+    - Rakefile
+
+Lint/ConstantDefinitionInBlock:
+  Enabled: true
+  Exclude:
+    - Rakefile
