@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 # Web Application
+gem 'econfig'
 gem 'puma', '~> 3.11'
 gem 'roda', '~> 3.8'
 gem 'slim', '~> 3.0'

@@ -1,5 +1,6 @@
 # frozen_string_literal: false
 
+require_relative 'review'
 module CodePraise
   module Entity
     # Domain entity for drink shops
