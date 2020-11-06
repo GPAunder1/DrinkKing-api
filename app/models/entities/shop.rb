@@ -7,7 +7,8 @@ module CodePraise
     class Shop < Dry::Struct
       include Dry.Types
 
-      attribute :id,            Strict::String
+      attribute :id,            Strict::Integer.optional
+      attribute :placeid,       Strict::String
       attribute :name,          Strict::String
       attribute :address,       Strict::String
       attribute :location,      Strict::Hash

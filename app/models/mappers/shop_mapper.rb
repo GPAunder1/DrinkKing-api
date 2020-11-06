@@ -37,7 +37,8 @@ module CodePraise
 
       def build_entity
         CodePraise::Entity::Shop.new(
-          id: id,
+          id: nil,
+          placeid: placeid,
           name: name,
           address: address,
           location: location,
@@ -51,7 +52,7 @@ module CodePraise
 
       private
 
-      def id
+      def placeid
         @data['place_id'] ||= nil
       end
 
