@@ -19,7 +19,15 @@ module CodePraise
       # Set DATABASE_URL env var on production platform
     end
 
-    CONFIG = YAML.safe_load(File.read('./config/secrets.yml'))
-    TOKEN = CONFIG['api_token']
+    configure do
+      require 'sequel'
+      DB = Sequel.connect(ENV['DATABASE_URL'])
+
+      def self.DB
+        DB
+      end
+    end
+    # CONFIG = YAML.safe_load(File.read('./config/secrets.yml'))
+    # TOKEN = CONFIG['api_token']
   end
 end

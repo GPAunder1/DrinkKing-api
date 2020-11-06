@@ -15,6 +15,17 @@ gem 'dry-types', '~> 1.4'
 # Networking
 gem 'http', '~> 4.0'
 
+# Database
+gem 'hirb', '~> 0.7'
+gem 'hirb-unicode'
+gem 'sequel', '~> 5.0'
+
+
+group :development, :test do
+  gem 'database_cleaner', '~> 1.8'
+  gem 'sqlite3', '~> 1.4'
+end
+
 # Testing
 gem 'minitest', '~> 5.0'
 gem 'minitest-rg', '~> 5.0'

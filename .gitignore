@@ -2,3 +2,4 @@ config/secrets.yml
 lib/*
 coverage/*
 !coverage/.resultset.json
+*.db
