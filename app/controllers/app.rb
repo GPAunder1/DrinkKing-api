@@ -26,7 +26,7 @@ module CodePraise
         end
         routing.on String do |shop_name|
           routing.get do
-            places = CodePraise::Googlemap::ShopMapper.new(APP.config.TOKEN).find(shop_name)
+            places = CodePraise::Googlemap::ShopMapper.new(App.config.api_token).find(shop_name)
             view 'shop', locals: { shops: places }
           end
         end
