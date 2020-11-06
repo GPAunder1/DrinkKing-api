@@ -1,24 +1,17 @@
 # frozen_string_literal: true
 
 require_relative 'spec_helper'
+require_relative 'helpers/vcr_helper'
 
 describe 'Testing GooglemapApi Library' do
-  VCR.configure do |c|
-    c.cassette_library_dir = CASSETTES_FOLDER
-    c.hook_into :webmock
-
-    c.filter_sensitive_data('<GOOGLEMAP_TOKEN>') { TOKEN }
-    c.filter_sensitive_data('<GOOGLEMAP_TOKEN_ESC>') { CGI.escape(TOKEN) }
-  end
+  VcrHelper.setup_vcr
 
   before do
-    VCR.insert_cassette CASSETTE_FILE,
-                        record: :new_episodes,
-                        match_requests_on: %i[method uri headers]
+    VcrHelper.configure_vcr_for_googlemap
   end
 
   after do
-    VCR.eject_cassette
+    VcrHelper.eject_vcr
   end
 
   describe 'Place information' do

@@ -497,13 +497,57 @@
           null,
           null,
           null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
           null,
           null,
           null,
           null
         ]
+      },
+      "/mnt/c/ubuntu_share/teamproject/api_project/spec/helpers/vcr_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          93,
+          93,
+          null,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1604655543
+    "timestamp": 1604662176
   }
 }

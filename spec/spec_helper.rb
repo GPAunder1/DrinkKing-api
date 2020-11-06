@@ -18,6 +18,3 @@ KEYWORD = '飲料'
 TOKEN = CodePraise::App.config.api_token
 # TOKEN = YAML.safe_load(File.read('config/secrets.yml'))['development']['api_token']
 CORRECT = YAML.safe_load(File.read('spec/fixtures/googlemap_results.yml'))
-
-CASSETTES_FOLDER = 'spec/fixtures/cassettes'
-CASSETTE_FILE = 'googlemap_api'
