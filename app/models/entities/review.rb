@@ -11,6 +11,10 @@ module CodePraise
       attribute :rating,          Strict::Integer
       attribute :relative_time,   Strict::String
       attribute :content,         Strict::String
+
+      def to_attr_hash
+        to_hash.reject { |key, _| [:id].include? key }
+      end
     end
   end
 end

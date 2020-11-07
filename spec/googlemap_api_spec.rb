@@ -28,7 +28,7 @@ describe 'Testing GooglemapApi Library' do
     it 'checking attritube of each shop' do
       places = CodePraise::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
       places.map do |place|
-        assert(%i[name address location opening_now rating].all? { |s| place.to_h.key? s })
+        assert(%i[name address opening_now rating].all? { |s| place.to_h.key? s })
       end
     end
 

@@ -9,7 +9,7 @@ Sequel.migration do
       foreign_key :shop_id, :shops, on_delete: :cascade, on_update: :cascade
 
       String      :author, null: false
-      String      :rating, null: false
+      Fixnum      :rating, null: false
       String      :relative_time
       String      :content, text: true, null: false
 

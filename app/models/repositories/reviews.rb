@@ -4,8 +4,8 @@ module CodePraise
   module Repository
     # Class for Review
     class Reviews
-      def self.all
-        Database::ReviewOrm.all.map { |db_review| rebuild_entity(db_review) }
+      def self.find_id(id)
+        rebuild_entity Database::ReviewOrm.first(id: id)
       end
 
       def self.find_by_shopid(shop_id)
@@ -13,11 +13,10 @@ module CodePraise
       end
 
       def self.rebuild_entity(db_record)
-        return nil unless records
+        return nil unless db_record
 
         Entity::Review.new(
           id: db_record.id,
-          shop_id: db_record.shop_id,
           author: db_record.author,
           rating: db_record.rating,
           relative_time: db_record.relative_time,
@@ -25,7 +24,13 @@ module CodePraise
         )
       end
 
-      private_class_method :rebuild_entity, :db_find_or_create
+      def self.rebuild_many(db_record)
+        db_record.map { |db_review| Reviews.rebuild_entity(db_review) }
+      end
+
+      def self.db_find_or_create(entity)
+        Database::ReviewOrm.find_or_create(entity.to_attr_hash)
+      end
     end
   end
 end

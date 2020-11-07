@@ -9,7 +9,7 @@ describe 'Integration Tests of GoogleMap API and Database' do
   DatabaseHelper.setup_database_cleaner
 
   before do
-    VcrHelper.configure_vcr_for_github
+    VcrHelper.configure_vcr_for_googlemap
   end
 
   after do
@@ -22,27 +22,29 @@ describe 'Integration Tests of GoogleMap API and Database' do
     end
 
     it 'Saving place from GoogleMap to database' do
-      places = CodePraise::GoogleMap::ShopMapper.new(TOKEN).find(KEYWORD)
+      places = CodePraise::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
+      places.map do |place|
+        rebuilt = CodePraise::Repository::For.entity(place).create(place)
 
-      rebuilt = CodePraise::Repository::For.entity(places).create(places)
+        _(rebuilt.placeid).must_equal(place.placeid)
+        _(rebuilt.name).must_equal(place.name)
+        _(rebuilt.address).must_equal(place.address)
+        _(rebuilt.latitude).must_equal(place.latitude)
+        _(rebuilt.longitude).must_equal(place.longitude)
+        _(rebuilt.phone_number).must_equal(place.phone_number)
+        _(rebuilt.map_url).must_equal(place.map_url)
+        _(rebuilt.opening_now).must_equal(place.opening_now)
+        _(rebuilt.rating).must_equal(place.rating)
+        _(rebuilt.reviews.count).must_equal(place.reviews.count)
 
-      _(rebuilt.placeid).must_equal(places.placeid)
-      _(rebuilt.name).must_equal(places.name)
-      _(rebuilt.address).must_equal(places.address)
-      _(rebuilt.phone_number).must_equal(places.phone_number)
-      _(rebuilt.map_url).must_equal(places.map_url)
-      _(rebuilt.opening_now).must_equal(places.opening_now)
-      _(rebuilt.rating).must_equal(places.rating)
-      _(rebuilt.reviews.count).must_equal(places.reviews.count)
-
-      places.reviews.each do |review|
-        found = rebuilt.reviews.find do |potential|
-          potential.author == review.author
+        place.reviews.each do |review|
+          found = rebuilt.reviews.find do |potential|
+            potential.author == review.author
+          end
+          _(found.rating).must_equal review.rating
+          _(found.relative_time).must_equal review.relative_time
+          _(found.content).must_equal review.content
         end
-
-        _(found.rating).must_equal review.rating
-        _(found.relative_time).must_equal review.relative_time
-        _(found.content).must_equal review.content
       end
     end
   end

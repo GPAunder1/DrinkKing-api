@@ -18,6 +18,10 @@ module CodePraise
       attribute :opening_now,   Strict::String.optional
       attribute :rating,        Strict::Integer | Strict::Float
       attribute :reviews,       Strict::Array.of(Review)
+
+      def to_attr_hash
+        to_hash.reject { |key, _| %i[id reviews].include? key }
+      end
     end
   end
 end
