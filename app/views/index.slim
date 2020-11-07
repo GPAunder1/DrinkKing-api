@@ -11,3 +11,37 @@
       button {
         type='submit' id='repo-form-submit' class='submit' value='submit' class="btn btn-success"
       }Submit
+  .row
+    .table-responsive
+      table.table.table-striped id="accordion"
+        thead
+          tr
+            th Name
+            th Address
+            th Phone Number
+            th Opening Now?
+            th Rating
+            th Reviews
+          tbody
+            - count = 1
+            - shops.each do |shop|
+              tr
+                td #{shop.name}
+                td
+                  a href="#{shop.map_url}" target="_blank" #{shop.address}
+                td #{shop.phone_number}
+                td #{shop.opening_now}
+                td #{shop.rating}
+                td
+                  button type="button" class="btn btn-info" data-toggle="collapse" href="#collapse#{count}" show reviews
+              tr id="collapse#{count}" class="collapse" data-parent="#accordion"
+                td colspan="6"
+                  - shop.reviews.each do |review|
+                    div #{review.author} - #{review.relative_time}
+                    div
+                      - (0..4).each do |i|
+                        - if i < review.rating
+                          span &#9733
+                    div #{review.content}
+                    br
+              - count += 1
