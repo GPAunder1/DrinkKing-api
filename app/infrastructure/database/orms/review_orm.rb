@@ -9,7 +9,9 @@ module CodePraise
       many_to_one :id,
                   class: :'CodePraise::Database::ShopOrm'
       plugin :timestamps, update_on_create: true
-      # def self.find_or_create()
+      def self.find_or_create(review_info)
+        first(id: shop_info['id']) || create(review_info)
+      end
     end
   end
 end

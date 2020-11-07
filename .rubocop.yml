@@ -14,7 +14,7 @@ Metrics/BlockLength:
     - Rakefile
 
 Metrics/MethodLength:
-  ExcludedMethods: ['build_entity']
+  ExcludedMethods: ['build_entity','rebuild_entity']
 
 # allow unsafe YAML loading in test code only
 Security/YAMLLoad:
@@ -39,3 +39,7 @@ Lint/ConstantDefinitionInBlock:
   Enabled: true
   Exclude:
     - Rakefile
+
+Layout/HashAlignment:
+  Enabled: true
+  ExcludedMethods: ['rebuild_entity']
