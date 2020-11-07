@@ -11,7 +11,8 @@ module CodePraise
       attribute :placeid,       Strict::String
       attribute :name,          Strict::String
       attribute :address,       Strict::String
-      attribute :location,      Strict::Hash
+      attribute :latitude,      Strict::Float
+      attribute :longitude,     Strict::Float
       attribute :phone_number,  Strict::String
       attribute :map_url,       Strict::String
       attribute :opening_now,   Strict::String.optional
