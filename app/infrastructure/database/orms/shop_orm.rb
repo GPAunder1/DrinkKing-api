@@ -6,8 +6,9 @@ module CodePraise
   module Database
     # Object Relational for shops
     class ShopOrm < Sequel::Model(:shops)
-      one_to_many :shop_id,
-                  class: :'CodePraise::Database::ReviewOrm'
+      one_to_many :reviews,
+                  class: :'CodePraise::Database::ReviewOrm',
+                  key: :shop_id
       plugin :timestamps, update_on_create: true
 
       def self.find_or_create(shop_info)
