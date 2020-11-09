@@ -37,10 +37,12 @@ module CodePraise
 
       def build_entity
         CodePraise::Entity::Shop.new(
-          id: id,
+          id: nil,
+          placeid: placeid,
           name: name,
           address: address,
-          location: location,
+          latitude: latitude,
+          longitude: longitude,
           phone_number: phone_number,
           map_url: map_url,
           opening_now: opening_now,
@@ -51,7 +53,7 @@ module CodePraise
 
       private
 
-      def id
+      def placeid
         @data['place_id'] ||= nil
       end
 
@@ -63,11 +65,18 @@ module CodePraise
         @shop_details['formatted_address'] ||= nil
       end
 
-      def location
+      def longitude
         geometry = @data['geometry']
         return nil unless geometry
 
-        geometry['location']
+        geometry['location']['lng']
+      end
+
+      def latitude
+        geometry = @data['geometry']
+        return nil unless geometry
+
+        geometry['location']['lat']
       end
 
       def phone_number

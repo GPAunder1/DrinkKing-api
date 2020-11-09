@@ -27,3 +27,33 @@ objects expected to use in the project:
 - Map
 - direction (ex: how to go and how long it will take to go to the direction)
 - Shop (ex: shop name, location, and rating)
+
+## Database
+We build two table in database,shops and reviews. Each shop contains many reviews
+<br/>
+The attributes of shops and reviews are:
+- shops
+  - id
+  - placeid
+  - name
+  - address
+  - latitude
+  - longitude
+  - phone_number
+  - map_url
+  - opening_now
+  - rating
+  - created_at
+  - updated_at
+
+- reviews
+  - id
+  - shop_id
+  - shops
+  - author
+  - rating
+  - relative_time
+  - created_at
+  - updated_at
+
+![ERM](./assets/drink_king.png)
