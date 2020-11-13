@@ -27,9 +27,9 @@ module CodePraise
         rebuild_entity(db_record)
       end
 
-      def self.create(entity)
-        # raise 'Shop already exists' if find(entity)
-        return unless find(entity)
+      def self.find_or_create(entity)
+        find_record = find(entity)
+        return find_record if find_record
 
         db_shop = PersistShop.new(entity).call
         rebuild_entity(db_shop)
@@ -60,7 +60,7 @@ module CodePraise
         def call
           create_shop.tap do |db_shop|
             @entity.reviews.each do |review|
-              db_shop.add_review(Reviews.db_find_or_create(review))
+              db_shop.add_review(Reviews.create(review))
             end
           end
         end

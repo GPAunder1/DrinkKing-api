@@ -10,9 +10,6 @@ module CodePraise
                   class: :'CodePraise::Database::ShopOrm'
 
       plugin :timestamps, update_on_create: true
-      def self.db_find_or_create(review_info)
-        first(id: review_info['shop_id']) || create(review_info)
-      end
     end
   end
 end
