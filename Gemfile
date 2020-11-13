@@ -40,3 +40,4 @@ gem 'rubocop'
 
 # Utilities
 gem 'rake'
+gem 'ckip_client'

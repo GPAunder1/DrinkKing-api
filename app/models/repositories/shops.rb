@@ -29,7 +29,7 @@ module CodePraise
 
       def self.create(entity)
         # raise 'Shop already exists' if find(entity)
-        return unless find(entity)
+        # return unless find(entity)
 
         db_shop = PersistShop.new(entity).call
         rebuild_entity(db_shop)
