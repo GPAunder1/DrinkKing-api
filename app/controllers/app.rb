@@ -29,7 +29,7 @@ module CodePraise
             places = CodePraise::Googlemap::ShopMapper.new(App.config.api_token).find(search_word)
 
             # Add shop to database
-            places.map { |place| Repository::For.entity(place).create(place) }
+            places.map { |place| Repository::For.entity(place).find_or_create(place) }
 
             # Redirect to search result page
             routing.redirect "shop/#{search_word}"

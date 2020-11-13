@@ -25,7 +25,8 @@ describe 'Integration Tests of GoogleMap API and Database' do
       places = CodePraise::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
       # puts places
       places.map do |place|
-        rebuilt = CodePraise::Repository::For.entity(place).create(place)
+        rebuilt = CodePraise::Repository::For.entity(place).find_or_create(place)
+
         _(rebuilt.placeid).must_equal(place.placeid)
         _(rebuilt.name).must_equal(place.name)
         _(rebuilt.address).must_equal(place.address)

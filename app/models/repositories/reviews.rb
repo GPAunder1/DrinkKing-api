@@ -28,8 +28,8 @@ module CodePraise
         db_record.map { |db_review| Reviews.rebuild_entity(db_review) }
       end
 
-      def self.db_find_or_create(entity)
-        Database::ReviewOrm.find_or_create(entity.to_attr_hash)
+      def self.create(entity)
+        Database::ReviewOrm.create(entity.to_attr_hash)
       end
     end
   end
