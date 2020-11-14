@@ -39,5 +39,8 @@ gem 'reek'
 gem 'rubocop'
 
 # Utilities
+gem 'jieba_rb'
+gem 'json'
+# gem 'net/http'
 gem 'rake'
-gem 'ckip_client'
+gem 'string-similarity'

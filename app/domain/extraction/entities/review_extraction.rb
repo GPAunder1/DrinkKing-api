@@ -12,6 +12,14 @@ module CodePraise
       attribute :relative_time,   Strict::String
       attribute :content,         Strict::String
       attribute :characters,      Strict::Array.of(String)
+
+      def mention_drink
+        Value::DrinkGrappler.new.mention_drink(characters)
+      end
+
+      def getcharacters
+        characters
+      end
     end
   end
 end

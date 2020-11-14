@@ -1,30 +1,40 @@
 # frozen_string_literal: false
+# coding:utf8
 
-require 'ckip_client'
+require 'jieba_rb'
 
 module CodePraise
   module Mapper
     # Class for ReviewExtractionMapper
     class ReviewExtractionMapper
+      def self.rebuild_many(reviews)
+        reviews.map { |review| rebuild_entity(review) }
+      end
 
-      def self.rebuild_entity(db_record)
-        return nil unless db_record
+      def self.rebuild_entity(review)
+        return nil unless review
 
         Entity::ReviewExtraction.new(
-          id: db_record.id,
-          author: db_record.author,
-          rating: db_record.rating,
-          relative_time: db_record.relative_time,
-          content: db_record.content,
-          characters: tokenize(db_record.content)
+          id: review.id,
+          author: review.author,
+          rating: review.rating,
+          relative_time: review.relative_time,
+          content: review.content,
+          characters: tokenize(review.content)
         )
       end
 
-      def tokenize(sentence)
-        CKIP.segment(sentence)
+      def self.tokenize(sentence)
+        seg = JiebaRb::Segment.new
+        seg.cut(sentence).uniq
+        # uri = URI('http://jedi.nlplab.cc:8000/api/jieba/')
+        # res = Net::HTTP.post_form(uri, 'sentence' => sentence)
+        # res = res.body.force_encoding('GBK')
+        # res = res.encode('UTF-8')
+        # .split(" ").uniq
       end
 
-      private_class_method :rebuild_entity
+      private_class_method :rebuild_entity, :tokenize
     end
   end
 end
