@@ -4,3 +4,4 @@ coverage/*
 !coverage/.resultset.json
 *.db
 app/views/assets/js/config.js
+.bundle/
