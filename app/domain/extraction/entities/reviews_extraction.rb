@@ -14,9 +14,9 @@ module CodePraise
         end
       end
 
-      def recommand_drink
+      def recommend_drink
         sorted_review = reviews.sort_by! {|review| review.rating}
-        Value.recommand_drink(sorted_review)
+        Value.recommend_drink(sorted_review)
       end
 
       def sortedby_rating

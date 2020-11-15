@@ -11,7 +11,7 @@ module CodePraise
       def initialize
         file = File.read('./app/domain/extraction/values/drinks.json')
         obj = JSON.parse(file)
-        drinks = obj['drinks']['tea_name']
+        drinks = obj['drinks']
         @menu_list = drinks.map { |drink| drink['name'] }
       end
 

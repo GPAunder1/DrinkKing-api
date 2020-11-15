@@ -4,9 +4,9 @@
     button.btn.btn-outline-primary type="button" id="listbtn" List
   .row id="maprow"
     .col id="map"
-    - shops.each do |shop|
+    - for i in (0...shops.size)
       javascript:
-        setTimeout(function(){ create_marker("#{shop.to_h.to_json}")}, 1000);
+        setTimeout(function(){ create_marker("#{shops[i].to_h.to_json}", "#{recommend_drinks[i]}", "#{menu}")}, 1000);
 
     div.toast id="toast" data-autohide="false"
       .toast-header
@@ -30,8 +30,8 @@
             button.btn.btn-link.text-success id="reviewbtn" type="button"  Show Reviews
             / span.show_review  Show Reviews
           div
-            strong.text-primary Recommend Drink：
-            span.recommend_drink
+            strong.text-danger Recommend Drink：
+            span.text-danger.recommend_drink
           div
             strong.text-primary Promotion News：
             span.promotion
@@ -42,6 +42,15 @@
             button.btn.font-weight-bold type="button" id="menubackbtn" &#60; Back
           .col
             h3.text-right.text-primary Menu
+        div.table-responsive
+          table.table.table-striped id="accordion"
+            thead
+              tr
+                th Drink
+                th Category
+                th M
+                th L
+            tbody id="menu_info"
 
       div.container.bg-light id="review_panel"
         .row

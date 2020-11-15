@@ -22,10 +22,10 @@ function initmap(){
   document.head.appendChild(script);
 }
 
-function create_marker(shop){
-    shop = shop.replace(/&quot;/g, '"');
-    shop = shop.replace(/\n/g, '<br/>');
-    shop = JSON.parse(shop);
+function create_marker(shop, recommend_drink, menu){
+    shop = json_formatter(shop);
+    shop.recommend_drink = recommend_drink;
+    shop.menu = json_formatter(menu);
 
     const icon = {
       url: "https://www.flaticon.com/svg/static/icons/svg/3106/3106180.svg",
@@ -57,6 +57,15 @@ function create_marker(shop){
       make_toast_info(shop);
       $('#toast').toast('show');
     })
+}
+
+function json_formatter(string){
+  string = string.replace(/&quot;/g, '"');
+  string = string.replace(/&gt;/g, '');
+  string = string.replace(/\n/g, ' ');
+
+  json_format_string = JSON.parse(string);
+  return json_format_string
 }
 
 $(document).ready(function(){

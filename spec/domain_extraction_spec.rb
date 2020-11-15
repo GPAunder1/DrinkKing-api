@@ -3,7 +3,6 @@
 require_relative 'spec_helper'
 require_relative 'helpers/vcr_helper'
 require_relative 'helpers/database_helper'
-require 'ckip_client'
 require 'jieba_rb'
 require 'net/http'
 
@@ -31,8 +30,7 @@ describe 'Development_test_by_Tim' do
     end
 
     it 'Testing value function' do
-      rebuilt = CodePraise::Mapper::ReviewsExtractionMapper.find_by_shopid(42)
-      refute_empty rebuilt.recommand_drink
+      refute_empty rebuilt.recommend_drink
     end
   end
 end

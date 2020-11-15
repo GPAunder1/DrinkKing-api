@@ -43,8 +43,18 @@ module CodePraise
           routing.get do
             # Get shops from database instead of Google Map
             shops = Repository::For.klass(Entity::Shop).find_shop(search_word)
+
+            file = File.read('./app/domain/extraction/values/drinks.json')
+            menu = JSON.parse(file)['drinks'].to_json
+            # 目前跑很久，暫時只跑第一筆
+            recommend_drinks = []
+            recommend_drink = CodePraise::Mapper::ReviewsExtractionMapper.find_by_shopname(shops[0].name).recommend_drink
+            shops.map do |shop|
+              recommend_drinks << recommend_drink
+            end
+
             # Show shops
-            view 'shop', locals: { shops: shops }
+            view 'shop', locals: { shops: shops , recommend_drinks: recommend_drinks, menu: menu}
           end
         end
       end
