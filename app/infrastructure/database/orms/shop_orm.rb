@@ -11,9 +11,9 @@ module CodePraise
                   key: :shop_id
       plugin :timestamps, update_on_create: true
 
-      def self.find_or_create(shop_info)
-        first(placeid: shop_info['placeid']) || create(shop_info)
-      end
+      # def self.find_or_create(shop_info)
+      #   first(placeid: shop_info['placeid']) || create(shop_info)
+      # end
     end
   end
 end
