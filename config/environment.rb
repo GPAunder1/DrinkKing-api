@@ -3,6 +3,7 @@
 require 'econfig'
 require 'roda'
 require 'yaml'
+require 'json'
 
 module CodePraise
   # Configuration for the App

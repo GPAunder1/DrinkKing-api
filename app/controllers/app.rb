@@ -7,13 +7,17 @@ module CodePraise
   # The class is responible for routing the url
   class App < Roda
     plugin :render, engine: 'slim', views: 'app/views'
-    plugin :assets, css: 'style.css', path: 'app/views/assets'
+    plugin :assets, path: 'app/views/assets',
+                    css: 'style.css', js: ['config.js', 'map.js', 'shop.js']
     plugin :halt
     plugin :unescape_path # decodes a URL-encoded path before routing
 
+    opts[:root] = 'app/views/assets/'
+    plugin :public, root: 'img'
+
     route do |routing|
       routing.assets
-
+      routing.public
       routing.root do
         shops = Repository::For.klass(Entity::Shop).all
         view 'index', locals: { shops: shops }
@@ -43,6 +47,11 @@ module CodePraise
             view 'shop', locals: { shops: shops }
           end
         end
+      end
+
+      routing.on 'test' do
+        shops = Repository::For.klass(Entity::Shop).all
+        view 'test', locals: { shops: shops }
       end
     end
   end

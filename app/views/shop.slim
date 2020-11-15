@@ -1,7 +1,68 @@
 .container
   .row
-    h1 Result
-  .row
+    button.btn.btn-outline-primary.active type="button" id="mapbtn" Map
+    button.btn.btn-outline-primary type="button" id="listbtn" List
+  .row id="maprow"
+    .col id="map"
+    - shops.each do |shop|
+      javascript:
+        setTimeout(function(){ create_marker("#{shop.to_h.to_json}")}, 1000);
+
+    div.toast id="toast" data-autohide="false"
+      .toast-header
+        h4.mr-auto.text-primary.name Shopname
+        / small.text-muted 5 mins ago
+        button.btn.btn-link.mr-auto.text-success id="menubtn" type="button" Menu
+        button.ml-2.mb-1.close data-dismiss="toast" type="button"  &times;
+      .toast-body
+          div
+            strong.text-primary Address：
+            span.address
+          div
+            strong.text-primary Phone Number：
+            span.phone_number
+          div
+            strong.text-primary Opening Now？
+            span.opening_now
+          div
+            strong.text-primary Rating：
+            span.rating
+            button.btn.btn-link.text-success id="reviewbtn" type="button"  Show Reviews
+            / span.show_review  Show Reviews
+          div
+            strong.text-primary Recommend Drink：
+            span.recommend_drink
+          div
+            strong.text-primary Promotion News：
+            span.promotion
+
+      div.container.bg-light id="menu_panel"
+        .row
+          .col
+            button.btn.font-weight-bold type="button" id="menubackbtn" &#60; Back
+          .col
+            h3.text-right.text-primary Menu
+
+      div.container.bg-light id="review_panel"
+        .row
+          .col
+            button.btn.font-weight-bold type="button" id="reviewbackbtn" &#60; Back
+          .col
+            h3.text-right.text-primary Reviews
+        div id="review_info"
+          / - shops.each do |shop|
+
+          / - shop.reviews.each do |review|
+          /   div #{review.author} - #{review.relative_time}
+          /   div
+          /     - (0..4).each do |i|
+          /       - if i < review.rating
+          /         span &#9733
+          /   div #{review.content}
+          /   br
+
+
+  .row id="list"
     .table-responsive
       table.table.table-striped id="accordion"
         thead
