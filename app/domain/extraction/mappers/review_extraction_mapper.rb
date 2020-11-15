@@ -20,7 +20,7 @@ module CodePraise
           rating: review.rating,
           relative_time: review.relative_time,
           content: review.content,
-          characters: tokenize(review.content)
+          tokens: tokenize(review.content)
         )
       end
 

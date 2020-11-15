@@ -11,15 +11,15 @@ module CodePraise
       attribute :rating,          Strict::Integer
       attribute :relative_time,   Strict::String
       attribute :content,         Strict::String
-      attribute :characters,      Strict::Array.of(String)
+      attribute :tokens,          Strict::Array.of(String)
 
       def mention_drink
-        Value::DrinkGrappler.new.mention_drink(characters)
+        Value::DrinkGrappler.new.mention_drink(tokens)
       end
 
-      def getcharacters
-        characters
-      end
+      # def getcharacters
+      #   tokens
+      # end
     end
   end
 end

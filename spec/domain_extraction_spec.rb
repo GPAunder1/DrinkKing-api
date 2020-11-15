@@ -26,7 +26,7 @@ describe 'Development_test_by_Tim' do
       _(rebuilt.name).must_equal(from_database.name)
       _(rebuilt.reviews.count).must_equal(from_database.reviews.count)
       rebuilt.reviews.each do |review|
-        assert(review.characters)
+        assert(review.tokens)
       end
     end
 
