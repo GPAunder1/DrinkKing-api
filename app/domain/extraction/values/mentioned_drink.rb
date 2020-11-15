@@ -17,7 +17,7 @@ module CodePraise
 
       def mention_drink(characters)
         local_max = 0.55
-        drink = ''
+        drink = '沒推薦'
         characters.map do |character|
           @menu_list.map do |menu_item|
             similarity = String::Similarity.cosine character, menu_item
