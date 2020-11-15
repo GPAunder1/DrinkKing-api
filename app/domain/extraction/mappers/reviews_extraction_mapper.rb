@@ -9,6 +9,12 @@ module CodePraise
         rebuild_entity(shop_entity)
       end
 
+      # Only Show one record
+      def self.find_by_shopname(shopname)
+        shop_entity = CodePraise::Repository::Shops.find_shop(shopname).first
+        rebuild_entity(shop_entity)
+      end
+
       def self.rebuild_entity(shop_entity)
         CodePraise::Entity::ReviewsExtraction.new(
           name: shop_entity.name,
