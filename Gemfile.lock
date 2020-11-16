@@ -65,7 +65,7 @@ GEM
     jieba_rb (0.0.5)
     json (2.3.1)
     kwalify (0.7.2)
-    listen (3.2.1)
+    listen (3.3.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     minitest (5.14.2)
@@ -74,6 +74,7 @@ GEM
     parser (2.7.2.0)
       ast (~> 2.4.1)
     path_expander (1.1.0)
+    pg (1.2.3)
     powerpack (0.1.2)
     psych (3.2.0)
     public_suffix (4.0.6)
@@ -120,7 +121,7 @@ GEM
     unf_ext (0.0.7.7)
     unicode-display_width (0.1.1)
     vcr (6.0.0)
-    webmock (3.9.4)
+    webmock (3.10.0)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
@@ -141,6 +142,7 @@ DEPENDENCIES
   json
   minitest (~> 5.0)
   minitest-rg (~> 5.0)
+  pg
   puma (~> 3.11)
   rake
   reek
@@ -154,6 +156,9 @@ DEPENDENCIES
   string-similarity
   vcr (~> 6.0)
   webmock (~> 3.0)
+
+RUBY VERSION
+   ruby 2.7.1p83
 
 BUNDLED WITH
    2.1.4

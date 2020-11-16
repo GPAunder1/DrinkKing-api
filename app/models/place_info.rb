@@ -5,7 +5,7 @@
 require 'init'
 
 CONFIG = YAML.safe_load(File.read('./config/secrets.yml'))
-TOKEN = CONFIG['api_token']
+TOKEN = CONFIG['API_TOKEN']
 
 results = []
 

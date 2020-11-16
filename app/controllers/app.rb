@@ -30,7 +30,7 @@ module CodePraise
             search_word = routing.params['drinking_shop']
 
             # Get shop from Google Map
-            places = CodePraise::Googlemap::ShopMapper.new(App.config.api_token).find(search_word)
+            places = CodePraise::Googlemap::ShopMapper.new(App.config.API_TOKEN).find(search_word)
 
             # Add shop to database
             places.map { |place| Repository::For.entity(place).find_or_create(place) }
