@@ -36,7 +36,6 @@ module CodePraise
             search_word = routing.params['drinking_shop']
 
             session[:search_word].insert(0, search_word).uniq!
-            puts "------------------#{session[:search_word]}"
             # Get shop from Google Map
             places = CodePraise::Googlemap::ShopMapper.new(App.config.API_TOKEN).find(search_word)
             if places.is_a? String
