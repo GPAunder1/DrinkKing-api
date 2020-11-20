@@ -77,6 +77,11 @@ module CodePraise
           api_statuscode = parse['status']
           api_statuscode == 'OK' ? parse['results'] || parse['result'] : API_ERROR[api_statuscode]
         end
+
+        def self.error_message
+          { 'HTTP_ERROR' => HTTP_ERROR,
+            'API_ERROR' => API_ERROR }
+        end
       end
     end
   end

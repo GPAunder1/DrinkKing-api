@@ -3,5 +3,5 @@ lib/*
 coverage/*
 !coverage/.resultset.json
 *.db
-app/views/assets/js/config.js
+app/presentation/assets/js/config.js
 .bundle/

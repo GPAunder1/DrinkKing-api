@@ -12,6 +12,10 @@
         type='submit' id='repo-form-submit' class='submit' value='submit' class="btn btn-success"
       }Submit
   .row
+    h3 搜尋紀錄
+    - records.each do |record|
+        div #{record}
+    end
     .table-responsive
       table.table.table-striped id="accordion"
         thead

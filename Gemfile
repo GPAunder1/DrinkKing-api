@@ -8,7 +8,7 @@ gem 'econfig'
 gem 'puma', '~> 3.11'
 gem 'roda', '~> 3.8'
 gem 'slim', '~> 3.0'
-
+gem 'delegate'
 # Validation
 gem 'dry-struct', '~> 1.3'
 gem 'dry-types', '~> 1.4'
