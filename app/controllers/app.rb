@@ -24,7 +24,6 @@ module CodePraise
         # Get visitor's search_word
         # session[:search_word].clear
         session[:search_word] ||= []
-        puts "------------------#{session[:search_word][0]}"
         shops = Repository::For.klass(Entity::Shop).all
         view 'index', locals: { shops: shops, records: session[:search_word] }
       end
@@ -34,7 +33,11 @@ module CodePraise
           # GET /shop/
           routing.post do
             search_word = routing.params['drinking_shop']
-
+            # checklist = %w[可不可 鮮茶道 大苑子 荔枝烏龍 胭脂多多]
+            # unless checklist.include? search_word
+            #   flash[:error] = 'Please enter key word related to drink'
+            #   routing.redirect '/'
+            # end
             session[:search_word].insert(0, search_word).uniq!
             # Get shop from Google Map
             places = CodePraise::Googlemap::ShopMapper.new(App.config.API_TOKEN).find(search_word)
@@ -66,6 +69,7 @@ module CodePraise
             recommend_drink = CodePraise::Mapper::ReviewsExtractionMapper.find_by_shopname(shops[0].name).recommend_drink
             shops.map do |shop|
               recommend_drinks << recommend_drink
+              # recommend_drinks << 'no recommend'
             end
 
             # Show shops

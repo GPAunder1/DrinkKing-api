@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/mnt/c/ubuntu_share/teamproject/api_project/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/init.rb": {
         "lines": [
           null,
           null,
@@ -13,14 +13,14 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/config/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/config/init.rb": {
         "lines": [
           null,
           null,
           1
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/config/environment.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/config/environment.rb": {
         "lines": [
           null,
           null,
@@ -28,13 +28,16 @@
           1,
           1,
           1,
-          null,
           1,
           null,
           1,
+          null,
           1,
           1,
           1,
+          1,
+          1,
+          null,
           1,
           null,
           1,
@@ -58,17 +61,17 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/init.rb": {
         "lines": [
           null,
           null,
           1,
           1,
-          4,
+          5,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/controllers/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/controllers/init.rb": {
         "lines": [
           null,
           null,
@@ -77,7 +80,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/controllers/app.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/controllers/app.rb": {
         "lines": [
           null,
           null,
@@ -89,7 +92,6 @@
           1,
           1,
           1,
-          null,
           1,
           1,
           null,
@@ -97,8 +99,14 @@
           1,
           null,
           1,
+          1,
+          null,
+          1,
           0,
           0,
+          0,
+          null,
+          null,
           0,
           0,
           0,
@@ -111,6 +119,18 @@
           0,
           null,
           null,
+          null,
+          null,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
           0,
           null,
           null,
@@ -118,10 +138,8 @@
           null,
           null,
           0,
-          null,
-          null,
           0,
-          0,
+          null,
           null,
           0,
           null,
@@ -130,8 +148,12 @@
           null,
           0,
           0,
+          null,
+          0,
+          null,
           0,
           0,
+          null,
           null,
           null,
           null,
@@ -149,7 +171,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/models/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/models/init.rb": {
         "lines": [
           null,
           null,
@@ -159,7 +181,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/models/entities/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/models/entities/init.rb": {
         "lines": [
           null,
           null,
@@ -171,31 +193,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/models/entities/review.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/models/entities/shop.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/models/entities/shop.rb": {
         "lines": [
           null,
           null,
@@ -226,7 +224,31 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/models/mappers/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/models/entities/review.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/api_project/app/models/mappers/init.rb": {
         "lines": [
           null,
           null,
@@ -235,28 +257,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/models/mappers/parser.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/models/mappers/shop_detail_mapper.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/models/mappers/shop_detail_mapper.rb": {
         "lines": [
           null,
           null,
@@ -323,7 +324,28 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/models/mappers/shop_mapper.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/models/mappers/parser.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/api_project/app/models/mappers/shop_mapper.rb": {
         "lines": [
           null,
           null,
@@ -434,7 +456,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/models/repositories/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/models/repositories/init.rb": {
         "lines": [
           null,
           null,
@@ -443,7 +465,7 @@
           1
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/models/repositories/shops.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/models/repositories/shops.rb": {
         "lines": [
           null,
           null,
@@ -518,7 +540,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/models/repositories/reviews.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/models/repositories/reviews.rb": {
         "lines": [
           null,
           null,
@@ -558,7 +580,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/models/repositories/for.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/models/repositories/for.rb": {
         "lines": [
           null,
           null,
@@ -583,7 +605,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/infrastructure/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/infrastructure/init.rb": {
         "lines": [
           null,
           null,
@@ -593,7 +615,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/infrastructure/gateways/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/infrastructure/gateways/init.rb": {
         "lines": [
           null,
           null,
@@ -604,7 +626,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/infrastructure/gateways/googlemap_api.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/infrastructure/gateways/googlemap_api.rb": {
         "lines": [
           null,
           null,
@@ -686,12 +708,17 @@
           0,
           null,
           null,
+          1,
+          0,
+          null,
+          null,
+          null,
           null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/infrastructure/gateways/picker.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/infrastructure/gateways/picker.rb": {
         "lines": [
           null,
           null,
@@ -720,7 +747,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/infrastructure/database/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/infrastructure/database/init.rb": {
         "lines": [
           null,
           null,
@@ -730,78 +757,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/infrastructure/database/orms/init.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          3,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/infrastructure/database/orms/review_orm.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/infrastructure/database/orms/shop_orm.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/domain/init.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/domain/extraction/init.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          3,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/domain/extraction/values/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/infrastructure/database/orms/init.rb": {
         "lines": [
           null,
           null,
@@ -810,7 +766,78 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/domain/extraction/values/mentioned_drink.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/infrastructure/database/orms/review_orm.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/api_project/app/infrastructure/database/orms/shop_orm.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/api_project/app/domain/init.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/api_project/app/domain/extraction/init.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          3,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/api_project/app/domain/extraction/values/init.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          3,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/api_project/app/domain/extraction/values/mentioned_drink.rb": {
         "lines": [
           null,
           null,
@@ -833,12 +860,12 @@
           2,
           2,
           2,
-          50,
-          700,
+          74,
+          1036,
           null,
-          700,
-          4,
-          4,
+          1036,
+          0,
+          0,
           null,
           null,
           null,
@@ -849,7 +876,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/domain/extraction/values/recommend_drink.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/domain/extraction/values/recommend_drink.rb": {
         "lines": [
           null,
           null,
@@ -857,18 +884,18 @@
           null,
           1,
           1,
-          1,
-          1,
-          1,
-          0,
+          2,
+          2,
+          2,
+          2,
           null,
-          0,
+          2,
           null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/domain/extraction/entities/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/domain/extraction/entities/init.rb": {
         "lines": [
           null,
           null,
@@ -877,7 +904,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/domain/extraction/entities/review_extraction.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/domain/extraction/entities/review_extraction.rb": {
         "lines": [
           null,
           null,
@@ -906,7 +933,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/domain/extraction/entities/reviews_extraction.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/domain/extraction/entities/reviews_extraction.rb": {
         "lines": [
           null,
           null,
@@ -925,8 +952,8 @@
           null,
           null,
           1,
-          6,
-          1,
+          11,
+          2,
           null,
           null,
           1,
@@ -939,7 +966,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/domain/extraction/mappers/init.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/domain/extraction/mappers/init.rb": {
         "lines": [
           null,
           null,
@@ -948,7 +975,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/domain/extraction/mappers/review_extraction_mapper.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/domain/extraction/mappers/review_extraction_mapper.rb": {
         "lines": [
           null,
           null,
@@ -992,7 +1019,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/app/domain/extraction/mappers/reviews_extraction_mapper.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/domain/extraction/mappers/reviews_extraction_mapper.rb": {
         "lines": [
           null,
           null,
@@ -1023,7 +1050,17 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/spec/helpers/vcr_helper.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/app/presentation/init.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          0,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/api_project/spec/helpers/vcr_helper.rb": {
         "lines": [
           null,
           null,
@@ -1059,7 +1096,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/api_project/spec/helpers/database_helper.rb": {
+      "/Users/timchen/NTHU/SOA/api_project/spec/helpers/database_helper.rb": {
         "lines": [
           null,
           null,
@@ -1082,6 +1119,6 @@
         ]
       }
     },
-    "timestamp": 1605453099
+    "timestamp": 1605936820
   }
 }
