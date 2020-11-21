@@ -19,17 +19,16 @@ describe 'Development_test_by_Tim' do
   end
 
   describe 'Creating domain_reviews_entity' do
-    from_database = CodePraise::Repository::Shops.find_shop('可不可').first
-    puts from_database
+
     rebuilt = CodePraise::Mapper::ReviewsExtractionMapper.find_by_shopname('可不可')
-    # it 'create_reviews_extraction_entity' do
-    #   from_database = CodePraise::Repository::Shops.find_shop('可不可').first
-    #   _(rebuilt.name).must_equal(from_database.name)
-    #   _(rebuilt.reviews.count).must_equal(from_database.reviews.count)
-    #   rebuilt.reviews.each do |review|
-    #     assert(review.tokens)
-    #   end
-    # end
+    it 'create_reviews_extraction_entity' do
+      from_database = CodePraise::Repository::Shops.find_shop('可不可').first
+      _(rebuilt.name).must_equal(from_database.name)
+      _(rebuilt.reviews.count).must_equal(from_database.reviews.count)
+      rebuilt.reviews.each do |review|
+        assert(review.tokens)
+      end
+    end
 
     it 'Testing value function' do
       put rebuilt.recommend_drink
