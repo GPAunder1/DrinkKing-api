@@ -20,7 +20,7 @@ describe 'Acceptance Tests' do
     # Specify the driver path - failed :(
     # chromedriver_path = 'spec/helpers/chromedriver.exe'
     # Selenium::WebDriver::Chrome::Service.driver_path = chromedriver_path
-    @browser = Watir::Browser.new
+    @browser = Watir::Browser.new :safari
   end
 
   after do
