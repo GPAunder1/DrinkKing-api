@@ -25,6 +25,7 @@ module CodePraise
         # session[:search_word].clear
         session[:search_word] ||= []
 
+        # shops = Repository::For.klass(Entity::Shop).all
         # different kind of shop names(ex:可不可, 鮮茶道)
         shops = Repository::For.klass(Entity::Shop).find_many_shops(session[:search_word])
         display_shops = Views::ShopsList.new(shops)
@@ -101,9 +102,9 @@ module CodePraise
                 recommend_drinks << recommend_drink
               end
               # recommend_drinks << 'no recommend'
-            rescue StandardError
-              flash[:error] = 'Error with getting recommend drink'
-              routing.redirect '/'
+            # rescue StandardError
+            #   flash[:error] = 'Error with getting recommend drink'
+            #   routing.redirect '/'
             end
 
             # Show shops

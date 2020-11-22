@@ -2,6 +2,7 @@
 # coding:utf8
 
 require 'jieba_rb'
+require 'net/http'
 
 module CodePraise
   module Mapper

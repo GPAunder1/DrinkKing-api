@@ -1,7 +1,7 @@
 ---
 - !ruby/object:CodePraise::Entity::Shop
   attributes:
-    :id: 
+    :id:
     :placeid: ChIJj-JB7XI2aDQReyt7-6gXNXk
     :name: 可不可熟成紅茶
     :address: 300台灣新竹市東區建功一路45-7號
@@ -14,14 +14,14 @@
     :reviews:
     - !ruby/object:CodePraise::Entity::Review
       attributes:
-        :id: 
+        :id:
         :author: sandy cheng
         :rating: 5
         :relative_time: 1 週前
         :content: 店員服務態度好!製作飲料速度快，胭脂多多比起前幾天在costco附近分店買到的好喝很多>
     - !ruby/object:CodePraise::Entity::Review
       attributes:
-        :id: 
+        :id:
         :author: 韋小亮
         :rating: 3
         :relative_time: 1 週前
@@ -34,7 +34,7 @@
           是要請我喝拿鐵是嗎？連搖都懶的搖？
     - !ruby/object:CodePraise::Entity::Review
       attributes:
-        :id: 
+        :id:
         :author: 曜懋
         :rating: 2
         :relative_time: 2 週前
@@ -46,73 +46,15 @@
           隔幾天去買還是沒有
     - !ruby/object:CodePraise::Entity::Review
       attributes:
-        :id: 
+        :id:
         :author: Watson Fan
         :rating: 4
         :relative_time: 本週
         :content: 純茶好喝，店面前不方便停車，建議附近停好車再走過來
     - !ruby/object:CodePraise::Entity::Review
       attributes:
-        :id: 
+        :id:
         :author: Alice Chang
         :rating: 1
         :relative_time: 2 週前
         :content: 應該是喝過最水、很沒茶味的一家可不可了，懷疑是不是家紅茶專賣店了。
-- !ruby/object:CodePraise::Entity::Shop
-  attributes:
-    :id: 
-    :placeid: ChIJW9SvJnM2aDQRE24IBUXWN4U
-    :name: 鮮茶道-清大店
-    :address: 30071台灣新竹市東區光復路二段440號
-    :latitude: 24.79762
-    :longitude: 120.9960218
-    :phone_number: 03 572 2075
-    :map_url: https://maps.google.com/?cid=9599376722689027603
-    :opening_now: closed
-    :rating: 4.1
-    :reviews:
-    - !ruby/object:CodePraise::Entity::Review
-      attributes:
-        :id: 
-        :author: 老王
-        :rating: 1
-        :relative_time: 1 個月前
-        :content: 解決問題的方式很差，飲料的大小杯做錯，打電話跟他們訊問，但電話中的說法很敷衍，過一個小時後才又回電話。  服務業很忙很辛苦，忙中出錯也再所難免可以理解，但事情還是要有急緩之分的，做生意畢竟都是回頭客居多。
-    - !ruby/object:CodePraise::Entity::Review
-      attributes:
-        :id: 
-        :author: Sean Hsu
-        :rating: 3
-        :relative_time: 4 個月前
-        :content: |-
-          奶蓋系列很不行
-          味道像牛奶糖
-          抹茶拿鐵建議點三分糖，無糖真的不推薦人喝
-
-          推薦這家的茶類或無糖系列比較好喝！
-    - !ruby/object:CodePraise::Entity::Review
-      attributes:
-        :id: 
-        :author: GA A
-        :rating: 3
-        :relative_time: 4 個月前
-        :content: |-
-          抹茶紅豆珍珠喝起來水水的
-          抹茶/奶味不太夠，有點可惜
-    - !ruby/object:CodePraise::Entity::Review
-      attributes:
-        :id: 
-        :author: 楊勝皓
-        :rating: 3
-        :relative_time: 3 個月前
-        :content: 鮮果雙Q綠喝起來的感覺很奇怪 不太像在喝百香綠...
-    - !ruby/object:CodePraise::Entity::Review
-      attributes:
-        :id: 
-        :author: 庭瑄張
-        :rating: 4
-        :relative_time: 3 個月前
-        :content: |-
-          品質不穩
-          但最好喝的時候很好喝
-          最難喝的時候不會太難喝

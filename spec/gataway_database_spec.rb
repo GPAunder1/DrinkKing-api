@@ -23,7 +23,6 @@ describe 'Integration Tests of GoogleMap API and Database' do
 
     it 'Saving place from GoogleMap to database' do
       places = CodePraise::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
-      # puts places
       places.map do |place|
         rebuilt = CodePraise::Repository::For.entity(place).find_or_create(place)
 
