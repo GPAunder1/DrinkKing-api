@@ -23,7 +23,12 @@ module CodePraise
       end
 
       def self.find_many_shops(shopnames)
-        shopnames.map { |shopname| Shops.find_shop(shopname)}
+        # shopnames.map { |shopname| Shops.find_shop(shopname)}
+        result = []
+        shopnames.map do |shopname|
+          Shops.find_shop(shopname).map {|single_shop| result << single_shop}
+        end
+        result
       end
 
       def self.find_placeid(placeid)

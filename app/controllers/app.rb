@@ -10,7 +10,7 @@ module CodePraise
     plugin :all_verbs # allows DELETE and other HTTP verbs beyond GET/POST
     plugin :render, engine: 'slim', views: 'app/presentation/views_html/'
     plugin :assets, path: 'app/presentation/assets/',
-                    css: 'style.css', js: ['config.js', 'map.js', 'shop.js']
+                    css: 'style.css', js: ['map.js', 'shop.js']
     plugin :halt
     plugin :unescape_path # decodes a URL-encoded path before routing
 
@@ -24,11 +24,11 @@ module CodePraise
         # Get visitor's search_word
         # session[:search_word].clear
         session[:search_word] ||= []
-        # shops = Repository::For.klass(Entity::Shop).find_many_shops(session[:search_word])
-        shops = Repository::For.klass(Entity::Shop).all # change to up line after view_object done
-        # shops = Views::ShopsList.new(shops)
 
-        view 'index', locals: { shops: shops, records: session[:search_word] }
+        # different kind of shop names(ex:可不可, 鮮茶道)
+        shops = Repository::For.klass(Entity::Shop).find_many_shops(session[:search_word])
+        display_shops = Views::ShopsList.new(shops)
+        view 'index', locals: { shops: display_shops, records: session[:search_word] }
       end
 
       routing.on 'shop' do
@@ -84,7 +84,7 @@ module CodePraise
             # Load Menu from json file
             begin
               file = File.read('./app/domain/extraction/values/drinks.json')
-              menu = JSON.parse(file)['drinks'].to_json
+              menu = JSON.parse(file)['drinks']
               if menu == 'null'
                 flash[:error] = 'No menu is found'
                 routing.redirect '/'
@@ -95,7 +95,7 @@ module CodePraise
             begin
               # 目前跑很久，暫時只跑第一筆
               recommend_drinks = []
-              recommend_drink = CodePraise::Mapper::ReviewsExtractionMapper.find_by_shopname(shops[0].name).recommend_drink
+              recommend_drink = Mapper::ReviewsExtractionMapper.find_by_shopname(shops[0].name).recommend_drink
 
               shops.map do |shop|
                 recommend_drinks << recommend_drink
@@ -107,7 +107,9 @@ module CodePraise
             end
 
             # Show shops
-            view 'shop', locals: { shops: shops , recommend_drinks: recommend_drinks, menu: menu}
+            display_shops = Views::ShopsList.new(shops, recommend_drinks, menu)
+            view 'shop', locals: { shops: display_shops }
+            # view 'shop', locals: { shops: shops , recommend_drinks: recommend_drinks, menu: menu}
           end
         end
       end
