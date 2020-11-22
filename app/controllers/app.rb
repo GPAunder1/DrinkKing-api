@@ -96,15 +96,14 @@ module DrinkKing
             begin
               # 目前跑很久，暫時只跑第一筆
               recommend_drinks = []
-              recommend_drink = Mapper::ReviewsExtractionMapper.find_by_shopname(shops[0].name).recommend_drink
-
               shops.map do |shop|
+                recommend_drink = Mapper::ReviewsExtractionMapper.find_by_shopname(shop.name).recommend_drink
                 recommend_drinks << recommend_drink
               end
-              # recommend_drinks << 'no recommend'
-            # rescue StandardError
-            #   flash[:error] = 'Error with getting recommend drink'
-            #   routing.redirect '/'
+
+            rescue StandardError
+              flash[:error] = 'Error with getting recommend drink'
+              routing.redirect '/'
             end
 
             # Show shops
