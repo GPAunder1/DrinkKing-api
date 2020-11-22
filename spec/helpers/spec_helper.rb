@@ -16,7 +16,7 @@ GARBLE = 'dcnisndisncsdc'
 BAD_TOKEN = 'snidnsicndsivndsivdsv'
 KEYWORD = '可不可'
 TOKEN = CodePraise::App.config.API_TOKEN
-CORRECT = YAML.safe_load(File.read('spec/fixtures/googlemap_results.yml'))
+CORRECT = YAML.load(File.read('spec/fixtures/googlemap_results.yml'))
 
 # Helper methods
 def homepage

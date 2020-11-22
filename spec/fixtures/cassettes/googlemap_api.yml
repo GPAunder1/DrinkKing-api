@@ -4205,4 +4205,268 @@ http_interactions:
       string: !binary |-
         5oeJ6KmyIOaYryDllp3pgY4g5pyA5rC0IOOAgSDlvogg5rKSIOiMtuWRsyDnmoQg5LiA5a62IOWPryDkuI3lj68g5LqGIO+8jCDmh7fnlpEg5piv5LiN5pivIOWutue0heiMtiDlsIjos6Plupcg5LqGIOOAgg==
   recorded_at: Sat, 14 Nov 2020 13:23:35 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF&language=zh-TW&location=24.7961217,120.9966699&radius=1500
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 21 Nov 2020 17:30:53 GMT
+      Expires:
+      - Sat, 21 Nov 2020 17:35:53 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=1039
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7981675,
+                       "lng" : 120.9977783
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79952667989272,
+                          "lng" : 120.9991652298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.79682702010728,
+                          "lng" : 120.9964655701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "可不可熟成紅茶",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2988,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/101643820823137654634\"\u003eFU Chen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwJrT-vReWMsXTcmNLeQeejA8Fr5YWOYeWL8kyv1GsMJjylsjOAhNqoeb4loPmz6HTswWZ9d3fS4DDJlrVAw9juJtnF1lZGvD5EDq8kxWAlxte_jh9ShCL52o5wCB_ZQzyMovmdD6YUe2ayA4rkUK6frAUCZtfQT4FyYskvIXp-0DinN",
+                       "width" : 5312
+                    }
+                 ],
+                 "place_id" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
+                 "plus_code" : {
+                    "compound_code" : "QXXX+74 東區 新竹市",
+                    "global_code" : "7QP2QXXX+74"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4,
+                 "reference" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 353,
+                 "vicinity" : "東區建功一路45-7號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.79762,
+                       "lng" : 120.9960218
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79893282989272,
+                          "lng" : 120.9973414298928
+                       },
+                       "southwest" : {
+                          "lat" : 24.79623317010727,
+                          "lng" : 120.9946417701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "鮮茶道-清大店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/109665090117947936405\"\u003e鮮茶道-清大店\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwIgYbjPONduEVN2EGrfb2CWIxJxy_TSTloNrHUMGYWsG4fX-cecIWx_GuuvdTIUWoOx_B5z9cygGh-LIkFnhq8-YltYB1O6ozrTSF5XoUpPCA_rkCni7Ry6BN8sYKnizLnWvdub_2odPmUKPUOjI1Lcu7Ea5xpAI-kt3uRUT3X0fNCV",
+                       "width" : 2250
+                    }
+                 ],
+                 "place_id" : "ChIJW9SvJnM2aDQRE24IBUXWN4U",
+                 "plus_code" : {
+                    "compound_code" : "QXXW+2C 東區 新竹市",
+                    "global_code" : "7QP2QXXW+2C"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.1,
+                 "reference" : "ChIJW9SvJnM2aDQRE24IBUXWN4U",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 69,
+                 "vicinity" : "東區光復路二段440號"
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Sat, 21 Nov 2020 17:30:53 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=snidnsicndsivndsivdsv&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF&language=zh-TW&location=24.7961217,120.9966699&radius=1500
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token snidnsicndsivndsivdsv
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 21 Nov 2020 17:30:53 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=2
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "error_message" : "The provided API key is invalid.",
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "REQUEST_DENIED"
+        }
+  recorded_at: Sat, 21 Nov 2020 17:30:54 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=dcnisndisncsdc&language=zh-TW&location=24.7961217,120.9966699&radius=1500
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 21 Nov 2020 17:30:54 GMT
+      Expires:
+      - Sat, 21 Nov 2020 17:35:54 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=160
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+  recorded_at: Sat, 21 Nov 2020 17:30:54 GMT
 recorded_with: VCR 6.0.0

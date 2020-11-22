@@ -22,6 +22,10 @@ module CodePraise
         end
       end
 
+      def self.find_many_shops(shopnames)
+        shopnames.map { |shopname| Shops.find_shop(shopname)}
+      end
+
       def self.find_placeid(placeid)
         db_record = Database::ShopOrm.first(placeid: placeid)
         rebuild_entity(db_record)
