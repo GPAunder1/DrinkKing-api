@@ -15,7 +15,7 @@ module DrinkKing
       end
 
       def recommend_drink
-        sorted_reviews = reviews.sort_by {|review| review.rating}
+        sorted_reviews = reviews.sort_by {|review| review.rating}.reverse
         Value.recommend_drink(sorted_reviews)
       end
 

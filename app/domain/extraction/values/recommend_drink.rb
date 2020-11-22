@@ -5,8 +5,8 @@ module DrinkKing
   module Value
     def self.recommend_drink(sorted_reviews)
       sorted_reviews.map do |sorted_review|
-        great_review = sorted_review
-        return sorted_review.mention_drink unless sorted_review.mention_drink == 'not mentioned'
+        mention_drink_in_review = sorted_review.mention_drink
+        return mention_drink_in_review unless mention_drink_in_review == 'not mentioned'
         break if sorted_review.rating <= 2
       end
       'no recommend'
