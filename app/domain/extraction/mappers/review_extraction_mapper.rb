@@ -25,14 +25,11 @@ module CodePraise
       end
 
       def self.tokenize(sentence)
-        seg = JiebaRb::Segment.new
-        seg.cut(sentence).uniq
-        uri = URI('https://whispering-beach-44502.herokuapp.com/tokenize')
+        # seg = JiebaRb::Segment.new
+        # seg.cut(sentence).uniq
+        uri = URI('https://soa-nlp-api.herokuapp.com/tokenize')
         res = Net::HTTP.post_form(uri, 'sentence' => sentence)
-        puts res
-        # res = res.body.force_encoding('GBK')
-        # res = res.encode('UTF-8')
-        # .split(" ").uniq
+        res.body.split(" ")
       end
 
       private_class_method :rebuild_entity, :tokenize

@@ -19,7 +19,6 @@ describe 'Development_test_by_Tim' do
   end
 
   describe 'Creating domain_reviews_entity' do
-
     rebuilt = CodePraise::Mapper::ReviewsExtractionMapper.find_by_shopname('可不可')
     it 'create_reviews_extraction_entity' do
       from_database = CodePraise::Repository::Shops.find_shop('可不可').first

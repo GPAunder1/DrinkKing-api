@@ -18,7 +18,7 @@ module CodePraise
 
       def self.find_shop(shopname)
         Database::ShopOrm.where(Sequel.like(:name, "#{shopname}%")).all.map do |shop|
-          rebuild_entity(shop)
+        rebuild_entity(shop)
         end
       end
 
