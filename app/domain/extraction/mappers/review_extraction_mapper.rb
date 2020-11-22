@@ -29,7 +29,7 @@ module CodePraise
         # seg.cut(sentence).uniq
         uri = URI('https://soa-nlp-api.herokuapp.com/tokenize')
         res = Net::HTTP.post_form(uri, 'sentence' => sentence)
-        res.body.split(" ")
+        res.body.force_encoding(Encoding::UTF_8).split(" ")
       end
 
       private_class_method :rebuild_entity, :tokenize
