@@ -4,7 +4,7 @@ require 'json'
 require 'string-similarity'
 require 'set'
 
-module CodePraise
+module DrinkKing
   # Value Module
   module Value
     class DrinkGrappler
@@ -17,7 +17,7 @@ module CodePraise
 
       def mention_drink(characters)
         local_max = 0.55
-        drink = '沒推薦'
+        drink = 'not mentioned'
         characters.map do |character|
           @menu_list.map do |menu_item|
             similarity = String::Similarity.cosine character, menu_item

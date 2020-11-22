@@ -2,12 +2,12 @@
 
 require 'sequel'
 
-module CodePraise
+module DrinkKing
   module Database
     # Object Relational for reviews
     class ReviewOrm < Sequel::Model(:reviews)
       many_to_one :shop,
-                  class: :'CodePraise::Database::ShopOrm'
+                  class: :'DrinkKing::Database::ShopOrm'
 
       plugin :timestamps, update_on_create: true
     end

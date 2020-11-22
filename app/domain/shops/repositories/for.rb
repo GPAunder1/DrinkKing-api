@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module CodePraise
+module DrinkKing
   module Repository
     # Find the right Repository for an entity object or class
     class For

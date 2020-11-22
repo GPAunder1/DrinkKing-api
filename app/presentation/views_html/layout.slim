@@ -24,12 +24,18 @@ html
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     }
 
+  javascript:
+    var MAP_API_TOKEN = "#{DrinkKing::App.config.MAP_API_TOKEN}"
+
   .container id='html_body'
     section id='html_header'
       .row style="text-align:center"
         .col-12
-          h1
+          h1 id="main_header"
             a href="/" DrinkKing
-    section id='html_content'
+    section id='html_flash_content'
+      .container
+        include :flash_bar
+    section id="html_content"
       == yield
     footer

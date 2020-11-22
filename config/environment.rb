@@ -4,14 +4,17 @@ require 'econfig'
 require 'roda'
 require 'yaml'
 require 'json'
+require 'delegate'
 
-module CodePraise
+module DrinkKing
   # Configuration for the App
   class App < Roda
     plugin :environments # plugin for ENV['RACK_ENV']
     extend Econfig::Shortcut
     Econfig.env = environment.to_s
     Econfig.root = '.'
+
+    use Rack::Session::Cookie, secret: config.SESSION_SECRET
 
     configure :development, :test do
       ENV['DATABASE_URL'] = "sqlite://#{config.DB_FILENAME}"

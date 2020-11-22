@@ -1,141 +1,60 @@
 ---
-- name: 粹飲Pure Drink
-  address: 東區建功路5號
-  location:
-    lat: 24.7963383
-    lng: 120.9980553
-  open_now: false
-  rating: 4.7
-- name: 大苑子茶飲專賣店 新竹清大店
-  address: 東區建功一路12號
-  location:
-    lat: 24.7969615
-    lng: 120.9983823
-  open_now: false
-  rating: 3.9
-- name: CoCo都可(新竹清大店)
-  address: 東區建功路16號
-  location:
-    lat: 24.7963121
-    lng: 120.9986176
-  open_now: false
-  rating: 3.7
-- name: 迷客夏milkshop 新竹建功店
-  address: 東區建功一路28號
-  location:
-    lat: 24.797338
-    lng: 120.9982533
-  open_now: false
-  rating: 4.3
-- name: 茶匠町（清大總店）
-  address: 東區建功一路36號台灣號
-  location:
-    lat: 24.797507
-    lng: 120.99814
-  open_now: false
-  rating: 4
-- name: 清心福全建新店 珍珠奶茶手搖飲料專賣店
-  address: 東區建新路34號
-  location:
-    lat: 24.79812
-    lng: 120.99696
-  open_now: false
-  rating: 3.5
-- name: 和敬清寂-新竹清大店
-  address: 東區建新路7號1樓
-  location:
-    lat: 24.7981113
-    lng: 120.9961122
-  open_now: false
-  rating: 4.1
-- name: 珍煮丹 新竹清大店
-  address: 東區建功一路45-3號
-  location:
-    lat: 24.7980048
-    lng: 120.9977792
-  open_now: false
-  rating: 4.4
-- name: 思茶MissingTea手作飲品 新竹清大店
-  address: 東區建新路46號
-  location:
-    lat: 24.798229
-    lng: 120.9972061
-  open_now: false
-  rating: 4.9
-- name: 茶湯會 新竹清大店
-  address: 東區建功一路68-1號
-  location:
-    lat: 24.7985643
-    lng: 120.997848
-  open_now: false
-  rating: 3.6
-- name: 台灣艾斯朵 Taiwan Ice Store(每日快閃店)
-  address: 東區建功一路47巷4號
-  location:
-    lat: 24.799034
-    lng: 120.9972991
-  open_now: false
-  rating: 4.8
-- name: 加茗飲料店
-  address: 東區
-  location:
-    lat: 24.7930675
-    lng: 120.9931468
-  open_now: ''
-  rating: 4
-- name: 小佐お茶作-新竹馬偕店
-  address: 東區水源街57號
-  location:
-    lat: 24.8007187
-    lng: 120.9914204
-  open_now: false
-  rating: 5
-- name: 清心福全(大學店)
-  address: 東區光復路二段22号號
-  location:
-    lat: 24.7919789
-    lng: 121.0036894
-  open_now: false
-  rating: 3.4
-- name: ICE TEA
-  address: 1, No. 291號光復路二段東區
-  location:
-    lat: 24.8001312
-    lng: 120.9894943
-  open_now: false
-  rating: 4.4
-- name: 元成冰菓移動號
-  address: TW 樹林頭夜市, 竹北夜市
-  location:
-    lat: 24.8025719
-    lng: 120.9916096
-  open_now: false
-  rating: 4.4
-- name: Chatime日出茶太-新竹忠孝店(加盟)
-  address: 東區忠孝路27巷2號
-  location:
-    lat: 24.801727
-    lng: 120.9903348
-  open_now: false
-  rating: 3.1
-- name: Candy糖糖
-  address: 東區
-  location:
-    lat: 24.791783
-    lng: 121.0068827
-  open_now: false
-  rating: 5
-- name: Coco都可茶飲 新竹交大店
-  address: 東區大學路1001-2號
-  location:
-    lat: 24.7845809
-    lng: 120.9995623
-  open_now: false
-  rating: 4.4
-- name: 樂活鮮瓶新竹寶山門市
-  address: 東區寶山路412號
-  location:
-    lat: 24.7848624
-    lng: 120.9898383
-  open_now: false
-  rating: 4.4
+- !ruby/object:DrinkKing::Entity::Shop
+  attributes:
+    :id:
+    :placeid: ChIJj-JB7XI2aDQReyt7-6gXNXk
+    :name: 可不可熟成紅茶
+    :address: 300台灣新竹市東區建功一路45-7號
+    :latitude: 24.7981675
+    :longitude: 120.9977783
+    :phone_number: 03 571 5252
+    :map_url: https://maps.google.com/?cid=8733913066896042875
+    :opening_now: closed
+    :rating: 4
+    :reviews:
+    - !ruby/object:DrinkKing::Entity::Review
+      attributes:
+        :id:
+        :author: sandy cheng
+        :rating: 5
+        :relative_time: 1 週前
+        :content: 店員服務態度好!製作飲料速度快，胭脂多多比起前幾天在costco附近分店買到的好喝很多>
+    - !ruby/object:DrinkKing::Entity::Review
+      attributes:
+        :id:
+        :author: 韋小亮
+        :rating: 3
+        :relative_time: 1 週前
+        :content: |-
+          用了user eat 外送五杯 少冰微糖
+
+          結果冰塊半杯。
+
+          飲料杯。下半杯全部果糖，上半杯無糖。
+          是要請我喝拿鐵是嗎？連搖都懶的搖？
+    - !ruby/object:DrinkKing::Entity::Review
+      attributes:
+        :id:
+        :author: 曜懋
+        :rating: 2
+        :relative_time: 2 週前
+        :content: |-
+          新出的雪藏末茶
+          10.開門
+          11.去買就沒有了 既然賣這麼快
+          不會想要多補點料嗎==
+          隔幾天去買還是沒有
+    - !ruby/object:DrinkKing::Entity::Review
+      attributes:
+        :id:
+        :author: Watson Fan
+        :rating: 4
+        :relative_time: 本週
+        :content: 純茶好喝，店面前不方便停車，建議附近停好車再走過來
+    - !ruby/object:DrinkKing::Entity::Review
+      attributes:
+        :id:
+        :author: Alice Chang
+        :rating: 1
+        :relative_time: 2 週前
+        :content: 應該是喝過最水、很沒茶味的一家可不可了，懷疑是不是家紅茶專賣店了。

@@ -2,7 +2,7 @@
 
 require_relative 'picker'
 
-module CodePraise
+module DrinkKing
   module Googlemap
     ## Library for googlemapAPI
     class Api
@@ -31,7 +31,7 @@ module CodePraise
         end
 
         def places(keyword, location, picked_api)
-          parameter = "location=#{location[0]},#{location[1]}&rankby=distance&keyword=#{keyword}&language=zh-TW"
+          parameter = "location=#{location[0]},#{location[1]}&radius=1500&keyword=#{keyword}&language=zh-TW"
           url = get_request_url(picked_api, parameter)
           call_api_url(url)
         end
@@ -76,6 +76,11 @@ module CodePraise
 
           api_statuscode = parse['status']
           api_statuscode == 'OK' ? parse['results'] || parse['result'] : API_ERROR[api_statuscode]
+        end
+
+        def self.error_message
+          { 'HTTP_ERROR' => HTTP_ERROR,
+            'API_ERROR' => API_ERROR }
         end
       end
     end

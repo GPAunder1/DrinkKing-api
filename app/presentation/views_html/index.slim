@@ -11,8 +11,16 @@
       button {
         type='submit' id='repo-form-submit' class='submit' value='submit' class="btn btn-success"
       }Submit
+
+  .card.text-white.bg-primary.mb-3 style=("top:8em; right:0px; position:fixed")
+    .card-header 搜尋紀錄
+    .card-body
+      - records.each do |record|
+          div #{record}
+    end
   .row
     .table-responsive
+
       table.table.table-striped id="accordion"
         thead
           tr

@@ -9,7 +9,7 @@ TOKEN = CONFIG['API_TOKEN']
 
 results = []
 
-places = CodePraise::GooglemapApi.new(TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699])
+places = DrinkKing::GooglemapApi.new(TOKEN).nearbyplaces('飲料', [24.7961217, 120.9966699])
 
 places.map do |place|
   result = {}

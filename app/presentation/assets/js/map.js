@@ -1,7 +1,7 @@
 function initmap(){
   // Create the script tag, set the appropriate attributes
   var script = document.createElement('script');
-  script.src = 'https://maps.googleapis.com/maps/api/js?key=' + config.API_TOKEN + '&callback=initMap&v=beta&map_ids=8e25363590309254';
+  script.src = 'https://maps.googleapis.com/maps/api/js?key=' + MAP_API_TOKEN + '&callback=initMap&v=beta&map_ids=8e25363590309254';
   script.defer = true;
   // Attach your callback function to the `window` object
   window.initMap = function() {
@@ -22,10 +22,8 @@ function initmap(){
   document.head.appendChild(script);
 }
 
-function create_marker(shop, recommend_drink, menu){
+function create_marker(shop){
     shop = json_formatter(shop);
-    shop.recommend_drink = recommend_drink;
-    shop.menu = json_formatter(menu);
 
     const icon = {
       url: "https://www.flaticon.com/svg/static/icons/svg/3106/3106180.svg",
@@ -63,7 +61,6 @@ function json_formatter(string){
   string = string.replace(/&quot;/g, '"');
   string = string.replace(/&gt;/g, '');
   string = string.replace(/\n/g, ' ');
-
   json_format_string = JSON.parse(string);
   return json_format_string
 }

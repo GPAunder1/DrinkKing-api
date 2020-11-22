@@ -11,8 +11,8 @@ class DatabaseHelper
   end
 
   def self.wipe_database
-    CodePraise::App.DB.run('PRAGMA foreign_keys = OFF')
+    DrinkKing::App.DB.run('PRAGMA foreign_keys = OFF')
     DatabaseCleaner.clean
-    CodePraise::App.DB.run('PRAGMA foreign_keys = ON')
+    DrinkKing::App.DB.run('PRAGMA foreign_keys = ON')
   end
 end

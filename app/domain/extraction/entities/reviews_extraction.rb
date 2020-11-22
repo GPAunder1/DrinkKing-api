@@ -1,6 +1,6 @@
 # frozen_string_literal: false
 
-module CodePraise
+module DrinkKing
   module Entity
     # class for ReviewsExtraction
     class ReviewsExtraction < Dry::Struct
@@ -15,8 +15,8 @@ module CodePraise
       end
 
       def recommend_drink
-        sorted_review = reviews.sort_by! {|review| review.rating}
-        Value.recommend_drink(sorted_review)
+        sorted_reviews = reviews.sort_by {|review| review.rating}.reverse
+        Value.recommend_drink(sorted_reviews)
       end
 
       def sortedby_rating

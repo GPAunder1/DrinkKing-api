@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module CodePraise
+module DrinkKing
   module Repository
     # Class for Shop
     class Shops
@@ -17,9 +17,18 @@ module CodePraise
       end
 
       def self.find_shop(shopname)
-        Database::ShopOrm.where(Sequel.like(:name, "#{shopname}%")).all.map do |shop|
-          rebuild_entity(shop)
+        Database::ShopOrm.where(Sequel.like(:name, "%#{shopname}%")).all.map do |shop|
+        rebuild_entity(shop)
         end
+      end
+
+      def self.find_many_shops(shopnames)
+        # shopnames.map { |shopname| Shops.find_shop(shopname)}
+        result = []
+        shopnames.map do |shopname|
+          Shops.find_shop(shopname).map {|single_shop| result << single_shop}
+        end
+        result
       end
 
       def self.find_placeid(placeid)

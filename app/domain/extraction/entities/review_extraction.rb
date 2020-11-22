@@ -1,6 +1,6 @@
 # frozen_string_literal: false
 
-module CodePraise
+module DrinkKing
   module Entity
     # class for ReviewExtraction
     class ReviewExtraction < Dry::Struct
