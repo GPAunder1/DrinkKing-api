@@ -30,8 +30,9 @@ html
         .col-12
           h1 id="main_header"
             a href="/" DrinkKing
-
+    section id='html_flash_content'
+      .container
+        include :flash_bar
     section id="html_content"
-      include :flash_bar
       == yield
     footer
