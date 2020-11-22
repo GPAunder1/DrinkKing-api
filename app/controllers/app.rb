@@ -3,7 +3,7 @@
 require 'roda'
 require 'slim/include'
 
-module CodePraise
+module DrinkKing
   # The class is responible for routing the url
   class App < Roda
     plugin :flash
@@ -44,7 +44,7 @@ module CodePraise
             end
 
             # Get shop from Google Map API
-            places = CodePraise::Googlemap::ShopMapper.new(App.config.API_TOKEN).find(search_word)
+            places = DrinkKing::Googlemap::ShopMapper.new(App.config.API_TOKEN).find(search_word)
 
             # Error message get from API response
             if places.is_a? String

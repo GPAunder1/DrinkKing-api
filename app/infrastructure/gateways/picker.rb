@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module CodePraise
+module DrinkKing
   # to prase common things about googlemapapi
   module Picker
     # to pick_api

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module CodePraise
+module DrinkKing
   module Repository
     # Class for Shop
     class Shops

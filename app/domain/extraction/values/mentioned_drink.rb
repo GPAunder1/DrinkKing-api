@@ -4,7 +4,7 @@ require 'json'
 require 'string-similarity'
 require 'set'
 
-module CodePraise
+module DrinkKing
   # Value Module
   module Value
     class DrinkGrappler

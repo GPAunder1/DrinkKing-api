@@ -6,7 +6,7 @@ require 'yaml'
 require 'json'
 require 'delegate'
 
-module CodePraise
+module DrinkKing
   # Configuration for the App
   class App < Roda
     plugin :environments # plugin for ENV['RACK_ENV']

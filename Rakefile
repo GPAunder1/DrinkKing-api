@@ -39,7 +39,7 @@ namespace :db do
     require_relative 'config/environment' # load config info
 
     def app
-      CodePraise::App
+      DrinkKing::App
     end
   end
 
@@ -64,8 +64,8 @@ namespace :db do
       return
     end
 
-    FileUtils.rm(CodePraise::App.config.DB_FILENAME)
-    puts "Deleted #{CodePraise::App.config.DB_FILENAME}"
+    FileUtils.rm(DrinkKing::App.config.DB_FILENAME)
+    puts "Deleted #{DrinkKing::App.config.DB_FILENAME}"
   end
 end
 

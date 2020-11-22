@@ -1,5 +1,5 @@
 ---
-- !ruby/object:CodePraise::Entity::Shop
+- !ruby/object:DrinkKing::Entity::Shop
   attributes:
     :id:
     :placeid: ChIJj-JB7XI2aDQReyt7-6gXNXk
@@ -12,14 +12,14 @@
     :opening_now: closed
     :rating: 4
     :reviews:
-    - !ruby/object:CodePraise::Entity::Review
+    - !ruby/object:DrinkKing::Entity::Review
       attributes:
         :id:
         :author: sandy cheng
         :rating: 5
         :relative_time: 1 週前
         :content: 店員服務態度好!製作飲料速度快，胭脂多多比起前幾天在costco附近分店買到的好喝很多>
-    - !ruby/object:CodePraise::Entity::Review
+    - !ruby/object:DrinkKing::Entity::Review
       attributes:
         :id:
         :author: 韋小亮
@@ -32,7 +32,7 @@
 
           飲料杯。下半杯全部果糖，上半杯無糖。
           是要請我喝拿鐵是嗎？連搖都懶的搖？
-    - !ruby/object:CodePraise::Entity::Review
+    - !ruby/object:DrinkKing::Entity::Review
       attributes:
         :id:
         :author: 曜懋
@@ -44,14 +44,14 @@
           11.去買就沒有了 既然賣這麼快
           不會想要多補點料嗎==
           隔幾天去買還是沒有
-    - !ruby/object:CodePraise::Entity::Review
+    - !ruby/object:DrinkKing::Entity::Review
       attributes:
         :id:
         :author: Watson Fan
         :rating: 4
         :relative_time: 本週
         :content: 純茶好喝，店面前不方便停車，建議附近停好車再走過來
-    - !ruby/object:CodePraise::Entity::Review
+    - !ruby/object:DrinkKing::Entity::Review
       attributes:
         :id:
         :author: Alice Chang

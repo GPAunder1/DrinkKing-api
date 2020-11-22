@@ -56,8 +56,8 @@ describe 'Acceptance Tests' do
 
   describe 'Shop Page' do
     it '(HAPPY) should see shop place on map if found shop' do
-      places = CodePraise::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
-      CodePraise::Repository::For.entity(places[0]).find_or_create(places[0])
+      places = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
+      DrinkKing::Repository::For.entity(places[0]).find_or_create(places[0])
 
       # GIVEN: user is on the shop page
       @browser.goto "http://localhost:9000/shop/#{KEYWORD}"
@@ -67,8 +67,8 @@ describe 'Acceptance Tests' do
     end
 
     it '(HAPPY) should be able to switch between shop map and shop list' do
-      places = CodePraise::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
-      CodePraise::Repository::For.entity(places[0]).find_or_create(places[0])
+      places = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
+      DrinkKing::Repository::For.entity(places[0]).find_or_create(places[0])
 
       # GIVEN: user is on the shop page
       @browser.goto "http://localhost:9000/shop/#{KEYWORD}"

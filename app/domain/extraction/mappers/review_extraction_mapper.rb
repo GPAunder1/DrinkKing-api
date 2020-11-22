@@ -4,7 +4,7 @@
 require 'jieba_rb'
 require 'net/http'
 
-module CodePraise
+module DrinkKing
   module Mapper
     # Class for ReviewExtractionMapper
     class ReviewExtractionMapper

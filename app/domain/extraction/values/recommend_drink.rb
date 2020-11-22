@@ -1,6 +1,6 @@
 # frozen_string_literal: false
 
-module CodePraise
+module DrinkKing
   # Value Module
   module Value
     def self.recommend_drink(sorted_review)

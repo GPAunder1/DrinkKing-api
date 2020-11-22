@@ -1,7 +1,7 @@
 # frozen_string_literal: false
 
 require_relative 'review'
-module CodePraise
+module DrinkKing
   module Entity
     # Domain entity for drink shops
     class Shop < Dry::Struct

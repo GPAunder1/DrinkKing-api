@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module CodePraise
+module DrinkKing
   # to parse data from googlemapapi
   module Parsers
     # parse response to detect whether output is places array or error string

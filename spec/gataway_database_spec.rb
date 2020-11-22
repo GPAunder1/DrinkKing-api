@@ -22,9 +22,9 @@ describe 'Integration Tests of GoogleMap API and Database' do
     end
 
     it 'Saving place from GoogleMap to database' do
-      places = CodePraise::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
+      places = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
       places.map do |place|
-        rebuilt = CodePraise::Repository::For.entity(place).find_or_create(place)
+        rebuilt = DrinkKing::Repository::For.entity(place).find_or_create(place)
 
         _(rebuilt.placeid).must_equal(place.placeid)
         _(rebuilt.name).must_equal(place.name)

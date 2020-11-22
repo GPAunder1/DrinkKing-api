@@ -2,7 +2,7 @@
 
 require_relative 'picker'
 
-module CodePraise
+module DrinkKing
   module Googlemap
     ## Library for googlemapAPI
     class Api

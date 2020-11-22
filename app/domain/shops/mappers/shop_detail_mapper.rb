@@ -2,7 +2,7 @@
 
 require_relative 'parser'
 
-module CodePraise
+module DrinkKing
   module Googlemap
     # Data Mapper: Googlemap placedetails -> Shop and Review entity
     class ShopDetailMapper
@@ -32,7 +32,7 @@ module CodePraise
       end
 
       def build_entity
-        CodePraise::Entity::Review.new(
+        DrinkKing::Entity::Review.new(
           id: nil,
           author: author,
           rating: rating,
