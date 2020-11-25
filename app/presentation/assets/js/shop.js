@@ -1,20 +1,20 @@
 $(document).ready(function(){
   // $('#toast').toast('show');
 
-  $('#list').hide();
+  $('#listrow').hide();
   $('#menu_panel').hide();
   $('#review_panel').hide();
 
   $('#listbtn').click(function(){
     $('#maprow').hide();
-    $('#list').show();
+    $('#listrow').show();
     $('#mapbtn').removeClass('active');
     $('#listbtn').addClass('active');
   });
 
   $('#mapbtn').click(function(){
     $('#maprow').show();
-    $('#list').hide();
+    $('#listrow').hide();
     $('#listbtn').removeClass('active');
     $('#mapbtn').addClass('active');
   });

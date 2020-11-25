@@ -12,16 +12,16 @@
         type='submit' id='repo-form-submit' class='submit' value='submit' class="btn btn-success"
       }Submit
 
-  .card.text-white.bg-primary.mb-3 style=("top:8em; right:0px; position:fixed")
+  .card.text-white.bg-primary.mb-3 style="top:8em; right:0px; position:fixed"
     .card-header 搜尋紀錄
-    .card-body
-      - records.each do |record|
-          div #{record}
+    .card-body id='search_record_card_body'
+      - records.each.with_index do |record, index|
+          div id="record_#{index}" #{record}
     end
   .row
     .table-responsive
 
-      table.table.table-striped id="accordion"
+      table.table.table-striped id="shop_table"
         thead
           tr
             th Name
@@ -42,7 +42,7 @@
                 td #{shop.rating}
                 td
                   button type="button" class="btn btn-info" data-toggle="collapse" href="#collapse#{count}" show reviews
-              tr id="collapse#{count}" class="collapse" data-parent="#accordion"
+              tr id="collapse#{count}" class="collapse" data-parent="#shop_table"
                 td colspan="6"
                   - shop.reviews.each do |review|
                     div #{review.author} - #{review.relative_time}

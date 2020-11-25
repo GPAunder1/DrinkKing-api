@@ -37,7 +37,7 @@ module DrinkKing
           # POST /shop/
           routing.post do
             search_word = routing.params['drinking_shop']
-            checklist = %w[飲料 可不可 鮮茶道 大苑子 荔枝烏龍 胭脂多多]
+            checklist = %w[飲料 可不可 可不可熟成紅茶 鮮茶道 大苑子 荔枝烏龍 胭脂多多]
             unless checklist.include? search_word
               flash[:error] = 'Please enter keyword related to drink'
               routing.redirect '/'

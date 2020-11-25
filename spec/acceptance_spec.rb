@@ -20,11 +20,11 @@ describe 'Acceptance Tests' do
     # @headless.destroy
   end
 
-  describe 'HomePage' do
+  describe 'IndexPage' do
     describe 'Visit index page' do
       it '(HAPPY) should not see any shop before search' do
         # GIVEN: user is on the index page without any search
-        @browser.goto homepage
+        @browser.goto indexpage
         # THEN: user should see header and search box and empty table
         _(@browser.h1(id: 'main_header').text).must_equal 'DrinkKing'
       end
@@ -33,7 +33,7 @@ describe 'Acceptance Tests' do
     describe 'Search keyword' do
       it '(HAPPY) should be able to search' do
         # GIVEN: user is on the index page
-        @browser.goto homepage
+        @browser.goto indexpage
         # WHEN: user search a keyword
         @browser.text_field(id: 'drinking_shop_input').set(KEYWORD)
         @browser.button(id: 'repo-form-submit').click
@@ -43,7 +43,7 @@ describe 'Acceptance Tests' do
 
       it '(BAD) should not be able to search invalid keyword' do
         # GIVEN: user is on the index page
-        @browser.goto homepage
+        @browser.goto indexpage
         # WHEN: user search invalid keyword
         @browser.text_field(id: 'drinking_shop_input').set(GARBLE)
         @browser.button(id: 'repo-form-submit').click

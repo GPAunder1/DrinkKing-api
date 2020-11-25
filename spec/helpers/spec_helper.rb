@@ -19,6 +19,6 @@ TOKEN = DrinkKing::App.config.API_TOKEN
 CORRECT = YAML.load(File.read('spec/fixtures/googlemap_results.yml'))
 
 # Helper methods
-def homepage
+def indexpage
   DrinkKing::App.config.APP_HOST
 end
