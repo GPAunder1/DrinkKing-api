@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=dcnisndisncsdc&language=zh-TW&location=24.7961217,120.9966699&radius=1500
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6&language=zh-TW&location=24.7961217,120.9966699&radius=1500
     body:
       encoding: UTF-8
       string: ''
@@ -23,71 +23,11 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Sun, 22 Nov 2020 14:07:41 GMT
+      - Fri, 27 Nov 2020 06:17:08 GMT
       Expires:
-      - Sun, 22 Nov 2020 14:12:41 GMT
-      Server:
-      - scaffolding on HTTPServer2
-      X-Xss-Protection:
-      - '0'
-      X-Frame-Options:
-      - SAMEORIGIN
-      Server-Timing:
-      - gfet4t7; dur=259
+      - Fri, 27 Nov 2020 06:22:08 GMT
       Cache-Control:
       - public, max-age=300
-      Age:
-      - '218'
-      Alt-Svc:
-      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
-        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
-      Accept-Ranges:
-      - none
-      Vary:
-      - Accept-Encoding
-      Connection:
-      - close
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "html_attributions" : [],
-           "results" : [],
-           "status" : "ZERO_RESULTS"
-        }
-  recorded_at: Sun, 22 Nov 2020 14:11:20 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=snidnsicndsivndsivdsv&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF&language=zh-TW&location=24.7961217,120.9966699&radius=1500
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      Authorization:
-      - token snidnsicndsivndsivdsv
-      Connection:
-      - close
-      Host:
-      - maps.googleapis.com
-      User-Agent:
-      - http.rb/4.4.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Sun, 22 Nov 2020 14:11:19 GMT
-      Pragma:
-      - no-cache
-      Expires:
-      - Fri, 01 Jan 1990 00:00:00 GMT
-      Cache-Control:
-      - no-cache, must-revalidate
       Server:
       - scaffolding on HTTPServer2
       X-Xss-Protection:
@@ -95,66 +35,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=3
-      Alt-Svc:
-      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
-        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
-      Accept-Ranges:
-      - none
-      Vary:
-      - Accept-Encoding
-      Connection:
-      - close
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "error_message" : "The provided API key is invalid.",
-           "html_attributions" : [],
-           "results" : [],
-           "status" : "REQUEST_DENIED"
-        }
-  recorded_at: Sun, 22 Nov 2020 14:11:20 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF&language=zh-TW&location=24.7961217,120.9966699&radius=1500
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      Authorization:
-      - token <GOOGLEMAP_TOKEN>
-      Connection:
-      - close
-      Host:
-      - maps.googleapis.com
-      User-Agent:
-      - http.rb/4.4.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Sun, 22 Nov 2020 14:07:32 GMT
-      Expires:
-      - Sun, 22 Nov 2020 14:12:32 GMT
-      Server:
-      - scaffolding on HTTPServer2
-      X-Xss-Protection:
-      - '0'
-      X-Frame-Options:
-      - SAMEORIGIN
-      Server-Timing:
-      - gfet4t7; dur=520
-      Cache-Control:
-      - public, max-age=300
-      Age:
-      - '227'
+      - gfet4t7; dur=822
       Alt-Svc:
       - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
         ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
@@ -193,16 +74,16 @@ http_interactions:
                  "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
                  "name" : "可不可熟成紅茶",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
-                       "height" : 2988,
+                       "height" : 3120,
                        "html_attributions" : [
-                          "\u003ca href=\"https://maps.google.com/maps/contrib/101643820823137654634\"\u003eFU Chen\u003c/a\u003e"
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117710101393215238187\"\u003eA Google User\u003c/a\u003e"
                        ],
-                       "photo_reference" : "ATtYBwKzVkNojv6aB0WVazT5O-cWT7PmX-1un1HQxrOFRa9SYRyQBtiqY33pHP3emYpL_7l6g4_mD2q9TNYxmnK0su2tyAY8qkWi2VQmaz1qjeS6b2YjQ1xuz1u7t5wXN79h1VgLx5IZEWcSWwBzFABFjZVvkuDe5iJwZIjFRqw4mc-OVbIf",
-                       "width" : 5312
+                       "photo_reference" : "ATtYBwJuP0xCzu-n3sSOeYWHTTwRl3MfTJCP2u0EGIcthnj8XHKmaaa6S0OoeLCwFrxFJ7IoAAVHxDPElkcRRDVTXTJr6THfuvo6Ne47OSgh9X5OwhjWGkyvbvJPNWcwhGMP0L0Joi7IYJsXdzTGeHSeumafN1qlmGUkGdQUnkl06_njRnhp",
+                       "width" : 4160
                     }
                  ],
                  "place_id" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
@@ -215,196 +96,13 @@ http_interactions:
                  "reference" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
                  "scope" : "GOOGLE",
                  "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 353,
+                 "user_ratings_total" : 356,
                  "vicinity" : "東區建功一路45-7號"
-              },
-              {
-                 "business_status" : "OPERATIONAL",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 24.79762,
-                       "lng" : 120.9960218
-                    },
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 24.79893282989272,
-                          "lng" : 120.9973414298928
-                       },
-                       "southwest" : {
-                          "lat" : 24.79623317010727,
-                          "lng" : 120.9946417701073
-                       }
-                    }
-                 },
-                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-                 "name" : "鮮茶道-清大店",
-                 "opening_hours" : {
-                    "open_now" : false
-                 },
-                 "photos" : [
-                    {
-                       "height" : 4000,
-                       "html_attributions" : [
-                          "\u003ca href=\"https://maps.google.com/maps/contrib/109665090117947936405\"\u003e鮮茶道-清大店\u003c/a\u003e"
-                       ],
-                       "photo_reference" : "ATtYBwK-I9crHutPwH3cGYg89uT9FC4ePUeovL88AueTd1mPs_qL7SXcKsjrYTnmH62zKO6TxHu2rw_XclIAD8Nr8iDWPG-rOu2Nx-FPvxRVVXPfbhtRi6xox-AUrBzZ_6Q1xmDyScZSfV4SRXG02lpiOLpCbcM-3XF81EWbYtLXinsuFfhd",
-                       "width" : 2250
-                    }
-                 ],
-                 "place_id" : "ChIJW9SvJnM2aDQRE24IBUXWN4U",
-                 "plus_code" : {
-                    "compound_code" : "QXXW+2C 東區 新竹市",
-                    "global_code" : "7QP2QXXW+2C"
-                 },
-                 "price_level" : 1,
-                 "rating" : 4.1,
-                 "reference" : "ChIJW9SvJnM2aDQRE24IBUXWN4U",
-                 "scope" : "GOOGLE",
-                 "types" : [ "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 69,
-                 "vicinity" : "東區光復路二段440號"
-              },
-              {
-                 "business_status" : "OPERATIONAL",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 24.7985643,
-                       "lng" : 120.997848
-                    },
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 24.79990492989272,
-                          "lng" : 120.9991534798927
-                       },
-                       "southwest" : {
-                          "lat" : 24.79720527010727,
-                          "lng" : 120.9964538201073
-                       }
-                    }
-                 },
-                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-                 "name" : "茶湯會 新竹清大店",
-                 "opening_hours" : {
-                    "open_now" : true
-                 },
-                 "photos" : [
-                    {
-                       "height" : 4160,
-                       "html_attributions" : [
-                          "\u003ca href=\"https://maps.google.com/maps/contrib/111272793380056830743\"\u003etsao dean\u003c/a\u003e"
-                       ],
-                       "photo_reference" : "ATtYBwLPIEhTNgBUD6b5VJHny_LU1Lcw_2C05ZE5UCOiWDbwLBXMbeIewfp6v9hTHMCwXGBli-bWisoKW5qwRUWWbse5hdHCQDH0kApniCggRAxgt6LI5QwDKGbs62SO5UUDBnD2a-hwJ3IBzZe4zG0WkbI3oeFKr_pOBHw9iYfv6hwuf2ZE",
-                       "width" : 3120
-                    }
-                 ],
-                 "place_id" : "ChIJv8IxqHI2aDQRjHiEvUez8Sc",
-                 "plus_code" : {
-                    "compound_code" : "QXXX+C4 東區 新竹市",
-                    "global_code" : "7QP2QXXX+C4"
-                 },
-                 "rating" : 3.6,
-                 "reference" : "ChIJv8IxqHI2aDQRjHiEvUez8Sc",
-                 "scope" : "GOOGLE",
-                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 147,
-                 "vicinity" : "東區建功一路68-1號"
-              },
-              {
-                 "business_status" : "OPERATIONAL",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 24.797338,
-                       "lng" : 120.9982533
-                    },
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 24.79867022989272,
-                          "lng" : 120.9995319298927
-                       },
-                       "southwest" : {
-                          "lat" : 24.79597057010728,
-                          "lng" : 120.9968322701073
-                       }
-                    }
-                 },
-                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-                 "name" : "迷客夏milkshop 新竹建功店",
-                 "opening_hours" : {
-                    "open_now" : false
-                 },
-                 "photos" : [
-                    {
-                       "height" : 3024,
-                       "html_attributions" : [
-                          "\u003ca href=\"https://maps.google.com/maps/contrib/111205115616782724342\"\u003eA Google User\u003c/a\u003e"
-                       ],
-                       "photo_reference" : "ATtYBwKlQtBuHH-lIx0kkjwI9S903kQrjOIKeSaf4GsiExCGU5vFuHq87FGhngPnVDO6Q4_d1CuwwAkO-ehBG6ZFguga0h_TNpHQzzKP7o0ceSnMLTRwOmcZVaharpmX5lTDuw-l5QV4k46iF96PcmiVvr1gC6cX8x4lSKLf5KpP3J9NqRU9",
-                       "width" : 4032
-                    }
-                 ],
-                 "place_id" : "ChIJR_IYS7s3aDQRGkmp7SRVhhI",
-                 "plus_code" : {
-                    "compound_code" : "QXWX+W8 東區 新竹市",
-                    "global_code" : "7QP2QXWX+W8"
-                 },
-                 "price_level" : 1,
-                 "rating" : 4.3,
-                 "reference" : "ChIJR_IYS7s3aDQRGkmp7SRVhhI",
-                 "scope" : "GOOGLE",
-                 "types" : [ "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 96,
-                 "vicinity" : "東區建功一路28號"
-              },
-              {
-                 "business_status" : "OPERATIONAL",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 24.8008378,
-                       "lng" : 120.9914866
-                    },
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 24.80216127989272,
-                          "lng" : 120.9928924798927
-                       },
-                       "southwest" : {
-                          "lat" : 24.79946162010728,
-                          "lng" : 120.9901928201073
-                       }
-                    }
-                 },
-                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-                 "name" : "50嵐 新竹馬偕店",
-                 "opening_hours" : {
-                    "open_now" : false
-                 },
-                 "photos" : [
-                    {
-                       "height" : 3456,
-                       "html_attributions" : [
-                          "\u003ca href=\"https://maps.google.com/maps/contrib/107761744901169106862\"\u003eA Google User\u003c/a\u003e"
-                       ],
-                       "photo_reference" : "ATtYBwJenEkp5OvrfpYZyGSaU3geVkzyCravydrY1OA3I4e7nnvbqWHLrvAY9x8oX0z4e3g5OmDvEd2UMSLRxE9Jzuz1OM9kiPGvboidb59xyWWzJZTSDSN7o1Xv4sHNSOKF4gOcEulgjMm9wD1IaGgSaiO-c5Z1RaQ3dKYvbw3paMap1_zl",
-                       "width" : 4608
-                    }
-                 ],
-                 "place_id" : "ChIJ80bhW3Q2aDQR72VhiEM7FFA",
-                 "plus_code" : {
-                    "compound_code" : "RX2R+8H 東區 新竹市",
-                    "global_code" : "7QP2RX2R+8H"
-                 },
-                 "price_level" : 1,
-                 "rating" : 3.7,
-                 "reference" : "ChIJ80bhW3Q2aDQR72VhiEM7FFA",
-                 "scope" : "GOOGLE",
-                 "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
-                 "user_ratings_total" : 85,
-                 "vicinity" : "東區水源街61號"
               }
            ],
            "status" : "OK"
         }
-  recorded_at: Sun, 22 Nov 2020 14:11:20 GMT
+  recorded_at: Fri, 27 Nov 2020 06:17:07 GMT
 - request:
     method: get
     uri: https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,formatted_phone_number,opening_hours,reviews,url&key=<GOOGLEMAP_TOKEN>&language=zh-TW&place_id=ChIJj-JB7XI2aDQReyt7-6gXNXk
@@ -428,9 +126,11 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Sun, 22 Nov 2020 14:07:32 GMT
+      - Fri, 27 Nov 2020 06:17:08 GMT
       Expires:
-      - Sun, 22 Nov 2020 14:12:32 GMT
+      - Fri, 27 Nov 2020 06:22:08 GMT
+      Cache-Control:
+      - public, max-age=300
       Server:
       - scaffolding on HTTPServer2
       X-Xss-Protection:
@@ -438,11 +138,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=201
-      Cache-Control:
-      - public, max-age=300
-      Age:
-      - '227'
+      - gfet4t7; dur=224
       Alt-Svc:
       - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
         ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
@@ -463,7 +159,7 @@ http_interactions:
               "formatted_address" : "300台灣新竹市東區建功一路45-7號",
               "formatted_phone_number" : "03 571 5252",
               "opening_hours" : {
-                 "open_now" : false,
+                 "open_now" : true,
                  "periods" : [
                     {
                        "close" : {
@@ -553,7 +249,7 @@ http_interactions:
                     "language" : "zh-Hant",
                     "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14Ggw-Dj-LJumAOm1ZoKEQxPFI2v3X-6scBDnY0syKA=s128-c0x00000000-cc-rp-mo-ba4",
                     "rating" : 4,
-                    "relative_time_description" : "1 週前",
+                    "relative_time_description" : "2 週前",
                     "text" : "服務品質不錯，平日中午人潮非常多，但店員態度都還可接受。\n茶的口感是好喝的，有些店家品質很不穩定時好時壞，但清大店每次買都是一樣的品質，其實蠻厲害的，因為現場客人真的非常多，外送訂單看起來也非常多，但員工的服務與飲料品質都能兼具，真的很值得鼓勵。\n客人也都按照店家指導乖乖排隊結帳，並不造成行人困擾，出單時間也蠻快的，如果沒有事先電話點餐，大約會等10分鐘，建議大家可以電話點餐，店家會給你製作時間，之後取餐一定要排隊結帳後再拿飲料，不要造成店家困擾，吃飯時間真的超級多客人。\n至於為什麼只給四顆星，大概因為品項真的比較少，所以只會一週喝一次。但想喝鮮奶茶時一定會想到可不可，紅茶與鮮奶的比例剛剛好，很順口又有茶香。",
                     "time" : 1605191299
                  },
@@ -583,7 +279,7 @@ http_interactions:
                     "language" : "zh-Hant",
                     "profile_photo_url" : "https://lh4.googleusercontent.com/-meMjySJmZ7k/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucltDimJ7Gh4MdKAfhAPtlpvNHkflg/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
                     "rating" : 3,
-                    "relative_time_description" : "3 週前",
+                    "relative_time_description" : "1 個月前",
                     "text" : "用了user eat 外送五杯 少冰微糖\n\n結果冰塊半杯。\n\n飲料杯。下半杯全部果糖，上半杯無糖。\n是要請我喝拿鐵是嗎？連搖都懶的搖？",
                     "time" : 1603689161
                  },
@@ -602,10 +298,10 @@ http_interactions:
            },
            "status" : "OK"
         }
-  recorded_at: Sun, 22 Nov 2020 14:11:20 GMT
+  recorded_at: Fri, 27 Nov 2020 06:17:07 GMT
 - request:
     method: get
-    uri: https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,formatted_phone_number,opening_hours,reviews,url&key=<GOOGLEMAP_TOKEN>&language=zh-TW&place_id=ChIJW9SvJnM2aDQRE24IBUXWN4U
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6&language=zh-TW&location=24.7961217,120.9966699&radius=1500
     body:
       encoding: UTF-8
       string: ''
@@ -626,9 +322,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Sun, 22 Nov 2020 14:07:33 GMT
+      - Fri, 27 Nov 2020 06:17:08 GMT
       Expires:
-      - Sun, 22 Nov 2020 14:12:33 GMT
+      - Fri, 27 Nov 2020 06:22:08 GMT
       Server:
       - scaffolding on HTTPServer2
       X-Xss-Protection:
@@ -636,11 +332,11 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=185
+      - gfet4t7; dur=822
       Cache-Control:
       - public, max-age=300
       Age:
-      - '226'
+      - '0'
       Alt-Svc:
       - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
         ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
@@ -657,153 +353,60 @@ http_interactions:
       string: |
         {
            "html_attributions" : [],
-           "result" : {
-              "formatted_address" : "30071台灣新竹市東區光復路二段440號",
-              "formatted_phone_number" : "03 572 2075",
-              "opening_hours" : {
-                 "open_now" : false,
-                 "periods" : [
-                    {
-                       "close" : {
-                          "day" : 0,
-                          "time" : "2200"
-                       },
-                       "open" : {
-                          "day" : 0,
-                          "time" : "1030"
-                       }
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7981675,
+                       "lng" : 120.9977783
                     },
-                    {
-                       "close" : {
-                          "day" : 1,
-                          "time" : "2200"
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79952667989272,
+                          "lng" : 120.9991652298927
                        },
-                       "open" : {
-                          "day" : 1,
-                          "time" : "1030"
-                       }
-                    },
-                    {
-                       "close" : {
-                          "day" : 2,
-                          "time" : "2200"
-                       },
-                       "open" : {
-                          "day" : 2,
-                          "time" : "1030"
-                       }
-                    },
-                    {
-                       "close" : {
-                          "day" : 3,
-                          "time" : "2200"
-                       },
-                       "open" : {
-                          "day" : 3,
-                          "time" : "1030"
-                       }
-                    },
-                    {
-                       "close" : {
-                          "day" : 4,
-                          "time" : "2200"
-                       },
-                       "open" : {
-                          "day" : 4,
-                          "time" : "1030"
-                       }
-                    },
-                    {
-                       "close" : {
-                          "day" : 5,
-                          "time" : "2200"
-                       },
-                       "open" : {
-                          "day" : 5,
-                          "time" : "1030"
-                       }
-                    },
-                    {
-                       "close" : {
-                          "day" : 6,
-                          "time" : "2200"
-                       },
-                       "open" : {
-                          "day" : 6,
-                          "time" : "1030"
+                       "southwest" : {
+                          "lat" : 24.79682702010728,
+                          "lng" : 120.9964655701073
                        }
                     }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "可不可熟成紅茶",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3120,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117710101393215238187\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwJuP0xCzu-n3sSOeYWHTTwRl3MfTJCP2u0EGIcthnj8XHKmaaa6S0OoeLCwFrxFJ7IoAAVHxDPElkcRRDVTXTJr6THfuvo6Ne47OSgh9X5OwhjWGkyvbvJPNWcwhGMP0L0Joi7IYJsXdzTGeHSeumafN1qlmGUkGdQUnkl06_njRnhp",
+                       "width" : 4160
+                    }
                  ],
-                 "weekday_text" : [
-                    "星期一: 10:30 – 22:00",
-                    "星期二: 10:30 – 22:00",
-                    "星期三: 10:30 – 22:00",
-                    "星期四: 10:30 – 22:00",
-                    "星期五: 10:30 – 22:00",
-                    "星期六: 10:30 – 22:00",
-                    "星期日: 10:30 – 22:00"
-                 ]
-              },
-              "reviews" : [
-                 {
-                    "author_name" : "老王",
-                    "author_url" : "https://www.google.com/maps/contrib/103590214881208451264/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh6.googleusercontent.com/-fWo8dD7W_G4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckNs9fWhZqBoGHiNShxJJP2umcnfg/s128-c0x00000000-cc-rp-mo/photo.jpg",
-                    "rating" : 1,
-                    "relative_time_description" : "2 個月前",
-                    "text" : "解決問題的方式很差，飲料的大小杯做錯，打電話跟他們訊問，但電話中的說法很敷衍，過一個小時後才又回電話。  服務業很忙很辛苦，忙中出錯也再所難免可以理解，但事情還是要有急緩之分的，做生意畢竟都是回頭客居多。",
-                    "time" : 1600520535
+                 "place_id" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
+                 "plus_code" : {
+                    "compound_code" : "QXXX+74 東區 新竹市",
+                    "global_code" : "7QP2QXXX+74"
                  },
-                 {
-                    "author_name" : "Sean Hsu",
-                    "author_url" : "https://www.google.com/maps/contrib/104662796555403746716/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh3.googleusercontent.com/-lgA7dmy7-_Q/AAAAAAAAAAI/AAAAAAAAAhM/AMZuuckYrMoR6TfFDxlY8EU76QfperthCg/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
-                    "rating" : 3,
-                    "relative_time_description" : "5 個月前",
-                    "text" : "奶蓋系列很不行\n味道像牛奶糖\n抹茶拿鐵建議點三分糖，無糖真的不推薦人喝\n\n推薦這家的茶類或無糖系列比較好喝！",
-                    "time" : 1592556351
-                 },
-                 {
-                    "author_name" : "GA A",
-                    "author_url" : "https://www.google.com/maps/contrib/118274782711169993167/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh4.googleusercontent.com/-iu11NoW10Qo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucl2ua7eXTkYqdstcOeVeAiAqd5pDg/s128-c0x00000000-cc-rp-mo/photo.jpg",
-                    "rating" : 3,
-                    "relative_time_description" : "5 個月前",
-                    "text" : "抹茶紅豆珍珠喝起來水水的\n抹茶/奶味不太夠，有點可惜",
-                    "time" : 1592716796
-                 },
-                 {
-                    "author_name" : "楊勝皓",
-                    "author_url" : "https://www.google.com/maps/contrib/109068155061672253476/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14Gg1PalJIFNIu4ppC3z9cCXgPJ2-dneEoQpCdNb4=s128-c0x00000000-cc-rp-mo-ba2",
-                    "rating" : 3,
-                    "relative_time_description" : "4 個月前",
-                    "text" : "鮮果雙Q綠喝起來的感覺很奇怪 不太像在喝百香綠...",
-                    "time" : 1595171331
-                 },
-                 {
-                    "author_name" : "庭瑄張",
-                    "author_url" : "https://www.google.com/maps/contrib/118268308140076526280/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14Ggt97O9Bp8Tk5SpMcr0tPPDzg8kif9kgTfPclmF=s128-c0x00000000-cc-rp-mo-ba4",
-                    "rating" : 4,
-                    "relative_time_description" : "3 個月前",
-                    "text" : "品質不穩\n但最好喝的時候很好喝\n最難喝的時候不會太難喝",
-                    "time" : 1595932430
-                 }
-              ],
-              "url" : "https://maps.google.com/?cid=9599376722689027603"
-           },
+                 "price_level" : 1,
+                 "rating" : 4,
+                 "reference" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 356,
+                 "vicinity" : "東區建功一路45-7號"
+              }
+           ],
            "status" : "OK"
         }
-  recorded_at: Sun, 22 Nov 2020 14:11:20 GMT
+  recorded_at: Fri, 27 Nov 2020 06:17:07 GMT
 - request:
     method: get
-    uri: https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,formatted_phone_number,opening_hours,reviews,url&key=<GOOGLEMAP_TOKEN>&language=zh-TW&place_id=ChIJv8IxqHI2aDQRjHiEvUez8Sc
+    uri: https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,formatted_phone_number,opening_hours,reviews,url&key=<GOOGLEMAP_TOKEN>&language=zh-TW&place_id=ChIJj-JB7XI2aDQReyt7-6gXNXk
     body:
       encoding: UTF-8
       string: ''
@@ -824,9 +427,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Sun, 22 Nov 2020 14:07:33 GMT
+      - Fri, 27 Nov 2020 06:17:08 GMT
       Expires:
-      - Sun, 22 Nov 2020 14:12:33 GMT
+      - Fri, 27 Nov 2020 06:22:08 GMT
       Server:
       - scaffolding on HTTPServer2
       X-Xss-Protection:
@@ -834,11 +437,11 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=214
+      - gfet4t7; dur=224
       Cache-Control:
       - public, max-age=300
       Age:
-      - '226'
+      - '1'
       Alt-Svc:
       - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
         ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
@@ -856,208 +459,10 @@ http_interactions:
         {
            "html_attributions" : [],
            "result" : {
-              "formatted_address" : "300台灣新竹市東區建功一路68-1號",
-              "formatted_phone_number" : "03 516 5252",
+              "formatted_address" : "300台灣新竹市東區建功一路45-7號",
+              "formatted_phone_number" : "03 571 5252",
               "opening_hours" : {
                  "open_now" : true,
-                 "periods" : [
-                    {
-                       "close" : {
-                          "day" : 0,
-                          "time" : "2245"
-                       },
-                       "open" : {
-                          "day" : 0,
-                          "time" : "0900"
-                       }
-                    },
-                    {
-                       "close" : {
-                          "day" : 1,
-                          "time" : "2245"
-                       },
-                       "open" : {
-                          "day" : 1,
-                          "time" : "0900"
-                       }
-                    },
-                    {
-                       "close" : {
-                          "day" : 2,
-                          "time" : "2245"
-                       },
-                       "open" : {
-                          "day" : 2,
-                          "time" : "0900"
-                       }
-                    },
-                    {
-                       "close" : {
-                          "day" : 3,
-                          "time" : "2245"
-                       },
-                       "open" : {
-                          "day" : 3,
-                          "time" : "0900"
-                       }
-                    },
-                    {
-                       "close" : {
-                          "day" : 4,
-                          "time" : "2245"
-                       },
-                       "open" : {
-                          "day" : 4,
-                          "time" : "0900"
-                       }
-                    },
-                    {
-                       "close" : {
-                          "day" : 5,
-                          "time" : "2245"
-                       },
-                       "open" : {
-                          "day" : 5,
-                          "time" : "0900"
-                       }
-                    },
-                    {
-                       "close" : {
-                          "day" : 6,
-                          "time" : "2245"
-                       },
-                       "open" : {
-                          "day" : 6,
-                          "time" : "0900"
-                       }
-                    }
-                 ],
-                 "weekday_text" : [
-                    "星期一: 09:00 – 22:45",
-                    "星期二: 09:00 – 22:45",
-                    "星期三: 09:00 – 22:45",
-                    "星期四: 09:00 – 22:45",
-                    "星期五: 09:00 – 22:45",
-                    "星期六: 09:00 – 22:45",
-                    "星期日: 09:00 – 22:45"
-                 ]
-              },
-              "reviews" : [
-                 {
-                    "author_name" : "金竹",
-                    "author_url" : "https://www.google.com/maps/contrib/106867099702771194982/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh4.googleusercontent.com/-OZdjKfj_4NI/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclKB8fYis9Uifh2n3vSMDBLfV9xNQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
-                    "rating" : 3,
-                    "relative_time_description" : "3 週前",
-                    "text" : "價格偏貴，珍珠奶茶都是奶精味，是比較不推薦的品類",
-                    "time" : 1603988630
-                 },
-                 {
-                    "author_name" : "王榆諼",
-                    "author_url" : "https://www.google.com/maps/contrib/110513999392601348220/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14Gg7zsqNsdFi-qCPPuYKTwnrNQl85MS--BKdX0ixOHU=s128-c0x00000000-cc-rp-mo-ba2",
-                    "rating" : 1,
-                    "relative_time_description" : "1 個月前",
-                    "text" : "點錯餐雖然態度很好\n但鐵觀音拿鐵跟水一樣⋯",
-                    "time" : 1601534711
-                 },
-                 {
-                    "author_name" : "Oopsmary Huang",
-                    "author_url" : "https://www.google.com/maps/contrib/108800371683071478243/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh4.googleusercontent.com/-kmL5piCTc1I/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmgGUqbpiRC15bAGZKpjlWfOfg_Cg/s128-c0x00000000-cc-rp-mo/photo.jpg",
-                    "rating" : 5,
-                    "relative_time_description" : "1 個月前",
-                    "text" : "服務態度很好很親切！是在這一帶飲料店最滿意的♥",
-                    "time" : 1601194296
-                 },
-                 {
-                    "author_name" : "Vivi Ho",
-                    "author_url" : "https://www.google.com/maps/contrib/101288799533854234129/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14GiTLr-wUPukea4ZI5Vb1tMnbOXbCHzgEv9B9hdCEw=s128-c0x00000000-cc-rp-mo",
-                    "rating" : 3,
-                    "relative_time_description" : "2 個月前",
-                    "text" : "飲料好喝，點餐人員的態度有待加強，但是取茶區的笑容滿分",
-                    "time" : 1598865041
-                 },
-                 {
-                    "author_name" : "Wen-yuan Chan",
-                    "author_url" : "https://www.google.com/maps/contrib/110012121372061566300/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14GiXC7-hdOeiFP080eHhvLmoiwmNohoAPvRUMlQ20Q=s128-c0x00000000-cc-rp-mo-ba3",
-                    "rating" : 1,
-                    "relative_time_description" : "4 個月前",
-                    "text" : "買一杯鐵觀音鮮奶茶回家看只有七分滿，傻眼。",
-                    "time" : 1593676881
-                 }
-              ],
-              "url" : "https://maps.google.com/?cid=2878278757570082956"
-           },
-           "status" : "OK"
-        }
-  recorded_at: Sun, 22 Nov 2020 14:11:20 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,formatted_phone_number,opening_hours,reviews,url&key=<GOOGLEMAP_TOKEN>&language=zh-TW&place_id=ChIJR_IYS7s3aDQRGkmp7SRVhhI
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      Authorization:
-      - token <GOOGLEMAP_TOKEN>
-      Connection:
-      - close
-      Host:
-      - maps.googleapis.com
-      User-Agent:
-      - http.rb/4.4.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Sun, 22 Nov 2020 14:07:33 GMT
-      Expires:
-      - Sun, 22 Nov 2020 14:12:33 GMT
-      Server:
-      - scaffolding on HTTPServer2
-      X-Xss-Protection:
-      - '0'
-      X-Frame-Options:
-      - SAMEORIGIN
-      Server-Timing:
-      - gfet4t7; dur=245
-      Cache-Control:
-      - public, max-age=300
-      Age:
-      - '227'
-      Alt-Svc:
-      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
-        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
-      Accept-Ranges:
-      - none
-      Vary:
-      - Accept-Encoding
-      Connection:
-      - close
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: |
-        {
-           "html_attributions" : [],
-           "result" : {
-              "formatted_address" : "30071台灣新竹市東區建功一路28號",
-              "formatted_phone_number" : "03 571 2526",
-              "opening_hours" : {
-                 "open_now" : false,
                  "periods" : [
                     {
                        "close" : {
@@ -1142,64 +547,64 @@ http_interactions:
               },
               "reviews" : [
                  {
-                    "author_name" : "Ting Yen Chang",
-                    "author_url" : "https://www.google.com/maps/contrib/116070521389409195103/reviews",
+                    "author_name" : "森森",
+                    "author_url" : "https://www.google.com/maps/contrib/105845733403981047293/reviews",
                     "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14Gi49ufULzCgg52FIu-biHjEhOGw5X55ZGlzXHvV4w=s128-c0x00000000-cc-rp-mo",
-                    "rating" : 1,
-                    "relative_time_description" : "本週",
-                    "text" : "11/19 新品買一送一\n\n10：10就去排隊，隊伍完全沒有動，也不知道是何時開賣，一群人真的不知道狀況在乾等。\n\n假設要晚點才供應新品系列，或是原物料可能早上不夠可以先說啊，而不是大家看著店員在店裡面，也沒有在製作，看就覺得在摸魚。數十個人排隊，也沒有動線可言，通通排到別的店家，店員就只會躲在裡面。\n\n排到10：36就不排了，走到前面連一杯飲料都沒看到。",
-                    "time" : 1605768075
-                 },
-                 {
-                    "author_name" : "Eason Hunt",
-                    "author_url" : "https://www.google.com/maps/contrib/116462264904364284118/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh4.googleusercontent.com/-0-JJmgO7p1k/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuck99DvREXJGxRT0nXY-m10TqgEvbA/s128-c0x00000000-cc-rp-mo/photo.jpg",
-                    "rating" : 1,
-                    "relative_time_description" : "本週",
-                    "text" : "店員服務極差勁^_^\n某天拿環保瓶來這間就店買茶忘了取走，隔天來拿卻發現瓶子裡是空的，店員說是奶類怕壞掉所以倒掉了，要重新買過。？？\n1.我買的可是是茶類不是奶類\n2.飲料是我買的，就算壞掉是我家的事，你把我付錢買的東西倒掉，就是要幫我裝回來\n給一顆星都太多，不會再來了",
-                    "time" : 1605802122
-                 },
-                 {
-                    "author_name" : "可可亂剪",
-                    "author_url" : "https://www.google.com/maps/contrib/100171047136938857946/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14Gg8NplliQiZ2c6pErgFo5M_gLlZEIOmLiy4V9s4vjk=s128-c0x00000000-cc-rp-mo",
-                    "rating" : 1,
-                    "relative_time_description" : "本週",
-                    "text" : "這店不合理\n用手機訂餐顯示暫停營業 結果經過看他還有在營業 扯\n買一送一 才下午一點 就賣完 沒那屁股 就不要搞這活動 搞笑",
-                    "time" : 1605589538
-                 },
-                 {
-                    "author_name" : "Hui Chun Chiu",
-                    "author_url" : "https://www.google.com/maps/contrib/102197420138034203217/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14GgMC4_8zO4nJ3ci1wr-xOyYn0hihNquIPjAMkLU=s128-c0x00000000-cc-rp-mo-ba3",
-                    "rating" : 5,
-                    "relative_time_description" : "本週",
-                    "text" : "最愛的還是這一味，百喝不膩！",
-                    "time" : 1605693733
-                 },
-                 {
-                    "author_name" : "漂流瓶",
-                    "author_url" : "https://www.google.com/maps/contrib/113732135693266044422/reviews",
-                    "language" : "zh-Hant",
-                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14Gi4YUlhpmYmtb6nfh6UXASAmyZZf-UM4yI8WO_X314=s128-c0x00000000-cc-rp-mo-ba7",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14Ggw-Dj-LJumAOm1ZoKEQxPFI2v3X-6scBDnY0syKA=s128-c0x00000000-cc-rp-mo-ba4",
                     "rating" : 4,
+                    "relative_time_description" : "2 週前",
+                    "text" : "服務品質不錯，平日中午人潮非常多，但店員態度都還可接受。\n茶的口感是好喝的，有些店家品質很不穩定時好時壞，但清大店每次買都是一樣的品質，其實蠻厲害的，因為現場客人真的非常多，外送訂單看起來也非常多，但員工的服務與飲料品質都能兼具，真的很值得鼓勵。\n客人也都按照店家指導乖乖排隊結帳，並不造成行人困擾，出單時間也蠻快的，如果沒有事先電話點餐，大約會等10分鐘，建議大家可以電話點餐，店家會給你製作時間，之後取餐一定要排隊結帳後再拿飲料，不要造成店家困擾，吃飯時間真的超級多客人。\n至於為什麼只給四顆星，大概因為品項真的比較少，所以只會一週喝一次。但想喝鮮奶茶時一定會想到可不可，紅茶與鮮奶的比例剛剛好，很順口又有茶香。",
+                    "time" : 1605191299
+                 },
+                 {
+                    "author_name" : "sandy cheng",
+                    "author_url" : "https://www.google.com/maps/contrib/103252244788610268068/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh6.googleusercontent.com/-mdj2LkGRiwQ/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckXhJ2T8PL8ZGAN9YlWF_O18a9Rvg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                    "rating" : 5,
+                    "relative_time_description" : "3 週前",
+                    "text" : "店員服務態度好!製作飲料速度快，胭脂多多比起前幾天在costco附近分店買到的好喝很多\u003e",
+                    "time" : 1604067776
+                 },
+                 {
+                    "author_name" : "曜懋",
+                    "author_url" : "https://www.google.com/maps/contrib/102667441522929895301/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14GgwdQ2EyrcjlPZjDoItSyHlV0J_DrPE8HbaHueepQ=s128-c0x00000000-cc-rp-mo",
+                    "rating" : 2,
                     "relative_time_description" : "1 個月前",
-                    "text" : "朋友幫我外帶晚餐\n珍珠鮮奶茶好喝",
-                    "time" : 1602613244
+                    "text" : "新出的雪藏末茶\n10.開門\n11.去買就沒有了 既然賣這麼快\n不會想要多補點料嗎==\n隔幾天去買還是沒有",
+                    "time" : 1603424869
+                 },
+                 {
+                    "author_name" : "韋小亮",
+                    "author_url" : "https://www.google.com/maps/contrib/113121261266705176139/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh4.googleusercontent.com/-meMjySJmZ7k/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucltDimJ7Gh4MdKAfhAPtlpvNHkflg/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                    "rating" : 3,
+                    "relative_time_description" : "1 個月前",
+                    "text" : "用了user eat 外送五杯 少冰微糖\n\n結果冰塊半杯。\n\n飲料杯。下半杯全部果糖，上半杯無糖。\n是要請我喝拿鐵是嗎？連搖都懶的搖？",
+                    "time" : 1603689161
+                 },
+                 {
+                    "author_name" : "Watson Fan",
+                    "author_url" : "https://www.google.com/maps/contrib/111324251121387399610/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14GjVRTszSJegvrMvKsN3wv_tRA8WLNaJsKm9WwPxSsQ=s128-c0x00000000-cc-rp-mo-ba5",
+                    "rating" : 4,
+                    "relative_time_description" : "3 週前",
+                    "text" : "純茶好喝，店面前不方便停車，建議附近停好車再走過來",
+                    "time" : 1604191418
                  }
               ],
-              "url" : "https://maps.google.com/?cid=1334847956656408858"
+              "url" : "https://maps.google.com/?cid=8733913066896042875"
            },
            "status" : "OK"
         }
-  recorded_at: Sun, 22 Nov 2020 14:11:20 GMT
+  recorded_at: Fri, 27 Nov 2020 06:17:07 GMT
 - request:
     method: get
-    uri: https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,formatted_phone_number,opening_hours,reviews,url&key=<GOOGLEMAP_TOKEN>&language=zh-TW&place_id=ChIJ80bhW3Q2aDQR72VhiEM7FFA
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=dcnisndisncsdc&language=zh-TW&location=24.7961217,120.9966699&radius=1500
     body:
       encoding: UTF-8
       string: ''
@@ -1220,126 +625,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Sun, 22 Nov 2020 14:07:33 GMT
+      - Fri, 27 Nov 2020 06:35:59 GMT
       Expires:
-      - Sun, 22 Nov 2020 14:12:33 GMT
-      Server:
-      - scaffolding on HTTPServer2
-      X-Xss-Protection:
-      - '0'
-      X-Frame-Options:
-      - SAMEORIGIN
-      Server-Timing:
-      - gfet4t7; dur=192
-      Cache-Control:
-      - public, max-age=300
-      Age:
-      - '227'
-      Alt-Svc:
-      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
-        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
-      Accept-Ranges:
-      - none
-      Vary:
-      - Accept-Encoding
-      Connection:
-      - close
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: "{\n   \"html_attributions\" : [],\n   \"result\" : {\n      \"formatted_address\"
-        : \"300台灣新竹市東區水源街61號\",\n      \"formatted_phone_number\" : \"03 516 5006\",\n
-        \     \"opening_hours\" : {\n         \"open_now\" : false,\n         \"periods\"
-        : [\n            {\n               \"close\" : {\n                  \"day\"
-        : 0,\n                  \"time\" : \"2200\"\n               },\n               \"open\"
-        : {\n                  \"day\" : 0,\n                  \"time\" : \"1000\"\n
-        \              }\n            },\n            {\n               \"close\"
-        : {\n                  \"day\" : 1,\n                  \"time\" : \"2200\"\n
-        \              },\n               \"open\" : {\n                  \"day\"
-        : 1,\n                  \"time\" : \"1000\"\n               }\n            },\n
-        \           {\n               \"close\" : {\n                  \"day\" : 2,\n
-        \                 \"time\" : \"2200\"\n               },\n               \"open\"
-        : {\n                  \"day\" : 2,\n                  \"time\" : \"1000\"\n
-        \              }\n            },\n            {\n               \"close\"
-        : {\n                  \"day\" : 3,\n                  \"time\" : \"2200\"\n
-        \              },\n               \"open\" : {\n                  \"day\"
-        : 3,\n                  \"time\" : \"1000\"\n               }\n            },\n
-        \           {\n               \"close\" : {\n                  \"day\" : 4,\n
-        \                 \"time\" : \"2200\"\n               },\n               \"open\"
-        : {\n                  \"day\" : 4,\n                  \"time\" : \"1000\"\n
-        \              }\n            },\n            {\n               \"close\"
-        : {\n                  \"day\" : 5,\n                  \"time\" : \"2200\"\n
-        \              },\n               \"open\" : {\n                  \"day\"
-        : 5,\n                  \"time\" : \"1000\"\n               }\n            },\n
-        \           {\n               \"close\" : {\n                  \"day\" : 6,\n
-        \                 \"time\" : \"2200\"\n               },\n               \"open\"
-        : {\n                  \"day\" : 6,\n                  \"time\" : \"1000\"\n
-        \              }\n            }\n         ],\n         \"weekday_text\" :
-        [\n            \"星期一: 10:00 – 22:00\",\n            \"星期二: 10:00 – 22:00\",\n
-        \           \"星期三: 10:00 – 22:00\",\n            \"星期四: 10:00 – 22:00\",\n
-        \           \"星期五: 10:00 – 22:00\",\n            \"星期六: 10:00 – 22:00\",\n
-        \           \"星期日: 10:00 – 22:00\"\n         ]\n      },\n      \"reviews\"
-        : [\n         {\n            \"author_name\" : \"郁凱黃\",\n            \"author_url\"
-        : \"https://www.google.com/maps/contrib/116588163819151078115/reviews\",\n
-        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
-        : \"https://lh4.googleusercontent.com/-YzjsPvQSAFk/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucndSmoky9AVKxhgw5NTqLv-bQO6QQ/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg\",\n
-        \           \"rating\" : 1,\n            \"relative_time_description\" : \"2
-        週前\",\n            \"text\" : \"這就是燕麥紅茶，沒看過這麼少的燕麥，連最下面杯底那條線都沒超過，雖然做前有說燕麥不太夠，但只是說差一點點而已，所以你們的標準就只是多一點點嗎？\",\n
-        \           \"time\" : 1604818309\n         },\n         {\n            \"author_name\"
-        : \"新竹統神\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/112034379622532548910/reviews\",\n
-        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
-        : \"https://lh3.googleusercontent.com/a-/AOh14GgVqIeop3te6qq-cSMKWj9d0Y45BsgEJdyhFfAN=s128-c0x00000000-cc-rp-mo\",\n
-        \           \"rating\" : 1,\n            \"relative_time_description\" : \"3
-        個月前\",\n            \"text\" : \"點個兩杯茶一直被跳號 後面點了好幾杯的都拿走了\\n看起來很菜的被問做了沒大概3~4次都回答
-        '還沒有做\\\"\\n等到有點火\",\n            \"time\" : 1596188469\n         },\n         {\n
-        \           \"author_name\" : \"Peng魚堡\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/113680255346749965218/reviews\",\n
-        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
-        : \"https://lh6.googleusercontent.com/-aWTcDTPAOtM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnOnwlJru7BljpP_CmZg-osjHztwQ/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg\",\n
-        \           \"rating\" : 5,\n            \"relative_time_description\" : \"4
-        個月前\",\n            \"text\" : \"這間50嵐的品質覺得很不錯\U0001F44D\\n珍珠沒有吃過不Q的\\n還有冷氣可以吹～
-        等飲料心情好很多\U0001F642\",\n            \"time\" : 1594174951\n         },\n         {\n
-        \           \"author_name\" : \"Harry Zhao\",\n            \"author_url\"
-        : \"https://www.google.com/maps/contrib/116372193327406871923/reviews\",\n
-        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
-        : \"https://lh3.googleusercontent.com/a-/AOh14GgdUFKbMvJA0Xk0jsThhhTJMQEiebc5CebQ-71u9Q=s128-c0x00000000-cc-rp-mo-ba3\",\n
-        \           \"rating\" : 4,\n            \"relative_time_description\" : \"2
-        週前\",\n            \"text\" : \"五十嵐能用line pay 很方便\",\n            \"time\"
-        : 1604422343\n         },\n         {\n            \"author_name\" : \"J-C
-        Lin\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/105377588979940352848/reviews\",\n
-        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
-        : \"https://lh3.googleusercontent.com/a-/AOh14GjnY6Mz_ppwgWls7zbeEpgXJF8lrrgWZ-VKlK-FvYg=s128-c0x00000000-cc-rp-mo-ba4\",\n
-        \           \"rating\" : 5,\n            \"relative_time_description\" : \"3
-        個月前\",\n            \"text\" : \"旺萊紅茶 無糖 好喝又健康\",\n            \"time\" :
-        1596854668\n         }\n      ],\n      \"url\" : \"https://maps.google.com/?cid=5770302183805380079\"\n
-        \  },\n   \"status\" : \"OK\"\n}\n"
-  recorded_at: Sun, 22 Nov 2020 14:11:21 GMT
-- request:
-    method: get
-    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6&language=zh-TW&location=24.7961217,120.9966699&radius=1500
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      Authorization:
-      - token <GOOGLEMAP_TOKEN>
-      Connection:
-      - close
-      Host:
-      - maps.googleapis.com
-      User-Agent:
-      - http.rb/4.4.1
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=UTF-8
-      Date:
-      - Sun, 22 Nov 2020 14:35:34 GMT
-      Expires:
-      - Sun, 22 Nov 2020 14:40:34 GMT
+      - Fri, 27 Nov 2020 06:40:59 GMT
       Cache-Control:
       - public, max-age=300
       Server:
@@ -1349,7 +637,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=596
+      - gfet4t7; dur=184
       Alt-Svc:
       - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
         ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
@@ -1366,57 +654,205 @@ http_interactions:
       string: |
         {
            "html_attributions" : [],
-           "results" : [
-              {
-                 "business_status" : "OPERATIONAL",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 24.7981675,
-                       "lng" : 120.9977783
-                    },
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 24.79952667989272,
-                          "lng" : 120.9991652298927
-                       },
-                       "southwest" : {
-                          "lat" : 24.79682702010728,
-                          "lng" : 120.9964655701073
-                       }
-                    }
-                 },
-                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-                 "name" : "可不可熟成紅茶",
-                 "opening_hours" : {
-                    "open_now" : false
-                 },
-                 "photos" : [
-                    {
-                       "height" : 3120,
-                       "html_attributions" : [
-                          "\u003ca href=\"https://maps.google.com/maps/contrib/117710101393215238187\"\u003eA Google User\u003c/a\u003e"
-                       ],
-                       "photo_reference" : "ATtYBwLfwpJMRT43F3mZHmya12bzaWiSbv_adXf3NLZqKdP7BwyjAH9xpaJBWBx2QPs4VfIOUnpS8084org1ZtNRyxtEXIGR5Hl4bjBlHCjZKkV1sIfen5_R_4W0CZIOZYeZTdkUUbnlRM4e-WUyP9SjU3-lOzu1ZKO1tbkV3sgfcDNrEuJQ",
-                       "width" : 4160
-                    }
-                 ],
-                 "place_id" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
-                 "plus_code" : {
-                    "compound_code" : "QXXX+74 東區 新竹市",
-                    "global_code" : "7QP2QXXX+74"
-                 },
-                 "price_level" : 1,
-                 "rating" : 4,
-                 "reference" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
-                 "scope" : "GOOGLE",
-                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
-                 "user_ratings_total" : 353,
-                 "vicinity" : "東區建功一路45-7號"
-              }
-           ],
-           "status" : "OK"
+           "results" : [],
+           "status" : "ZERO_RESULTS"
         }
-  recorded_at: Sun, 22 Nov 2020 14:35:35 GMT
+  recorded_at: Fri, 27 Nov 2020 06:35:58 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%9C%8D%E5%8B%99%E5%93%81%E8%B3%AA%E4%B8%8D%E9%8C%AF%EF%BC%8C%E5%B9%B3%E6%97%A5%E4%B8%AD%E5%8D%88%E4%BA%BA%E6%BD%AE%E9%9D%9E%E5%B8%B8%E5%A4%9A%EF%BC%8C%E4%BD%86%E5%BA%97%E5%93%A1%E6%85%8B%E5%BA%A6%E9%83%BD%E9%82%84%E5%8F%AF%E6%8E%A5%E5%8F%97%E3%80%82%0A%E8%8C%B6%E7%9A%84%E5%8F%A3%E6%84%9F%E6%98%AF%E5%A5%BD%E5%96%9D%E7%9A%84%EF%BC%8C%E6%9C%89%E4%BA%9B%E5%BA%97%E5%AE%B6%E5%93%81%E8%B3%AA%E5%BE%88%E4%B8%8D%E7%A9%A9%E5%AE%9A%E6%99%82%E5%A5%BD%E6%99%82%E5%A3%9E%EF%BC%8C%E4%BD%86%E6%B8%85%E5%A4%A7%E5%BA%97%E6%AF%8F%E6%AC%A1%E8%B2%B7%E9%83%BD%E6%98%AF%E4%B8%80%E6%A8%A3%E7%9A%84%E5%93%81%E8%B3%AA%EF%BC%8C%E5%85%B6%E5%AF%A6%E8%A0%BB%E5%8E%B2%E5%AE%B3%E7%9A%84%EF%BC%8C%E5%9B%A0%E7%82%BA%E7%8F%BE%E5%A0%B4%E5%AE%A2%E4%BA%BA%E7%9C%9F%E7%9A%84%E9%9D%9E%E5%B8%B8%E5%A4%9A%EF%BC%8C%E5%A4%96%E9%80%81%E8%A8%82%E5%96%AE%E7%9C%8B%E8%B5%B7%E4%BE%86%E4%B9%9F%E9%9D%9E%E5%B8%B8%E5%A4%9A%EF%BC%8C%E4%BD%86%E5%93%A1%E5%B7%A5%E7%9A%84%E6%9C%8D%E5%8B%99%E8%88%87%E9%A3%B2%E6%96%99%E5%93%81%E8%B3%AA%E9%83%BD%E8%83%BD%E5%85%BC%E5%85%B7%EF%BC%8C%E7%9C%9F%E7%9A%84%E5%BE%88%E5%80%BC%E5%BE%97%E9%BC%93%E5%8B%B5%E3%80%82%0A%E5%AE%A2%E4%BA%BA%E4%B9%9F%E9%83%BD%E6%8C%89%E7%85%A7%E5%BA%97%E5%AE%B6%E6%8C%87%E5%B0%8E%E4%B9%96%E4%B9%96%E6%8E%92%E9%9A%8A%E7%B5%90%E5%B8%B3%EF%BC%8C%E4%B8%A6%E4%B8%8D%E9%80%A0%E6%88%90%E8%A1%8C%E4%BA%BA%E5%9B%B0%E6%93%BE%EF%BC%8C%E5%87%BA%E5%96%AE%E6%99%82%E9%96%93%E4%B9%9F%E8%A0%BB%E5%BF%AB%E7%9A%84%EF%BC%8C%E5%A6%82%E6%9E%9C%E6%B2%92%E6%9C%89%E4%BA%8B%E5%85%88%E9%9B%BB%E8%A9%B1%E9%BB%9E%E9%A4%90%EF%BC%8C%E5%A4%A7%E7%B4%84%E6%9C%83%E7%AD%8910%E5%88%86%E9%90%98%EF%BC%8C%E5%BB%BA%E8%AD%B0%E5%A4%A7%E5%AE%B6%E5%8F%AF%E4%BB%A5%E9%9B%BB%E8%A9%B1%E9%BB%9E%E9%A4%90%EF%BC%8C%E5%BA%97%E5%AE%B6%E6%9C%83%E7%B5%A6%E4%BD%A0%E8%A3%BD%E4%BD%9C%E6%99%82%E9%96%93%EF%BC%8C%E4%B9%8B%E5%BE%8C%E5%8F%96%E9%A4%90%E4%B8%80%E5%AE%9A%E8%A6%81%E6%8E%92%E9%9A%8A%E7%B5%90%E5%B8%B3%E5%BE%8C%E5%86%8D%E6%8B%BF%E9%A3%B2%E6%96%99%EF%BC%8C%E4%B8%8D%E8%A6%81%E9%80%A0%E6%88%90%E5%BA%97%E5%AE%B6%E5%9B%B0%E6%93%BE%EF%BC%8C%E5%90%83%E9%A3%AF%E6%99%82%E9%96%93%E7%9C%9F%E7%9A%84%E8%B6%85%E7%B4%9A%E5%A4%9A%E5%AE%A2%E4%BA%BA%E3%80%82%0A%E8%87%B3%E6%96%BC%E7%82%BA%E4%BB%80%E9%BA%BC%E5%8F%AA%E7%B5%A6%E5%9B%9B%E9%A1%86%E6%98%9F%EF%BC%8C%E5%A4%A7%E6%A6%82%E5%9B%A0%E7%82%BA%E5%93%81%E9%A0%85%E7%9C%9F%E7%9A%84%E6%AF%94%E8%BC%83%E5%B0%91%EF%BC%8C%E6%89%80%E4%BB%A5%E5%8F%AA%E6%9C%83%E4%B8%80%E9%80%B1%E5%96%9D%E4%B8%80%E6%AC%A1%E3%80%82%E4%BD%86%E6%83%B3%E5%96%9D%E9%AE%AE%E5%A5%B6%E8%8C%B6%E6%99%82%E4%B8%80%E5%AE%9A%E6%9C%83%E6%83%B3%E5%88%B0%E5%8F%AF%E4%B8%8D%E5%8F%AF%EF%BC%8C%E7%B4%85%E8%8C%B6%E8%88%87%E9%AE%AE%E5%A5%B6%E7%9A%84%E6%AF%94%E4%BE%8B%E5%89%9B%E5%89%9B%E5%A5%BD%EF%BC%8C%E5%BE%88%E9%A0%86%E5%8F%A3%E5%8F%88%E6%9C%89%E8%8C%B6%E9%A6%99%E3%80%82
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Fri, 27 Nov 2020 07:03:28 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '1114'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5pyN5YuZIOWTgeizqiDkuI3pjK8g77yMIOW5s+aXpSDkuK3ljYgg5Lq65r2uIOmdnuW4uCDlpJog77yMIOS9hiDlupflk6Eg5oWL5bqmIOmDvSDpgoQg5Y+vIOaOpeWPlyDjgIIgCiDojLYg55qEIOWPo+aEnyDmmK8g5aW95ZadIOeahCDvvIwg5pyJ5LqbIOW6l+WutiDlk4Hos6og5b6IIOS4jSDnqanlrpog5pmC5aW95pmC5aOeIO+8jCDkvYYg5riF5aSnIOW6lyDmr48g5qyhIOiytyDpg70g5pivIOS4gOaooyDnmoQg5ZOB6LOqIO+8jCDlhbblr6Yg6KC7IOWOsuWusyDnmoQg77yMIOWboOeCuiDnj77loLQg5a6i5Lq6IOecn+eahCDpnZ7luLgg5aSaIO+8jCDlpJbpgIEg6KiC5ZauIOeci+i1t+S+hiDkuZ8g6Z2e5bi4IOWkmiDvvIwg5L2GIOWToeW3pSDnmoQg5pyN5YuZIOiIhyDpo7Lmlpkg5ZOB6LOqIOmDvSDog70g5YW85YW3IO+8jCDnnJ/nmoQg5b6IIOWAvOW+lyDpvJPli7Ug44CCIAog5a6i5Lq6IOS5nyDpg70g5oyJ54WnIOW6l+WutiDmjIflsI4g5LmW5LmWIOaOkumaiiDntZDluLMg77yMIOS4piDkuI0g6YCg5oiQIOihjOS6uiDlm7Dmk74g77yMIOWHuuWWriDmmYLplpMg5LmfIOiguyDlv6sg55qEIO+8jCDlpoLmnpwg5rKS5pyJIOS6i+WFiCDpm7voqbEg6bue6aSQIO+8jCDlpKfntIQg5pyDIOetiSAxMCDliIbpkJgg77yMIOW7uuitsCDlpKflrrYg5Y+v5LulIOmbu+ipsSDpu57ppJAg77yMIOW6l+WutiDmnIMg57WmIOS9oCDoo73kvZwg5pmC6ZaTIO+8jCDkuYvlvowg5Y+W6aSQIOS4gOWumiDopoEg5o6S6ZqKIOe1kOW4syDlvowg5YaNIOaLvyDpo7Lmlpkg77yMIOS4jeimgSDpgKDmiJAg5bqX5a62IOWbsOaTviDvvIwg5ZCD6aOvIOaZgumWkyDnnJ/nmoQg6LaF57SaIOWkmiDlrqLkurog44CCIAog6Iez5pa8IOeCuuS7gOm6vCDlj6og57WmIOWbm+mhhiDmmJ8g77yMIOWkp+amgiDlm6Dngrog5ZOB6aCFIOecn+eahCDmr5TovIMg5bCRIO+8jCDmiYDku6Ug5Y+qIOacgyDkuIAg6YCxIOWWnSDkuIAg5qyhIOOAgiDkvYYg5oOzIOWWnSDprq7lpbbojLYg5pmCIOS4gOWumiDmnIMg5oOz5YiwIOWPryDkuI3lj68g77yMIOe0heiMtiDoiIcg6a6u5aW2IOeahCDmr5Tkvosg5Ymb5Ymb5aW9IO+8jCDlvogg6aCG5Y+jIOWPiCDmnIkg6Iy26aaZIOOAgg==
+  recorded_at: Fri, 27 Nov 2020 07:03:26 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%BA%97%E5%93%A1%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E5%A5%BD%21%E8%A3%BD%E4%BD%9C%E9%A3%B2%E6%96%99%E9%80%9F%E5%BA%A6%E5%BF%AB%EF%BC%8C%E8%83%AD%E8%84%82%E5%A4%9A%E5%A4%9A%E6%AF%94%E8%B5%B7%E5%89%8D%E5%B9%BE%E5%A4%A9%E5%9C%A8costco%E9%99%84%E8%BF%91%E5%88%86%E5%BA%97%E8%B2%B7%E5%88%B0%E7%9A%84%E5%A5%BD%E5%96%9D%E5%BE%88%E5%A4%9A%3E
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Fri, 27 Nov 2020 07:03:30 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '137'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5bqX5ZOhIOacjeWLmSDmhYvluqYg5aW9ICEg6KO95L2cIOmjsuaWmSDpgJ/luqYg5b+rIO+8jCDog63ohILlpJrlpJog5q+U6LW3IOWJjeW5vuWkqSDlnKggY29zdGNvIOmZhOi/kSDliIblupcg6LK35YiwIOeahCDlpb3llp0g5b6I5aSaID4=
+  recorded_at: Fri, 27 Nov 2020 07:03:29 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%96%B0%E5%87%BA%E7%9A%84%E9%9B%AA%E8%97%8F%E6%9C%AB%E8%8C%B6%0A10.%E9%96%8B%E9%96%80%0A11.%E5%8E%BB%E8%B2%B7%E5%B0%B1%E6%B2%92%E6%9C%89%E4%BA%86+%E6%97%A2%E7%84%B6%E8%B3%A3%E9%80%99%E9%BA%BC%E5%BF%AB%0A%E4%B8%8D%E6%9C%83%E6%83%B3%E8%A6%81%E5%A4%9A%E8%A3%9C%E9%BB%9E%E6%96%99%E5%97%8E%3D%3D%0A%E9%9A%94%E5%B9%BE%E5%A4%A9%E5%8E%BB%E8%B2%B7%E9%82%84%E6%98%AF%E6%B2%92%E6%9C%89
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Fri, 27 Nov 2020 07:03:31 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '165'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5paw5Ye6IOeahCDpm6rol48g5pyr6Iy2IAogMTAgLiDplovploAgCiAxMSAuIOWOu+iytyDlsLEg5rKS5pyJIOS6hiAgIOaXoueEtiDos6Mg6YCZ6bq8IOW/qyAKIOS4jeacgyDmg7PopoEg5aSaIOijnOm7niDmlpkg5ZeOID0gPSAKIOmalCDlub4g5aSp5Y67IOiytyDpgoTmmK8g5rKS5pyJ
+  recorded_at: Fri, 27 Nov 2020 07:03:29 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%94%A8%E4%BA%86user+eat+%E5%A4%96%E9%80%81%E4%BA%94%E6%9D%AF+%E5%B0%91%E5%86%B0%E5%BE%AE%E7%B3%96%0A%0A%E7%B5%90%E6%9E%9C%E5%86%B0%E5%A1%8A%E5%8D%8A%E6%9D%AF%E3%80%82%0A%0A%E9%A3%B2%E6%96%99%E6%9D%AF%E3%80%82%E4%B8%8B%E5%8D%8A%E6%9D%AF%E5%85%A8%E9%83%A8%E6%9E%9C%E7%B3%96%EF%BC%8C%E4%B8%8A%E5%8D%8A%E6%9D%AF%E7%84%A1%E7%B3%96%E3%80%82%0A%E6%98%AF%E8%A6%81%E8%AB%8B%E6%88%91%E5%96%9D%E6%8B%BF%E9%90%B5%E6%98%AF%E5%97%8E%EF%BC%9F%E9%80%A3%E6%90%96%E9%83%BD%E6%87%B6%E7%9A%84%E6%90%96%EF%BC%9F
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Fri, 27 Nov 2020 07:03:32 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '216'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        55So5LqGIHVzZXIgICBlYXQgICDlpJbpgIEg5LqU5p2vICAg5bCR5YawIOW+ruezliAKIAog57WQ5p6cIOWGsOWhiiDljYog5p2vIOOAgiAKIAog6aOy5paZ5p2vIOOAgiDkuIvljYog5p2vIOWFqOmDqCDmnpzns5Yg77yMIOS4iiDljYog5p2vIOeEoeezliDjgIIgCiDmmK8g6KaB6KuLIOaIkSDllp0g5ou/6ZC1IOaYryDll44g77yfIOmAo+aQliDpg70g5oe2IOeahCDmkJYg77yf
+  recorded_at: Fri, 27 Nov 2020 07:03:30 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%B4%94%E8%8C%B6%E5%A5%BD%E5%96%9D%EF%BC%8C%E5%BA%97%E9%9D%A2%E5%89%8D%E4%B8%8D%E6%96%B9%E4%BE%BF%E5%81%9C%E8%BB%8A%EF%BC%8C%E5%BB%BA%E8%AD%B0%E9%99%84%E8%BF%91%E5%81%9C%E5%A5%BD%E8%BB%8A%E5%86%8D%E8%B5%B0%E9%81%8E%E4%BE%86
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Fri, 27 Nov 2020 07:03:33 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '88'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        57SU6Iy2IOWlveWWnSDvvIwg5bqX6Z2iIOWJjSDkuI0g5pa55L6/IOWBnOi7iiDvvIwg5bu66K2wIOmZhOi/kSDlgZzlpb0g6LuK5YaNIOi1sOmBjuS+hg==
+  recorded_at: Fri, 27 Nov 2020 07:03:31 GMT
 - request:
     method: get
     uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=snidnsicndsivndsivdsv&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6&language=zh-TW&location=24.7961217,120.9966699&radius=1500
@@ -1440,7 +876,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Sun, 22 Nov 2020 14:35:34 GMT
+      - Fri, 27 Nov 2020 07:17:51 GMT
       Pragma:
       - no-cache
       Expires:
@@ -1454,7 +890,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=3
+      - gfet4t7; dur=4
       Alt-Svc:
       - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
         ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
@@ -1475,5 +911,5 @@ http_interactions:
            "results" : [],
            "status" : "REQUEST_DENIED"
         }
-  recorded_at: Sun, 22 Nov 2020 14:35:35 GMT
+  recorded_at: Fri, 27 Nov 2020 07:17:50 GMT
 recorded_with: VCR 6.0.0
