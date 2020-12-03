@@ -1,13 +1,19 @@
 # DrinkKing Web API
-Web API that lists drink shops and extracts recommend drink from reviews
+Web API that lists drink shops, get shop menu, and extracts recommend drink from reviews
 
 ## Routes
 ### Route check
 `GET /`
 
-### Extract reviews and list shops
-`GET /shop/{search_word}`
+### List shops
+`GET /shops?keyword={keyword}`
 
 
 ### Store shops
-`POST /shop/`
+`POST /shops/{keyword}`
+
+### Extract shop
+`GET /extractions/{shopid}`
+
+### Get shop menu
+`GET /menus?keyword={keyword}&searchby={shop/drink}`
