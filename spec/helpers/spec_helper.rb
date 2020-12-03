@@ -15,6 +15,9 @@ require_relative '../../init'
 GARBLE = 'dcnisndisncsdc'
 BAD_TOKEN = 'snidnsicndsivndsivdsv'
 KEYWORD = '可不可熟成紅茶'
+SHOPNAME = '可不可熟成紅茶'
+SHOPID = 'ChIJj-JB7XI2aDQReyt7-6gXNXk'
+DRINKNAME = '荔枝'
 TOKEN = DrinkKing::App.config.API_TOKEN
 CORRECT = YAML.load(File.read('spec/fixtures/googlemap_results.yml'))
 
