@@ -35,11 +35,20 @@ describe 'Test API routes' do
     end
   end
 
-  # 我之後再寫
   describe 'List shops route' do
     it 'should be able to return shop lists' do
-      skip
-      get "/api/v1/shops?keyword=#{KEYWORD}"
+      search_keyword = DrinkKing::Request::SearchKeyword.new(KEYWORD)
+      DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword)
+
+      get URI.escape("/api/v1/shops?keyword=#{KEYWORD}")
+      _(last_response.status).must_equal 200
+
+      body = JSON.parse(last_response.body)
+      shop = body['shops'][0]
+      _(shop['placeid']).must_equal SHOPID
+      _(shop['name']).must_equal SHOPNAME
+      _(shop['reviews'].count).must_equal 5
+      _(shop['menu']['shopname']).must_include SHOPNAME
     end
   end
 

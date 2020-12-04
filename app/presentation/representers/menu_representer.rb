@@ -11,7 +11,7 @@ module DrinkKing
     class Menu < Roar::Decorator
       include Roar::JSON
 
-      property :name
+      property :shopname
       collection :drinks, extend: Representer::Drink, class: OpenStruct
     end
   end

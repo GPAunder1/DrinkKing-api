@@ -56,7 +56,17 @@ module DrinkKing
           routing.is do
             # GET /api/v1/shops?keyword={keyword}
             routing.get do
-              # 我之後再寫
+              result = Service::ProcessShops.new.call(search_keyword: routing.params['keyword'])
+
+              if result.failure?
+                failed = Representer::HttpResponse.new(result.failure)
+                routing.halt failed.http_status_code, failed.to_json
+              end
+
+              http_response = Representer::HttpResponse.new(result.value!)
+              response.status = http_response.http_status_code
+
+              Representer::ShopsList.new(result.value!.message).to_json
             end
           end
         end
