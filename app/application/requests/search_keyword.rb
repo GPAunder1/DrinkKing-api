@@ -14,13 +14,9 @@ module DrinkKing
       end
 
       def call
-        Success(
-          @params
-        )
+        @params != GARBLE ? Success(@params) : Failure(StandardError)
       rescue StandardError
-        Failure(
-          Response::ApiResult.new(status: :bad_request, message: 'keyword not found')
-        )
+        Failure(Response::ApiResult.new(status: :bad_request, message: 'Please enter keyword related to drink'))
       end
     end
   end

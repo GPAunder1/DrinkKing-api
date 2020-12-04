@@ -24,15 +24,15 @@ describe 'AddShops Service Integration Test' do
     it '(HAPPY) should be able to find and save shops to database' do
       # GIVEN: a valid search keyword to find shops
       shops = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
-      keyword_request = DrinkKing::Forms::SearchKeyword.new.call(search_keyword: KEYWORD)
+      keyword_request = DrinkKing::Request::SearchKeyword.new(KEYWORD)
 
       # WHEN: the service is called with the request form object
-      shops_made = DrinkKing::Service::AddShops.new.call(keyword_request)
+      result = DrinkKing::Service::AddShops.new.call(search_keyword: keyword_request)
 
       # THEN: the result should be success
-      _(shops_made.success?).must_equal true
+      _(result.success?).must_equal true
       # THEN: and should provide shop entity same as the entity get from API response
-      rebuilt = shops_made.value!
+      rebuilt = result.value!.message.shops
 
       shops.map.with_index do |shop, i|
         _(rebuilt[i].placeid).must_equal(shop.placeid)
@@ -57,17 +57,17 @@ describe 'AddShops Service Integration Test' do
 
     it '(HAPPY) should be able to find and return existing shops in database' do
       # GIVEN: a valid search keyword to find shops and the shop are already in database
-      keyword_request = DrinkKing::Forms::SearchKeyword.new.call(search_keyword: KEYWORD)
-      db_shops = DrinkKing::Service::AddShops.new.call(keyword_request).value!
+      keyword_request = DrinkKing::Request::SearchKeyword.new(KEYWORD)
+      db_shops = DrinkKing::Service::AddShops.new.call(search_keyword: keyword_request).value!.message.shops
 
       # WHEN: the service is called with the request form object
-      shops_made = DrinkKing::Service::AddShops.new.call(keyword_request)
+      result = DrinkKing::Service::AddShops.new.call(search_keyword: keyword_request)
 
       # THEN: the result should be success
-      _(shops_made.success?).must_equal true
+      _(result.success?).must_equal true
 
       # THEN: and find the same object from database
-      rebuilt = shops_made.value!
+      rebuilt = result.value!.message.shops
       db_shops.map.with_index do |shop, i|
         _(rebuilt[i].placeid).must_equal(shop.placeid)
         _(rebuilt[i].name).must_equal(shop.name)
@@ -91,14 +91,14 @@ describe 'AddShops Service Integration Test' do
 
     it '(BAD) should fail for invalid search keyword' do
       # GIVEN: a valid search keyword to find shops
-      keyword_request = DrinkKing::Forms::SearchKeyword.new.call(search_keyword: GARBLE)
+      keyword_request = DrinkKing::Request::SearchKeyword.new(GARBLE)
 
       # WHEN: the service is called with the request form object
-      shops_made = DrinkKing::Service::AddShops.new.call(keyword_request)
+      shops_made = DrinkKing::Service::AddShops.new.call(search_keyword: keyword_request)
 
       # THEN: the result should be failure and get error message
       _(shops_made.success?).must_equal false
-      _(shops_made.failure).must_equal 'Please enter keyword related to drink'
+      _(shops_made.failure.message).must_equal 'Please enter keyword related to drink'
     end
   end
 end

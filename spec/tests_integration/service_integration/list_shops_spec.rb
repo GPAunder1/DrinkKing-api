@@ -27,16 +27,18 @@ describe 'AddShops Service Integration Test' do
       db_shop = DrinkKing::Repository::For.entity(shops[0]).find_or_create(shops[0])
 
       # WHEN: user goes to the shop map page
-      shops_made = DrinkKing::Service::ListShops.new.call(search_keyword: KEYWORD)
+      result = DrinkKing::Service::ListShops.new.call(search_keyword: KEYWORD)
 
       # THEN: the result should be success
-      _(shops_made.success?).must_equal true
+      _(result.success?).must_equal true
 
       # THEN: should get shops with recommend drink and menu
-      shops_made = shops_made.value!
-      _(shops_made.has_key?(:shops)).must_equal true
-      _(shops_made.has_key?(:recommend_drinks)).must_equal true
-      _(shops_made.has_key?(:menu)).must_equal true
+      shops_list = result.value!.message
+      _(shops_list.to_h.has_key?(:shops)).must_equal true
+
+      shop = shops_list.shops[0].to_h
+      _(shop.has_key?(:recommend_drink)).must_equal true
+      _(shop.has_key?(:menu)).must_equal true
     end
 
     it '(BAD) should report error if no shop is found' do
@@ -44,7 +46,7 @@ describe 'AddShops Service Integration Test' do
       shops_made = DrinkKing::Service::ListShops.new.call(search_keyword: GARBLE)
 
       # THEN: they should get error messege
-      _(shops_made.failure).must_equal 'No shop is found!'
+      _(shops_made.failure.message).must_include 'No shop is found'
     end
   end
 end

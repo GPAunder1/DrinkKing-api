@@ -24,14 +24,14 @@ module DrinkKing
         input[:shopname_list] << input[:search_keyword]
         Success(input)
       rescue StandardError => error
-        Failure(Response::ApiResult.new(status: :internal_error, message: error.to_s))
+        Failure(Response::ApiResult.new(status: :no_content, message: 'No shop is found from menu'))
       end
 
       def get_shops_from_database(input)
         input[:shops] = Repository::For.klass(Entity::Shop).find_many_shops(input[:shopname_list])
 
         if input[:shops][0].nil?
-          Failure(Response::ApiResult.new(status: :no_content, message: 'No shop is found!'))
+          Failure(Response::ApiResult.new(status: :no_content, message: 'No shop is found from database'))
         else
           Success(input)
         end
