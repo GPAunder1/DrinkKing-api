@@ -56,7 +56,7 @@ module DrinkKing
           routing.is do
             # GET /api/v1/shops?keyword={keyword}
             routing.get do
-              result = Service::ProcessShops.new.call(search_keyword: routing.params['keyword'])
+              result = Service::ListShops.new.call(search_keyword: routing.params['keyword'])
 
               if result.failure?
                 failed = Representer::HttpResponse.new(result.failure)
@@ -115,7 +115,7 @@ end
 #           # GET /shop/{search_word}
 #           routing.get do
 #
-#             result = DrinkKing::Service::ProcessShops.new.call(search_keyword: search_word)
+#             result = DrinkKing::Service::ListShops.new.call(search_keyword: search_word)
 #
 #             if result.failure?
 #               flash[:error] = result.failure

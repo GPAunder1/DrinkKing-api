@@ -1273,7 +1273,7 @@
           null,
           null,
           1,
-          6,
+          5,
           null
         ]
       },
@@ -1472,30 +1472,6 @@
         ]
       },
       "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/services/list_shops.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/services/process_shops.rb": {
         "lines": [
           null,
           null,
@@ -1794,6 +1770,6 @@
         ]
       }
     },
-    "timestamp": 1607081265
+    "timestamp": 1607082087
   }
 }
