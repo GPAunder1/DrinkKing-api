@@ -12,17 +12,17 @@ end
 describe 'Test API routes' do
   include Rack::Test::Methods
 
-  # VcrHelper.setup_vcr
-  # DatabaseHelper.setup_database_cleaner
-  #
-  # before do
-  #   VcrHelper.configure_vcr_for_googlemap
-  #   DatabaseHelper.wipe_database
-  # end
-  #
-  # after do
-  #   VcrHelper.eject_vcr
-  # end
+  VcrHelper.setup_vcr
+  DatabaseHelper.setup_database_cleaner
+
+  before do
+    VcrHelper.configure_vcr_for_googlemap
+    DatabaseHelper.wipe_database
+  end
+
+  after do
+    VcrHelper.eject_vcr
+  end
 
   describe 'Root route' do
     it '(HAPPY) should successfully return root information' do

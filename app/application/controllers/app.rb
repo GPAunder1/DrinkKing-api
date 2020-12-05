@@ -76,8 +76,8 @@ module DrinkKing
             # GET /api/v1/extractions/{shopid}
             # /api/v1/extractions/ChIJj-JB7XI2aDQReyt7-6gXNXk
             routing.get do
-              shop_id = Request::SearchKeyword.new(shopid)
-              result = Service::ExtractShop.new.call(shop_id: shop_id)
+              # shop_id = Request::SearchKeyword.new(shopid)
+              result = Service::ExtractShop.new.call(shop_id: shopid)
               if result.failure?
                 failed = Representer::HttpResponse.new(result.failure)
                 routing.halt failed.http_status_code, failed.to_json
@@ -92,11 +92,10 @@ module DrinkKing
 
         # GET /api/v1/menus?keyword={keyword}&searchby={shop/drink}
         routing.get 'menus' do
-          keyword = Request::SearchKeyword.new(routing.params['keyword'])
-          searchby = Request::SearchKeyword.new(routing.params['searchby'])
-          result = Service::ShopMenu.new.call({ keyword: keyword, searchby: searchby })
+          result = Service::ShopMenu.new.call({ keyword: routing.params['keyword'], searchby:routing.params['searchby']})
           http_response = Representer::HttpResponse.new(result.value!)
           response.status = http_response.http_status_code
+          # Representer::Menu.new(result.value!.message).to_json
           result.value!.message.to_json ## test code
         end
       end
