@@ -5,7 +5,7 @@ module DrinkKing
     # Class for ReviewsExtractionMapper
     class ReviewsExtractionMapper
       def self.find_by_shopid(shop_id)
-        shop_entity = DrinkKing::Repository::Shops.find_id(shop_id)
+        shop_entity = DrinkKing::Repository::Shops.find_placeid(shop_id)
         rebuild_entity(shop_entity)
       end
 

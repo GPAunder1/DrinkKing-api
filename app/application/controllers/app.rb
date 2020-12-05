@@ -64,24 +64,44 @@ module DrinkKing
         routing.on 'extractions' do
           routing.on String do |shopid|
             # GET /api/v1/extractions/{shopid}
+            # /api/v1/extractions/ChIJj-JB7XI2aDQReyt7-6gXNXk
             routing.get do
-              # 交給你了
+              shop_id = Request::SearchKeyword.new(shopid)
+              result = Service::ExtractShop.new.call(shop_id: shop_id)
+              if result.failure?
+                failed = Representer::HttpResponse.new(result.failure)
+                routing.halt failed.http_status_code, failed.to_json
+              end
+              http_response = Representer::HttpResponse.new(result.value!)
+              response.status = http_response.http_status_code
+              result.value!.message.to_json ## test code
+              # Representer::ShopsList.new(result.value!.message).to_json
             end
           end
         end
 
-        routing.on 'menus' do
-          routing.is do
-            # GET /api/v1/menus?keyword={keyword}&searchby={shop/drink}
-            routing.get do
-              # 交給你了
-            end
-          end
+        # GET /api/v1/menus?keyword={keyword}&searchby={shop/drink}
+        routing.get 'menus' do
+          keyword = Request::SearchKeyword.new(routing.params['keyword'])
+          searchby = Request::SearchKeyword.new(routing.params['searchby'])
+          result = Service::ShopMenu.new.call({ keyword: keyword, searchby: searchby })
+          http_response = Representer::HttpResponse.new(result.value!)
+          response.status = http_response.http_status_code
+          result.value!.message.to_json ## test code
         end
       end
     end
   end
 end
+
+# routing.get "menus" do
+#   search_word = Request::SearchKeyword.new(routing.params['keyword'])
+#   result = DrinkKing::Service::Output.new.call(search_word)
+#   http_response = Representer::HttpResponse.new(result.value!)
+#   response.status = http_response.http_status_code
+#   result.value!.message.to_json ## test code
+# end
+
 #       routing.on 'shop' do
 #         routing.is do
 #           # POST /shop/

@@ -12,17 +12,17 @@ end
 describe 'Test API routes' do
   include Rack::Test::Methods
 
-  VcrHelper.setup_vcr
-  DatabaseHelper.setup_database_cleaner
-
-  before do
-    VcrHelper.configure_vcr_for_googlemap
-    DatabaseHelper.wipe_database
-  end
-
-  after do
-    VcrHelper.eject_vcr
-  end
+  # VcrHelper.setup_vcr
+  # DatabaseHelper.setup_database_cleaner
+  #
+  # before do
+  #   VcrHelper.configure_vcr_for_googlemap
+  #   DatabaseHelper.wipe_database
+  # end
+  #
+  # after do
+  #   VcrHelper.eject_vcr
+  # end
 
   describe 'Root route' do
     it 'should successfully return root information' do
@@ -59,21 +59,30 @@ describe 'Test API routes' do
   # 交給你了
   describe 'Extract shop route' do
     it 'should be able to extract shop' do
-      skip
       get "/api/v1/extractions/#{SHOPID}"
+      _(last_response.status).must_equal 200
+      body = JSON.parse(last_response.body)
+      _(body).must_equal RECOMMEND_DRINK
     end
   end
 
-  # 交給你了
   describe 'Get shop menu' do
     it 'should be able to get shop menu by specific drink' do
-      skip
-      get "api/v1/menus?keyword=#{DRINKNAME}&searchby=drink"
+      get URI.escape("api/v1/menus?keyword=#{DRINKNAME}&searchby=drink")
+      _(last_response.status).must_equal 200
+      body = JSON.parse(last_response.body)
+      body.map do |shop|
+        shop['drinks'].map { |drink| _(drink).must_include DRINKNAME }
+      end
     end
 
     it 'should be able to get shop menu by shopname' do
-      skip
-      get "api/v1/menus?keyword=#{SHOPNAME}&searchby=shop"
+      get URI.escape("api/v1/menus?keyword=#{SHOPNAME}&searchby=shop")
+      _(last_response.status).must_equal 200
+      body = JSON.parse(last_response.body)
+      body.map do |shop|
+        _(shop['shopname']).must_equal SHOPNAME
+      end
     end
 
   end
