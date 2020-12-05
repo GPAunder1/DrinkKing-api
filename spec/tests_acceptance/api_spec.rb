@@ -58,8 +58,8 @@ describe 'Test API routes' do
     it '(SAD) should report error if no shop is found from database' do
       get "/api/v1/shops?keyword=#{GARBLE}"
 
-      _(last_response.status).must_equal 204
-      _(JSON.parse(last_response.body)['status']).must_equal 'no_content'
+      _(last_response.status).must_equal 404
+      _(JSON.parse(last_response.body)['status']).must_equal 'not_found'
       _(JSON.parse(last_response.body)['message']).must_include 'No shop is found'
     end
   end
@@ -89,8 +89,8 @@ describe 'Test API routes' do
       post "/api/v1/shops/sdffsdfds"
 
       puts last_response.body
-      _(last_response.status).must_equal 204
-      _(JSON.parse(last_response.body)['status']).must_equal 'no_content'
+      _(last_response.status).must_equal 404
+      _(JSON.parse(last_response.body)['status']).must_equal 'not_found'
       _(JSON.parse(last_response.body)['message']).must_include 'No shop is found from menu'
     end
 
@@ -99,8 +99,8 @@ describe 'Test API routes' do
       post "/api/v1/shops/sdffsdfds"
 
       puts last_response.body
-      _(last_response.status).must_equal 204
-      _(JSON.parse(last_response.body)['status']).must_equal 'no_content'
+      _(last_response.status).must_equal 404
+      _(JSON.parse(last_response.body)['status']).must_equal 'not_found'
       _(JSON.parse(last_response.body)['message']).must_include 'Error with Gmap API:'
     end
   end
@@ -108,6 +108,9 @@ describe 'Test API routes' do
   # 交給你了
   describe 'Extract shop route' do
     it 'should be able to extract shop' do
+      search_keyword = DrinkKing::Request::SearchKeyword.new(KEYWORD)
+      DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword)
+      
       get "/api/v1/extractions/#{SHOPID}"
       _(last_response.status).must_equal 200
       body = JSON.parse(last_response.body)

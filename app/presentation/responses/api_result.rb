@@ -3,7 +3,7 @@
 module DrinkKing
   module Response
     SUCCESS = Set.new(
-      %i[ok created processing no_content]
+      %i[ok created processing not_found]
     ).freeze
 
     FAILURE = Set.new(

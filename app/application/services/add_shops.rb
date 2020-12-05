@@ -33,7 +33,7 @@ module DrinkKing
         shopname_list << input
 
         if shopname_list.empty?
-          Failure(Response::ApiResult.new(status: :no_content, message: 'No shop is found from menu'))
+          Failure(Response::ApiResult.new(status: :not_found, message: 'No shop is found from menu'))
         else
           Success(shopname_list)
         end
@@ -56,7 +56,7 @@ module DrinkKing
         end
 
         if shops.empty?
-          Failure(Response::ApiResult.new(status: :no_content, message: error_message))
+          Failure(Response::ApiResult.new(status: :not_found, message: error_message))
         else
           Success(shops)
         end
