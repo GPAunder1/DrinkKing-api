@@ -25,7 +25,7 @@ describe 'Test API routes' do
   # end
 
   describe 'Root route' do
-    it 'should successfully return root information' do
+    it '(HAPPY) should successfully return root information' do
       get '/'
       _(last_response.status).must_equal 200
 
@@ -35,16 +35,37 @@ describe 'Test API routes' do
     end
   end
 
-  # 我之後再寫
   describe 'List shops route' do
-    it 'should be able to return shop lists' do
+    it '(HAPPY) should be able to return shop lists' do
+      search_keyword = DrinkKing::Request::SearchKeyword.new(KEYWORD)
+      DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword)
+
+      get URI.escape("/api/v1/shops?keyword=#{KEYWORD}")
+      _(last_response.status).must_equal 200
+
+      body = JSON.parse(last_response.body)
+      shop = body['shops'][0]
+      _(shop['placeid']).must_equal SHOPID
+      _(shop['name']).must_equal SHOPNAME
+      _(shop['reviews'].count).must_equal 5
+      _(shop['menu']['shopname']).must_include SHOPNAME
+    end
+
+    it '(SAD) should report error if no shop is found from menu' do
       skip
-      get "/api/v1/shops?keyword=#{KEYWORD}"
+    end
+
+    it '(SAD) should report error if no shop is found from database' do
+      get "/api/v1/shops?keyword=#{GARBLE}"
+
+      _(last_response.status).must_equal 204
+      _(JSON.parse(last_response.body)['status']).must_equal 'no_content'
+      _(JSON.parse(last_response.body)['message']).must_include 'No shop is found'
     end
   end
 
   describe 'Add shops route' do
-    it 'should be able to add shops to database' do
+    it '(HAPPY) should be able to add shops to database' do
       post URI.escape("/api/v1/shops/#{SHOPNAME}")
       _(last_response.status).must_equal 201
 
@@ -53,6 +74,34 @@ describe 'Test API routes' do
       _(shop['placeid']).must_equal SHOPID
       _(shop['name']).must_equal SHOPNAME
       _(shop['reviews'].count).must_equal 5
+    end
+
+    it '(BAD) should fail for invalid search keyword' do
+      post "/api/v1/shops/#{GARBLE}"
+
+      _(last_response.status).must_equal 400
+      _(JSON.parse(last_response.body)['status']).must_equal 'bad_request'
+      _(JSON.parse(last_response.body)['message']).must_equal 'Please enter keyword related to drink'
+    end
+
+    it '(SAD) should fail if no shop is found from menu with a searchkeyword' do
+      skip
+      post "/api/v1/shops/sdffsdfds"
+
+      puts last_response.body
+      _(last_response.status).must_equal 204
+      _(JSON.parse(last_response.body)['status']).must_equal 'no_content'
+      _(JSON.parse(last_response.body)['message']).must_include 'No shop is found from menu'
+    end
+
+    it '(SAD) should fail if no shop is found from menu with a googlemapAPI' do
+      skip
+      post "/api/v1/shops/sdffsdfds"
+
+      puts last_response.body
+      _(last_response.status).must_equal 204
+      _(JSON.parse(last_response.body)['status']).must_equal 'no_content'
+      _(JSON.parse(last_response.body)['message']).must_include 'Error with Gmap API:'
     end
   end
 

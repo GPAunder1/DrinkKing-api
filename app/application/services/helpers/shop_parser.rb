@@ -11,12 +11,16 @@ module DrinkKing
       end
 
       def parse
-        ostruct_shop = OpenStruct.new(@shop)
+        ostruct_shop = to_openstruct(@shop)
         ostruct_shop.recommend_drink = @recommend_drink
-        ostruct_shop.menu = @menu
-        ostruct_shop.reviews = ostruct_shop.reviews.map { | review | review = OpenStruct.new(review) }
+        ostruct_shop.menu = to_openstruct(@menu)
 
         ostruct_shop
+      end
+
+      # nested openstruct
+      def to_openstruct(hash)
+        JSON.parse(hash.to_json, object_class: OpenStruct)
       end
     end
   end

@@ -22,7 +22,7 @@ module DrinkKing
         if search_keyword.success?
           Success(search_keyword.value!)
         else
-          Failure(Response::ApiResult.new(status: :bad_request, message: 'No Shop found'))
+          Failure(Response::ApiResult.new(status: :bad_request, message: 'Please enter keyword related to drink'))
         end
       end
 
@@ -31,18 +31,35 @@ module DrinkKing
         # ===to be implement=== find shop in menu
         # shopname_list = ShopFinder.new(input)
         shopname_list << input
-        Success(shopname_list)
+
+        if shopname_list.empty?
+          Failure(Response::ApiResult.new(status: :no_content, message: 'No shop is found from menu'))
+        else
+          Success(shopname_list)
+        end
       rescue StandardError => error
         Failure(Response::ApiResult.new(status: :internal_error, message: error.to_s))
       end
 
       def find_shops_from_googlemap(input)
         shops = []
+        valid_error_message = 'No result'
+        error_message = "Error with finding shops from googlemap"
+
         input.map do |shopname|
-          shop_from_googlemap(input).map{ |shop| shops << shop }
+          api_result = shop_from_googlemap(shopname)
+          if api_result.is_a?(String)
+            error_message = api_result
+          else
+            api_result.map{ |shop| shops << shop }
+          end
         end
 
-        Success(shops)
+        if shops.empty?
+          Failure(Response::ApiResult.new(status: :no_content, message: error_message))
+        else
+          Success(shops)
+        end
       rescue StandardError => error
         Failure(Response::ApiResult.new(status: :internal_error, message: error.to_s))
       end
@@ -63,7 +80,7 @@ module DrinkKing
         response = Googlemap::ShopMapper.new(App.config.API_TOKEN).find(input)
         if response.is_a? String
           error_message = 'Error with Gmap API: ' + response
-          Failure(Response::ApiResult.new(status: :bad_request, message: error_message))
+          error_message
         else
           response
         end
