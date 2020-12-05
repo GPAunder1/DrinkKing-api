@@ -11,7 +11,6 @@ module DrinkKing
       include Dry::Monads::Result::Mixin
 
       def call(input)
-        # shop id ChIJj-JB7XI2aDQReyt7-6gXNXk
         shopid = input[:shop_id]
         recommend_drink = DrinkKing::Mapper::ReviewsExtractionMapper.find_by_shopid(shopid).recommend_drink
         Success(Response::ApiResult.new(status: :ok, message: recommend_drink))

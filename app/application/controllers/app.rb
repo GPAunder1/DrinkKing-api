@@ -92,11 +92,15 @@ module DrinkKing
 
         # GET /api/v1/menus?keyword={keyword}&searchby={shop/drink}
         routing.get 'menus' do
-          result = Service::ShopMenu.new.call({ keyword: routing.params['keyword'], searchby:routing.params['searchby']})
+          result = Service::ShopMenu.new.call({ keyword: routing.params['keyword'], searchby:routing.params['searchby'] })
+          if result.failure?
+            failed = Representer::HttpResponse.new(result.failure)
+            routing.halt failed.http_status_code, failed.to_json
+          end
           http_response = Representer::HttpResponse.new(result.value!)
           response.status = http_response.http_status_code
           # Representer::Menu.new(result.value!.message).to_json
-          result.value!.message.to_json ## test code
+          result.value!.message.to_json
         end
       end
     end
