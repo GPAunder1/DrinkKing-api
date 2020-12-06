@@ -12,7 +12,7 @@ module DrinkKing
         @searchby = searchby
       end
 
-      def find
+      def find_shopname
         if @searchby == 'shop'
           reduce_to_shopname(search_by_shopname(@keyword))
         elsif @searchby == 'drink'
@@ -34,10 +34,6 @@ module DrinkKing
         # must return array of shopname list
       end
 
-      def show_all
-        @menu
-      end
-
       private
 
       def reduce_to_shopname(full_list)
@@ -53,7 +49,7 @@ module DrinkKing
 
       def search_by_shopname(keyword)
         result = []
-        @menu.map { |shop_menu| result << shop_menu if shop_menu['shopname'].include? keyword }
+        @menu.map { |shop_menu| result << shop_menu if shop_menu['shopname'].include?(keyword) || keyword.include?(shop_menu['shopname']) }
         result
       end
 

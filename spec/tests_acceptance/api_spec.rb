@@ -51,8 +51,17 @@ describe 'Test API routes' do
       _(shop['menu']['shopname']).must_include SHOPNAME
     end
 
-    it '(SAD) should report error if no shop is found from menu' do
-      skip
+    it '(HAPPY) should be able to return shop lists that keyword is related both with shopname and drinkname' do
+      search_keyword = DrinkKing::Request::SearchKeyword.new(DRINKNAME)
+      DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword)
+
+      get URI.escape("/api/v1/shops?keyword=#{DRINKNAME}")
+      _(last_response.status).must_equal 200
+
+      body = JSON.parse(last_response.body)
+      body['shops'].map do |shop|
+        _(shop['name']).must_include shop['menu']['shopname']
+      end
     end
 
     it '(SAD) should report error if no shop is found from database' do
@@ -67,6 +76,7 @@ describe 'Test API routes' do
   describe 'Add shops route' do
     it '(HAPPY) should be able to add shops to database' do
       post URI.escape("/api/v1/shops/#{SHOPNAME}")
+
       _(last_response.status).must_equal 201
 
       body = JSON.parse(last_response.body)
@@ -85,32 +95,27 @@ describe 'Test API routes' do
     end
 
     it '(SAD) should fail if no shop is found from menu with a searchkeyword' do
-      skip
       post '/api/v1/shops/sdffsdfds'
 
-      puts last_response.body
       _(last_response.status).must_equal 404
       _(JSON.parse(last_response.body)['status']).must_equal 'not_found'
       _(JSON.parse(last_response.body)['message']).must_include 'No shop is found from menu'
     end
 
     it '(SAD) should fail if no shop is found from menu with a googlemapAPI' do
-      skip
-      post '/api/v1/shops/sdffsdfds'
+      post URI.escape('/api/v1/shops/百源雞排')
 
-      puts last_response.body
       _(last_response.status).must_equal 404
       _(JSON.parse(last_response.body)['status']).must_equal 'not_found'
       _(JSON.parse(last_response.body)['message']).must_include 'Error with Gmap API:'
     end
   end
 
-  # 交給你了
   describe 'Extract shop route' do
     it 'should be able to extract shop' do
       search_keyword = DrinkKing::Request::SearchKeyword.new(KEYWORD)
       DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword)
-      
+
       get "/api/v1/extractions/#{SHOPID}"
       _(last_response.status).must_equal 200
       body = JSON.parse(last_response.body)
@@ -123,9 +128,8 @@ describe 'Test API routes' do
       get URI.escape("api/v1/menus?keyword=#{DRINKNAME}&searchby=drink")
       _(last_response.status).must_equal 200
       body = JSON.parse(last_response.body)
-      check_keyword = false
-      body[0]['drinks'].map { |drink| check_keyword = true if drink.include?DRINKNAME }
-      assert(flag)
+
+      _(body[0]['drinks'].select { |drink| drink['name'].include?(DRINKNAME) }.empty?).must_equal false
     end
 
     it 'should be able to get shop menu by shopname' do

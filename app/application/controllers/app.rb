@@ -76,7 +76,6 @@ module DrinkKing
             # GET /api/v1/extractions/{shopid}
             # /api/v1/extractions/ChIJj-JB7XI2aDQReyt7-6gXNXk
             routing.get do
-              # shop_id = Request::SearchKeyword.new(shopid)
               result = Service::ExtractShop.new.call(shop_id: shopid)
               if result.failure?
                 failed = Representer::HttpResponse.new(result.failure)
@@ -84,7 +83,7 @@ module DrinkKing
               end
               http_response = Representer::HttpResponse.new(result.value!)
               response.status = http_response.http_status_code
-              result.value!.message.to_json ## test code
+              result.value!.message.to_json
               # Representer::ShopsList.new(result.value!.message).to_json
             end
           end

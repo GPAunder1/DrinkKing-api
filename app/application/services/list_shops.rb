@@ -17,11 +17,9 @@ module DrinkKing
       step :parse_to_shop_list
 
       def find_shops_in_menu(input)
-        shopname_list = []
-        # ===to be implement=== find shop in menu
-        # shopname_list = ShopFinder.new(input[:search_keyword])
-        input[:shopname_list] = []
-        input[:shopname_list] << input[:search_keyword]
+        shopname_list = ShopFinder.new(input[:search_keyword]).find_shopname
+        input[:shopname_list] = shopname_list
+
         Success(input)
       rescue StandardError => error
         Failure(Response::ApiResult.new(status: :not_found, message: 'No shop is found from menu'))
@@ -46,8 +44,8 @@ module DrinkKing
 
         input[:menus] = []
         input[:shops].map do |shop|
-          # menu = GetShopMenu.new(shopname).call.value!
-          input[:menus] << temp_menu
+          menu = ShopFinder.new(shop.name, 'shop').find_shopname_and_menu
+          input[:menus] << menu[0]
         end
 
         Success(input)

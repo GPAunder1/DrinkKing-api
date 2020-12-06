@@ -27,10 +27,7 @@ module DrinkKing
       end
 
       def find_shops_in_menu(input)
-        shopname_list = []
-        # ===to be implement=== find shop in menu
-        # shopname_list = ShopFinder.new(input)
-        shopname_list << input
+        shopname_list = ShopFinder.new(input).find_shopname
 
         if shopname_list.empty?
           Failure(Response::ApiResult.new(status: :not_found, message: 'No shop is found from menu'))
@@ -47,11 +44,13 @@ module DrinkKing
         error_message = "Error with finding shops from googlemap"
 
         input.map do |shopname|
-          api_result = shop_from_googlemap(shopname)
+          api_result = shop_from_googlemap(shopname.split[0])
           if api_result.is_a?(String)
             error_message = api_result
           else
-            api_result.map{ |shop| shops << shop }
+            api_result.map do |shop|
+              shops << shop if shop.name.include? shopname
+            end
           end
         end
 
