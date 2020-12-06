@@ -1,7 +1,7 @@
 config/secrets.yml
 lib/*
 coverage/*
-!coverage/.resultset.json
 *.db
 app/presentation/assets/js/config.js
 .bundle/
+.irb_history
