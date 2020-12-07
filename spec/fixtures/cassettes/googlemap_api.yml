@@ -20756,4 +20756,3509 @@ http_interactions:
       string: !binary |-
         5aW26JOLIOezu+WIlyDlvogg5LiN6KGMIAog5ZGz6YGTIOWDjyDniZvlpbbns5YgCiDmirnojLYg5ou/6ZC1IOW7uuitsCDpu54g5LiJ5YiGIOezliDvvIwg54Sh57OWIOecn+eahCDkuI0g5o6o6JamIOS6uiDllp0gCiAKIOaOqOiWpiDpgJkg5a62IOeahCDojLbpoZ4g5oiWIOeEoeezliDns7vliJcg5q+U6LyDIOWlveWWnSDvvIE=
   recorded_at: Sun, 06 Dec 2020 15:30:55 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%9C%89line%E7%B7%9A%E4%B8%8A%E8%A8%82%E9%A4%90%E5%BE%88%E6%96%B9%E4%BE%BF+%E7%86%9F%E6%88%90%E5%BE%88%E5%A5%BD%E5%96%9D+%E6%AD%90%E8%95%BE%E6%9B%B4%E5%A5%BD%E5%96%9D
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:37 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '73'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5pyJIGxpbmUg57ea5LiKIOiogumkkCDlvogg5pa55L6/ICAg54af5oiQIOW+iCDlpb3llp0gICDmrZDolb4g5pu0IOWlveWWnQ==
+  recorded_at: Mon, 07 Dec 2020 14:16:36 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%BB%9E%E9%A4%90%E5%91%8A%E7%9F%A5%E9%9C%80%E7%AD%895-10%E5%88%86%E9%90%98%EF%BC%8C%E7%B5%A6%E4%BA%86%E8%99%9F%E7%A2%BC%E9%A0%86%E5%BA%8F%E5%8D%BB%E4%B8%8D%E4%BE%9D%E5%BA%8F%E8%99%9F%E5%87%BA%E9%A4%90%3F%0Auber%E4%B8%80%E5%88%B0%E8%B3%AA%E5%95%8F%E8%A6%81%E5%86%8D%E7%AD%89%E5%A4%9A%E4%B9%85%EF%BC%8C%E9%9A%94%E6%B2%92%E4%BA%94%E5%88%86%E9%90%98%E7%AB%8B%E5%88%BB%E5%87%BA%E7%B5%A6uber%3F+%E7%95%B6%E7%8F%BE%E5%A0%B4%E6%8E%92%E9%9A%8A%E7%9A%84%E4%BA%BA%E7%A9%BA%E6%B0%A3%3F%0A%E9%82%84%E8%A6%81%E5%AE%A2%E6%88%B6%E4%B8%BB%E5%8B%95%E5%95%8F%E6%98%AF%E5%90%A6%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E8%99%9F%E7%A2%BC%E4%BA%86%EF%BC%8C%E6%89%8D%E7%AB%8B%E5%88%BB%E5%87%BA%E9%A4%90%E7%B5%A6%E4%BD%A0%3F+%E4%B9%9F%E5%AE%8C%E5%85%A8%E4%B8%8D%E7%AE%A1%E9%A0%86%E5%BA%8F%3F+%E6%9C%89%E5%90%B5%E6%9C%89%E7%B3%96%E5%90%83%3F+%E5%B7%B2%E7%B6%93%E5%85%A9%E6%AC%A1%E4%BA%86%EF%BC%8C%E4%B9%9F%E4%B8%8D%E8%A6%8B%E6%94%B9%E5%96%84%E3%80%82%E8%A6%81%E4%B8%8D%E4%B9%BE%E8%84%86%E4%B8%AD%E5%8D%88%E4%B8%8D%E8%A6%81%E9%96%8B%E6%94%BE%E7%9B%B4%E6%8E%A5%E5%81%9Auber%E7%94%9F%E6%84%8F%E5%B0%B1%E5%A5%BD%3F
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:39 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '471'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6bue6aSQIOWRiuefpSDpnIAg562JIDUgLSAxMCDliIbpkJgg77yMIOe1piDkuoYg6Jmf56K8IOmghuW6jyDljbsg5LiNIOS+neW6jyDomZ8g5Ye66aSQID8gCiB1YmVyIOS4gCDliLAg6LOq5ZWPIOimgSDlho0g562JIOWkmuS5hSDvvIwg6ZqUIOaykiDkupTliIbpkJgg56uL5Yi7IOWHuue1piB1YmVyID8gICDnlbYg54++5aC0IOaOkumaiiDnmoQg5Lq6IOepuuawoyA/IAog6YKE6KaBIOWuouaItiDkuLvli5Ug5ZWPIOaYr+WQpiDliLAg6Ieq5bexIOeahCDomZ/norwg5LqGIO+8jCDmiY0g56uL5Yi7IOWHuumkkCDntaYg5L2gID8gICDkuZ8g5a6M5YWoIOS4jeeuoSDpoIbluo8gPyAgIOaciSDlkLUg5pyJ57OWIOWQgyA/ICAg5bey57aTIOWFqSDmrKEg5LqGIO+8jCDkuZ8g5LiNIOimiyDmlLnlloQg44CCIOimgSDkuI0g5Lm+6ISGIOS4reWNiCDkuI3opoEg6ZaL5pS+IOebtOaOpSDlgZogdWJlciDnlJ/mhI8g5bCxIOWlvSA/
+  recorded_at: Mon, 07 Dec 2020 14:16:38 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%A5%BD%E6%A3%92%21%E4%B8%80%E6%9D%AF25%E5%85%83%E7%9A%84%E5%86%B0%E5%A1%8A%E8%A3%A1%E9%9D%A2%0A%E7%AB%9F%E7%84%B6%E9%82%84%E6%9C%89%E9%99%84%E8%B4%88%E9%A3%B2%E6%96%99%E8%80%B6%21
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:42 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '78'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5aW95qOSICEg5LiAIOadryAyNSDlhYMg55qEIOWGsOWhiiDoo6HpnaIgCiDnq5/nhLYg6YKEIOaciSDpmYTotIgg6aOy5paZIOiAtiAh
+  recorded_at: Mon, 07 Dec 2020 14:16:41 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%B9%B3%E6%97%A5%E4%BA%BA%E5%8A%9B%E5%9A%B4%E9%87%8D%E4%B8%8D%E8%B6%B3%E4%B8%94%E6%9C%89%E5%BE%85%E8%A8%93%E7%B7%B4%2C%E6%8E%A5%E5%96%AE%E9%87%8F%E6%87%89%E6%9C%89%E6%89%80%E9%99%90%E5%88%B6%2C%E5%BB%BA%E8%AD%B0%E5%A6%82%E6%9E%9C%E6%9C%89%E6%99%82%E9%96%93%E7%AD%89%E7%9A%84%E8%A9%B1%E5%86%8D%E8%80%83%E6%85%AE%E8%B3%BC%E8%B2%B7
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:43 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '132'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5bmz5pelIOS6uuWKmyDlmrTph40g5LiN6LazIOS4lCDmnInlvoUg6KiT57e0ICwg5o6l5ZauIOmHj+aHiSDmnInmiYAg6ZmQ5Yi2ICwg5bu66K2wIOWmguaenCDmnIkg5pmC6ZaTIOetiSDnmoQg6KmxIOWGjSDogIPmha4g6LO86LK3
+  recorded_at: Mon, 07 Dec 2020 14:16:42 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%A3%B2%E6%96%99%E5%BE%88%E5%A5%BD%E5%96%9D%E2%9C%A8%E5%87%BA%E9%A4%90%E4%B9%9F%E5%BE%88%E5%BF%AB%E9%80%9F%E5%8F%88%E8%A6%AA%E5%88%87%E2%98%BA%EF%B8%8F
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:44 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '62'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6aOy5paZIOW+iCDlpb3llp0g4pyoIOWHuumkkCDkuZ8g5b6IIOW/q+mAnyDlj4gg6Kaq5YiHIOKYuiDvuI8=
+  recorded_at: Mon, 07 Dec 2020 14:16:43 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%89%8D%E9%9D%A2%E6%A9%9F%E8%BB%8A%E8%A0%BB%E5%A5%BD%E8%87%A8%E5%81%9C%E7%9A%84%EF%BC%8C%E5%BA%97%E5%93%A1%E6%85%8B%E5%BA%A6%E8%A6%AA%E5%88%87%EF%BC%8C%E9%A3%B2%E6%96%99%E8%B7%9F%E6%88%91%E5%9C%A8%E6%AF%94%E8%BC%83%E6%AD%A3%E5%B8%B8%E7%9A%84%E5%8F%AF%E4%B8%8D%E5%8F%AF%E5%96%9D%E5%88%B0%E6%98%AF%E4%B8%80%E6%A8%A3%E7%9A%84%EF%BC%8C%E6%9C%89%E4%BA%9B%E5%8A%A0%E7%9B%9F%E5%BA%97%E5%91%B3%E9%81%93%E6%9C%83%E8%B7%91%E6%8E%89%E3%80%81%E6%88%96%E7%94%9C%E5%BA%A6%E4%B8%8D%E4%B8%80%EF%BC%8C%E9%80%99%E5%AE%B6%E6%B2%92%E9%80%99%E7%A8%AE%E5%95%8F%E9%A1%8C
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:46 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '222'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5YmN6Z2iIOapn+i7iiDooLvlpb0g6Ieo5YGcIOeahCDvvIwg5bqX5ZOhIOaFi+W6piDopqrliIcg77yMIOmjsuaWmSDot58g5oiRIOWcqCDmr5TovIMg5q2j5bi4IOeahCDlj68g5LiN5Y+vIOWWneWIsCDmmK8g5LiA5qijIOeahCDvvIwg5pyJ5LqbIOWKoOebn+W6lyDlkbPpgZMg5pyDIOi3keaOiSDjgIEg5oiWIOeUnOW6piDkuI3kuIAg77yMIOmAmSDlrrYg5rKSIOmAmSDnqK4g5ZWP6aGM
+  recorded_at: Mon, 07 Dec 2020 14:16:45 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%89%8D%E5%B9%BE%E5%A4%A9%E4%B8%AD%E5%8D%88%E7%9A%84%E6%99%82%E5%80%99%E8%B2%B7%E4%BA%86%E4%B8%80%E6%9D%AF%E7%86%9F%E6%88%90%E6%AD%90%E8%95%BE%E5%BE%AE%E7%B3%96%E5%8E%BB%E5%86%B0%EF%BC%8C%E7%B5%90%E6%9E%9C%E4%BB%96%E5%80%91%E6%A8%99%E7%B1%A4%E4%B8%8A%E5%AF%AB%E5%BE%AE%E7%B3%96%EF%BC%8C%E5%8F%AF%E6%98%AF%E9%A3%B2%E6%96%99%E8%A3%A1%E9%9D%A2%E5%8D%BB%E5%BF%98%E4%BA%86%E5%8A%A0%E7%B3%96%28%E6%88%91%E5%BE%88%E7%A2%BA%E5%AE%9A%EF%BC%8C%E6%88%91%E5%BE%88%E5%B8%B8%E5%96%9D%E5%BE%AE%E7%B3%96%E7%9A%84%E7%86%9F%E6%88%90%E6%AD%90%E8%95%BE%EF%BC%8C%E4%B9%9F%E8%B2%B7%E9%81%8E%E4%B8%80%E6%AC%A1%E7%84%A1%E7%B3%96%E7%9A%84%EF%BC%8C%E5%8F%AF%E6%98%AF%E5%A4%AA%E9%9B%A3%E5%96%9D%EF%BC%8C%E7%84%A1%E6%B3%95%E6%8E%A5%E5%8F%97%29%EF%BC%8C%E7%B5%90%E6%9E%9C%E6%99%9A%E4%B8%8A%E6%88%91%E5%8F%88%E5%8E%BB%E8%B2%B7%E4%BA%86%E4%B8%80%E6%9D%AF%E7%86%9F%E6%88%90%E6%AD%90%E8%95%BE%E5%BE%AE%E7%B3%96%E5%8E%BB%E5%86%B0%EF%BC%8C%E4%B8%A6%E4%B8%94%E5%91%8A%E7%9F%A5%E4%B8%80%E4%BD%8D%E5%8F%AB%E5%9C%8BX%E7%9A%84%E5%BA%97%E5%93%A1%E4%B8%AD%E5%8D%88%E7%9A%84%E6%83%85%E6%B3%81%EF%BC%8C%E4%BB%96%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E6%83%A1%E5%8A%A3%EF%BC%8C%E7%90%86%E9%83%BD%E4%B8%8D%E7%90%86%EF%BC%8C%E7%95%B6%E4%B8%8B%E4%B8%A6%E4%B8%8D%E6%98%AF%E4%B8%80%E5%80%8B%E5%BE%88%E5%A4%9A%E5%AE%A2%E4%BA%BA%E5%BE%88%E5%BF%99%E7%A2%8C%E7%9A%84%E7%8B%80%E6%B3%81%28%E5%8F%AA%E6%9C%89%E6%88%91%E5%92%8C%E6%88%91%E6%9C%8B%E5%8F%8B%29%EF%BC%8C%E9%80%99%E7%A8%AE%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E8%AE%93%E4%BA%BA%E7%84%A1%E6%B3%95%E8%8B%9F%E5%90%8C%EF%BC%8C%E5%BB%BA%E8%AD%B0%E5%B0%87%E6%AD%A4%E5%BA%97%E5%93%A1%E6%8A%93%E5%9B%9E%E5%8E%BB%E5%81%9A%E8%A8%93%E7%B7%B4%E3%80%82
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:47 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '671'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5YmN5bm+5aSpIOS4reWNiCDnmoQg5pmC5YCZIOiytyDkuoYg5LiAIOadryDnhp/miJDmrZDolb4g5b6u57OWIOWOu+WGsCDvvIwg57WQ5p6cIOS7luWAkSDmqJnnsaQg5LiKIOWvqyDlvq7ns5Yg77yMIOWPr+aYryDpo7Lmlpkg6KOh6Z2iIOWNuyDlv5jkuoYg5Yqg57OWICgg5oiRIOW+iCDnorrlrpog77yMIOaIkSDlvogg5bi4IOWWnSDlvq7ns5Yg55qEIOeGn+aIkOatkOiVviDvvIwg5LmfIOiyt+mBjiDkuIAg5qyhIOeEoeezliDnmoQg77yMIOWPr+aYryDlpKog6ZujIOWWnSDvvIwg54Sh5rOVIOaOpeWPlyApIO+8jCDntZDmnpwg5pma5LiKIOaIkSDlj4gg5Y67IOiytyDkuoYg5LiAIOadryDnhp/miJDmrZDolb4g5b6u57OWIOWOu+WGsCDvvIwg5Lim5LiUIOWRiuefpSDkuIAg5L2NIOWPq+WciyBYIOeahCDlupflk6Eg5Lit5Y2IIOeahCDmg4Xms4Eg77yMIOS7liDmnI3li5kg5oWL5bqmIOaDoeWKoyDvvIwg55CG6YO9IOS4jeeQhiDvvIwg55W25LiLIOS4piDkuI0g5pivIOS4gCDlgIsg5b6I5aSaIOWuouS6uiDlvogg5b+Z56KMIOeahCDni4Dms4EgKCDlj6rmnIkg5oiRIOWSjCDmiJEg5pyL5Y+LICkg77yMIOmAmSDnqK4g5pyN5YuZIOaFi+W6piDorpMg5Lq6IOeEoeazlSDoi5/lkIwg77yMIOW7uuitsCDlsIcg5q2kIOW6l+WToSDmipPlm57ljrsg5YGaIOiok+e3tCDjgII=
+  recorded_at: Mon, 07 Dec 2020 14:16:46 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%AE%97%E4%B8%8D%E9%8C%AF%0A%E4%B8%8D%E5%96%9C%E6%AD%A1%E5%A4%AA%E6%BF%83%E9%83%81%E7%9A%84%0A%E5%8F%AF%E5%8A%A0%E9%96%8B%E6%B0%B4%E7%A8%80%E9%87%8B%0A1%E6%9D%AF%E7%95%B62%E6%9D%AF%E5%96%9D
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:48 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '83'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        566XIOS4jemMryAKIOS4jSDllpzmraEg5aSqIOa/g+mDgSDnmoQgCiDlj6/liqAg6ZaL5rC0IOeogOmHiyAKIDEg5p2vIOeVtiAyIOadryDllp0=
+  recorded_at: Mon, 07 Dec 2020 14:16:47 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%93%81%E7%89%8C%E7%9A%84%E9%A3%B2%E6%96%99%E6%98%AF%E5%A5%BD%E5%96%9D%EF%BC%8C%E4%BD%86%E6%98%AF%E9%80%99%E9%96%93%E5%BA%97%E7%9A%84%E5%8E%BB%E5%86%B0%E5%B0%8F%E7%A2%8E%E5%86%B0%E4%B9%9F%E5%A4%AA%E5%A4%9A%E3%80%81%E5%A4%AA%E5%A4%A7%E5%A1%8A%EF%BC%8C%E6%A0%B9%E6%9C%AC%E9%9A%A8%E4%BE%BF%E5%81%9A%E5%81%9A%EF%BC%8C%E9%82%84%E5%9B%9E%E8%AA%AA%E4%B8%8B%E6%AC%A1%E8%A6%81%E9%BB%9E%E5%AE%8C%E5%85%A8%E5%8E%BB%E5%86%B0%E7%9A%84%E8%97%89%E5%8F%A3%EF%BC%8C%E6%88%91%E5%8F%88%E4%B8%8D%E6%98%AF%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%B2%B7%E6%80%8E%E9%BA%BC%E6%9C%83%E4%B8%8D%E7%9F%A5%E9%81%93%EF%BC%8C%E5%82%BB%E7%9C%BC
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:49 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '249'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5ZOB54mMIOeahCDpo7Lmlpkg5pivIOWlveWWnSDvvIwg5L2G5pivIOmAmSDplpPlupcg55qEIOWOu+WGsCDlsI8g56KO5YawIOS5nyDlpKrlpJog44CBIOWkqiDlpKcg5aGKIO+8jCDmoLnmnKwg6Zqo5L6/IOWBmuWBmiDvvIwg6YKEIOWbniDoqqog5LiLIOasoSDopoHpu54g5a6M5YWoIOWOu+WGsCDnmoQg6JeJ5Y+jIO+8jCDmiJEg5Y+IIOS4jSDmmK8g56ysIOS4gCDmrKEg6LK3IOaAjum6vCDmnIMg5LiNIOefpemBkyDvvIwg5YK755y8
+  recorded_at: Mon, 07 Dec 2020 14:16:48 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E8%B2%B7%E9%81%8E%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E5%B9%B3%E5%9D%87%E6%9C%80%E5%A5%BD%E7%9A%84%E4%B8%80%E5%AE%B6%F0%9F%91%8D%F0%9F%8F%BB
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:51 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '56'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6LK36YGOIOacjeWLmSDmhYvluqYg5bmz5Z2HIOacgOWlvSDnmoQg5LiAIOWutiDwn5GNIPCfj7s=
+  recorded_at: Mon, 07 Dec 2020 14:16:50 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%BE%88%E5%96%9C%E6%AD%A1%E9%80%99%E6%AC%A1%E7%9A%84%E8%81%AF%E5%90%8D%0A%E5%8F%AF%E4%B8%8D%E5%8F%AF%C3%97%E5%AF%B6%E5%8F%AF%E5%A4%A2+%3D+%EF%BC%9F%0A%E4%B8%8D%E6%98%AF%E5%AF%B6%E5%8F%AF%E4%B8%8D%E5%8F%AF%E5%A4%A2%EF%BC%8C%E6%98%AF%E6%BD%AE%E4%B8%8A%E5%8A%A0%E6%BD%AE%0A%E6%9C%83%E6%B7%B9%E6%B0%B4%E9%82%A3%E7%A8%AE%0A%0A%E6%96%B0%E5%93%81%E9%A0%85%E4%B9%9F%E5%BE%88%E8%AE%9A%0A%E9%BB%83%E7%8E%89%E6%AD%90%E8%95%BE%E7%9A%84%E5%B8%83%E4%B8%81%E6%9C%89%E5%A4%A0%E7%8C%9B%0A%E5%85%A5%E5%8F%A3%E5%8D%B3%E5%8C%96%E7%9A%84%E5%90%8C%E6%99%82%E8%AE%93%E7%94%9C%E5%91%B3%E6%93%B4%E6%95%A3%E9%96%8B%0A%E5%91%B3%E8%A6%BA%E8%B3%AA%E6%84%9F%E7%9B%B4%E7%B7%9A%E9%A3%86%E5%8D%87%0A%E5%90%8A%E6%89%93%E8%BF%B7%E5%AE%A2%E5%A4%8F%E7%9A%84%E5%90%89%E5%88%A9%E4%B8%81%E5%A5%B6%E8%8C%B6%0A%0A%E5%8F%AF%E4%B8%8D%E5%8F%AF%E5%86%8D%E6%88%B0%E5%8D%81%E5%B9%B4
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:52 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '350'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5b6IIOWWnOatoSDpgJkg5qyhIOeahCDoga/lkI0gCiDlj68g5LiN5Y+vIMOXIOWvtuWPr+WkoiAgID0gICDvvJ8gCiDkuI0g5pivIOWvtuWPryDkuI3lj68g5aSiIO+8jCDmmK8g5r2u5LiKIOWKoOa9riAKIOacgyDmt7nmsLQg6YKjIOeoriAKIAog5paw5ZOBIOmghSDkuZ8g5b6IIOiumiAKIOm7g+eOieatkOiVviDnmoQg5biD5LiBIOacieWkoCDnjJsgCiDlhaXlj6Mg5Y2z5YyWIOeahCDlkIzmmYIg6K6TIOeUnOWRsyDmk7TmlaMg6ZaLIAog5ZGz6Ka6IOizquaEnyDnm7Tnt5og6aOG5Y2HIAog5ZCK5omTIOi/t+WuouWkjyDnmoQg5ZCJ5YipIOS4gSDlpbbojLYgCiAKIOWPryDkuI3lj68g5YaNIOaIsCDljYHlubQ=
+  recorded_at: Mon, 07 Dec 2020 14:16:51 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E8%B2%B7%E9%9B%AA%E8%97%8F%E7%B4%85%E8%8C%B6%EF%BC%8C%E7%B5%90%E6%9E%9C%E5%BA%97%E5%93%A1%E5%9C%A8%E5%B0%81%E5%8F%A3%E5%BE%8C%E6%90%96%E6%99%83%E5%A5%BD%E5%B9%BE%E4%B8%8B%EF%BC%8C%E7%84%B6%E5%BE%8C%E5%86%B0%E6%B7%87%E6%B7%8B%E9%83%BD%E6%95%A3%E4%BA%86...%0A%E5%86%B0%E6%B7%87%E6%B7%8B%E7%B4%85%E8%8C%B6%E9%83%BD%E6%B2%92%E5%86%B0%E6%B7%87%E6%B7%8B%E4%BA%86....
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:53 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '149'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6LK3IOmbquiXj+e0heiMtiDvvIwg57WQ5p6cIOW6l+WToSDlnKgg5bCB5Y+jIOW+jCDmkJbmmYMg5aW9IOW5viDkuIsg77yMIOeEtuW+jCDlhrDmt4fmt4sg6YO9IOaVo+S6hiAuLi4gCiDlhrDmt4fmt4vntIXojLYg6YO9IOaykiDlhrDmt4fmt4sg5LqGIC4uLi4=
+  recorded_at: Mon, 07 Dec 2020 14:16:52 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E8%8C%B6%E6%99%AE%E9%81%8D%E6%B3%A1%E5%A4%AA%E4%B9%85%EF%BC%8C%E5%A4%A7%E6%A6%82%E6%AF%94%E7%AB%B9%E5%8C%97%E6%96%87%E8%88%88%E5%A5%BD%E4%B8%80%E4%BA%9B%EF%BC%8C%E6%AF%8F%E6%AC%A1%E9%83%BD%E5%96%9D%E4%B8%8D%E5%AE%8C%0A%0A%E9%BA%97%E6%98%A5%E7%84%A1%E7%B3%96%E5%B8%B8%E6%BA%AB%EF%BC%8C%E5%85%A8%E5%8F%B0%E5%96%9D%E4%B8%8D%E4%B8%8B%E4%BA%8C%E5%8D%81%E5%AE%B6%EF%BC%8C%E7%B4%AF%E7%A9%8D%E6%95%B8%E7%99%BE%E6%9D%AF%E6%9C%89%E9%A4%98
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:54 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '176'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6Iy2IOaZrumBjSDms6Eg5aSq5LmFIO+8jCDlpKfmpoIg5q+UIOerueWMlyDmlofoiIgg5aW95LiA5LqbIO+8jCDmr48g5qyhIOmDvSDllp0g5LiNIOWujCAKIAog6bqX5pilIOeEoeezliDluLjmuqsg77yMIOWFqCDlj7Ag5ZadIOS4jSDkuIvkuowg5Y2B5a62IO+8jCDntK/nqY0g5pW455m+IOadryDmnInppJg=
+  recorded_at: Mon, 07 Dec 2020 14:16:53 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%96%B0%E8%8F%9C%E5%96%AE%E7%B5%A6%E5%A4%A7%E5%AE%B6%E5%8F%83%E8%80%83%F0%9F%98%81
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:55 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '33'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5pawIOiPnOWWriDntaYg5aSn5a62IOWPg+iAgyDwn5iB
+  recorded_at: Mon, 07 Dec 2020 14:16:54 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%B5%A6%E9%80%B1%E5%85%AD%E6%99%9A%E7%8F%AD%E5%A5%B3%E5%AD%A9%E6%9C%8D%E5%8B%99%E6%B0%B4%E6%BA%96%F0%9F%91%8D%F0%9F%91%8D%F0%9F%91%8D
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:57 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '53'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        57WmIOmAseWFrSDmmZrnj60g5aWz5a2pIOacjeWLmSDmsLTmupYg8J+RjSDwn5GNIPCfkY0=
+  recorded_at: Mon, 07 Dec 2020 14:16:56 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%95%BE%E5%95%BE%E5%BE%88%E6%AD%A3+%E6%AF%8F%E5%A4%A9%E6%88%91%E9%83%BD%E8%B2%B7
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:58 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '35'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5ZW+5ZW+IOW+iCDmraMgICDmr4/lpKkg5oiRIOmDvSDosrc=
+  recorded_at: Mon, 07 Dec 2020 14:16:57 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%81%B8%E8%B3%BC%E5%95%86%E5%93%81%E8%A6%81%E8%B6%81%E6%97%A9%EF%BC%8C%E7%94%A8%E9%A4%90%E6%99%82%E9%96%93%E6%8E%92%E9%9A%8A%E4%BA%BA%E5%A4%9A
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:16:59 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '57'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6YG46LO8IOWVhuWTgSDopoEg6LaB5pepIO+8jCDnlKjppJAg5pmC6ZaTIOaOkumaiiDkurog5aSa
+  recorded_at: Mon, 07 Dec 2020 14:16:58 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%91%B3%E9%81%93%E6%AF%94%E8%B5%B7%E5%85%B6%E4%BB%96%E9%96%93%E5%A5%BD%E5%83%8F%E6%B2%92%E9%82%A3%E9%BA%BC%E5%A5%BD%EF%BC%8C%E4%BD%86%E9%BB%9E%E9%A4%90%E5%BE%88%E5%BF%AB
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:00 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '70'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5ZGz6YGTIOavlOi1tyDlhbYg5LuWIOmWkyDlpb3lg48g5rKSIOmCo+m6vCDlpb0g77yMIOS9hiDpu57ppJAg5b6IIOW/qw==
+  recorded_at: Mon, 07 Dec 2020 14:16:59 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%80%99%E4%B8%80%E6%AC%A1%E4%B8%BB%E6%89%93%E7%9A%84%E7%A5%9E%E5%A5%87%E5%AF%B6%E8%B2%9D%E7%B3%BB%E5%88%97%E7%9C%9F%E7%9A%84%E6%98%AF%E5%BE%88Q%0A%E5%86%8D%E5%8A%A0%E4%B8%8A%E4%BB%96%E5%80%91%E5%AE%B6%E7%9A%84%E7%B4%85%E8%8C%B6%E4%B8%8D%E6%9C%83%E5%A4%AA%E7%94%9C%E5%92%8C%E5%A4%AA%E8%86%A9%0A%E7%9C%9F%E7%9A%84%E5%BE%88%E6%8E%A8
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:02 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '136'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6YCZ5LiAIOasoSDkuLvmiZMg55qEIOelnuWlhyDlr7bosp0g57O75YiXIOecn+eahCDmmK8g5b6IIFEgCiDlho0g5Yqg5LiKIOS7luWAkSDlrrYg55qEIOe0heiMtiDkuI3mnIMg5aSq55ScIOWSjCDlpKrohqkgCiDnnJ/nmoQg5b6IIOaOqA==
+  recorded_at: Mon, 07 Dec 2020 14:17:01 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%87%91%E5%B1%B1%E8%A1%97%E5%9C%A8%E5%9C%B0%E7%9A%84%E9%A3%B2%E6%96%99%E5%B0%88%E8%B3%A3%E5%BA%97%E5%AE%B6%EF%BC%8C%E4%BA%A4%E9%80%9A%E6%96%B9%E4%BE%BF%EF%BC%8C%E5%B0%B1%E5%9C%A8%E4%B8%BB%E8%A1%97%E4%B8%8A%EF%BC%8C%E5%B0%96%E5%B3%B0%E6%99%82%E6%AE%B5%E4%BA%BA%E6%BD%AE%E7%9C%BE%E5%A4%9A
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:03 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '115'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6YeR5bGx6KGXIOWcqCDlnLAg55qEIOmjsuaWmSDlsIjos6Plupcg5a62IO+8jCDkuqTpgJog5pa55L6/IO+8jCDlsLEg5ZyoIOS4u+ihlyDkuIog77yMIOWwluWzsCDmmYLmrrUg5Lq65r2uIOecvuWkmg==
+  recorded_at: Mon, 07 Dec 2020 14:17:02 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E5%A5%BD%F0%9F%91%8D%F0%9F%8F%BB%E4%B9%9F%E5%BE%88%E8%A6%AA%E5%88%87%EF%BD%9E%0A%E5%A4%96%E5%B8%B6%E7%9A%84%E8%A9%B1%E9%83%BD%E6%9C%83%E6%8E%A5%E9%9B%BB%E8%A9%B1%EF%BC%8C%E6%9F%90%E9%96%93%E5%88%86%E5%BA%97%E5%B0%B1%E5%B8%B8%E5%B8%B8%E4%B8%8D%E6%8E%A5%F0%9F%A4%AA
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:04 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '122'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5pyN5YuZIOaFi+W6piDlpb0g8J+RjSDwn4+7IOS5nyDlvogg6Kaq5YiHIO+9niAKIOWkluW4tiDnmoQg6KmxIOmDvSDmnIPmjqUg6Zu76KmxIO+8jCDmn5DplpMg5YiG5bqXIOWwsSDluLjluLgg5LiN5o6lIPCfpKo=
+  recorded_at: Mon, 07 Dec 2020 14:17:03 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E4%BB%8A%E6%99%9A%E8%B3%BC%E8%B2%B7%E7%9A%84%E7%99%BD%E7%8E%89%E6%AD%90%E8%95%BE%E5%8F%8A%E9%BA%97%E6%98%A5%E7%B4%85%E8%8C%B6%EF%BC%8C%E5%A5%BD%E8%8B%A6%E6%BE%80%E9%9B%A3%E5%85%A5%E5%8F%A3%E3%80%82%E8%B7%9F%E4%BB%A5%E5%BE%80%E8%B2%B7%E7%9A%84%E5%8F%A3%E6%84%9F%E5%B7%AE%E5%A5%BD%E5%A4%9A
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:05 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '114'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5LuK5pmaIOizvOiytyDnmoQg55m9546J5q2Q6JW+IOWPiiDpupfmmKXntIXojLYg77yMIOWlvSDoi6bmvoAg6ZujIOWFpeWPoyDjgIIg6LefIOS7peW+gCDosrcg55qEIOWPo+aEnyDlt64g5aW95aSa
+  recorded_at: Mon, 07 Dec 2020 14:17:04 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%A4%A7%E6%9D%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6%E6%AF%94%E5%8C%97%E9%83%A8%E5%88%86%E5%BA%97%E4%BE%BF%E5%AE%9C5%E5%85%83%EF%BC%8C%E5%8F%88%E6%B2%92%E5%A4%B1%E5%8E%BB%E8%A9%B2%E6%9C%89%E6%B0%B4%E6%BA%96%EF%BC%8C%E8%A6%BA%E5%BE%97%E8%B6%85%E5%80%BC%EF%BC%8C%E4%BB%8A%E5%B9%B4%E5%8E%BB%E6%96%B0%E7%AB%B9%E5%85%A9%E6%AC%A1%EF%BC%8C%E6%AF%8F%E6%AC%A1%E5%8E%BB%E9%83%BD%E6%9C%83%E8%B2%B7%EF%BC%8C%E5%BE%88%E8%AE%9A%E3%80%82
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:06 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '177'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5aSnIOadryDnhp/miJDntIXojLYg5q+UIOWMl+mDqCDliIblupcg5L6/5a6cIDUg5YWDIO+8jCDlj4gg5rKSIOWkseWOuyDoqbIg5pyJIOawtOa6liDvvIwg6Ka65b6XIOi2heWAvCDvvIwg5LuK5bm0IOWOuyDmlrDnq7kg5YWpIOasoSDvvIwg5q+PIOasoSDljrsg6YO9IOacgyDosrcg77yMIOW+iCDorpog44CC
+  recorded_at: Mon, 07 Dec 2020 14:17:05 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%AB%83%E6%AA%AF%E7%9A%84%E7%94%B7%E5%BA%97%E5%93%A1%E6%9C%8D%E5%8B%99%E5%BE%88%E5%A5%BD%0A%E6%98%AF%E5%9C%A8%E5%85%A8%E5%8F%B0%E7%9A%84%E5%8F%AF%E4%B8%8D%E5%8F%AF%E4%B8%AD%E8%B3%BC%E8%B2%B7%E9%AB%94%E9%A9%97%E6%9C%80%E5%A5%BD%E7%9A%84
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:07 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '98'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5quD5qqvIOeahCDnlLcg5bqX5ZOhIOacjeWLmSDlvogg5aW9IAog5pivIOWcqCDlhagg5Y+wIOeahCDlj68g5LiN5Y+vIOS4rSDos7zosrcg6auU6amXIOacgOWlvSDnmoQ=
+  recorded_at: Mon, 07 Dec 2020 14:17:06 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%BA%97%E5%93%A1%E5%BE%88%E8%AA%8D%E7%9C%9F%E7%9A%84%E8%AA%AA%E6%98%8E%E9%A3%B2%E6%96%99%E6%B8%9B%E7%B3%96%E7%9A%84%E5%81%9A%E6%B3%95%EF%BC%8C%E6%9B%B4%E5%AE%B9%E6%98%93%E4%BA%86%E8%A7%A3%E8%A6%81%E5%A6%82%E4%BD%95%E9%81%B8%E6%93%87%E7%94%9C%E5%BA%A6%E3%80%82%F0%9F%98%89
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:08 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '109'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5bqX5ZOhIOW+iCDoqo3nnJ8g55qEIOiqquaYjiDpo7Lmlpkg5rib57OWIOeahCDlgZrms5Ug77yMIOabtCDlrrnmmJMg5LqG6KejIOimgSDlpoLkvZUg6YG45pOHIOeUnOW6piDjgIIg8J+YiQ==
+  recorded_at: Mon, 07 Dec 2020 14:17:07 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%BA%97%E5%93%A1%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E8%B6%85%E5%A5%BD%EF%BC%8C%E6%8E%92%E9%9A%8A%E6%99%82%E7%9C%8B%E5%88%B0%E5%A5%B3%E5%BA%97%E5%93%A1%E5%BE%88%E5%AE%A2%E6%B0%A3%E7%9A%84%E8%B7%9F%E5%89%8D%E9%9D%A2%E7%9A%84%E8%80%81%E5%8C%97%E5%8C%97%E8%AC%9B%E8%A7%A3%E3%80%81%E7%A2%BA%E8%AA%8D%E9%BB%9E%E5%96%AE%E5%85%A7%E5%AE%B9%E3%80%82%E5%9B%A0%E7%82%BA%E6%83%B3%E8%92%90%E9%9B%86%E5%BA%97%E5%8D%A1%E7%89%B9%E5%9C%B0%E8%B7%91%E5%88%B0%E5%85%89%E8%8F%AF%E5%BA%97%EF%BC%8C%E5%BA%97%E5%93%A1%E5%BE%88%E5%A4%A7%E6%96%B9%E9%82%84%E8%AA%AA%E5%8F%AF%E4%BB%A5%E6%8F%90%E4%BE%9B%E5%9B%9E%E5%AF%84%E6%9C%8D%E5%8B%99%EF%BC%88%E4%BD%86%E5%A4%AA%E9%BA%BB%E7%85%A9%E4%BD%A0%E5%80%91%E4%BA%86%EF%BC%89%EF%BC%8C%E6%98%AF%E6%88%91%E8%B2%B7%E9%81%8E%E7%9A%84%E5%8F%AF%E4%B8%8D%E5%8F%AF%E5%BA%97%E5%AE%B6%E4%B8%AD%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E6%9C%80%E8%A6%AA%E5%88%87%E7%9A%84%EF%BC%81%E5%85%89%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E5%B0%B1%E5%80%BC%E5%BE%97%E7%B5%A6%E4%BA%94%E9%A1%86%E6%98%9F%EF%BC%8C%E8%AC%9D%E8%AC%9D%E3%80%82
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:10 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '418'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5bqX5ZOhIOacjeWLmSDmhYvluqYg6LaF5aW9IO+8jCDmjpLpmoog5pmCIOeci+WIsCDlpbPlupflk6Eg5b6IIOWuouawoyDnmoQg6LefIOWJjemdoiDnmoQg6ICBIOWMl+WMlyDorJvop6Mg44CBIOeiuuiqjSDpu54g5ZauIOWFp+WuuSDjgIIg5Zug54K6IOaDsyDokpDpm4Yg5bqXIOWNoeeJuSDlnLAg6LeR5YiwIOWFieiPr+W6lyDvvIwg5bqX5ZOhIOW+iCDlpKfmlrkg6YKEIOiqqiDlj6/ku6Ug5o+Q5L6bIOWbniDlr4Qg5pyN5YuZIO+8iCDkvYYg5aSqIOm6u+eFqSDkvaDlgJEg5LqGIO+8iSDvvIwg5pivIOaIkSDosrfpgY4g55qEIOWPryDkuI3lj68g5bqX5a62IOS4rSDmnI3li5kg5oWL5bqmIOacgCDopqrliIcg55qEIO+8gSDlhYkg5pyN5YuZIOaFi+W6piDlsLEg5YC85b6XIOe1piDkupQg6aGGIOaYnyDvvIwg6Kyd6KydIOOAgg==
+  recorded_at: Mon, 07 Dec 2020 14:17:09 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%BB%9E%E5%8D%8A%E7%B3%96%E5%BE%AE%E5%86%B0%EF%BC%8C%E7%B5%90%E6%9E%9C%E4%BE%86%E5%80%8B%E5%BE%AE%E7%B3%96%E5%B0%91%E5%86%B0%0A%E6%B2%92%E5%96%9D%E9%81%8E%E9%80%99%E9%BA%BC%E6%BE%80%E7%9A%84%E7%B4%85%E8%8C%B6%EF%BC%8C%E6%AF%94%E6%97%A9%E9%A4%90%E5%BA%97%E7%9A%84%E9%82%84%E9%9B%A3%E5%96%9D%EF%BC%8C%E9%9B%B7%0A%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%96%9D%E5%88%B0%E9%80%99%E9%BA%BC%E5%A4%B1%E6%9C%9B%E7%9A%84%E5%8F%AF%E4%B8%8D%E5%8F%AF%EF%BC%8C%E5%8A%A0%E6%B2%B9%E9%BB%9E%E5%A5%BD%E5%97%8E%EF%BC%9F%0A%E6%88%91%E5%BE%9E%E4%BE%86%E6%B2%92%E7%99%BC%E9%81%8E%E8%B2%A0%E8%A9%95%0A%E5%96%9D%E5%88%B0%E9%80%99%E5%80%8B%E9%9B%AA%E8%97%8F%E7%B4%85%E8%8C%B6%E7%9C%9F%E7%9A%84%E4%B8%8D%E8%B2%A0%E8%A9%95%E4%B8%8D%E8%A1%8C%0A%E9%80%A3%E4%B8%80%E9%A1%86%E6%98%9F%E9%83%BD%E4%B8%8D%E6%83%B3%E7%B5%A6
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:11 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '324'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6bueIOWNiuezliDlvq7lhrAg77yMIOe1kOaenCDkvoYg5YCLIOW+ruezliDlsJHlhrAgCiDmspIg5ZadIOmBjiDpgJnpurwg5r6AIOeahCDntIXojLYg77yMIOavlCDml6nppJDlupcg55qEIOmChCDpm6Mg5ZadIO+8jCDpm7cgCiDnrKwg5LiAIOasoSDllp3liLAg6YCZ6bq8IOWkseacmyDnmoQg5Y+vIOS4jeWPryDvvIwg5Yqg5rK5IOm7nuWlvSDll44g77yfIAog5oiRIOW+nuS+hiDmspIg55m86YGOIOiyoOiplSAKIOWWneWIsCDpgJkg5YCLIOmbquiXj+e0heiMtiDnnJ/nmoQg5LiNIOiyoOiplSDkuI3ooYwgCiDpgKMg5LiAIOmhhiDmmJ8g6YO9IOS4jSDmg7Mg57Wm
+  recorded_at: Mon, 07 Dec 2020 14:17:10 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E8%83%AD%E8%84%82%E5%A4%9A%E5%A4%9A%E8%B6%85%E5%A5%BD%E5%96%9D%EF%BC%8C%E9%BB%9E2%E5%88%86%E7%B3%96%E5%BE%AE%E5%86%B0%E5%89%9B%E5%89%9B%E5%A5%BD%E3%80%82%E5%96%9D%E5%BE%97%E5%88%B0%E6%B0%B4%E8%9C%9C%E6%A1%83%E9%A2%A8%E5%91%B3%E8%88%87%E5%A4%9A%E5%A4%9A%E7%9A%84%E9%85%B8%E7%94%9C%E6%84%9F%EF%BC%8C%E8%AE%9A
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:12 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '123'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6IOt6ISC5aSa5aSaIOi2hSDlpb3llp0g77yMIOm7niAyIOWIhuezliDlvq7lhrAg5Ymb5Ymb5aW9IOOAgiDllp0g5b6X5YiwIOawtOicnOahgyDpoqjlkbMg6IiHIOWkmuWkmiDnmoQg6YW455ScIOaEnyDvvIwg6K6a
+  recorded_at: Mon, 07 Dec 2020 14:17:11 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%AD%89%E8%B6%85%E4%B9%85%E5%B0%B1%E7%AE%97%E4%BA%86%EF%BC%8C%E7%8F%8D%E7%8F%A0%E9%82%84%E8%B6%85%E9%9B%A3%E5%90%83%E6%84%9F%E8%A6%BA%E6%94%BE%E4%B8%80%E9%99%A3%E5%AD%90%E4%BA%86%0A%E5%96%9D%E4%BA%86%E5%B9%BE%E5%AE%B6%E5%8F%AF%E4%B8%8D%E5%8F%AF+%E9%80%99%E5%AE%B6%E5%93%81%E8%B3%AA%E7%9C%9F%E7%9A%84%E4%B8%8D%E5%A5%BD%E6%AC%B8
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:13 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '137'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        562JIOi2heS5hSDlsLHnrpcg5LqGIO+8jCDnj43nj6Ag6YKEIOi2hSDpm6PlkIMg5oSf6Ka6IOaUviDkuIDpmaPlrZAg5LqGIAog5ZadIOS6hiDlub4g5a62IOWPryDkuI3lj68gICDpgJkg5a62IOWTgeizqiDnnJ/nmoQg5LiNIOWlvSDmrLg=
+  recorded_at: Mon, 07 Dec 2020 14:17:12 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%9C%A8%E6%96%B0%E7%AB%B9%E5%8C%97%E5%8D%80%E5%85%89%E8%8F%AF%E8%A1%97%E7%9A%84%E4%B8%80%E5%AE%B6%E9%A3%B2%E6%96%99%E5%BA%97%EF%BC%8C%0A%E7%95%B6%E5%A4%A9%E5%A4%96%E5%B8%B6%E4%BA%86%E4%B8%80%E6%9D%AF%E9%BA%97%E6%98%A5%E7%B4%85%E8%8C%B6%EF%BC%88%E5%B0%91%E5%86%B0%E3%80%81%E7%84%A1%E7%B3%96%EF%BC%89%EF%BC%8C%0A%E5%96%9D%E8%B5%B7%E4%BE%86%E9%82%84%E4%B8%8D%E9%8C%AF%E3%80%82
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:14 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '152'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5ZyoIOaWsOeruSDljJfljYAg5YWJ6I+v6KGXIOeahCDkuIAg5a62IOmjsuaWmeW6lyDvvIwgCiDnlbblpKkg5aSW5bi2IOS6hiDkuIAg5p2vIOm6l+aYpee0heiMtiDvvIgg5bCR5YawIOOAgSDnhKHns5Yg77yJIO+8jCAKIOWWnSDotbfkvoYg6YKEIOS4jemMryDjgII=
+  recorded_at: Mon, 07 Dec 2020 14:17:13 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%96%8B%E5%B9%95%E6%B2%92%E5%A4%9A%E4%B9%85%EF%BC%8C%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%B3%BC%E8%B2%B7%E7%9A%84%E6%99%82%E5%80%99%EF%BC%8C%E6%98%A5%E6%A2%85%E5%86%B0%E8%8C%B6%EF%BC%8C%E9%BB%9E%E5%BE%AE%E7%B3%96%E2%8B%AF%E4%BD%86%E5%96%9D%E8%B5%B7%E4%BE%86%E8%B7%9F%E5%90%8C%E5%93%81%E7%89%8C%E4%BB%96%E5%AE%B6%E7%9A%84%E7%94%9C%E5%BA%A6%EF%BC%8C%E5%B7%AE%E5%BE%88%E5%A4%9A%E2%8B%AF%EF%BC%8C%E6%84%9F%E8%A6%BA%E6%98%AF%E5%8A%A0%E4%BA%86%E5%85%A8%E7%B3%96%E3%80%82%0A%E5%BE%8C%E4%BE%86%E6%9C%89%E5%86%8D%E7%94%A8uber%E8%A8%82%E8%B3%BC%E2%8B%AF%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%8C%E6%9C%89%E9%80%B2%E6%AD%A5%EF%BC%8C%E6%B2%92%E6%9C%89%E7%A0%B4%E5%A3%9E%E6%88%91%E5%B0%8D%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%9A%84%E5%A5%BD%E5%8D%B0%E8%B1%A1%F0%9F%98%82
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:15 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '310'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6ZaL5bmVIOaykiDlpJrkuYUg77yMIOesrCDkuIAg5qyhIOizvOiytyDnmoQg5pmC5YCZIO+8jCDmmKXmooXlhrDojLYg77yMIOm7niDlvq7ns5Yg4ouvIOS9hiDllp0g6LW35L6GIOi3nyDlkIwg5ZOB54mMIOS7liDlrrYg55qEIOeUnOW6piDvvIwg5beuIOW+iOWkmiDii68g77yMIOaEn+imuiDmmK8g5Yqg5LqGIOWFqOezliDjgIIgCiDlvozkvoYg5pyJIOWGjSDnlKggdWJlciDoqILos7wg4ouvIOaYpeiKveWGt+mcsiDvvIwg5pyJIOmAsuatpSDvvIwg5rKS5pyJIOegtOWjniDmiJEg5bCNIOWPryDkuI3lj68g55qEIOWlvSDljbDosaEg8J+Ygg==
+  recorded_at: Mon, 07 Dec 2020 14:17:14 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E5%B7%AE%0A%E6%9C%89%E5%85%B6%E6%98%AF%E9%82%A3%E5%80%8B%E9%95%B7%E7%9A%84%E8%83%96%E5%88%B0%E5%8D%A1%E6%AB%83%E6%AA%AF%E7%9A%84%E5%B0%8F%E5%A7%90%0A%E4%B8%80%E9%BB%9E%E5%B0%88%E6%A5%AD%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E9%83%BD%E6%B2%92%E6%9C%89%0A%E7%9C%9F%E5%A4%A0%E7%88%9B
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:16 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '130'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5pyN5YuZIOaFi+W6piDlt64gCiDmnIkg5YW2IOaYryDpgqMg5YCLIOmVtyDnmoQg6IOWIOWIsOWNoSDmq4Pmqq8g55qEIOWwj+WnkCAKIOS4gOm7niDlsIjmpa0g5pyN5YuZIOaFi+W6piDpg70g5rKS5pyJIAog55yf5aSgIOeImw==
+  recorded_at: Mon, 07 Dec 2020 14:17:15 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E8%8C%B6%E5%BE%88%E6%BE%80%EF%BC%8C%E9%83%BD%E6%B2%92%E6%94%B9%E9%80%B2%E3%80%82%0A%E7%86%9F%E6%88%90%E6%AD%90%E8%95%BE%EF%BC%8C%E6%88%91%E5%96%9D%E4%BA%86%E5%BE%88%E5%A4%9A%E5%AE%B6%EF%BC%8C%E4%BD%A0%E5%80%91%E5%AE%B6%E8%B7%9F%E6%96%B0%E9%81%A0%E7%99%BE%E5%BA%97%E7%9A%84%E8%8C%B6%E9%83%BD%E5%BE%88%E6%BE%80%EF%BC%8C%E5%B7%B2%E7%B6%93%E8%B2%B7%E9%81%8E%E5%BE%88%E5%A4%9A%E6%AC%A1%E9%83%BD%E6%98%AF%E9%80%99%E6%A8%A3%EF%BC%8C%E6%88%91%E7%9C%8B%E7%95%99%E8%A8%80%E4%B9%9F%E5%BE%88%E5%A4%9A%E4%BA%BA%E5%8F%8D%E6%87%89%EF%BC%8C%E5%B8%8C%E6%9C%9B%E5%8F%AF%E4%BB%A5%E6%94%B9%E9%80%B2%EF%BC%8C%E8%AC%9D%E8%AC%9D%EF%BC%81
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:17 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '255'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6Iy2IOW+iCDmvoAg77yMIOmDvSDmspIg5pS56YCyIOOAgiAKIOeGn+aIkOatkOiVviDvvIwg5oiRIOWWnSDkuoYg5b6I5aSaIOWutiDvvIwg5L2g5YCRIOWutiDot58g5pawIOmBoOeZviDlupcg55qEIOiMtiDpg70g5b6IIOa+gCDvvIwg5bey57aTIOiyt+mBjiDlvojlpJog5qyhIOmDvSDmmK8g6YCZ5qijIO+8jCDmiJEg55yLIOeVmeiogCDkuZ8g5b6I5aSaIOS6uiDlj43mh4kg77yMIOW4jOacmyDlj6/ku6Ug5pS56YCyIO+8jCDorJ3orJ0g77yB
+  recorded_at: Mon, 07 Dec 2020 14:17:16 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E8%80%81%E9%97%86%E5%BE%88%E8%A6%AA%E5%88%87%EF%BC%8C%E6%9C%8D%E5%8B%99%E5%BE%88%E5%A5%BD%EF%BC%8C%E9%A3%B2%E6%96%99%E4%B9%9F%E5%BE%88%E5%A5%BD%E5%96%9D%EF%BC%8C%E6%9C%80%E6%84%9B%E7%8F%8D%E7%8F%A0%E5%A5%B6%E8%8C%B6.
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:19 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '88'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6ICB6ZeGIOW+iCDopqrliIcg77yMIOacjeWLmSDlvogg5aW9IO+8jCDpo7Lmlpkg5LmfIOW+iCDlpb3llp0g77yMIOacgOaEmyDnj43nj6DlpbbojLYgLg==
+  recorded_at: Mon, 07 Dec 2020 14:17:18 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%85%A8%E5%8F%B0%E5%8F%AF%E4%B8%8D%E5%8F%AF%E5%96%9D%E4%B8%8D%E4%B8%8B%E4%BA%8C%E5%8D%81%E5%AE%B6%EF%BC%8C%E9%BA%97%E6%98%A5%E7%84%A1%E7%B3%96%E5%B8%B8%E6%BA%AB%EF%BC%8C%E7%9B%B8%E9%9A%94%E4%B8%80%E9%99%A3%E5%AD%90%E5%85%A9%E6%AC%A1%E9%83%BD%E7%95%B0%E5%B8%B8%E9%9B%A3%E5%96%9D%EF%BC%8C%E4%B8%80%E5%AE%9A%E6%B2%92%E6%9C%89%E6%8C%89sop%E5%81%9A%EF%BC%8C%E7%94%9A%E8%87%B3%E5%85%B6%E4%B8%AD%E4%B8%80%E6%AC%A1%E5%89%9B%E9%96%8B%E9%96%80%E8%B2%B7%E9%82%84%E5%B8%B6%E8%BC%83%E9%87%8D%E9%85%B8%E5%91%B3%EF%BC%8C%E4%BD%86%E6%98%AF%E7%84%A1%E6%B3%95%E5%88%A4%E5%88%A5%E6%98%AF%E8%8C%B6%E6%9C%AC%E8%BA%AB%E9%82%84%E6%98%AF%E9%9A%94%E5%A4%9C%E7%9A%84%E5%91%B3%E9%81%93
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:20 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '271'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5YWoIOWPsCDlj68g5LiN5Y+vIOWWnSDkuI0g5LiL5LqMIOWNgeWutiDvvIwg6bqX5pilIOeEoeezliDluLjmuqsg77yMIOebuOmalCDkuIDpmaPlrZAg5YWpIOasoSDpg70g55Ww5bi4IOmboyDllp0g77yMIOS4gOWumiDmspLmnIkg5oyJIHNvcCDlgZog77yMIOeUmuiHsyDlhbYg5LitIOS4gCDmrKEg5YmbIOmWi+mWgCDosrcg6YKEIOW4tiDovIPph40g6YW45ZGzIO+8jCDkvYbmmK8g54Sh5rOVIOWIpOWIpSDmmK/ojLYg5pys6LqrIOmChOaYryDpmpTlpJwg55qEIOWRs+mBkw==
+  recorded_at: Mon, 07 Dec 2020 14:17:19 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E4%B8%8D%E7%9F%A5%E9%81%93%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B8%AD%E7%A7%8B%E7%AF%80%E8%A6%81%E6%94%BE%E5%81%87%E7%9A%84%E9%97%9C%E4%BF%82%EF%BC%8C%E4%BB%8A%E5%A4%A9%E7%9A%84%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6%E6%B2%92%E6%9C%89%E8%8C%B6%E5%91%B3%EF%BC%8C%E5%AE%8C%E5%85%A8%E5%83%8F%E5%9C%A8%E5%96%9D%E6%B0%B4%EF%BC%8C%E5%96%9D%E4%B8%80%E5%8F%A3%E5%B0%B1%E5%80%92%E4%BA%86%E2%8B%AF
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:21 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '153'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5LiNIOefpemBkyDmmK8g5LiNIOaYryDkuK3np4vnr4Ag6KaBIOaUvuWBhyDnmoQg6Zec5L+CIO+8jCDku4rlpKkg55qEIOeGn+aIkOe0heiMtiDmspLmnIkg6Iy25ZGzIO+8jCDlrozlhagg5YOPIOWcqCDllp3msLQg77yMIOWWnSDkuIDlj6Mg5bCxIOWAkiDkuoYg4ouv
+  recorded_at: Mon, 07 Dec 2020 14:17:20 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%82%BA%E4%BB%80%E9%BA%BC%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%9A%84%E9%A3%B2%E6%96%99%E9%82%A3%E9%BA%BC%E5%A5%BD%E5%96%9D%EF%BC%8C%E9%9B%96%E7%84%B6%E9%A3%B2%E6%96%99%E6%89%8D%E5%B9%BE%E7%A8%AE%EF%BC%8C%E4%BD%86%E9%83%BD%E7%99%BE%E5%96%9D%E4%B8%8D%E8%86%A9%EF%BC%8C%E9%AE%AE%E5%A5%B6%E8%8C%B6%E4%B9%9F%E8%B7%9F%E5%A4%96%E9%9D%A2%E4%B8%8D%E4%B8%80%E6%A8%A3%EF%BC%8C%E5%BE%88%E6%BF%83%E5%8F%88%E5%BE%88%E5%A5%BD%E5%96%9D%EF%BC%8C%E5%A4%96%E9%9D%A2%E5%96%9D%E4%B8%8D%E5%88%B0%E7%9A%84%E5%A5%BD%E5%91%B3%E9%81%93%EF%BC%8C%E8%83%BD%E5%9C%A8%E7%AB%B9%E5%8C%97%E9%80%99%E4%B9%9F%E6%9C%89%E9%96%8B%E4%B8%80%E5%AE%B6%EF%BC%8C%E7%9C%9F%E7%9A%84%E5%BE%88%E9%96%8B%E5%BF%83
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:22 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '269'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        54K65LuA6bq8IOWPryDkuI3lj68g55qEIOmjsuaWmSDpgqPpurwg5aW95ZadIO+8jCDpm5bnhLYg6aOy5paZIOaJjSDlub4g56iuIO+8jCDkvYYg6YO9IOeZviDllp0g5LiNIOiGqSDvvIwg6a6u5aW26Iy2IOS5nyDot58g5aSW6Z2iIOS4jSDkuIDmqKMg77yMIOW+iCDmv4Mg5Y+IIOW+iCDlpb3llp0g77yMIOWklumdoiDllp3kuI3liLAg55qEIOWlvSDlkbPpgZMg77yMIOiDvSDlnKgg56u55YyXIOmAmSDkuZ8g5pyJIOmWi+S4gOWutiDvvIwg55yf55qEIOW+iCDplovlv4M=
+  recorded_at: Mon, 07 Dec 2020 14:17:21 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6%EF%BC%8C%E7%AB%B9%E5%8C%97%E9%81%A0%E7%99%BE%E9%80%99%E5%AE%B6%E8%A0%BB%E5%A5%BD%E5%96%9D%E7%9A%84%EF%BC%8C%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E4%B9%9F%E5%A5%BD%EF%BC%8C%E5%81%9C%E8%BB%8A%E4%B9%9F%E6%BB%BF%E6%96%B9%E4%BE%BF%EF%BC%8C%E6%BB%BF%E6%8E%A8%E8%96%A6%E7%9A%84%E9%A3%B2%E6%96%99%E5%BA%97%EF%BC%8C%E6%AF%8F%E6%AC%A1%E4%B8%8B%E7%8F%AD%E7%B6%93%E9%81%8E%E9%83%BD%E6%9C%83%E8%B2%B7%E4%B8%80%E6%9D%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6%E5%8E%BB%E5%86%B0%E7%84%A1%E7%B3%96%F0%9F%98%8A
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:23 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '222'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5Y+vIOS4jeWPryDnhp/miJDntIXojLYg77yMIOerueWMlyDpgaDnmb4g6YCZIOWutiDooLsg5aW95ZadIOeahCDvvIwg5pyN5YuZIOaFi+W6piDkuZ/lpb0g77yMIOWBnOi7iiDkuZ8g5ru/IOaWueS+vyDvvIwg5ru/IOaOqOiWpiDnmoQg6aOy5paZ5bqXIO+8jCDmr48g5qyhIOS4i+ePrSDntpPpgY4g6YO9IOacgyDosrcg5LiAIOadryDnhp/miJDntIXojLYg5Y675YawIOeEoeezliDwn5iK
+  recorded_at: Mon, 07 Dec 2020 14:17:22 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E8%B7%9F%E7%A6%8F%E8%88%88%E5%BA%97%E4%B8%80%E6%A8%A3%EF%BC%8C%E7%B4%85%E8%8C%B6%E6%AD%90%E8%95%BE%E5%A5%B6%E7%B5%A6%E8%B6%85%E5%B0%91%EF%BC%81%E5%B0%B1%E7%AE%97%E5%8F%AB%E5%A4%9A%E5%A5%B6%E4%B9%9F%E6%AF%94%E4%B8%89%E6%B0%91%E5%92%8C%E6%B8%85%E5%A4%A7%E7%9A%84%E9%82%84%E5%B0%91....%E7%82%BA%E4%BB%80%E9%BA%BC%E5%B7%AE%E9%80%99%E9%BA%BC%E5%A4%9A%EF%BC%9F
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:25 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '146'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6LefIOemj+iIiCDlupcg5LiA5qijIO+8jCDntIXojLYg5q2Q6JW+IOWltue1piDotoXlsJEg77yBIOWwseeulyDlj6sg5aSa5aW2IOS5nyDmr5Qg5LiJ5rCRIOWSjCDmuIXlpKcg55qEIOmChCDlsJEgLi4uLiDngrrku4Dpurwg5beuIOmAmem6vOWkmiDvvJ8=
+  recorded_at: Mon, 07 Dec 2020 14:17:24 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%98%A5%E8%8A%BD%E7%B6%A0%E8%8C%B6%E6%B8%85%E7%94%9C%E5%A5%BD%E5%96%9D+%E8%80%8C%E7%86%9F%E6%88%90%E5%86%B7%E9%9C%B2%E6%9C%89%E6%B7%A1%E6%B7%A1%E7%9A%84%E5%86%AC%E7%93%9C%E7%94%9C%E5%86%8D%E5%8A%A0%E4%B8%8A%E6%BF%83%E9%83%81%E7%9A%84%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6+%E9%9D%9E%E5%B8%B8%E5%A5%BD%E5%96%9D%0A%E5%AE%8C%E5%85%A8%E5%B1%8C%E6%89%93%E5%85%B6%E4%BB%96%E5%AE%B6%E9%A3%B2%E6%96%99%E5%BA%97%0A%E6%AF%8F%E5%A4%A9%E5%BF%85%E9%A0%88%E4%BE%86%E4%B8%8A%E5%B9%BE%E6%9D%AF
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:26 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '192'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5pil6Iq957ag6Iy2IOa4heeUnCDlpb3llp0gICDogIwg54af5oiQ5Ya36ZyyIOaciSDmt6Hmt6Eg55qEIOWGrOeTnCDnlJwg5YaNIOWKoOS4iiDmv4Ppg4Eg55qEIOeGn+aIkOe0heiMtiAgIOmdnuW4uCDlpb3llp0gCiDlrozlhagg5bGMIOaJkyDlhbYg5LuWIOWutiDpo7LmlpnlupcgCiDmr4/lpKkg5b+F6aCIIOS+huS4iiDlub4g5p2v
+  recorded_at: Mon, 07 Dec 2020 14:17:25 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%89%B9%E5%9C%B0%E9%81%8E%E5%8E%BB%E8%A9%A2%E5%95%8F%E9%82%84%E6%9C%89%E6%B2%92%E6%9C%89%E5%AF%B6%E5%8F%AF%E5%A4%A2%E5%BA%97%E5%8D%A1%EF%BC%8C%E9%82%84%E6%B2%92%E8%A3%9C%E8%B2%A8%E5%8F%AF%E4%BB%A5%E7%AD%89%E6%B2%92%E9%97%9C%E4%BF%82%0A%E7%9C%8B%E5%88%B0%E5%88%A5%E4%BA%BA%E9%BB%9E%E7%9A%84%E9%A3%B2%E6%96%99%E4%B8%AD%E6%9D%AF%E5%A4%A7%E6%9D%AF%E9%83%BD%E6%98%AF%E5%AF%B6%E5%8F%AF%E5%A4%A2%E7%9A%84%E7%B4%99%E6%9D%AF%EF%BC%8C%E6%83%B3%E8%AA%AA%E4%B9%9F%E9%BB%9E%E4%B8%80%E6%9D%AF%EF%BC%8C%E9%82%84%E5%B7%AE%E4%B8%80%E5%80%8B%E5%9C%96%E6%A1%88%E6%B2%92%E9%9B%86%E5%88%B0%0A%E4%BD%86%E6%98%AF%E5%8D%BB%E6%98%AF%E9%80%8F%E6%98%8E%E7%9A%84%EF%BC%8C%E7%82%BA%E4%BA%86%E7%B4%99%E6%9D%AF%E6%89%8D%E9%BB%9E%E9%A3%B2%E6%96%99%E7%9A%84%E2%8B%AF%0A%E6%89%80%E4%BB%A5%E5%AF%B6%E5%8F%AF%E5%A4%A2%E7%B4%99%E6%9D%AF%E7%9A%84%E8%A6%81%E8%B2%B7%E5%A4%9A%E5%B0%91%E9%8C%A2%E7%9A%84%E9%A3%B2%E6%96%99%E6%89%8D%E6%9C%89%EF%BC%9F
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:27 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '374'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        54m55ZywIOmBjuWOuyDoqaLllY8g6YKEIOacieaykuaciSDlr7blj6/lpKIg5bqX5Y2hIO+8jCDpgoQg5rKSIOijnOiyqCDlj6/ku6Ug562JIOaykumXnOS/giAKIOeci+WIsCDliKXkurog6bueIOeahCDpo7Lmlpkg5Lit5p2vIOWkpyDmna8g6YO9IOaYr+WvtiDlj68g5aSiIOeahCDntJnmna8g77yMIOaDsyDoqqog5LmfIOm7niDkuIAg5p2vIO+8jCDpgoQg5beuIOS4gCDlgIsg5ZyW5qGIIOaykiDpm4bliLAgCiDkvYbmmK8g5Y27IOaYryDpgI/mmI4g55qEIO+8jCDngrrkuoYg57SZ5p2vIOaJjSDpu54g6aOy5paZIOeahCDii68gCiDmiYDku6Ug5a+25Y+v5aSiIOe0meadryDnmoQg6KaBIOiytyDlpJrlsJEg6YyiIOeahCDpo7Lmlpkg5omNIOaciSDvvJ8=
+  recorded_at: Mon, 07 Dec 2020 14:17:26 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E4%B8%80%E7%9B%B4%E9%83%BD%E6%98%AF%E6%88%91%E5%BE%88%E5%96%9C%E6%AD%A1%E7%9A%84%E4%B8%80%E5%AE%B6%E5%BA%97%28%E2%81%8E%E2%81%8D%CC%B4%CC%9B%E1%B4%97%E2%81%8D%CC%B4%CC%9B%E2%81%8E%29%0A%E8%B6%85%E7%B4%9A%E5%A5%BD%E5%96%9D%F0%9F%91%8D%F0%9F%8F%BB
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:28 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '117'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5Y+vIOS4jeWPryDkuIDnm7Qg6YO9IOaYryDmiJEg5b6IIOWWnOatoSDnmoQg5LiAIOWutuW6lyAoIOKBjiDigY0gzLQgzJsg4bSXIOKBjSDMtCDMmyDigY4gKSAKIOi2hee0miDlpb3llp0g8J+RjSDwn4+7
+  recorded_at: Mon, 07 Dec 2020 14:17:27 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%BA%97%E5%93%A1%E5%8F%8D%E6%87%89%E5%BE%88%E5%BF%AB%EF%BC%8C%E5%8E%9F%E9%BB%9E%E5%B9%BE%E6%9D%AF%E4%B8%AD%E6%9D%AF%E8%88%87%E5%A4%A7%E6%9D%AF%E7%9A%84%E9%A3%B2%E6%96%99%EF%BC%8C%E5%BA%97%E5%93%A1%E4%B8%8D%E5%B0%8F%E5%BF%83%E9%83%BD%E5%81%9A%E6%88%90%E5%A4%A7%E6%9D%AF%EF%BC%8C%E7%B6%93%E5%8F%8D%E6%87%89%E5%BE%8C%E5%BA%97%E5%93%A1%E8%AA%AA%E9%A3%B2%E6%96%99%E4%B8%80%E6%A8%A3%E6%98%AF%E5%A4%A7%E6%9D%AF%E7%B5%A6%E6%82%A8%E4%BD%86%E8%A6%81%E9%80%80%E6%88%91%E8%AA%A4%E7%AE%97%E7%9A%84%E9%8C%A2%EF%BC%8C%E4%B8%80%E5%88%86%E9%8C%A2%E4%B8%80%E5%88%86%E8%B2%A8%E8%AB%8B%E5%BA%97%E5%93%A1%E6%8A%8A%E9%8C%A2%E6%94%BE%E5%9B%9E%E6%94%B6%E9%8A%80%E5%8F%B0%EF%BC%8C%E8%BE%9B%E8%8B%A6%E6%9C%8D%E5%8B%99%E6%A5%AD%E4%BA%86%F0%9F%91%8D
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:30 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '298'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5bqX5ZOhIOWPjeaHiSDlvogg5b+rIO+8jCDljp/pu54g5bm+IOadryDkuK0g5p2vIOiIhyDlpKcg5p2vIOeahCDpo7Lmlpkg77yMIOW6l+WToSDkuI0g5bCP5b+DIOmDvSDlgZrmiJAg5aSnIOadryDvvIwg57aTIOWPjeaHiSDlvowg5bqX5ZOhIOiqqiDpo7Lmlpkg5LiA5qijIOaYryDlpKcg5p2vIOe1piDmgqgg5L2GIOimgemAgCDmiJEg6Kqk566XIOeahCDpjKIg77yMIOS4gCDliIbpjKIg5LiAIOWIhiDosqjoq4sg5bqX5ZOhIOaKiiDpjKIg5pS+5ZueIOaUtumKgOWPsCDvvIwg6L6b6IumIOacjeWLmealrSDkuoYg8J+RjQ==
+  recorded_at: Mon, 07 Dec 2020 14:17:28 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%B8%BD%E6%83%B3%E4%BE%86%E6%9D%AF+%E5%8F%AF%E4%B8%8D%E5%8F%AF+%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6%0A%E7%9C%8B%E4%BA%86%E6%A5%AD%E4%B8%BB%E4%B8%80%E4%B8%80%E5%9B%9E%E8%A6%86%E8%A9%95%E5%88%86%E7%9A%84%E6%85%8B%E5%BA%A6%0A%E6%98%AF%E6%9C%89%E5%BF%83%E7%9A%84+%E2%9D%A4%EF%B8%8F%0A%E7%B6%93%E7%87%9F%E5%BE%88%E9%9B%A3+%E7%AE%A1%E7%90%86%E4%B9%9F%E6%98%AF%E4%B8%80%E9%96%80%E5%AD%B8%E5%95%8F%0A%E8%83%BD%E5%A4%A0%E8%87%AA%E6%88%91%E6%AA%A2%E8%A8%8E%E6%94%B9%E9%80%B2+%E6%89%8D%E6%98%AF%E9%87%8D%E8%A6%81%E7%9A%84+%E5%8A%A0%E6%B2%B9
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:31 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '226'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        57i9IOaDs+S+hiDmna8gICDlj68g5LiN5Y+vICAg54af5oiQ57SF6Iy2IAog55yLIOS6hiDmpa3kuLsg5LiA5LiAIOWbnuimhiDoqZXliIYg55qEIOaFi+W6piAKIOaYryDmnInlv4Mg55qEICAg4p2kIO+4jyAKIOe2k+eHnyDlvogg6ZujICAg566h55CGIOS5nyDmmK8g5LiA6ZaAIOWtuOWVjyAKIOiDveWkoCDoh6rmiJEg5qqi6KiOIOaUuemAsiAgIOaJjSDmmK8g6YeN6KaBIOeahCAgIOWKoOayuQ==
+  recorded_at: Mon, 07 Dec 2020 14:17:30 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E8%8C%B6%E5%BE%88%E6%BF%83%E9%83%81%EF%BC%8C%E5%96%9D%E9%81%8E%E4%BA%86%E5%88%A5%E5%AE%B6%E9%82%84%E6%98%AF%E8%A6%BA%E5%BE%97%E9%80%99%E5%AE%B6%E8%8C%B6%E6%AF%94%E8%BC%83%E6%BF%83%E9%83%81%E5%A5%BD%E5%96%9D%0A%E5%BA%97%E5%93%A1%E6%9C%8D%E5%8B%99%E4%B9%9F%E8%A6%AA%E5%88%87%EF%BC%8C%E5%A4%A7%E5%AE%B6%E5%8F%AF%E4%BB%A5%E5%8E%BB%E5%9A%90%E5%9A%90%E5%94%B7%F0%9F%98%8B
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:32 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '147'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6Iy2IOW+iCDmv4Ppg4Eg77yMIOWWnSDpgY7kuoYg5Yil5a62IOmChOaYryDoprrlvpcg6YCZIOWutuiMtiDmr5TovIMg5r+D6YOBIOWlveWWnSAKIOW6l+WToSDmnI3li5kg5LmfIOimquWIhyDvvIwg5aSn5a62IOWPr+S7pSDljrsg5ZqQ5ZqQIOWUtyDwn5iL
+  recorded_at: Mon, 07 Dec 2020 14:17:31 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%9C%8D%E5%8B%99%E4%B8%8D%E9%8C%AF
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:33 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '13'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5pyN5YuZIOS4jemMrw==
+  recorded_at: Mon, 07 Dec 2020 14:17:32 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%9C%8D%E5%8B%99%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B8%8D%E9%81%8E%E7%86%9F%E6%88%90%E6%AA%B8%E6%9E%9C%E6%9C%89%E9%BB%9E%E5%BC%B1%EF%BC%8C%E6%AA%B8%E6%AA%AC%E6%B2%92%E5%88%87%E9%96%8B%EF%BC%8C%E5%96%9D%E8%B5%B7%E4%BE%86%E6%AA%B8%E6%AA%AC%E5%91%B3%E9%81%93%E9%9D%9E%E5%B8%B8%E6%B7%A1%EF%BC%8C%E4%B8%AD%E6%9D%AF%2450%E4%B8%8D%E6%87%89%E8%A9%B2%E6%98%AF%E9%80%99%E6%A8%A3%E7%9A%84%E8%A1%A8%E7%8F%BE
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:35 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '160'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5pyN5YuZIOW+iCDlpb0g77yMIOS4jemBjiDnhp/miJDmqrjmnpwg5pyJ6bueIOW8sSDvvIwg5qq45qqsIOaykiDliIfplosg77yMIOWWnSDotbfkvoYg5qq45qqsIOWRs+mBkyDpnZ7luLgg5rehIO+8jCDkuK0g5p2vICQgNTAg5LiN5oeJ6KmyIOaYryDpgJnmqKMg55qEIOihqOePvg==
+  recorded_at: Mon, 07 Dec 2020 14:17:33 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%E5%8A%A0%E7%99%BD%E7%8E%89%E5%8E%BB%E5%86%B0%E7%84%A1%E7%B3%96%E9%83%BD%E7%B5%A6%E6%88%91%E5%8E%BB%E5%96%9D%28%E2%81%8E%E2%81%8D%CC%B4%CC%9B%E1%B4%97%E2%81%8D%CC%B4%CC%9B%E2%81%8E%29
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:36 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '93'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5pil6Iq95Ya36ZyyIOWKoCDnmb3njokg5Y675YawIOeEoeezliDpg70g57WmIOaIkSDljrsg5ZadICgg4oGOIOKBjSDMtCDMmyDhtJcg4oGNIMy0IMybIOKBjiAp
+  recorded_at: Mon, 07 Dec 2020 14:17:35 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%A3%B2%E6%96%99%F0%9F%A5%A4%E5%A5%BD%E5%96%9D%EF%BC%8C%E5%96%9D%E9%81%8E%E9%80%99%E9%BA%BC%E5%A4%9A%E5%AE%B6%E9%82%84%E6%98%AF%E9%80%99%E9%96%93%E6%9C%80%E5%B0%8D%E5%91%B3%EF%BC%8C%E8%80%81%E6%9D%BF%E8%B7%9F%E5%BA%97%E5%93%A1%E9%83%BD%E8%B6%85%E8%A6%AA%E5%88%87%E4%B8%8D%E6%9C%83%E4%B8%8D%E8%80%90%E7%85%A9%E2%8B%AF%E5%BA%97%E9%95%B7%E5%B9%B4%E8%BC%95%E5%89%B5%E6%A5%AD%E6%9C%89%E7%90%86%E6%83%B3%EF%BC%8C%E6%89%80%E6%9C%89%E8%8C%B6%E9%A1%9E%E9%A3%B2%E5%93%81%E9%83%BD%E5%93%81%E8%B3%AA%E6%8A%8A%E9%97%9C%E2%8B%AF%F0%9F%92%AA%E5%BF%AB%E4%BE%86%E7%B5%A6%E5%A5%B9%E5%80%91%E5%8A%A0%E5%8A%A0%E6%B2%B9%EF%BD%9E%F0%9F%98%81
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:37 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '250'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6aOy5paZIPCfpaQg5aW95ZadIO+8jCDllp0g6YGOIOmAmem6vOWkmiDlrrYg6YKE5pivIOmAmSDplpMg5pyAIOWwjeWRsyDvvIwg6ICB5p2/IOi3nyDlupflk6Eg6YO9IOi2hSDopqrliIcg5LiN5pyDIOS4jeiAkOeFqSDii68g5bqX6ZW3IOW5tOi8lSDlibXmpa0g5pyJIOeQhuaDsyDvvIwg5omA5pyJIOiMtumhniDpo7Llk4Eg6YO9IOWTgeizqiDmiorpl5wg4ouvIPCfkqog5b+rIOS+hue1piDlpbnlgJEg5YqgIOWKoOayuSDvvZ4g8J+YgQ==
+  recorded_at: Mon, 07 Dec 2020 14:17:36 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%A5%BD%E5%96%9D%EF%BD%9E%EF%BD%9E%E5%BA%97%E5%93%A1%E9%A1%8F%E5%80%BC%E9%83%BD%E5%BE%88%E9%AB%98%0A%E9%80%99%E9%BA%BC%E5%A4%9A%E5%AE%B6%E5%8F%AF%E4%B8%8D%E5%8F%AF+%E9%80%99%E4%B8%80%E5%AE%B6%E8%8C%B6%E7%9C%9F%E7%9A%84%E5%BE%88%E9%A6%99%0A%E6%AF%8F%E5%A4%A9%E9%83%BD%E8%81%BD%E5%88%B0%E4%B8%80%E5%8F%A5%E5%A6%B3%E5%A5%BD+%E4%BB%8A%E5%A4%A9%E8%A6%81%E5%96%9D%E4%BB%80%E9%BA%BC%0A%E9%83%BD%E8%A6%BA%E5%BE%97%E7%89%B9%E5%88%A5%E8%A6%AA%E5%88%87+%E9%87%8D%E9%BB%9E%E6%98%AF%E5%BA%97%E5%93%A1%E9%83%BD%E8%B6%85%E7%BE%8E%E8%B6%85%E5%B8%A5%E7%9A%84%E2%9D%A4%EF%B8%8F%0A%E5%A5%BD%E6%83%B3%E8%A6%81%E9%9B%BB%E8%A9%B1%E2%98%BA%EF%B8%8F
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:38 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '263'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5aW95ZadIO+9niDvvZ4g5bqX5ZOhIOmhj+WAvCDpg70g5b6IIOmrmCAKIOmAmem6vOWkmiDlrrYg5Y+vIOS4jeWPryAgIOmAmeS4gCDlrrbojLYg55yf55qEIOW+iCDpppkgCiDmr4/lpKkg6YO9IOiBveWIsCDkuIAg5Y+lIOWmsyDlpb0gICDku4rlpKkg6KaBIOWWnSDku4DpurwgCiDpg70g6Ka65b6XIOeJueWIpSDopqrliIcgICDph43pu54g5pivIOW6l+WToSDpg70g6LaF576OIOi2heW4pSDnmoQg4p2kIO+4jyAKIOWlvSDmg7PopoEg6Zu76KmxIOKYuiDvuI8=
+  recorded_at: Mon, 07 Dec 2020 14:17:37 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%85%8B%E5%BA%A6%E5%B7%AE%E4%B9%9F%E6%B2%92%E4%BB%BB%E4%BD%95%E6%8B%9B%E5%91%BC%E8%AA%9E%0A%E9%BB%9E%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6%E5%BE%AE%E7%B3%96%E6%AD%A3%E5%B8%B8%E5%86%B0%0A%E5%8D%BB%E7%B5%A6%E6%88%91%E7%86%9F%E6%88%90%E5%86%B7%E9%9C%B2%E6%AD%A3%E5%B8%B8%E7%94%9C%E5%BE%AE%E5%86%B0%0A%E5%86%AC%E7%93%9C%E7%B4%85%E3%84%9F%EF%BC%9F%EF%BC%9F+%E9%82%84%E6%AD%A3%E5%B8%B8%E7%94%9C%EF%BC%9F%EF%BC%9F%EF%BC%9F%0A8%2F1%E4%B8%8B%E5%8D%88%E5%85%A9%E4%BD%8D%E7%94%B7%E5%BA%97%E5%93%A1%E7%9C%9F%E7%9A%84%E9%9C%80%E5%8A%A0%E5%BC%B7
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:39 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '222'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5oWL5bqmIOW3riDkuZ8g5rKSIOS7u+S9lSDmi5vlkbzoqp4gCiDpu54g54af5oiQ57SF6Iy2IOW+ruezliDmraPluLgg5YawIAog5Y27IOe1piDmiJEg54af5oiQ5Ya36ZyyIOato+W4uCDnlJwg5b6u5YawIAog5Yas55OcIOe0hSDjhJ8g77yfIO+8nyAgIOmChCDmraPluLgg55ScIO+8nyDvvJ8g77yfIAogOCAvIDEg5LiL5Y2IIOWFqSDkvY3nlLcg5bqX5ZOhIOecn+eahCDpnIAg5Yqg5by3
+  recorded_at: Mon, 07 Dec 2020 14:17:38 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%80%A3%E7%BA%8C%E5%A5%BD%E5%B9%BE%E6%AC%A1%E6%9C%89%E7%B3%96%E9%83%BD%E5%81%9A%E6%88%90%E7%84%A1%E7%B3%96%EF%BC%8C%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%BE%AE%E7%B3%96%E4%BB%96%E5%81%9A%E6%88%90%E7%84%A1%E7%B3%96OK%E6%88%91%E5%8E%9F%E8%AB%92%EF%BC%8C%E7%AC%AC%E4%BA%8C%E6%AC%A1%E7%AC%AC%E4%B8%89%E6%AC%A1%E8%80%8C%E4%B8%94%E9%82%84%E4%B8%8D%E6%98%AF%E6%AF%8F%E6%AC%A1%E9%83%BD%E9%BB%9E%E5%BE%AE%E7%B3%96%EF%BC%8C%E6%9C%89%E6%99%82%E6%98%AF%E5%8D%8A%E7%B3%96%E6%88%96%E5%85%A8%E7%B3%96%EF%BC%8C%E4%BD%86%E6%98%AF%E9%80%9A%E9%80%9A%E9%83%BD%E5%96%9D%E8%B5%B7%E4%BE%86%E6%98%AF%E7%84%A1%E7%B3%96%E9%98%BF%7E%E8%AB%8B%E5%95%8F%E4%BD%A0%E5%80%91%E6%98%AF%E6%9C%89%E5%8D%97%E9%83%A8%E4%BE%86%E7%9A%84%E5%BA%97%E5%93%A1%E5%97%8EQQ%E5%8F%AF%E4%BB%A5%E8%AB%8B%E4%BB%96%E8%A8%98%E5%BE%97%E5%8A%A0%E7%B3%96%E5%97%8E...%E6%88%91%E5%B7%B2%E7%B6%93%E5%96%9D%E5%A5%BD%E5%B9%BE%E6%AC%A1%E6%9C%89%E7%B3%96%E8%AE%8A%E7%84%A1%E7%B3%96%E7%9A%84%E9%A3%B2%E6%96%99%E4%BA%86%EF%BC%8C%E8%A6%81%E4%BA%BA%E5%AE%B6%E6%B8%9B%E8%82%A5%E4%B9%9F%E4%B8%8D%E6%98%AF%E9%80%99%E6%A8%A3%E5%AD%90%E7%9A%84%E5%90%A7%7E%E4%B8%8B%E6%AC%A1%E9%96%8B%E5%A7%8B%E5%A6%82%E6%9E%9C%E7%9C%8B%E5%88%B0%E6%9C%89%E4%BA%BA%E9%BB%9E%E5%96%AE%E7%9A%84%E6%99%82%E5%80%99%E6%8F%90%E9%86%92%E8%A6%81%E8%A8%98%E5%BE%97%E5%8A%A0%E7%B3%96%EF%BC%8C%E9%82%A3%E4%B8%80%E5%AE%9A%E6%98%AF%E6%88%91%E7%9A%84%E5%AE%B6%E4%BA%BA...
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:41 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '568'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6YCj57qMIOWlvSDlub4g5qyhIOacieezliDpg70g5YGa5oiQIOeEoeezliDvvIwg56ysIOS4gCDmrKEg5b6u57OWIOS7liDlgZrmiJAg54Sh57OWIE9LIOaIkSDljp/oq5Ig77yMIOesrCDkuowg5qyh56ysIOS4iSDmrKEg6ICM5LiUIOmChOS4jeaYryDmr48g5qyhIOmDvSDpu54g5b6u57OWIO+8jCDmnInmmYIg5pivIOWNiuezliDmiJYg5YWo57OWIO+8jCDkvYbmmK8g6YCa6YCaIOmDvSDllp0g6LW35L6GIOaYryDnhKHns5Yg6Zi/IH4g6KuL5ZWPIOS9oOWAkSDmmK8g5pyJIOWNl+mDqCDkvoYg55qEIOW6l+WToSDll44gUVEg5Y+v5LulIOiriyDku5Yg6KiY5b6XIOWKoOezliDll44gLi4uIOaIkSDlt7LntpMg5ZadIOWlvSDlub4g5qyhIOaciSDns5boroog54Sh57OWIOeahCDpo7Lmlpkg5LqGIO+8jCDopoEg5Lq65a62IOa4m+iCpSDkuZ8g5LiNIOaYryDpgJnmqKPlrZAg55qEIOWQpyB+IOS4iyDmrKEg6ZaL5aeLIOWmguaenCDnnIvliLAg5pyJIOS6uiDpu57llq4g55qEIOaZguWAmSDmj5DphpIg6KaBIOiomOW+lyDliqDns5Yg77yMIOmCoyDkuIDlrpog5pivIOaIkSDnmoQg5a625Lq6IC4uLg==
+  recorded_at: Mon, 07 Dec 2020 14:17:40 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E8%A6%81%E5%A4%9A%E5%86%B0%E7%9A%84%E7%B5%90%E6%9E%9C%E6%B2%92%E5%86%B0%E5%A1%8A%0A%0A%E7%9C%9F%E7%9A%84%E5%BE%88%E6%8E%A8%E8%96%A6+%E4%B8%80%E5%AE%9A%E8%A6%81%E4%BE%86+%E5%91%B5%E5%91%B5
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:42 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '79'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6KaB5aSaIOWGsCDnmoQg57WQ5p6cIOaykiDlhrDloYogCiAKIOecn+eahCDlvogg5o6o6JamICAg5LiA5a6aIOimgeS+hiAgIOWRteWRtQ==
+  recorded_at: Mon, 07 Dec 2020 14:17:41 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%AF%8F%E6%AC%A1%E8%B2%B7%E5%BE%AE%E7%B3%96%E3%80%81%E5%B0%91%E5%86%B0%EF%BC%8C%E4%BD%86%E5%96%9D%E8%B5%B7%E4%BE%86%E5%92%8C%E5%85%A8%E7%B3%96%E3%80%81%E5%85%A8%E5%86%B0%E4%B8%80%E6%A8%A3%EF%BC%8C%E5%85%A9%E8%80%85%E9%96%93%E5%AE%8C%E5%85%A8%E6%B2%92%E6%9C%89%E5%B7%AE%E7%95%B0%E6%80%A7%EF%BC%8C%E4%B8%94%E5%BA%97%E5%93%A1%E5%9C%A8%E8%A3%BD%E4%BD%9C%E9%A3%B2%E5%93%81%E6%99%82%E5%B9%BE%E4%B9%8E%E9%83%BD%E6%B2%92%E6%9C%89shake%EF%BC%8C%E6%AF%8F%E6%AC%A1%E8%B3%BC%E8%B2%B7%E5%BE%8C%E8%A6%81%E9%A3%B2%E7%94%A8%E6%99%82%EF%BC%8C%E5%8D%B3%E4%BD%BF%E5%B7%B2%E7%B6%93%E6%90%96%E6%99%83%E4%B8%80%E9%99%A3%E5%AD%90%EF%BC%8C%E4%BD%86%E5%BE%88%E6%98%8E%E9%A1%AF%E5%BE%97%E7%B3%96%E6%BC%BF%E7%9A%84%E5%91%B3%E9%81%93%E5%B7%B2%E7%B6%93%E5%BE%88%E4%B8%8D%E5%B9%B3%E5%9D%87%E4%BA%86%EF%BC%8C%E5%88%A5%E5%AE%B6%E5%BA%97%E5%B9%BE%E4%B9%8E%E9%83%BD%E4%B8%8D%E6%9C%83%E6%9C%89%E9%80%99%E7%A8%AE%E5%95%8F%E9%A1%8C%EF%BC%8C%E5%B8%8C%E6%9C%9B%E6%9C%AC%E5%BA%97%E5%8F%AF%E4%BB%A5%E9%87%8D%E8%A6%96%E9%80%99%E5%80%8B%E5%95%8F%E9%A1%8C%21
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:43 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '418'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5q+PIOasoSDosrcg5b6u57OWIOOAgSDlsJHlhrAg77yMIOS9hiDllp0g6LW35L6GIOWSjCDlhajns5Yg44CBIOWFqOWGsCDkuIDmqKMg77yMIOWFqeiAhSDplpMg5a6M5YWoIOaykuaciSDlt67nlbDmgKcg77yMIOS4lCDlupflk6Eg5ZyoIOijveS9nCDpo7Llk4Eg5pmCIOW5vuS5jiDpg70g5rKS5pyJIHNoYWtlIO+8jCDmr48g5qyhIOizvOiytyDlvowg6KaBIOmjsueUqCDmmYIg77yMIOWNs+S9vyDlt7LntpMg5pCW5pmDIOS4gOmZo+WtkCDvvIwg5L2GIOW+iCDmmI7poa8g5b6XIOezlua8vyDnmoQg5ZGz6YGTIOW3sue2kyDlvogg5LiNIOW5s+WdhyDkuoYg77yMIOWIpeWutiDlupcg5bm+5LmOIOmDvSDkuI3mnIMg5pyJIOmAmSDnqK4g5ZWP6aGMIO+8jCDluIzmnJsg5pys5bqXIOWPr+S7pSDph43oppYg6YCZIOWAiyDllY/poYwgIQ==
+  recorded_at: Mon, 07 Dec 2020 14:17:42 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%BA%97%E5%93%A1%E6%9C%83%E4%BB%8B%E7%B4%B9%E8%8C%B6%E7%9A%84%E5%91%B3%E9%81%93%EF%BC%8C%E5%A5%BD%E5%96%9D%E9%A0%86%E5%8F%A3%F0%9F%91%8D%F0%9F%91%8D%F0%9F%91%8D
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:44 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '65'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5bqX5ZOhIOacgyDku4vntLkg6Iy2IOeahCDlkbPpgZMg77yMIOWlveWWnSDpoIblj6Mg8J+RjSDwn5GNIPCfkY0=
+  recorded_at: Mon, 07 Dec 2020 14:17:43 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%99%BD%E7%8E%89%E6%95%B4%E5%80%8B%E9%BB%8F%E5%9C%A8%E4%B8%80%E8%B5%B7%E5%90%B8%E4%B8%8D%E8%B5%B7%E4%BE%86%EF%BC%8C%E8%A6%81%E6%95%B4%E5%80%8B%E6%8B%86%E9%96%8B%E4%BE%86%E5%90%83%EF%BC%8C%E7%9C%8B%E7%99%BD%E7%8E%89%E9%82%A3%E6%A8%A3%E6%87%89%E8%A9%B2%E4%B8%8D%E6%98%AF%E5%96%9D%E4%B9%8B%E5%89%8D%E6%90%96%E4%B8%80%E6%90%96%E5%B0%B1%E8%83%BD%E8%A7%A3%E6%B1%BA%E7%9A%84%E2%8B%AF
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:45 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '152'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        55m9546JIOaVtOWAiyDpu48g5Zyo5LiA6LW3IOWQuCDkuI0g6LW35L6GIO+8jCDopoEg5pW05YCLIOaLhumWi+S+hiDlkIMg77yMIOeciyDnmb3njokg6YKj5qijIOaHieipsiDkuI0g5pivIOWWnSDkuYvliY0g5pCW5LiA5pCWIOWwsSDog70g6Kej5rG6IOeahCDii68=
+  recorded_at: Mon, 07 Dec 2020 14:17:44 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%83%BD%E5%BF%AB%E5%96%9D%E5%AE%8C%E4%BA%86%E6%80%8E%E9%BA%BC%E5%96%9D%E5%88%B0%E9%80%99%E5%80%8B%E4%BB%80%E9%BA%BC%E6%9D%B1%E8%A5%BF%0A%E9%82%84%E5%96%9D%E5%88%B0%E5%85%A9%E6%AC%A1%0A%E4%B8%8B%E6%AC%A1%E6%B3%A8%E6%84%8F%E4%B8%80%E9%BB%9E
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:46 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '99'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6YO9IOW/qyDllp3lrowg5LqGIOaAjum6vCDllp3liLAg6YCZIOWAiyDku4Dpurwg5p2x6KW/IAog6YKEIOWWneWIsCDlhakg5qyhIAog5LiLIOasoSDms6jmhI8g5LiA6bue
+  recorded_at: Mon, 07 Dec 2020 14:17:45 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%86%9F%E6%88%90%E6%AA%B8%E6%9E%9C+%E8%B6%85%E5%A5%BD%E5%96%9D%F0%9F%92%93%E6%8E%A8%0A%E6%9C%8D%E5%8B%99%E4%BA%BA%E5%93%A1%E6%85%8B%E5%BA%A6%E5%BE%88%E5%A5%BD%F0%9F%91%8D
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:48 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '70'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        54af5oiQ5qq45p6cICAg6LaFIOWlveWWnSDwn5KTIOaOqCAKIOacjeWLmSDkurrlk6Eg5oWL5bqmIOW+iCDlpb0g8J+RjQ==
+  recorded_at: Mon, 07 Dec 2020 14:17:47 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E4%B9%BE+%E6%9C%89%E4%B8%80%E5%80%8B%E5%BA%97%E5%93%A1%E8%B6%85%E6%AD%A3+%E5%A4%A7%E5%AE%B6%E4%B8%80%E5%AE%9A%E8%A6%81%E5%8E%BB%E7%9C%8B%E4%B8%80%E4%B8%8B
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:49 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '65'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5Lm+ICAg5pyJIOS4gCDlgIsg5bqX5ZOhIOi2heatoyAgIOWkp+WutiDkuIDlrpog6KaB5Y67IOeciyDkuIDkuIs=
+  recorded_at: Mon, 07 Dec 2020 14:17:48 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%96%9C%E6%AD%A1%E5%96%9D%E6%98%A5%E8%8A%BD%E7%B6%A0%E8%8C%B6%21%21%E5%93%A1%E5%B7%A5%E6%9C%8D%E5%8B%99%E9%83%BD%E5%BE%88%E5%A5%BD
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:50 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '53'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5Zac5q2hIOWWnSDmmKXoir3ntqDojLYgISAhIOWToeW3pSDmnI3li5kg6YO9IOW+iCDlpb0=
+  recorded_at: Mon, 07 Dec 2020 14:17:49 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%BA%97%E5%93%A1%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E5%A5%BD%21%E8%A3%BD%E4%BD%9C%E9%A3%B2%E6%96%99%E9%80%9F%E5%BA%A6%E5%BF%AB%EF%BC%8C%E8%83%AD%E8%84%82%E5%A4%9A%E5%A4%9A%E6%AF%94%E8%B5%B7%E5%89%8D%E5%B9%BE%E5%A4%A9%E5%9C%A8costco%E9%99%84%E8%BF%91%E5%88%86%E5%BA%97%E8%B2%B7%E5%88%B0%E7%9A%84%E5%A5%BD%E5%96%9D%E5%BE%88%E5%A4%9A%3E
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:51 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '137'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5bqX5ZOhIOacjeWLmSDmhYvluqYg5aW9ICEg6KO95L2cIOmjsuaWmSDpgJ/luqYg5b+rIO+8jCDog63ohILlpJrlpJog5q+U6LW3IOWJjeW5vuWkqSDlnKggY29zdGNvIOmZhOi/kSDliIblupcg6LK35YiwIOeahCDlpb3llp0g5b6I5aSaID4=
+  recorded_at: Mon, 07 Dec 2020 14:17:50 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%94%A8%E4%BA%86user+eat+%E5%A4%96%E9%80%81%E4%BA%94%E6%9D%AF+%E5%B0%91%E5%86%B0%E5%BE%AE%E7%B3%96%0A%0A%E7%B5%90%E6%9E%9C%E5%86%B0%E5%A1%8A%E5%8D%8A%E6%9D%AF%E3%80%82%0A%0A%E9%A3%B2%E6%96%99%E6%9D%AF%E3%80%82%E4%B8%8B%E5%8D%8A%E6%9D%AF%E5%85%A8%E9%83%A8%E6%9E%9C%E7%B3%96%EF%BC%8C%E4%B8%8A%E5%8D%8A%E6%9D%AF%E7%84%A1%E7%B3%96%E3%80%82%0A%E6%98%AF%E8%A6%81%E8%AB%8B%E6%88%91%E5%96%9D%E6%8B%BF%E9%90%B5%E6%98%AF%E5%97%8E%EF%BC%9F%E9%80%A3%E6%90%96%E9%83%BD%E6%87%B6%E7%9A%84%E6%90%96%EF%BC%9F
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:52 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '216'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        55So5LqGIHVzZXIgICBlYXQgICDlpJbpgIEg5LqU5p2vICAg5bCR5YawIOW+ruezliAKIAog57WQ5p6cIOWGsOWhiiDljYog5p2vIOOAgiAKIAog6aOy5paZ5p2vIOOAgiDkuIvljYog5p2vIOWFqOmDqCDmnpzns5Yg77yMIOS4iiDljYog5p2vIOeEoeezliDjgIIgCiDmmK8g6KaB6KuLIOaIkSDllp0g5ou/6ZC1IOaYryDll44g77yfIOmAo+aQliDpg70g5oe2IOeahCDmkJYg77yf
+  recorded_at: Mon, 07 Dec 2020 14:17:51 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%96%B0%E5%87%BA%E7%9A%84%E9%9B%AA%E8%97%8F%E6%9C%AB%E8%8C%B6%0A10.%E9%96%8B%E9%96%80%0A11.%E5%8E%BB%E8%B2%B7%E5%B0%B1%E6%B2%92%E6%9C%89%E4%BA%86+%E6%97%A2%E7%84%B6%E8%B3%A3%E9%80%99%E9%BA%BC%E5%BF%AB%0A%E4%B8%8D%E6%9C%83%E6%83%B3%E8%A6%81%E5%A4%9A%E8%A3%9C%E9%BB%9E%E6%96%99%E5%97%8E%3D%3D%0A%E9%9A%94%E5%B9%BE%E5%A4%A9%E5%8E%BB%E8%B2%B7%E9%82%84%E6%98%AF%E6%B2%92%E6%9C%89
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:54 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '164'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5paw5Ye6IOeahCDpm6rol4/mnKvojLYgCiAxMCAuIOmWi+mWgCAKIDExIC4g5Y676LK3IOWwsSDmspLmnIkg5LqGICAg5pei54S2IOizoyDpgJnpurwg5b+rIAog5LiN5pyDIOaDs+imgSDlpJog6KOc6bueIOaWmSDll44gPSA9IAog6ZqUIOW5viDlpKnljrsg6LK3IOmChOaYryDmspLmnIk=
+  recorded_at: Mon, 07 Dec 2020 14:17:53 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%B4%94%E8%8C%B6%E5%A5%BD%E5%96%9D%EF%BC%8C%E5%BA%97%E9%9D%A2%E5%89%8D%E4%B8%8D%E6%96%B9%E4%BE%BF%E5%81%9C%E8%BB%8A%EF%BC%8C%E5%BB%BA%E8%AD%B0%E9%99%84%E8%BF%91%E5%81%9C%E5%A5%BD%E8%BB%8A%E5%86%8D%E8%B5%B0%E9%81%8E%E4%BE%86
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:55 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '88'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        57SU6Iy2IOWlveWWnSDvvIwg5bqX6Z2iIOWJjSDkuI0g5pa55L6/IOWBnOi7iiDvvIwg5bu66K2wIOmZhOi/kSDlgZzlpb0g6LuK5YaNIOi1sOmBjuS+hg==
+  recorded_at: Mon, 07 Dec 2020 14:17:54 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%87%89%E8%A9%B2%E6%98%AF%E5%96%9D%E9%81%8E%E6%9C%80%E6%B0%B4%E3%80%81%E5%BE%88%E6%B2%92%E8%8C%B6%E5%91%B3%E7%9A%84%E4%B8%80%E5%AE%B6%E5%8F%AF%E4%B8%8D%E5%8F%AF%E4%BA%86%EF%BC%8C%E6%87%B7%E7%96%91%E6%98%AF%E4%B8%8D%E6%98%AF%E5%AE%B6%E7%B4%85%E8%8C%B6%E5%B0%88%E8%B3%A3%E5%BA%97%E4%BA%86%E3%80%82
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:56 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '124'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5oeJ6KmyIOaYryDllp0g6YGOIOacgCDmsLQg44CBIOW+iCDmspIg6Iy25ZGzIOeahCDkuIAg5a62IOWPryDkuI3lj68g5LqGIO+8jCDmh7fnlpEg5pivIOS4jSDmmK8g5a62IOe0heiMtiDlsIjos6Plupcg5LqGIOOAgg==
+  recorded_at: Mon, 07 Dec 2020 14:17:55 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%A5%BD%E5%96%9D%E7%9A%84%E9%BA%97%E6%98%A5%E7%B4%85%E8%8C%B6%EF%BC%8C%E4%BE%BF%E5%AE%9C%E4%B8%AD%E7%9A%84%E7%BE%8E%E5%91%B3
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:57 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '49'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5aW95ZadIOeahCDpupfmmKXntIXojLYg77yMIOS+v+WunCDkuK0g55qEIOe+juWRsw==
+  recorded_at: Mon, 07 Dec 2020 14:17:56 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E4%BB%8A%E5%A4%A9%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8E%BB%E8%B2%B7%E8%8C%B6%E5%96%9D%EF%BC%8C%E5%9B%A0%E7%82%BA%E5%8F%AF%E4%B8%8D%E5%8F%AF%E5%93%81%E5%90%8D%E5%A4%AA%E6%96%87%E9%9D%92%E4%BA%86%E4%B8%8D%E7%9F%A5%E9%81%93%E8%A9%B2%E6%80%8E%E9%BA%BC%E9%BB%9EXDD+%E9%82%84%E5%A5%BD%E5%BA%97%E5%93%A1%E5%A6%B9%E5%A6%B9%E6%85%8B%E5%BA%A6%E5%BE%88%E5%A5%BD%EF%BC%8C%E5%BE%88%E6%9C%89%E8%80%90%E5%BF%83%E7%9A%84%E8%B7%9F%E6%88%91%E8%A7%A3%E9%87%8B%EF%BC%8C%E8%80%8C%E4%B8%94%E5%BE%88%E6%9C%89%E7%A6%AE%E8%B2%8C%EF%BC%8C%E8%80%8C%E4%B8%94%E7%B4%85%E8%8C%B6%E4%B8%8D%E9%8C%AF%E5%96%9D%EF%BC%8C%E4%BB%A5%E5%BE%8C%E7%AB%B9%E6%9D%B1%E9%82%84%E6%9C%83%E5%85%89%E8%87%A8%EF%BC%81
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:58 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '275'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5LuK5aSpIOesrCDkuIAg5qyhIOWOuyDosrfojLYg5ZadIO+8jCDlm6Dngrog5Y+vIOS4jeWPryDlk4HlkI0g5aSqIOaWh+mdkiDkuoYg5LiNIOefpemBkyDoqbIg5oCO6bq8IOm7niBYREQgICDpgoTlpb0g5bqX5ZOhIOWmueWmuSDmhYvluqYg5b6IIOWlvSDvvIwg5b6IIOaciSDogJDlv4Mg55qEIOi3nyDmiJEg6Kej6YeLIO+8jCDogIzkuJQg5b6IIOaciSDnpq7osowg77yMIOiAjOS4lCDntIXojLYg5LiN6YyvIOWWnSDvvIwg5Lul5b6MIOerueadsSDpgoQg5pyDIOWFieiHqCDvvIE=
+  recorded_at: Mon, 07 Dec 2020 14:17:57 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%BE%9E%E5%BE%88%E4%B9%85%E4%BB%A5%E5%89%8D%E7%9A%84%E5%8F%B0%E4%B8%AD%E5%8F%AF%E4%B8%8D%E5%8F%AF%E5%88%B0%E7%8F%BE%E5%9C%A8%E6%90%96%E8%BA%AB%E4%B8%80%E8%AE%8A%E6%B7%B1%E8%97%8D%E8%89%B2%E7%9A%84%E6%8B%9B%E7%89%8C%E5%8F%8A%E8%A3%9D%E6%BD%A2%EF%BC%8C%E4%B8%80%E6%95%B4%E5%80%8B%E9%A2%A8%E6%A0%BC%E5%A4%A7%E8%BD%89%E8%AE%8A%E8%AE%8A%E5%BE%97%E6%9B%B4%E6%9C%89%E8%B3%AA%E6%84%9F%E4%BA%86%E3%80%82%E5%BE%9E%E5%89%8D%E6%88%91%E5%96%9C%E6%AD%A1%E5%96%9D%E5%86%AC%E7%93%9C%E5%8F%A3%E5%91%B3%EF%BC%8C%E7%8F%BE%E5%9C%A8%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%A7%E6%8E%A8%E8%96%A6%E3%80%8C%E8%83%AD%E8%84%82%E7%B4%85%E8%8C%B6%E3%80%8D%EF%BC%8C%E5%8F%AA%E8%A6%81%E6%9C%8B%E5%8F%8B%E8%A6%81%E8%B2%B7%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%B5%A6%E6%88%91%E6%8E%A2%E7%8F%AD%EF%BC%8C%E6%88%91%E9%83%BD%E6%9C%83%E6%8C%87%E5%AE%9A%E4%B8%80%E5%AE%9A%E8%A6%81%E5%96%9D%E8%83%AD%E8%84%82%E7%B4%85%E8%8C%B6%EF%BC%8C%E5%BE%AE%E7%B3%96%E7%9A%84%E7%94%9C%E5%BA%A6%E6%98%AF%E6%88%91%E8%A6%BA%E5%BE%97%E6%9C%80%E5%89%9B%E5%A5%BD%E7%9A%84%EF%BC%8C%E5%96%9D%E8%B5%B7%E4%BE%86%E4%B8%8D%E5%96%AE%E5%96%AE%E5%8F%AA%E6%98%AF%E7%B4%85%E8%8C%B6%EF%BC%8C%E6%9B%B4%E5%B8%B6%E6%9C%89%E4%B8%80%E9%BB%9E%E6%9E%9C%E9%A6%99%E5%91%B3%E3%80%82
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:17:59 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '480'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5b6eIOW+iCDkuYUg5Lul5YmNIOeahCDlj7DkuK0g5Y+vIOS4jeWPryDliLAg54++5ZyoIOaQlui6q+S4gOiuiiDmt7Hol43oibIg55qEIOaLm+eJjCDlj4og6KOd5r2iIO+8jCDkuIAg5pW05YCLIOmiqOagvCDlpKcg6L2J6K6KIOiuiuW+lyDmm7Qg5pyJIOizquaEnyDkuoYg44CCIOW+nuWJjSDmiJEg5Zac5q2hIOWWnSDlhqznk5wg5Y+j5ZGzIO+8jCDnj77lnKgg55yf55qEIOimgSDlpKcg5o6o6JamIOOAjCDog63ohILntIXojLYg44CNIO+8jCDlj6ropoEg5pyL5Y+LIOimgSDosrcg5Y+vIOS4jeWPryDntaYg5oiRIOaOouePrSDvvIwg5oiRIOmDvSDmnIMg5oyH5a6aIOS4gOWumiDopoEg5ZadIOiDreiEgue0heiMtiDvvIwg5b6u57OWIOeahCDnlJzluqYg5pivIOaIkSDoprrlvpcg5pyAIOWJm+WlvSDnmoQg77yMIOWWnSDotbfkvoYg5LiN5Zau5ZauIOWPquaYryDntIXojLYg77yMIOabtCDluLbmnIkg5LiA6bueIOaenCDpppnlkbMg44CC
+  recorded_at: Mon, 07 Dec 2020 14:17:58 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%AF%8F%E6%AC%A1%E4%BE%86%EF%BC%8C%E5%BF%85%E9%BB%9E%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%9A%84%E6%BA%AB%E7%86%B1%E5%BE%AE%E7%B3%96%E7%99%BD%E7%8E%89%E6%AD%90%E8%95%BE%EF%BC%8C%E5%A5%BD%E5%96%9D%E7%84%A1%E9%9C%80%E5%A4%9A%E8%A8%80%E3%80%82%E7%9B%B8%E8%BC%83%E6%96%BC%E5%85%B6%E4%BB%96%E9%A3%B2%E6%96%99%E5%BA%97%EF%BC%8C%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%9A%84%E8%8C%B6%E6%B0%B4%E5%91%B3%EF%BC%8C%E6%AF%94%E8%BC%83%E4%B8%8D%E6%BE%80%E8%80%8C%E8%80%90%E5%96%9D%E3%80%82%E4%B8%80%E6%9D%AF%E5%96%9D%E5%AE%8C%EF%BC%8C%E9%A4%98%E9%9F%BB%E7%8C%B6%E5%AD%98
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:18:00 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '218'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5q+PIOasoSDkvoYg77yMIOW/hem7niDlj68g5LiN5Y+vIOeahCDmuqvnhrEg5b6u57OWIOeZveeOieatkOiVviDvvIwg5aW95ZadIOeEoemcgCDlpJroqIAg44CCIOebuOi8gyDmlrwg5YW2IOS7liDpo7Lmlpnlupcg77yMIOWPryDkuI3lj68g55qEIOiMtuawtCDlkbMg77yMIOavlOi8gyDkuI0g5r6A6ICM6ICQIOWWnSDjgIIg5LiAIOadryDllp3lrowg77yMIOmkmOmfuyDnjLblrZg=
+  recorded_at: Mon, 07 Dec 2020 14:17:59 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%9C%9F%E7%9A%84%E6%98%AF%E5%B9%B3%E5%83%B9%E5%8F%88%E5%A5%BD%E5%96%9D%E7%9A%84%E9%A3%B2%E6%96%99%E9%80%A3%E9%8E%96%E5%BA%97%EF%BC%8C%E7%8F%BE%E5%9C%A8%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A%E5%AF%B6%E5%8F%AF%E5%A4%A2%E6%9D%AF%E5%AD%90%EF%BC%8C%E8%B6%85%E7%B2%BE%E7%B7%BB%E5%8F%88%E5%8F%AF%E6%84%9B%F0%9F%98%8D%EF%BC%8C%E5%A5%BD%E5%96%9C%E6%AD%A1%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%B4%85%E8%8C%B6%E9%80%99%E5%80%8B%E5%93%81%E7%89%8C%E9%A3%B2%E6%96%99%E5%BA%97%EF%BC%8C%E9%80%99%E5%AE%B6%E7%AB%B9%E6%9D%B1%E5%BA%97%EF%BC%8C%E5%93%81%E8%B3%AA%E5%BE%88%E5%A5%BD%EF%BC%8C%E5%A5%BD%E5%96%9D%E7%9A%84%E7%B4%85%E8%8C%B6
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:18:01 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '255'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5Y+vIOS4jeWPryDnnJ/nmoQg5pivIOW5s+WDuSDlj4gg5aW95ZadIOeahCDpo7Lmlpkg6YCj6Y6W5bqXIO+8jCDnj77lnKgg5pyf6ZaTIOmZkOWumiDlr7blj6/lpKIg5p2v5a2QIO+8jCDotoUg57K+57e7IOWPiCDlj6/mhJsg8J+YjSDvvIwg5aW9IOWWnOatoSDlj68g5LiN5Y+vIOe0heiMtiDpgJkg5YCLIOWTgeeJjCDpo7Lmlpnlupcg77yMIOmAmSDlrrYg56u55p2xIOW6lyDvvIwg5ZOB6LOqIOW+iCDlpb0g77yMIOWlveWWnSDnmoQg57SF6Iy2
+  recorded_at: Mon, 07 Dec 2020 14:18:00 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E8%87%AA%E5%BE%9E%E5%8F%AF%E4%B8%8D%E5%8F%AF%E6%96%B0%E5%87%BA4%E6%AC%BE%E9%A3%B2%E6%96%99%E5%BE%8C%0A%E6%9C%80%E6%84%9B%E7%9A%84%E5%B0%B1%E6%98%AF+%E5%A2%A8%E7%8E%89%E6%AD%90%E7%89%B9%0A%E5%85%B6%E4%BB%96%E5%AE%B6%E8%B2%B7%E7%9A%84%E5%8F%A3%E6%84%9F%E9%83%BD%E9%9D%9E%E5%B8%B8%E5%A5%BD%0A%E8%A3%A1%E9%9D%A2%E7%9A%84%E5%92%96%E5%95%A1%E6%96%99+%E6%BB%91%E6%BB%91QQ%E7%9A%84%0A%E4%BD%86%E9%80%99%E6%AC%A1%E8%B2%B7%E7%9A%84%E5%A2%A8%E7%8E%89%E5%8F%A3%E6%84%9F%E6%A5%B5%E5%B7%AE%0A%E6%9C%892%2F3%E7%9A%84%E5%A2%A8%E7%8E%89%E5%A5%BD%E5%83%8F%E6%9C%AA%E8%92%B8%E7%86%9F%0A%E9%83%BD%E7%B2%89%E7%B2%89%E7%A1%AC%E7%A1%AC%E7%9A%84+%E5%83%8F%E5%86%B0%E9%81%8E%E7%9A%84%E7%B2%89%E5%9C%93%0A%E5%B8%8C%E6%9C%9B%E5%93%81%E8%B3%AA%E7%9A%84%E9%83%A8%E5%88%86%E5%8F%AF%E4%BB%A5%E5%86%8D%E7%95%99%E6%84%8F%0A%E5%85%B6%E4%BB%96%E5%93%81%E9%A0%85%E9%83%BD%E5%BE%88%E5%A5%BD+%E6%9C%8D%E5%8B%99%E4%B9%9F%E4%B8%8D%E9%8C%AF
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:18:02 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '385'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6Ieq5b6eIOWPryDkuI3lj68g5paw5Ye6IDQg5qy+IOmjsuaWmSDlvowgCiDmnIDmhJsg55qEIOWwseaYryAgIOWiqOeOieatkOeJuSAKIOWFtiDku5Yg5a626LK3IOeahCDlj6PmhJ8g6YO9IOmdnuW4uCDlpb0gCiDoo6HpnaIg55qEIOWSluWVoSDmlpkgICDmu5Hmu5EgUVEg55qEIAog5L2GIOmAmSDmrKEg6LK3IOeahCDloqjnjokg5Y+j5oSfIOalteW3riAKIOaciSAyIC8gMyDnmoQg5aKo546JIOWlveWDjyDmnKog6JK454afIAog6YO9IOeyieeyiSDnoaznoawg55qEICAg5YOPIOWGsOmBjiDnmoQg57KJ5ZyTIAog5biM5pybIOWTgeizqiDnmoQg6YOo5YiGIOWPr+S7pSDlho0g55WZ5oSPIAog5YW2IOS7liDlk4HpoIUg6YO9IOW+iCDlpb0gICDmnI3li5kg5LmfIOS4jemMrw==
+  recorded_at: Mon, 07 Dec 2020 14:18:01 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%80%99%E5%AE%B6%E5%8F%AF%E4%B8%8D%E5%8F%AF%E4%B8%80%E6%A8%A3%E5%93%81%E9%A0%85%E5%96%9D%E8%B5%B7%E4%BE%86%E6%AF%94%E8%BC%83%E5%A5%BD%E5%96%9D%EF%BC%8C%E5%BA%97%E5%93%A1%E4%B9%9F%E9%83%BD%E8%A6%AA%E5%88%87%E6%9C%89%E7%A6%AE%E8%B2%8C%EF%BC%8C%E9%9B%A2%E7%81%AB%E8%BB%8A%E7%AB%99%E5%BE%88%E8%BF%91%EF%BC%8C%E5%BE%88%E6%96%B9%E4%BE%BF%EF%BC%8C%E6%8E%A8%E6%8E%A8
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:18:03 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '146'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        6YCZIOWutiDlj68g5LiN5Y+vIOS4gOaooyDlk4HpoIUg5ZadIOi1t+S+hiDmr5TovIMg5aW95ZadIO+8jCDlupflk6Eg5LmfIOmDvSDopqrliIcg5pyJIOemruiyjCDvvIwg6ZuiIOeBq+i7iuermSDlvogg6L+RIO+8jCDlvogg5pa55L6/IO+8jCDmjqjmjqg=
+  recorded_at: Mon, 07 Dec 2020 14:18:02 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%9D%B1%E8%A5%BF%E9%83%BD%E4%B8%8D%E9%8C%AF%E5%96%9D%EF%BC%8C%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E4%B8%8D%E9%8C%AF%E3%80%82%0A%E7%B9%BC%E7%BA%8C%E4%BF%9D%E6%8C%81%E5%94%B7%EF%BC%81%E5%A4%96%E9%80%81%E5%93%A1%E5%92%8C%E8%97%B9%E5%8F%AF%E8%A6%AA
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:18:05 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '97'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5p2x6KW/IOmDvSDkuI3pjK8g5ZadIO+8jCDmnI3li5kg5oWL5bqmIOS4jemMryDjgIIgCiDnubznuowg5L+d5oyBIOWUtyDvvIEg5aSW6YCB5ZOhIOWSjOiXueWPr+imqg==
+  recorded_at: Mon, 07 Dec 2020 14:18:03 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E4%BB%8A%E5%A4%A9%E5%8F%AB%E4%BA%86%E5%A4%96%E9%80%81%E5%BE%88%E6%BA%96%E6%99%82%E5%A4%96%E9%80%81%E5%93%A1%E6%9C%8D%E5%8B%99%E8%A6%AA%E5%88%87%E3%80%81%E6%85%8B%E5%BA%A6%E5%A5%BD%F0%9F%91%8D%0A%E7%B4%85%E8%8C%B6%E5%A5%BD%E5%96%9D%E4%B8%8D%E6%9C%83%E6%BE%80%E6%BE%80%E7%9A%84
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:18:06 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '110'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5LuK5aSpIOWPqyDkuoYg5aSW6YCBIOW+iCDmupbmmYIg5aSW6YCB5ZOhIOacjeWLmSDopqrliIcg44CBIOaFi+W6piDlpb0g8J+RjSAKIOe0heiMtiDlpb3llp0g5LiN5pyDIOa+gOa+gCDnmoQ=
+  recorded_at: Mon, 07 Dec 2020 14:18:04 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%A5%BD%E5%96%9D%EF%BC%8C%E8%8C%B6%E5%91%B3%E4%B8%8D%E6%9C%83%E6%BE%80%E6%BE%80%E7%9A%84%EF%BC%8C%E6%B9%96%E5%8F%A3%E5%8F%88%E5%A4%9A%E4%B8%80%E9%96%93%E9%A3%B2%E6%96%99%E9%81%B8%E6%93%87%F0%9F%91%8D%EF%BC%8C%E6%8E%A8%E4%B8%80%E5%80%8B%F0%9F%A5%B0
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:18:07 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '101'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5aW95ZadIO+8jCDojLblkbMg5LiN5pyDIOa+gOa+gCDnmoQg77yMIOa5luWPoyDlj4gg5aSaIOS4gOmWkyDpo7Lmlpkg6YG45pOHIPCfkY0g77yMIOaOqCDkuIAg5YCLIPCfpbA=
+  recorded_at: Mon, 07 Dec 2020 14:18:06 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=10%2F10+20%EF%BC%9A25%E6%98%8E%E6%98%8E%E5%8F%AB%E8%99%9F52%E5%85%88%E6%94%BE%E5%B7%A6%E6%89%8B%E7%9A%84%E9%A3%B2%E6%96%99%EF%BC%8C%E4%B9%9F%E7%9C%8B%E4%BA%86%E8%99%9F%E7%A2%BC%E5%8D%BB%E6%8B%BF%E5%88%B053%E8%99%9F%E9%A3%B2%E6%96%99%EF%BC%8C%E9%9B%A2%E9%96%8B%E5%BE%8C%E7%99%BC%E7%8F%BE%E5%9B%9E%E5%8E%BB%E5%8F%8D%E6%87%89%E9%82%84%E6%8C%87%E8%B2%AC%E6%98%AF%E9%A1%A7%E5%AE%A2%E6%8B%BF%E9%8C%AF%E9%A3%B2%E6%96%99%EF%BC%8C%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E6%95%B4%E5%80%8B%E5%BE%88%E5%82%BB%E7%9C%BC%EF%BC%81%E7%94%9F%E6%84%8F%E5%A4%AA%E5%A5%BD%E8%AE%8A%E6%88%90%E6%98%AF%E9%A1%A7%E5%AE%A2%E8%A6%81%E5%B0%8F%E5%BF%83%E7%A2%BA%E8%AA%8D%EF%BC%8C%E6%98%AF%E4%B8%8D%E6%98%AF%E6%87%89%E8%A9%B2%E6%80%9D%E8%80%83%E9%81%BF%E5%85%8D%E9%A1%A7%E5%AE%A2%E8%B7%B3%E8%99%9F%E6%8B%BF%E5%88%B0%E9%A3%B2%E6%96%99%E5%91%A2%EF%BC%9F
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:18:08 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '345'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        MTAgLyAxMCAgIDIwIO+8miAyNSDmmI7mmI4g5Y+r6JmfIDUyIOWFiOaUviDlt6bmiYsg55qEIOmjsuaWmSDvvIwg5LmfIOeciyDkuoYg6Jmf56K8IOWNuyDmi7/liLAgNTMg6JmfIOmjsuaWmSDvvIwg6Zui6ZaLIOW+jCDnmbznj74g5Zue5Y67IOWPjeaHiSDpgoQg5oyH6LKsIOaYryDpoaflrqIg5ou/6YyvIOmjsuaWmSDvvIwg5pyN5YuZIOaFi+W6piDmlbTlgIsg5b6IIOWCu+ecvCDvvIEg55Sf5oSPIOWkqiDlpb0g6K6K5oiQIOaYryDpoaflrqIg6KaBIOWwj+W/gyDnorroqo0g77yMIOaYryDkuI0g5pivIOaHieipsiDmgJ3ogIMg6YG/5YWNIOmhp+WuoiDot7PomZ8g5ou/5YiwIOmjsuaWmSDlkaIg77yf
+  recorded_at: Mon, 07 Dec 2020 14:18:07 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%AD%89%E8%B6%85%E4%B9%85%EF%BC%8C%E6%AF%94%E6%88%91%E6%99%9A%E5%88%B0%E7%9A%84%E7%8F%BE%E5%A0%B4%E5%AE%A2%E4%BA%BA%E9%83%BD%E6%8B%BF%E8%B5%B0%E4%BA%86%EF%BC%8C%E9%82%84%E5%9C%A8%E7%AD%89%EF%BC%8C%E5%B0%B12%E6%9D%AF%E7%84%A1%E7%B3%96%E8%8C%B6%E9%A3%B2%E4%B9%9F%E8%83%BD%E7%AD%89%E4%B8%8A10%E5%88%86%E9%90%98%EF%BC%8C%E9%80%99%E6%95%88%E7%8E%87%E7%9C%9F%E9%AB%98%E2%80%A6%E2%80%A6%E8%A6%81%E4%B8%8D%E6%98%AF%E5%8E%BB%E8%A9%A2%E5%95%8F%EF%BC%8C%E4%BC%B0%E8%A8%88%E4%B9%9F%E4%B8%8D%E7%9F%A5%E9%81%93%E8%A2%AB%E7%96%8F%E5%BF%BD%E5%88%B0%E4%BB%80%E9%BA%BC%E6%99%82%E5%80%99%E3%80%82
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:18:09 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '242'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        562JIOi2heS5hSDvvIwg5q+UIOaIkSDmmZrliLAg55qEIOePvuWgtCDlrqLkurog6YO9IOaLv+i1sCDkuoYg77yMIOmChCDlnKgg562JIO+8jCDlsLEgMiDmna8g54Sh57OWIOiMtumjsiDkuZ8g6IO9IOetiSDkuIogMTAg5YiG6ZCYIO+8jCDpgJkg5pWI546HIOecnyDpq5gg4oCmIOKApiDopoHkuI3mmK8g5Y67IOipouWVjyDvvIwg5Lyw6KiIIOS5nyDkuI0g55+l6YGTIOiiqyDnlo/lv70g5Yiw5LuA6bq8IOaZguWAmSDjgII=
+  recorded_at: Mon, 07 Dec 2020 14:18:08 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%88%91%E5%BE%8C%E9%9D%A2%E5%85%A9%E5%96%AE%EF%BC%8C%E4%B8%80%E5%96%AE7%E6%9D%AF%E4%B8%80%E5%96%AE10%E6%9D%AF%EF%BC%8C%E6%88%911%E6%9D%AF%EF%BC%8C%E5%BE%8C%E9%9D%A2%E7%9A%84%E5%85%88%E5%87%BA%EF%BC%9F%E6%88%91%E9%BB%9E%E7%9A%84%E4%B8%8D%E6%98%AF%E5%9B%B0%E9%9B%A3%E7%9A%84%E5%93%81%E9%A0%85%EF%BC%8C1%E6%9D%AF%E4%B8%8D%E9%87%8D%E8%A6%81%EF%BC%9F%E6%84%9F%E8%A6%BA%E6%A5%B5%E5%B7%AE
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:18:10 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '166'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5oiRIOW+jOmdoiDlhakg5ZauIO+8jCDkuIDllq4gNyDmna8g5LiA5ZauIDEwIOadryDvvIwg5oiRIDEg5p2vIO+8jCDlvozpnaIg55qEIOWFiOWHuiDvvJ8g5oiRIOm7niDnmoQg5LiNIOaYryDlm7Dpm6Mg55qEIOWTgemghSDvvIwgMSDmna8g5LiNIOmHjeimgSDvvJ8g5oSf6Ka6IOalteW3rg==
+  recorded_at: Mon, 07 Dec 2020 14:18:09 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%A5%BD%E5%81%9C%E8%BB%8A%EF%BC%81%E7%84%B6%E5%BE%8C%E8%A3%9D%E6%BD%A2%E8%A8%AD%E8%A8%88%E5%BE%88%E6%A3%92%E8%B6%85%E7%B4%9A+%E5%96%9C%E6%AD%A1%F0%9F%92%95%E9%A3%B2%E6%96%99%E4%B9%9F%E5%A5%BD%E5%96%9D%E5%83%8F%E7%8F%BE%E6%B3%A1%E7%9A%84%E5%91%B3%E9%81%93%E9%A6%99%E9%A6%99%E7%9A%84%E5%91%B3%E9%81%93%E4%B8%8D%E5%A4%AA%E7%94%9C%E8%B6%85%E6%84%9B
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:18:11 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '139'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5aW9IOWBnOi7iiDvvIEg54S25b6MIOijnea9oiDoqK3oqIgg5b6I5qOSIOi2hee0miAgIOWWnOatoSDwn5KVIOmjsuaWmSDkuZ8g5aW95ZadIOWDjyDnj77ms6Eg55qEIOWRs+mBkyDpppnpppkg55qEIOWRs+mBkyDkuI0g5aSq55ScIOi2heaEmw==
+  recorded_at: Mon, 07 Dec 2020 14:18:10 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%BA%97%E5%93%A1%E9%BB%9E%E9%A4%90%E6%9C%89%E7%A8%AE%E4%B8%8D%E8%80%90%E7%85%A9%E7%9A%84%E6%84%9F%E8%A6%BA+%E6%85%8B%E5%BA%A6%E5%9C%A8%E5%B7%AE%E5%B9%BE%E9%BB%9E%E7%9A%84
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:18:12 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '71'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        5bqX5ZOhIOm7numkkCDmnIkg56iuIOS4jeiAkOeFqSDnmoQg5oSf6Ka6ICAg5oWL5bqmIOWcqCDlt64g5bm+IOm7niDnmoQ=
+  recorded_at: Mon, 07 Dec 2020 14:18:11 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/pos
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%9B%96%E7%84%B6%E5%8E%BB%E5%B9%B4%E9%96%8B%E5%BA%97%E5%88%9D%E6%9C%9F%E6%9C%89%E9%BB%9E%E6%B7%B7%E4%BA%82%EF%BC%8C%E4%BD%86%E5%BE%8C%E4%BE%86%E5%86%8D%E8%B2%B7%E4%BA%86%E5%B9%BE%E6%AC%A1%E9%83%BD%E4%B8%8D%E9%8C%AF%EF%BC%8C%E5%A5%B3%E5%85%92%E7%B4%85%E5%8E%9A%E8%8C%B6%E6%8B%BF%E9%90%B5%E5%A5%BD%E5%96%9D%E3%80%82
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 14:59:59 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '53'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: C N Vi N ADV Vi x C N d v ul m d Vi x DRINK_NOUN Vi x
+  recorded_at: Mon, 07 Dec 2020 14:59:58 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/pos
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%BA%97%E5%93%A1%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E5%A5%BD%21%E8%A3%BD%E4%BD%9C%E9%A3%B2%E6%96%99%E9%80%9F%E5%BA%A6%E5%BF%AB%EF%BC%8C%E8%83%AD%E8%84%82%E5%A4%9A%E5%A4%9A%E6%AF%94%E8%B5%B7%E5%89%8D%E5%B9%BE%E5%A4%A9%E5%9C%A8costco%E9%99%84%E8%BF%91%E5%88%86%E5%BA%97%E8%B2%B7%E5%88%B0%E7%9A%84%E5%A5%BD%E5%96%9D%E5%BE%88%E5%A4%9A%3E
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 15:00:34 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '61'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: N Nv N Vi x Vt N N Vi x DRINK_NOUN P N p eng N N Vt T Vi Vi x
+  recorded_at: Mon, 07 Dec 2020 15:00:33 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/pos
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%96%B0%E5%87%BA%E7%9A%84%E9%9B%AA%E8%97%8F%E6%9C%AB%E8%8C%B6%0A10.%E9%96%8B%E9%96%80%0A11.%E5%8E%BB%E8%B2%B7%E5%B0%B1%E6%B2%92%E6%9C%89%E4%BA%86+%E6%97%A2%E7%84%B6%E8%B3%A3%E9%80%99%E9%BA%BC%E5%BF%AB%0A%E4%B8%8D%E6%9C%83%E6%83%B3%E8%A6%81%E5%A4%9A%E8%A3%9C%E9%BB%9E%E6%96%99%E5%97%8E%3D%3D%0A%E9%9A%94%E5%B9%BE%E5%A4%A9%E5%8E%BB%E8%B2%B7%E9%82%84%E6%98%AF%E6%B2%92%E6%9C%89
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 15:00:35 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '92'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: v uj DRINK_NOUN x m Vi x m v v d Vt ASP x C Vt ADV Vi x ADV Vt Vi N
+        n y x x x v m v v ADV Vt
+  recorded_at: Mon, 07 Dec 2020 15:00:34 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/pos
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%94%A8%E4%BA%86user+eat+%E5%A4%96%E9%80%81%E4%BA%94%E6%9D%AF+%E5%B0%91%E5%86%B0%E5%BE%AE%E7%B3%96%0A%0A%E7%B5%90%E6%9E%9C%E5%86%B0%E5%A1%8A%E5%8D%8A%E6%9D%AF%E3%80%82%0A%0A%E9%A3%B2%E6%96%99%E6%9D%AF%E3%80%82%E4%B8%8B%E5%8D%8A%E6%9D%AF%E5%85%A8%E9%83%A8%E6%9E%9C%E7%B3%96%EF%BC%8C%E4%B8%8A%E5%8D%8A%E6%9D%AF%E7%84%A1%E7%B3%96%E3%80%82%0A%E6%98%AF%E8%A6%81%E8%AB%8B%E6%88%91%E5%96%9D%E6%8B%BF%E9%90%B5%E6%98%AF%E5%97%8E%EF%BC%9F%E9%80%A3%E6%90%96%E9%83%BD%E6%87%B6%E7%9A%84%E6%90%96%EF%BC%9F
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 15:00:36 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '108'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: p ul eng x eng x N m x N N x x N N m x x x N x N q n N x f m N x x v
+        v v r vg DRINK_NOUN v y x nr d a uj v x
+  recorded_at: Mon, 07 Dec 2020 15:00:35 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/pos
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%B4%94%E8%8C%B6%E5%A5%BD%E5%96%9D%EF%BC%8C%E5%BA%97%E9%9D%A2%E5%89%8D%E4%B8%8D%E6%96%B9%E4%BE%BF%E5%81%9C%E8%BB%8A%EF%BC%8C%E5%BB%BA%E8%AD%B0%E9%99%84%E8%BF%91%E5%81%9C%E5%A5%BD%E8%BB%8A%E5%86%8D%E8%B5%B0%E9%81%8E%E4%BE%86
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 15:00:38 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '42'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: a n Vi x N POST ADV Vi Nv x Vt N Vt n d Vi
+  recorded_at: Mon, 07 Dec 2020 15:00:37 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/pos
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%85%AD%E6%9D%AF%E6%9C%89%E6%96%99%E9%A3%B2%E6%96%99+%E7%B5%A6%E4%BA%86%E5%85%A9%E6%94%AF%E7%B2%97%E5%90%B8%E7%AE%A1%E3%80%81%E5%9B%9B%E6%94%AF%E7%B4%B0%E5%90%B8%E7%AE%A1...%0A%E5%B8%8C%E6%9C%9B%E6%97%A5%E5%BE%8C%E5%87%BA%E9%A4%90%E8%83%BD%E5%A4%9A%E5%8A%A0%E6%B3%A8%E6%84%8F+%E8%BE%9B%E8%8B%A6%E4%BA%86
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 15:00:40 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '55'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: m n N x p ul m a N x m n N m x Vt N N v m v Vt x Vt ASP
+  recorded_at: Mon, 07 Dec 2020 15:00:39 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/pos
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%BB%9E%E4%BA%86%E6%9D%AF%E7%84%99%E8%8C%B6%E7%83%A4%E5%A5%B6%E5%8A%A0%E7%8F%8D%E7%8F%A0+%E6%9C%89%E4%B8%80%E5%9D%A8%E4%B8%8D%E6%98%8E%E9%BB%91%E8%89%B2%E5%A1%91%E8%86%A0%E7%89%A9
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 15:00:41 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '35'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: m ul q DRINK_NOUN Vt N x r v Vi N N
+  recorded_at: Mon, 07 Dec 2020 15:00:40 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/pos
+    body:
+      encoding: US-ASCII
+      string: sentence=%E8%A7%A3%E6%B1%BA%E5%95%8F%E9%A1%8C%E7%9A%84%E6%96%B9%E5%BC%8F%E5%BE%88%E5%B7%AE%EF%BC%8C%E9%A3%B2%E6%96%99%E7%9A%84%E5%A4%A7%E5%B0%8F%E6%9D%AF%E5%81%9A%E9%8C%AF%EF%BC%8C%E6%89%93%E9%9B%BB%E8%A9%B1%E8%B7%9F%E4%BB%96%E5%80%91%E8%A8%8A%E5%95%8F%EF%BC%8C%E4%BD%86%E9%9B%BB%E8%A9%B1%E4%B8%AD%E7%9A%84%E8%AA%AA%E6%B3%95%E5%BE%88%E6%95%B7%E8%A1%8D%EF%BC%8C%E9%81%8E%E4%B8%80%E5%80%8B%E5%B0%8F%E6%99%82%E5%BE%8C%E6%89%8D%E5%8F%88%E5%9B%9E%E9%9B%BB%E8%A9%B1%E3%80%82++%E6%9C%8D%E5%8B%99%E6%A5%AD%E5%BE%88%E5%BF%99%E5%BE%88%E8%BE%9B%E8%8B%A6%EF%BC%8C%E5%BF%99%E4%B8%AD%E5%87%BA%E9%8C%AF%E4%B9%9F%E5%86%8D%E6%89%80%E9%9B%A3%E5%85%8D%E5%8F%AF%E4%BB%A5%E7%90%86%E8%A7%A3%EF%BC%8C%E4%BD%86%E4%BA%8B%E6%83%85%E9%82%84%E6%98%AF%E8%A6%81%E6%9C%89%E6%80%A5%E7%B7%A9%E4%B9%8B%E5%88%86%E7%9A%84%EF%BC%8C%E5%81%9A%E7%94%9F%E6%84%8F%E7%95%A2%E7%AB%9F%E9%83%BD%E6%98%AF%E5%9B%9E%E9%A0%AD%E5%AE%A2%E5%B1%85%E5%A4%9A%E3%80%82
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 15:00:42 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '172'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: Vt N T N d a x N T N M Vt x Vi P N Vt x C N f uj N ADV Vt x ug m N nr
+        d d v N x x x N Vi ADV Vt x Vi POST Vi d d u ADV ADV Vt x C N ADV v v Vi u
+        q uj x Vi ADV ADV Vt N Vi x
+  recorded_at: Mon, 07 Dec 2020 15:00:41 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/pos
+    body:
+      encoding: US-ASCII
+      string: sentence=%E9%AE%AE%E6%9E%9C%E9%9B%99Q%E7%B6%A0%E5%96%9D%E8%B5%B7%E4%BE%86%E7%9A%84%E6%84%9F%E8%A6%BA%E5%BE%88%E5%A5%87%E6%80%AA+%E4%B8%8D%E5%A4%AA%E5%83%8F%E5%9C%A8%E5%96%9D%E7%99%BE%E9%A6%99%E7%B6%A0...
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 15:00:44 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '46'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: N n eng a vg ASP T N ADV Vt x d d v p vg N n m
+  recorded_at: Mon, 07 Dec 2020 15:00:43 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/pos
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%A5%B6%E8%93%8B%E7%B3%BB%E5%88%97%E5%BE%88%E4%B8%8D%E8%A1%8C%0A%E5%91%B3%E9%81%93%E5%83%8F%E7%89%9B%E5%A5%B6%E7%B3%96%0A%E6%8A%B9%E8%8C%B6%E6%8B%BF%E9%90%B5%E5%BB%BA%E8%AD%B0%E9%BB%9E%E4%B8%89%E5%88%86%E7%B3%96%EF%BC%8C%E7%84%A1%E7%B3%96%E7%9C%9F%E7%9A%84%E4%B8%8D%E6%8E%A8%E8%96%A6%E4%BA%BA%E5%96%9D%0A%0A%E6%8E%A8%E8%96%A6%E9%80%99%E5%AE%B6%E7%9A%84%E8%8C%B6%E9%A1%9E%E6%88%96%E7%84%A1%E7%B3%96%E7%B3%BB%E5%88%97%E6%AF%94%E8%BC%83%E5%A5%BD%E5%96%9D%EF%BC%81
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Mon, 07 Dec 2020 15:00:45 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '90'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: n N ADV Vi x N Vt N x DRINK_NOUN Vt M N N x N ADV ADV Vt n vg x x Vt
+        r uj N C N N ADV Vi x
+  recorded_at: Mon, 07 Dec 2020 15:00:44 GMT
 recorded_with: VCR 6.0.0
