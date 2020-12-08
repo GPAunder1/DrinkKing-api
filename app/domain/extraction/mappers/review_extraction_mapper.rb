@@ -8,6 +8,7 @@ module DrinkKing
   module Mapper
     # Class for ReviewExtractionMapper
     class ReviewExtractionMapper
+      SERVER_URL = 'https://soa-nlp-api.herokuapp.com'.freeze
       def self.rebuild_many(reviews)
         reviews.map { |review| rebuild_entity(review) }
       end
@@ -26,11 +27,14 @@ module DrinkKing
       end
 
       def self.tokenize(sentence)
-        # seg = JiebaRb::Segment.new
-        # seg.cut(sentence).uniq
-        uri = URI('https://soa-nlp-api.herokuapp.com/tokenize')
+        uri = URI(SERVER_URL + '/tokenize'.to_s)
         res = Net::HTTP.post_form(uri, 'sentence' => sentence)
-        res.body.force_encoding(Encoding::UTF_8).split(" ")
+        words = res.body.force_encoding(Encoding::UTF_8).split(' ')
+
+        uri = URI(SERVER_URL + '/pos'.to_s)
+        res = Net::HTTP.post_form(uri, 'sentence' => sentence)
+        pos = res.body.force_encoding(Encoding::UTF_8).split(' ')
+        Hash[words.zip(pos)]
       end
 
       private_class_method :rebuild_entity, :tokenize

@@ -14,21 +14,8 @@ module DrinkKing
         drinks = obj['drinks']
         @menu_list = drinks.map { |drink| drink['name'] }
       end
-
       def mention_drink(characters)
-        local_max = 0.55
-        drink = 'not mentioned'
-        characters.map do |character|
-          @menu_list.map do |menu_item|
-            similarity = String::Similarity.cosine character, menu_item
-            # puts "#{character}\t#{menu_item}\t#{similarity}"
-            if similarity > local_max
-              drink = menu_item
-              local_max = similarity
-            end
-          end
-        end
-        drink
+        characters.select { |_, pos| pos == 'DRINK_NOUN' }.keys[0]
       end
     end
   end
