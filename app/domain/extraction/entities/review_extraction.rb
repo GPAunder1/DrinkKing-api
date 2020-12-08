@@ -11,7 +11,7 @@ module DrinkKing
       attribute :rating,          Strict::Integer
       attribute :relative_time,   Strict::String
       attribute :content,         Strict::String
-      attribute :tokens,          Hash.optional
+      attribute :tokens,          Strict::Hash
 
       def mention_drink
         Value::DrinkGrappler.new.mention_drink(tokens)
