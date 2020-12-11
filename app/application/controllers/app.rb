@@ -5,10 +5,10 @@ require 'roda'
 module DrinkKing
   # The class is responible for routing the url
   class App < Roda
-    plugin :flash
     plugin :all_verbs # allows DELETE and other HTTP verbs beyond GET/POST
     plugin :halt
     plugin :unescape_path # decodes a URL-encoded path before routing
+    plugin :caching
     use Rack::MethodOverride # for other HTTP verbs (with plugin all_verbs)
 
     # rubocop:disable Metrics/BlockLength
@@ -74,8 +74,9 @@ module DrinkKing
         routing.on 'extractions' do
           routing.on String do |shopid|
             # GET /api/v1/extractions/{shopid}
-            # /api/v1/extractions/ChIJj-JB7XI2aDQReyt7-6gXNXk
             routing.get do
+              response.cache_control public: true, max_age: 3600
+
               result = Service::ExtractShop.new.call(shop_id: shopid)
               if result.failure?
                 failed = Representer::HttpResponse.new(result.failure)
