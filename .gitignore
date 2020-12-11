@@ -2,6 +2,6 @@ config/secrets.yml
 lib/*
 coverage/*
 *.db
-app/presentation/assets/js/config.js
 .bundle/
 .irb_history
+_cache/
