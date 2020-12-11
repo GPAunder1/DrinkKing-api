@@ -12,8 +12,6 @@ module DrinkKing
 
       step :find_shops_in_menu
       step :get_shops_from_database
-      step :get_menu
-      step :get_recommend_drink
       step :parse_to_shop_list
 
       def find_shops_in_menu(input)
@@ -22,7 +20,7 @@ module DrinkKing
 
         Success(input)
       rescue StandardError => error
-        Failure(Response::ApiResult.new(status: :not_found, message: 'No shop is found from menu'))
+        Failure(Response::ApiResult.new(status: :not_found, message: 'Error when finding shops in menu'))
       end
 
       def get_shops_from_database(input)
@@ -38,37 +36,10 @@ module DrinkKing
         Failure(Response::ApiResult.new(status: :internal_error, message: 'Having trouble accessing the database'))
       end
 
-      def get_menu(input)
-        file = File.read('./assets/shops_menu.json')
-        temp_menu = JSON.parse(file)[27]
-
-        input[:menus] = []
-        input[:shops].map do |shop|
-          menu = ShopFinder.new(shop.name, 'shop').find_shopname_and_menu
-          input[:menus] << menu[0]
-        end
-
-        Success(input)
-      rescue StandardError => error
-        Failure(Response::ApiResult.new(status: :internal_error, message: 'Error with getting menu'))
-      end
-
-      def get_recommend_drink(input)
-        input[:recommend_drinks] = []
-        input[:shops].map do |shop|
-          recommend_drink = Mapper::ReviewsExtractionMapper.find_by_shopname(shop.name).recommend_drink
-          input[:recommend_drinks] << recommend_drink
-        end
-
-        Success(input)
-      rescue StandardError => e
-        Failure(Response::ApiResult.new(status: :internal_error, message: 'Error with getting recommend drink'))
-      end
-
       def parse_to_shop_list(input)
         shops_list = []
-        input[:shops].map.with_index do |shop, i|
-          shops_list << ShopParser.new(shop, input[:recommend_drinks][i], input[:menus][i]).parse
+        input[:shops].map do |shop|
+          shops_list << ShopParser.new(shop).parse
         end
         shops_list = Response::ShopsList.new(shops_list)
 
