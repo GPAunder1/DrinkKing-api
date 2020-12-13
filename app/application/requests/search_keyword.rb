@@ -14,8 +14,8 @@ module DrinkKing
       end
 
       def call
-        @params != GARBLE ? Success(@params) : Failure(StandardError)
-      rescue StandardError
+        @params != 'dcnisndisncsdc' ? Success(@params) : Failure(Response::ApiResult.new(status: :bad_request, message: 'Please enter keyword related to drink'))
+      rescue StandardError => error
         Failure(Response::ApiResult.new(status: :bad_request, message: 'Please enter keyword related to drink'))
       end
     end

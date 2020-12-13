@@ -5,6 +5,8 @@ require 'roda'
 require 'yaml'
 require 'json'
 require 'delegate'
+require 'rack/cache'
+require 'redis-rack-cache'
 
 module DrinkKing
   # Configuration for the App
@@ -14,13 +16,23 @@ module DrinkKing
     Econfig.env = environment.to_s
     Econfig.root = '.'
 
-    use Rack::Session::Cookie, secret: config.SESSION_SECRET
-
     configure :development, :test do
       ENV['DATABASE_URL'] = "sqlite://#{config.DB_FILENAME}"
     end
+
+    configure :development do
+      use Rack::Cache,
+          verbose: true,
+          metastore: 'file:_cache/rack/meta',
+          entitystore: 'file:_cache/rack/body'
+    end
+
     configure :production do
       # Set DATABASE_URL env var on production platform
+      use Rack::Cache,
+          verbose: true,
+          metastore: config.REDISCLOUD_URL + '/0/metastore',
+          entitystore: config.REDISCLOUD_URL + '/0/entitystore'
     end
 
     configure do
@@ -31,7 +43,5 @@ module DrinkKing
         DB
       end
     end
-    # CONFIG = YAML.safe_load(File.read('./config/secrets.yml'))
-    # TOKEN = CONFIG['API_TOKEN']
   end
 end

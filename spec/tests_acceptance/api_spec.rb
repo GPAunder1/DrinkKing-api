@@ -48,7 +48,7 @@ describe 'Test API routes' do
       _(shop['placeid']).must_equal SHOPID
       _(shop['name']).must_equal SHOPNAME
       _(shop['reviews'].count).must_equal 5
-      _(shop['menu']['shopname']).must_include SHOPNAME
+
     end
 
     it '(HAPPY) should be able to return shop lists that keyword is related both with shopname and drinkname' do
@@ -60,7 +60,8 @@ describe 'Test API routes' do
 
       body = JSON.parse(last_response.body)
       body['shops'].map do |shop|
-        _(shop['name']).must_include shop['menu']['shopname']
+        shopname_in_menu = DrinkKing::Service::ShopMenu.new.call(keyword: shop['name']).value!.message[0]['shopname']
+        _(shop['name']).must_include shopname_in_menu
       end
     end
 
@@ -103,7 +104,7 @@ describe 'Test API routes' do
     end
 
     it '(SAD) should fail if no shop is found from menu with a googlemapAPI' do
-      post URI.escape('/api/v1/shops/百源雞排')
+      post URI.escape('/api/v1/shops/軒苑')
 
       _(last_response.status).must_equal 404
       _(JSON.parse(last_response.body)['status']).must_equal 'not_found'
