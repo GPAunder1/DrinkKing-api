@@ -43,7 +43,5 @@ module DrinkKing
         DB
       end
     end
-    # CONFIG = YAML.safe_load(File.read('./config/secrets.yml'))
-    # TOKEN = CONFIG['API_TOKEN']
   end
 end

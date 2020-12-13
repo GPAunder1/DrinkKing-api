@@ -67,8 +67,8 @@ namespace :db do
       return
     end
 
-    FileUtils.rm(DrinkKing::App.config.DB_FILENAME)
-    puts "Deleted #{DrinkKing::App.config.DB_FILENAME}"
+    FileUtils.rm(app.config.DB_FILENAME)
+    puts "Deleted #{app.config.DB_FILENAME}"
   end
 end
 
