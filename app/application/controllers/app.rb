@@ -92,6 +92,8 @@ module DrinkKing
 
         # GET /api/v1/menus?keyword={keyword}&searchby={shop/drink}
         routing.get 'menus' do
+          response.cache_control public: true, max_age: 3600
+
           result = Service::ShopMenu.new.call({ keyword: routing.params['keyword'], searchby:routing.params['searchby'] })
           if result.failure?
             failed = Representer::HttpResponse.new(result.failure)
