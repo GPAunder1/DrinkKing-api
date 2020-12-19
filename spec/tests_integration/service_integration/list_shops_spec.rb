@@ -31,14 +31,6 @@ describe 'AddShops Service Integration Test' do
 
       # THEN: the result should be success
       _(result.success?).must_equal true
-
-      # THEN: should get shops with recommend drink and menu
-      shops_list = result.value!.message
-      _(shops_list.to_h.has_key?(:shops)).must_equal true
-
-      shop = shops_list.shops[0].to_h
-      _(shop.has_key?(:recommend_drink)).must_equal true
-      _(shop.has_key?(:menu)).must_equal true
     end
 
     it '(BAD) should report error if no shop is found' do

@@ -15,6 +15,7 @@ end
 # NOTE: run `rake run:test` in another process
 desc 'Run acceptance tests'
 Rake::TestTask.new(:spec_accept) do |t|
+  puts 'Make sure worker is running in separate process'
   t.pattern = 'spec/tests_acceptance/*_acceptance.rb'
   t.warning = false
 end
@@ -74,9 +75,9 @@ end
 
 namespace :cache do
   task :config do
-    require_relative 'config/environment.rb' # load config info
-    require_relative 'app/infrastructure/cache/init.rb' # load cache client
-    @api = DrinkKing::Api
+    require_relative 'config/environment' # load config info
+    require_relative 'app/infrastructure/cache/init' # load cache client
+    @api = DrinkKing::App
   end
 
   desc 'Directory listing of local dev cache'
