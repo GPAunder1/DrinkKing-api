@@ -5,6 +5,7 @@ module DrinkKing
     # class for ReviewsExtraction
     class ReviewsExtraction < Dry::Struct
       include Dry.Types
+      attribute :id, Strict::Integer
       attribute :name, Strict::String
       attribute :reviews, Strict::Array.of(ReviewExtraction)
 
@@ -14,15 +15,21 @@ module DrinkKing
         end
       end
 
-      def recommend_drink
+      def find_recommend_drink
         sorted_reviews = reviews.sort_by {|review| review.rating}.reverse
-        Value.recommend_drink(sorted_reviews)
+        recommend_drink = Value.recommend_drink(sorted_reviews)
+        add_to_database(recommend_drink)
+
+        recommend_drink
       end
 
       def sortedby_rating
         reviews.sort_by! { |review| review.rating }
       end
 
+      def add_to_database(recommend_drink)
+        Database::ShopOrm.first(id: id).update(recommend_drink: recommend_drink)
+      end
       # private_class_method :sortedby_rating
     end
   end

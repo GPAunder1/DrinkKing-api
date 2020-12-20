@@ -36,6 +36,10 @@ module DrinkKing
         rebuild_entity(db_record)
       end
 
+      def self.find_recommend_drink(placeid)
+        DrinkKing::Database::ShopOrm.where(placeid: placeid).first.recommend_drink
+      end
+
       def self.find_or_create(entity)
         find_record = find(entity)
         return find_record if find_record

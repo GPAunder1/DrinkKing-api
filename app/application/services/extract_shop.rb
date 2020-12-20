@@ -10,19 +10,20 @@ module DrinkKing
     class ExtractShop
       include Dry::Monads::Result::Mixin
 
-      def call(input)
-        check_extraction_done = false # 暫時的，之後會改成判斷資料庫中是否有recommend drink了
-        Success(Response::ApiResult.new(status: :ok, message: recommend_drink)) if check_extraction_done
+      PROCESSING_MSG = 'Processing the summary request'
 
+      def call(input)
+        shopid = input[:shop_id]
+        recommend_drink = Repository::Shops.find_recommend_drink(shopid)
+        return Success(Response::ApiResult.new(status: :ok, message: recommend_drink)) if recommend_drink != nil
+
+        temp_recommend_drink = DrinkKing::Mapper::ReviewsExtractionMapper.find_by_shopid(shopid).find_recommend_drink
+        Success(Response::ApiResult.new(status: :ok, message: temp_recommend_drink))
         # Messaging::Queue
         #   .new(App.config.CLONE_QUEUE_URL, App.config)
         #   .send(input[:shop_id])
-        # 
+        #
         # Failure(Response::ApiResult.new(status: :processing, message: PROCESSING_MSG))
-
-        shopid = input[:shop_id]
-        recommend_drink = DrinkKing::Mapper::ReviewsExtractionMapper.find_by_shopid(shopid).recommend_drink
-        Success(Response::ApiResult.new(status: :ok, message: recommend_drink))
       end
     end
   end
