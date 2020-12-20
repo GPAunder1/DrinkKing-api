@@ -2763,4 +2763,659 @@ http_interactions:
            "status" : "ZERO_RESULTS"
         }
   recorded_at: Sun, 20 Dec 2020 13:30:20 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%9C%8D%E5%8B%99%E5%93%81%E8%B3%AA%E4%B8%8D%E9%8C%AF%EF%BC%8C%E5%B9%B3%E6%97%A5%E4%B8%AD%E5%8D%88%E4%BA%BA%E6%BD%AE%E9%9D%9E%E5%B8%B8%E5%A4%9A%EF%BC%8C%E4%BD%86%E5%BA%97%E5%93%A1%E6%85%8B%E5%BA%A6%E9%83%BD%E9%82%84%E5%8F%AF%E6%8E%A5%E5%8F%97%E3%80%82%0A%E8%8C%B6%E7%9A%84%E5%8F%A3%E6%84%9F%E6%98%AF%E5%A5%BD%E5%96%9D%E7%9A%84%EF%BC%8C%E6%9C%89%E4%BA%9B%E5%BA%97%E5%AE%B6%E5%93%81%E8%B3%AA%E5%BE%88%E4%B8%8D%E7%A9%A9%E5%AE%9A%E6%99%82%E5%A5%BD%E6%99%82%E5%A3%9E%EF%BC%8C%E4%BD%86%E6%B8%85%E5%A4%A7%E5%BA%97%E6%AF%8F%E6%AC%A1%E8%B2%B7%E9%83%BD%E6%98%AF%E4%B8%80%E6%A8%A3%E7%9A%84%E5%93%81%E8%B3%AA%EF%BC%8C%E5%85%B6%E5%AF%A6%E8%A0%BB%E5%8E%B2%E5%AE%B3%E7%9A%84%EF%BC%8C%E5%9B%A0%E7%82%BA%E7%8F%BE%E5%A0%B4%E5%AE%A2%E4%BA%BA%E7%9C%9F%E7%9A%84%E9%9D%9E%E5%B8%B8%E5%A4%9A%EF%BC%8C%E5%A4%96%E9%80%81%E8%A8%82%E5%96%AE%E7%9C%8B%E8%B5%B7%E4%BE%86%E4%B9%9F%E9%9D%9E%E5%B8%B8%E5%A4%9A%EF%BC%8C%E4%BD%86%E5%93%A1%E5%B7%A5%E7%9A%84%E6%9C%8D%E5%8B%99%E8%88%87%E9%A3%B2%E6%96%99%E5%93%81%E8%B3%AA%E9%83%BD%E8%83%BD%E5%85%BC%E5%85%B7%EF%BC%8C%E7%9C%9F%E7%9A%84%E5%BE%88%E5%80%BC%E5%BE%97%E9%BC%93%E5%8B%B5%E3%80%82%0A%E5%AE%A2%E4%BA%BA%E4%B9%9F%E9%83%BD%E6%8C%89%E7%85%A7%E5%BA%97%E5%AE%B6%E6%8C%87%E5%B0%8E%E4%B9%96%E4%B9%96%E6%8E%92%E9%9A%8A%E7%B5%90%E5%B8%B3%EF%BC%8C%E4%B8%A6%E4%B8%8D%E9%80%A0%E6%88%90%E8%A1%8C%E4%BA%BA%E5%9B%B0%E6%93%BE%EF%BC%8C%E5%87%BA%E5%96%AE%E6%99%82%E9%96%93%E4%B9%9F%E8%A0%BB%E5%BF%AB%E7%9A%84%EF%BC%8C%E5%A6%82%E6%9E%9C%E6%B2%92%E6%9C%89%E4%BA%8B%E5%85%88%E9%9B%BB%E8%A9%B1%E9%BB%9E%E9%A4%90%EF%BC%8C%E5%A4%A7%E7%B4%84%E6%9C%83%E7%AD%8910%E5%88%86%E9%90%98%EF%BC%8C%E5%BB%BA%E8%AD%B0%E5%A4%A7%E5%AE%B6%E5%8F%AF%E4%BB%A5%E9%9B%BB%E8%A9%B1%E9%BB%9E%E9%A4%90%EF%BC%8C%E5%BA%97%E5%AE%B6%E6%9C%83%E7%B5%A6%E4%BD%A0%E8%A3%BD%E4%BD%9C%E6%99%82%E9%96%93%EF%BC%8C%E4%B9%8B%E5%BE%8C%E5%8F%96%E9%A4%90%E4%B8%80%E5%AE%9A%E8%A6%81%E6%8E%92%E9%9A%8A%E7%B5%90%E5%B8%B3%E5%BE%8C%E5%86%8D%E6%8B%BF%E9%A3%B2%E6%96%99%EF%BC%8C%E4%B8%8D%E8%A6%81%E9%80%A0%E6%88%90%E5%BA%97%E5%AE%B6%E5%9B%B0%E6%93%BE%EF%BC%8C%E5%90%83%E9%A3%AF%E6%99%82%E9%96%93%E7%9C%9F%E7%9A%84%E8%B6%85%E7%B4%9A%E5%A4%9A%E5%AE%A2%E4%BA%BA%E3%80%82%0A%E8%87%B3%E6%96%BC%E7%82%BA%E4%BB%80%E9%BA%BC%E5%8F%AA%E7%B5%A6%E5%9B%9B%E9%A1%86%E6%98%9F%EF%BC%8C%E5%A4%A7%E6%A6%82%E5%9B%A0%E7%82%BA%E5%93%81%E9%A0%85%E7%9C%9F%E7%9A%84%E6%AF%94%E8%BC%83%E5%B0%91%EF%BC%8C%E6%89%80%E4%BB%A5%E5%8F%AA%E6%9C%83%E4%B8%80%E9%80%B1%E5%96%9D%E4%B8%80%E6%AC%A1%E3%80%82%E4%BD%86%E6%83%B3%E5%96%9D%E9%AE%AE%E5%A5%B6%E8%8C%B6%E6%99%82%E4%B8%80%E5%AE%9A%E6%9C%83%E6%83%B3%E5%88%B0%E5%8F%AF%E4%B8%8D%E5%8F%AF%EF%BC%8C%E7%B4%85%E8%8C%B6%E8%88%87%E9%AE%AE%E5%A5%B6%E7%9A%84%E6%AF%94%E4%BE%8B%E5%89%9B%E5%89%9B%E5%A5%BD%EF%BC%8C%E5%BE%88%E9%A0%86%E5%8F%A3%E5%8F%88%E6%9C%89%E8%8C%B6%E9%A6%99%E3%80%82
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Sun, 20 Dec 2020 14:27:23 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '2346'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"\u670d\u52d9": "Nv", "\u54c1\u8cea": "N", "\u4e0d\u932f": "Vi", "\uff0c":
+        "x", "\u5e73\u65e5": "N", "\u4e2d\u5348": "N", "\u4eba\u6f6e": "N", "\u975e\u5e38":
+        "ADV", "\u591a": "Vi", "\u4f46": "c", "\u5e97\u54e1": "N", "\u614b\u5ea6":
+        "N", "\u90fd": "ADV", "\u9084": "d", "\u53ef": "ADV", "\u63a5\u53d7": "Vt",
+        "\u3002": "x", "\n": "x", "\u8336": "n", "\u7684": "T", "\u53e3\u611f": "N",
+        "\u662f": "v", "\u597d\u559d": "Vi", "\u6709\u4e9b": "r", "\u5e97\u5bb6":
+        "N", "\u5f88": "ADV", "\u4e0d": "d", "\u7a69\u5b9a": "Vt", "\u6642\u597d\u6642\u58de":
+        "Vi", "\u6e05\u5927": "N", "\u5e97": "n", "\u6bcf\u6b21": "r", "\u8cb7": "v",
+        "\u4e00\u6a23": "Vi", "\u5176\u5be6": "ADV", "\u883b": "ADV", "\u53b2\u5bb3":
+        "Vi", "\u56e0\u70ba": "C", "\u73fe\u5834": "N", "\u5ba2\u4eba": "N", "\u771f\u7684":
+        "ADV", "\u5916\u9001": "N", "\u8a02\u55ae": "N", "\u770b\u8d77\u4f86": "ADV",
+        "\u4e5f": "d", "\u54e1\u5de5": "N", "\u8207": "C", "\u98f2\u6599": "N", "\u80fd":
+        "ADV", "\u517c\u5177": "Vt", "\u503c\u5f97": "Vi", "\u9f13\u52f5": "Vt", "\u6309\u7167":
+        "P", "\u6307\u5c0e": "Nv", "\u4e56\u4e56": "Vi", "\u6392\u968a": "Vi", "\u7d50\u5e33":
+        "Vi", "\u4e26": "c", "\u9020\u6210": "Vt", "\u884c\u4eba": "N", "\u56f0\u64fe":
+        "N", "\u51fa": "v", "\u55ae": "n", "\u6642\u9593": "N", "\u883b\u5feb": "a",
+        "\u5982\u679c": "C", "\u6c92\u6709": "Vt", "\u4e8b\u5148": "ADV", "\u96fb\u8a71":
+        "N", "\u9ede\u9910": "N", "\u5927\u7d04": "ADV", "\u6703": "ADV", "\u7b49":
+        "u", "10": "m", "\u5206\u9418": "M", "\u5efa\u8b70": "Vt", "\u5927\u5bb6":
+        "N", "\u53ef\u4ee5": "ADV", "\u7d66": "p", "\u4f60": "r", "\u88fd\u4f5c":
+        "Vt", "\u4e4b\u5f8c": "POST", "\u53d6\u9910": "N", "\u4e00\u5b9a": "ADV",
+        "\u8981": "ADV", "\u5f8c": "nr", "\u518d": "d", "\u62ff": "v", "\u4e0d\u8981":
+        "ADV", "\u5403\u98ef": "Vi", "\u8d85\u7d1a": "A", "\u81f3\u65bc": "P", "\u70ba\u4ec0\u9ebc":
+        "ADV", "\u53ea": "d", "\u56db\u9846": "N", "\u661f": "N", "\u5927\u6982":
+        "ADV", "\u54c1\u9805": "N", "\u6bd4\u8f03": "ADV", "\u5c11": "Vi", "\u6240\u4ee5":
+        "C", "\u4e00\u9031": "m", "\u559d": "vg", "\u4e00\u6b21": "m", "\u60f3": "v",
+        "\u9bae\u5976\u8336": "DRINK_NOUN", "\u6642": "POST", "\u60f3\u5230": "Vt",
+        "\u4e0d\u53ef": "ADV", "\u7d05\u8336": "DRINK_NOUN", "\u9bae\u5976": "N",
+        "\u6bd4\u4f8b": "N", "\u525b\u525b\u597d": "ADV", "\u9806\u53e3": "Vi", "\u53c8":
+        "ADV", "\u6709": "Vt", "\u8336\u9999": "N"}'
+  recorded_at: Sun, 20 Dec 2020 14:27:22 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E5%BA%97%E5%93%A1%E6%9C%8D%E5%8B%99%E6%85%8B%E5%BA%A6%E5%A5%BD%21%E8%A3%BD%E4%BD%9C%E9%A3%B2%E6%96%99%E9%80%9F%E5%BA%A6%E5%BF%AB%EF%BC%8C%E8%83%AD%E8%84%82%E5%A4%9A%E5%A4%9A%E6%AF%94%E8%B5%B7%E5%89%8D%E5%B9%BE%E5%A4%A9%E5%9C%A8costco%E9%99%84%E8%BF%91%E5%88%86%E5%BA%97%E8%B2%B7%E5%88%B0%E7%9A%84%E5%A5%BD%E5%96%9D%E5%BE%88%E5%A4%9A%3E
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Sun, 20 Dec 2020 14:27:24 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '440'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"\u5e97\u54e1": "N", "\u670d\u52d9": "Nv", "\u614b\u5ea6": "N", "\u597d":
+        "Vi", "!": "x", "\u88fd\u4f5c": "Vt", "\u98f2\u6599": "N", "\u901f\u5ea6":
+        "N", "\u5feb": "Vi", "\uff0c": "x", "\u80ed\u8102\u591a\u591a": "DRINK_NOUN",
+        "\u6bd4\u8d77": "P", "\u524d\u5e7e\u5929": "N", "\u5728": "p", "costco": "eng",
+        "\u9644\u8fd1": "N", "\u5206\u5e97": "N", "\u8cb7\u5230": "Vt", "\u7684":
+        "T", "\u597d\u559d": "Vi", "\u5f88\u591a": "Vi", ">": "x"}'
+  recorded_at: Sun, 20 Dec 2020 14:27:23 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E6%96%B0%E5%87%BA%E7%9A%84%E9%9B%AA%E8%97%8F%E6%9C%AB%E8%8C%B6%0A10.%E9%96%8B%E9%96%80%0A11.%E5%8E%BB%E8%B2%B7%E5%B0%B1%E6%B2%92%E6%9C%89%E4%BA%86+%E6%97%A2%E7%84%B6%E8%B3%A3%E9%80%99%E9%BA%BC%E5%BF%AB%0A%E4%B8%8D%E6%9C%83%E6%83%B3%E8%A6%81%E5%A4%9A%E8%A3%9C%E9%BB%9E%E6%96%99%E5%97%8E%3D%3D%0A%E9%9A%94%E5%B9%BE%E5%A4%A9%E5%8E%BB%E8%B2%B7%E9%82%84%E6%98%AF%E6%B2%92%E6%9C%89
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Sun, 20 Dec 2020 14:27:25 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '487'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"\u65b0\u51fa": "v", "\u7684": "uj", "\u96ea\u85cf\u672b\u8336": "DRINK_NOUN",
+        "\n": "x", "10.": "m", "\u958b\u9580": "Vi", "11.": "m", "\u53bb": "v", "\u8cb7":
+        "v", "\u5c31": "d", "\u6c92\u6709": "Vt", "\u4e86": "ASP", " ": "x", "\u65e2\u7136":
+        "C", "\u8ce3": "Vt", "\u9019\u9ebc": "ADV", "\u5feb": "Vi", "\u4e0d\u6703":
+        "ADV", "\u60f3\u8981": "Vt", "\u591a": "Vi", "\u88dc\u9ede": "N", "\u6599":
+        "n", "\u55ce": "y", "=": "x", "\u9694": "v", "\u5e7e\u5929": "m", "\u9084\u662f":
+        "ADV"}'
+  recorded_at: Sun, 20 Dec 2020 14:27:24 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%94%A8%E4%BA%86user+eat+%E5%A4%96%E9%80%81%E4%BA%94%E6%9D%AF+%E5%B0%91%E5%86%B0%E5%BE%AE%E7%B3%96%0A%0A%E7%B5%90%E6%9E%9C%E5%86%B0%E5%A1%8A%E5%8D%8A%E6%9D%AF%E3%80%82%0A%0A%E9%A3%B2%E6%96%99%E6%9D%AF%E3%80%82%E4%B8%8B%E5%8D%8A%E6%9D%AF%E5%85%A8%E9%83%A8%E6%9E%9C%E7%B3%96%EF%BC%8C%E4%B8%8A%E5%8D%8A%E6%9D%AF%E7%84%A1%E7%B3%96%E3%80%82%0A%E6%98%AF%E8%A6%81%E8%AB%8B%E6%88%91%E5%96%9D%E6%8B%BF%E9%90%B5%E6%98%AF%E5%97%8E%EF%BC%9F%E9%80%A3%E6%90%96%E9%83%BD%E6%87%B6%E7%9A%84%E6%90%96%EF%BC%9F
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Sun, 20 Dec 2020 14:27:26 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '618'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"\u7528": "p", "\u4e86": "ul", "user": "eng", " ": "x", "eat": "eng",
+        "\u5916\u9001": "N", "\u4e94\u676f": "m", "\u5c11\u51b0": "N", "\u5fae\u7cd6":
+        "N", "\n": "x", "\u7d50\u679c": "N", "\u51b0\u584a": "N", "\u534a\u676f":
+        "m", "\u3002": "x", "\u98f2\u6599\u676f": "N", "\u4e0b\u534a": "N", "\u676f":
+        "q", "\u5168\u90e8": "n", "\u679c\u7cd6": "N", "\uff0c": "x", "\u4e0a": "f",
+        "\u7121\u7cd6": "N", "\u662f": "v", "\u8981": "v", "\u8acb": "v", "\u6211":
+        "r", "\u559d": "vg", "\u62ff\u9435": "DRINK_NOUN", "\u55ce": "y", "\uff1f":
+        "x", "\u9023\u6416": "nr", "\u90fd": "d", "\u61f6": "a", "\u7684": "uj", "\u6416":
+        "v"}'
+  recorded_at: Sun, 20 Dec 2020 14:27:25 GMT
+- request:
+    method: post
+    uri: https://soa-nlp-api.herokuapp.com/tokenize
+    body:
+      encoding: US-ASCII
+      string: sentence=%E7%B4%94%E8%8C%B6%E5%A5%BD%E5%96%9D%EF%BC%8C%E5%BA%97%E9%9D%A2%E5%89%8D%E4%B8%8D%E6%96%B9%E4%BE%BF%E5%81%9C%E8%BB%8A%EF%BC%8C%E5%BB%BA%E8%AD%B0%E9%99%84%E8%BF%91%E5%81%9C%E5%A5%BD%E8%BB%8A%E5%86%8D%E8%B5%B0%E9%81%8E%E4%BE%86
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - soa-nlp-api.herokuapp.com
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - gunicorn/20.0.4
+      Date:
+      - Sun, 20 Dec 2020 14:27:27 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '290'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"\u7d14": "a", "\u8336": "n", "\u597d\u559d": "Vi", "\uff0c": "x",
+        "\u5e97\u9762": "N", "\u524d": "POST", "\u4e0d": "ADV", "\u65b9\u4fbf": "Vi",
+        "\u505c\u8eca": "Nv", "\u5efa\u8b70": "Vt", "\u9644\u8fd1": "N", "\u505c\u597d":
+        "Vt", "\u8eca": "n", "\u518d": "d", "\u8d70\u904e\u4f86": "Vi"}'
+  recorded_at: Sun, 20 Dec 2020 14:27:25 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6&language=zh-TW&location=24.7961217,120.9966699&radius=1500
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 20 Dec 2020 15:13:34 GMT
+      Expires:
+      - Sun, 20 Dec 2020 15:18:34 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=559
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7981675,
+                       "lng" : 120.9977783
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79952667989272,
+                          "lng" : 120.9991652298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.79682702010728,
+                          "lng" : 120.9964655701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "可不可熟成紅茶",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3120,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117710101393215238187\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwKJzL74J6VtpMg5S5rbzgKmIb6zkSOPVxGPAjLOrFKwA3nmVLoLBD2sxtI3qKug4lBp8-n0XzyryD3Xc0VaHAg2k-hQruN9-SX6dbIRSciooy8Red6cJMYhb_UqVoeUtLhcQXO3PszMNNwpmJuAnO0czd8vSLumBSn-gRIICO_dbNWC",
+                       "width" : 4160
+                    }
+                 ],
+                 "place_id" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
+                 "plus_code" : {
+                    "compound_code" : "QXXX+74 東區 新竹市",
+                    "global_code" : "7QP2QXXX+74"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4,
+                 "reference" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 362,
+                 "vicinity" : "東區建功一路45-7號"
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Sun, 20 Dec 2020 15:13:34 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,formatted_phone_number,opening_hours,reviews,url&key=<GOOGLEMAP_TOKEN>&language=zh-TW&place_id=ChIJj-JB7XI2aDQReyt7-6gXNXk
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 20 Dec 2020 15:13:34 GMT
+      Expires:
+      - Sun, 20 Dec 2020 15:18:34 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=209
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "result" : {
+              "formatted_address" : "300台灣新竹市東區建功一路45-7號",
+              "formatted_phone_number" : "03 571 5252",
+              "opening_hours" : {
+                 "open_now" : false,
+                 "periods" : [
+                    {
+                       "close" : {
+                          "day" : 0,
+                          "time" : "2200"
+                       },
+                       "open" : {
+                          "day" : 0,
+                          "time" : "1000"
+                       }
+                    },
+                    {
+                       "close" : {
+                          "day" : 1,
+                          "time" : "2200"
+                       },
+                       "open" : {
+                          "day" : 1,
+                          "time" : "1000"
+                       }
+                    },
+                    {
+                       "close" : {
+                          "day" : 2,
+                          "time" : "2200"
+                       },
+                       "open" : {
+                          "day" : 2,
+                          "time" : "1000"
+                       }
+                    },
+                    {
+                       "close" : {
+                          "day" : 3,
+                          "time" : "2200"
+                       },
+                       "open" : {
+                          "day" : 3,
+                          "time" : "1000"
+                       }
+                    },
+                    {
+                       "close" : {
+                          "day" : 4,
+                          "time" : "2200"
+                       },
+                       "open" : {
+                          "day" : 4,
+                          "time" : "1000"
+                       }
+                    },
+                    {
+                       "close" : {
+                          "day" : 5,
+                          "time" : "2200"
+                       },
+                       "open" : {
+                          "day" : 5,
+                          "time" : "1000"
+                       }
+                    },
+                    {
+                       "close" : {
+                          "day" : 6,
+                          "time" : "2200"
+                       },
+                       "open" : {
+                          "day" : 6,
+                          "time" : "1000"
+                       }
+                    }
+                 ],
+                 "weekday_text" : [
+                    "星期一: 10:00 – 22:00",
+                    "星期二: 10:00 – 22:00",
+                    "星期三: 10:00 – 22:00",
+                    "星期四: 10:00 – 22:00",
+                    "星期五: 10:00 – 22:00",
+                    "星期六: 10:00 – 22:00",
+                    "星期日: 10:00 – 22:00"
+                 ]
+              },
+              "reviews" : [
+                 {
+                    "author_name" : "森森",
+                    "author_url" : "https://www.google.com/maps/contrib/105845733403981047293/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14Ggw-Dj-LJumAOm1ZoKEQxPFI2v3X-6scBDnY0syKA=s128-c0x00000000-cc-rp-mo-ba4",
+                    "rating" : 4,
+                    "relative_time_description" : "1 個月前",
+                    "text" : "服務品質不錯，平日中午人潮非常多，但店員態度都還可接受。\n茶的口感是好喝的，有些店家品質很不穩定時好時壞，但清大店每次買都是一樣的品質，其實蠻厲害的，因為現場客人真的非常多，外送訂單看起來也非常多，但員工的服務與飲料品質都能兼具，真的很值得鼓勵。\n客人也都按照店家指導乖乖排隊結帳，並不造成行人困擾，出單時間也蠻快的，如果沒有事先電話點餐，大約會等10分鐘，建議大家可以電話點餐，店家會給你製作時間，之後取餐一定要排隊結帳後再拿飲料，不要造成店家困擾，吃飯時間真的超級多客人。\n至於為什麼只給四顆星，大概因為品項真的比較少，所以只會一週喝一次。但想喝鮮奶茶時一定會想到可不可，紅茶與鮮奶的比例剛剛好，很順口又有茶香。",
+                    "time" : 1605191299
+                 },
+                 {
+                    "author_name" : "sandy cheng",
+                    "author_url" : "https://www.google.com/maps/contrib/103252244788610268068/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh6.googleusercontent.com/-mdj2LkGRiwQ/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckXhJ2T8PL8ZGAN9YlWF_O18a9Rvg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                    "rating" : 5,
+                    "relative_time_description" : "1 個月前",
+                    "text" : "店員服務態度好!製作飲料速度快，胭脂多多比起前幾天在costco附近分店買到的好喝很多\u003e",
+                    "time" : 1604067776
+                 },
+                 {
+                    "author_name" : "曜懋",
+                    "author_url" : "https://www.google.com/maps/contrib/102667441522929895301/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14GgwdQ2EyrcjlPZjDoItSyHlV0J_DrPE8HbaHueepQ=s128-c0x00000000-cc-rp-mo",
+                    "rating" : 2,
+                    "relative_time_description" : "1 個月前",
+                    "text" : "新出的雪藏末茶\n10.開門\n11.去買就沒有了 既然賣這麼快\n不會想要多補點料嗎==\n隔幾天去買還是沒有",
+                    "time" : 1603424869
+                 },
+                 {
+                    "author_name" : "韋小亮",
+                    "author_url" : "https://www.google.com/maps/contrib/113121261266705176139/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh4.googleusercontent.com/-meMjySJmZ7k/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucltDimJ7Gh4MdKAfhAPtlpvNHkflg/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                    "rating" : 3,
+                    "relative_time_description" : "1 個月前",
+                    "text" : "用了user eat 外送五杯 少冰微糖\n\n結果冰塊半杯。\n\n飲料杯。下半杯全部果糖，上半杯無糖。\n是要請我喝拿鐵是嗎？連搖都懶的搖？",
+                    "time" : 1603689161
+                 },
+                 {
+                    "author_name" : "Watson Fan",
+                    "author_url" : "https://www.google.com/maps/contrib/111324251121387399610/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14GjVRTszSJegvrMvKsN3wv_tRA8WLNaJsKm9WwPxSsQ=s128-c0x00000000-cc-rp-mo-ba5",
+                    "rating" : 4,
+                    "relative_time_description" : "1 個月前",
+                    "text" : "純茶好喝，店面前不方便停車，建議附近停好車再走過來",
+                    "time" : 1604191418
+                 }
+              ],
+              "url" : "https://maps.google.com/?cid=8733913066896042875"
+           },
+           "status" : "OK"
+        }
+  recorded_at: Sun, 20 Dec 2020 15:13:34 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=snidnsicndsivndsivdsv&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6&language=zh-TW&location=24.7961217,120.9966699&radius=1500
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token snidnsicndsivndsivdsv
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 20 Dec 2020 15:14:36 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=2
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "error_message" : "The provided API key is invalid.",
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "REQUEST_DENIED"
+        }
+  recorded_at: Sun, 20 Dec 2020 15:14:36 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=dcnisndisncsdc&language=zh-TW&location=24.7961217,120.9966699&radius=1500
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 20 Dec 2020 15:14:37 GMT
+      Expires:
+      - Sun, 20 Dec 2020 15:19:37 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=157
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+  recorded_at: Sun, 20 Dec 2020 15:14:37 GMT
 recorded_with: VCR 6.0.0
