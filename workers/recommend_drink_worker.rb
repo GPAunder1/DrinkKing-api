@@ -17,7 +17,10 @@ class RecommendDrinkWorker
   )
   include Shoryuken::Worker
   shoryuken_options queue: config.EXTRACT_QUEUE_URL, auto_delete: true
+
   def perform(_sqs_msg, request)
     DrinkKing::Mapper::ReviewsExtractionMapper.find_by_shopid(request).find_recommend_drink
+  rescue StandardError => error
+    puts 'No shop has to be extracted at this moment'
   end
 end
