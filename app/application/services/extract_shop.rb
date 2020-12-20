@@ -19,7 +19,7 @@ module DrinkKing
 
         # Success(Response::ApiResult.new(status: :ok, message: temp_recommend_drink))
         Messaging::Queue
-          .new(App.config.CLONE_QUEUE_URL, App.config)
+          .new(App.config.EXTRACT_QUEUE_URL, App.config)
           .send(input[:shop_id])
 
         Failure(Response::ApiResult.new(status: :processing, message: PROCESSING_MSG))

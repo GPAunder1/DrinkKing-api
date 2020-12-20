@@ -16,7 +16,7 @@ class RecommendDrinkWorker
     region: config.AWS_REGION
   )
   include Shoryuken::Worker
-  shoryuken_options queue: config.CLONE_QUEUE_URL, auto_delete: true
+  shoryuken_options queue: config.EXTRACT_QUEUE_URL, auto_delete: true
   def perform(_sqs_msg, request)
     DrinkKing::Mapper::ReviewsExtractionMapper.find_by_shopid(request).find_recommend_drink
   end

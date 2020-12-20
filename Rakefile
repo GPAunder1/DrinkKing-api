@@ -135,7 +135,7 @@ namespace :queues do
   task :config do
     require 'aws-sdk-sqs'
     require_relative 'config/environment' # load config info
-    @api = CodePraise::App
+    @api = DrinkKing::App
 
     @sqs = Aws::SQS::Client.new(
       access_key_id: @api.config.AWS_ACCESS_KEY_ID,
@@ -147,11 +147,11 @@ namespace :queues do
   desc 'Create SQS queue for worker'
   task :create => :config do
     puts "Environment: #{@api.environment}"
-    @sqs.create_queue(queue_name: @api.config.CLONE_QUEUE)
+    @sqs.create_queue(queue_name: @api.config.EXTRACT_QUEUE)
 
-    q_url = @sqs.get_queue_url(queue_name: @api.config.CLONE_QUEUE).queue_url
+    q_url = @sqs.get_queue_url(queue_name: @api.config.EXTRACT_QUEUE).queue_url
     puts 'Queue created:'
-    puts "  Name: #{@api.config.CLONE_QUEUE}"
+    puts "  Name: #{@api.config.EXTRACT_QUEUE}"
     puts "  Region: #{@api.config.AWS_REGION}"
     puts "  URL: #{q_url}"
   rescue StandardError => e
@@ -160,11 +160,11 @@ namespace :queues do
 
   desc 'Report status of queue for worker'
   task :status => :config do
-    q_url = @sqs.get_queue_url(queue_name: @api.config.CLONE_QUEUE).queue_url
+    q_url = @sqs.get_queue_url(queue_name: @api.config.EXTRACT_QUEUE).queue_url
 
     puts "Environment: #{@api.environment}"
     puts 'Queue info:'
-    puts "  Name: #{@api.config.CLONE_QUEUE}"
+    puts "  Name: #{@api.config.EXTRACT_QUEUE}"
     puts "  Region: #{@api.config.AWS_REGION}"
     puts "  URL: #{q_url}"
   rescue StandardError => e
@@ -173,7 +173,7 @@ namespace :queues do
 
   desc 'Purge messages in SQS queue for worker'
   task :purge => :config do
-    q_url = @sqs.get_queue_url(queue_name: @api.config.CLONE_QUEUE).queue_url
+    q_url = @sqs.get_queue_url(queue_name: @api.config.EXTRACT_QUEUE).queue_url
     @sqs.purge_queue(queue_url: q_url)
     puts "Queue #{queue_name} purged"
   rescue StandardError => e
