@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/init.rb": {
         "lines": [
           null,
           null,
@@ -13,14 +13,14 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/config/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/config/init.rb": {
         "lines": [
           null,
           null,
           1
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/config/environment.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/config/environment.rb": {
         "lines": [
           null,
           null,
@@ -64,14 +64,14 @@
           1,
           null,
           1,
-          0,
+          22,
           null,
           null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/init.rb": {
         "lines": [
           null,
           null,
@@ -81,7 +81,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/init.rb": {
         "lines": [
           null,
           null,
@@ -91,7 +91,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/shops/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/shops/init.rb": {
         "lines": [
           null,
           null,
@@ -101,7 +101,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/shops/entities/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/shops/entities/init.rb": {
         "lines": [
           null,
           null,
@@ -113,31 +113,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/shops/entities/review.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/shops/entities/shop.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/shops/entities/shop.rb": {
         "lines": [
           null,
           null,
@@ -159,16 +135,41 @@
           1,
           1,
           1,
+          1,
           null,
           1,
-          0,
+          65,
           null,
           null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/shops/mappers/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/shops/entities/review.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          150,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/shops/mappers/init.rb": {
         "lines": [
           null,
           null,
@@ -177,28 +178,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/shops/mappers/parser.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          20,
-          null,
-          null,
-          1,
-          20,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/shops/mappers/shop_detail_mapper.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/shops/mappers/shop_detail_mapper.rb": {
         "lines": [
           null,
           null,
@@ -209,17 +189,17 @@
           null,
           1,
           1,
-          10,
-          10,
+          14,
+          14,
           null,
           null,
           1,
-          10,
-          10,
+          14,
+          14,
           null,
           null,
           1,
-          60,
+          84,
           null,
           null,
           1,
@@ -230,11 +210,11 @@
           null,
           1,
           1,
-          50,
+          70,
           null,
           null,
           1,
-          50,
+          70,
           null,
           null,
           null,
@@ -246,26 +226,47 @@
           1,
           null,
           1,
-          50,
+          70,
           null,
           null,
           1,
-          50,
+          70,
           null,
           null,
           1,
-          50,
+          70,
           null,
           null,
           1,
-          50,
+          70,
           null,
           null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/shops/mappers/shop_mapper.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/shops/mappers/parser.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          24,
+          null,
+          null,
+          1,
+          24,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/shops/mappers/shop_mapper.rb": {
         "lines": [
           null,
           null,
@@ -288,95 +289,96 @@
           null,
           null,
           1,
-          15,
+          20,
           null,
           null,
           1,
-          5,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          10,
-          10,
-          10,
-          null,
-          null,
-          1,
-          10,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          4,
           null,
           null,
           null,
           null,
           1,
-          null,
           1,
-          10,
-          null,
-          null,
-          1,
-          10,
+          14,
+          14,
+          14,
           null,
           null,
           1,
-          10,
+          14,
           null,
           null,
-          1,
-          10,
-          10,
-          null,
-          10,
           null,
           null,
-          1,
-          10,
-          10,
-          null,
-          10,
           null,
           null,
-          1,
-          10,
           null,
           null,
-          1,
-          10,
           null,
           null,
-          1,
-          10,
-          10,
           null,
-          10,
+          null,
           null,
           null,
           null,
           1,
-          10,
+          null,
+          1,
+          14,
           null,
           null,
           1,
-          10,
+          14,
+          null,
+          null,
+          1,
+          14,
+          null,
+          null,
+          1,
+          14,
+          14,
+          null,
+          14,
+          null,
+          null,
+          1,
+          14,
+          14,
+          null,
+          14,
+          null,
+          null,
+          1,
+          14,
+          null,
+          null,
+          1,
+          14,
+          null,
+          null,
+          1,
+          14,
+          14,
+          null,
+          12,
+          null,
+          null,
+          null,
+          1,
+          14,
+          null,
+          null,
+          1,
+          14,
           null,
           null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/shops/repositories/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/shops/repositories/init.rb": {
         "lines": [
           null,
           null,
@@ -385,7 +387,7 @@
           1
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/shops/repositories/shops.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/shops/repositories/shops.rb": {
         "lines": [
           null,
           null,
@@ -421,44 +423,48 @@
           null,
           null,
           1,
-          6,
-          6,
+          5,
+          5,
+          null,
+          null,
+          1,
+          2,
           null,
           null,
           1,
           5,
           5,
           null,
-          0,
-          0,
+          5,
+          5,
           null,
           null,
           1,
-          9,
+          13,
           null,
-          9,
-          null,
-          null,
+          8,
           null,
           null,
           null,
           null,
-          1,
           null,
           null,
           1,
-          1,
-          0,
           null,
           null,
           1,
-          0,
+          1,
+          5,
           null,
           null,
           1,
-          0,
-          0,
-          0,
+          5,
+          null,
+          null,
+          1,
+          5,
+          5,
+          25,
           null,
           null,
           null,
@@ -469,7 +475,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/shops/repositories/reviews.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/shops/repositories/reviews.rb": {
         "lines": [
           null,
           null,
@@ -486,30 +492,30 @@
           null,
           null,
           1,
-          45,
+          40,
           null,
-          45,
-          null,
-          null,
+          40,
           null,
           null,
           null,
           null,
           null,
           null,
-          1,
-          54,
           null,
           null,
           1,
-          0,
+          48,
+          null,
+          null,
+          1,
+          25,
           null,
           null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/shops/repositories/for.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/shops/repositories/for.rb": {
         "lines": [
           null,
           null,
@@ -534,7 +540,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/extraction/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/extraction/init.rb": {
         "lines": [
           null,
           null,
@@ -544,7 +550,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/extraction/values/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/extraction/values/init.rb": {
         "lines": [
           null,
           null,
@@ -553,7 +559,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/extraction/values/mentioned_drink.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/extraction/values/mentioned_drink.rb": {
         "lines": [
           null,
           null,
@@ -566,20 +572,21 @@
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          15,
+          0,
+          0,
+          0,
+          0,
           null,
           1,
-          23,
+          null,
+          0,
           null,
           null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/extraction/values/recommend_drink.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/extraction/values/recommend_drink.rb": {
         "lines": [
           null,
           null,
@@ -587,17 +594,17 @@
           null,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
           null,
           null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/extraction/entities/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/extraction/entities/init.rb": {
         "lines": [
           null,
           null,
@@ -606,7 +613,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/extraction/entities/review_extraction.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/extraction/entities/review_extraction.rb": {
         "lines": [
           null,
           null,
@@ -624,7 +631,7 @@
           1,
           null,
           1,
-          1,
+          0,
           null,
           null,
           null,
@@ -635,7 +642,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/extraction/entities/reviews_extraction.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/extraction/entities/reviews_extraction.rb": {
         "lines": [
           null,
           null,
@@ -646,6 +653,7 @@
           1,
           1,
           1,
+          1,
           null,
           1,
           0,
@@ -654,13 +662,19 @@
           null,
           null,
           1,
-          6,
-          1,
+          0,
+          0,
+          0,
+          null,
+          0,
           null,
           null,
           1,
           0,
           null,
+          null,
+          1,
+          0,
           null,
           null,
           null,
@@ -668,7 +682,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/extraction/mappers/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/extraction/mappers/init.rb": {
         "lines": [
           null,
           null,
@@ -677,7 +691,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/extraction/mappers/review_extraction_mapper.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/extraction/mappers/review_extraction_mapper.rb": {
         "lines": [
           null,
           null,
@@ -691,13 +705,13 @@
           1,
           1,
           1,
-          6,
+          0,
           null,
           null,
           1,
-          5,
+          0,
           null,
-          5,
+          0,
           null,
           null,
           null,
@@ -708,14 +722,10 @@
           null,
           null,
           1,
-          5,
-          5,
-          5,
-          null,
-          5,
-          5,
-          5,
-          5,
+          0,
+          0,
+          0,
+          0,
           null,
           null,
           1,
@@ -724,7 +734,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/domain/extraction/mappers/reviews_extraction_mapper.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/domain/extraction/mappers/reviews_extraction_mapper.rb": {
         "lines": [
           null,
           null,
@@ -733,8 +743,8 @@
           null,
           1,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null,
           null,
@@ -744,7 +754,8 @@
           null,
           null,
           1,
-          1,
+          0,
+          null,
           null,
           null,
           null,
@@ -755,7 +766,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/infrastructure/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/infrastructure/init.rb": {
         "lines": [
           null,
           null,
@@ -765,7 +776,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/infrastructure/gateways/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/infrastructure/gateways/init.rb": {
         "lines": [
           null,
           null,
@@ -776,7 +787,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/infrastructure/gateways/googlemap_api.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/infrastructure/gateways/googlemap_api.rb": {
         "lines": [
           null,
           null,
@@ -787,7 +798,7 @@
           null,
           1,
           1,
-          20,
+          24,
           null,
           null,
           null,
@@ -798,8 +809,8 @@
           null,
           null,
           1,
-          10,
-          10,
+          14,
+          14,
           null,
           null,
           null,
@@ -807,55 +818,55 @@
           1,
           null,
           1,
-          20,
+          24,
           null,
           null,
           1,
           10,
-          10,
-          10,
-          null,
-          null,
-          1,
-          10,
-          null,
           10,
           10,
           null,
           null,
           1,
-          20,
+          14,
+          null,
+          14,
+          14,
           null,
           null,
           1,
-          20,
-          null,
-          null,
-          20,
-          20,
-          null,
-          null,
-          null,
+          24,
           null,
           null,
           1,
-          1,
+          24,
           null,
           null,
-          null,
-          1,
-          null,
-          null,
+          24,
+          24,
           null,
           null,
           null,
           null,
           null,
           1,
-          20,
+          1,
           null,
-          20,
-          20,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          24,
+          null,
+          24,
+          24,
           null,
           null,
           1,
@@ -868,7 +879,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/infrastructure/gateways/picker.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/infrastructure/gateways/picker.rb": {
         "lines": [
           null,
           null,
@@ -878,17 +889,17 @@
           null,
           1,
           1,
-          20,
-          20,
+          24,
+          24,
           null,
           null,
           1,
-          20,
+          24,
           null,
-          20,
+          24,
           0,
           10,
-          10,
+          14,
           null,
           null,
           null,
@@ -897,7 +908,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/infrastructure/database/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/infrastructure/database/init.rb": {
         "lines": [
           null,
           null,
@@ -907,7 +918,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/infrastructure/database/orms/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/infrastructure/database/orms/init.rb": {
         "lines": [
           null,
           null,
@@ -916,7 +927,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/infrastructure/database/orms/review_orm.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/infrastructure/database/orms/review_orm.rb": {
         "lines": [
           null,
           null,
@@ -935,7 +946,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/infrastructure/database/orms/shop_orm.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/infrastructure/database/orms/shop_orm.rb": {
         "lines": [
           null,
           null,
@@ -958,42 +969,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/infrastructure/cache/init.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          2,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/infrastructure/cache/redis_cache.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/infrastructure/messaging/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/infrastructure/cache/init.rb": {
         "lines": [
           null,
           null,
@@ -1002,7 +978,42 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/infrastructure/messaging/queue.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/infrastructure/cache/redis_cache.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/infrastructure/messaging/init.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          2,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/infrastructure/messaging/queue.rb": {
         "lines": [
           null,
           null,
@@ -1016,13 +1027,13 @@
           1,
           null,
           1,
-          0,
-          0,
+          1,
+          1,
           null,
           null,
           null,
           null,
-          0,
+          1,
           null,
           null,
           null,
@@ -1030,7 +1041,7 @@
           null,
           null,
           1,
-          0,
+          1,
           null,
           null,
           null,
@@ -1048,7 +1059,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/init.rb": {
         "lines": [
           null,
           null,
@@ -1058,7 +1069,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/responses/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/responses/init.rb": {
         "lines": [
           null,
           null,
@@ -1067,7 +1078,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/responses/api_result.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/responses/api_result.rb": {
         "lines": [
           null,
           null,
@@ -1087,16 +1098,16 @@
           null,
           1,
           1,
-          17,
+          18,
           null,
-          17,
+          18,
           null,
           null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/responses/openstruct_with_links.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/responses/openstruct_with_links.rb": {
         "lines": [
           null,
           null,
@@ -1110,7 +1121,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/responses/shop_menu.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/responses/shop_menu.rb": {
         "lines": [
           null,
           null,
@@ -1122,7 +1133,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/responses/shops_list.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/responses/shops_list.rb": {
         "lines": [
           null,
           null,
@@ -1134,7 +1145,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/representers/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/representers/init.rb": {
         "lines": [
           null,
           null,
@@ -1143,7 +1154,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/representers/drink_representer.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/representers/drink_representer.rb": {
         "lines": [
           null,
           null,
@@ -1166,7 +1177,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/representers/for.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/representers/for.rb": {
         "lines": [
           null,
           null,
@@ -1187,9 +1198,9 @@
           1,
           null,
           1,
-          10,
-          4,
-          4,
+          11,
+          5,
+          5,
           null,
           6,
           6,
@@ -1197,159 +1208,6 @@
           3,
           null,
           3,
-          null,
-          null,
-          null,
-          null,
-          1,
-          10,
-          null,
-          null,
-          1,
-          10,
-          null,
-          null,
-          1,
-          10,
-          10,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/representers/shops_representer.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/representers/shop_representer.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/representers/review_representer.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/representers/menu_representer.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/presentation/representers/http_response_representer.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           null,
           null,
@@ -1358,11 +1216,164 @@
           11,
           null,
           null,
+          1,
+          11,
+          null,
+          null,
+          1,
+          11,
+          11,
+          null,
+          null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/representers/shops_representer.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/representers/shop_representer.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/representers/review_representer.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/representers/menu_representer.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/presentation/representers/http_response_representer.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          12,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/init.rb": {
         "lines": [
           null,
           null,
@@ -1372,7 +1383,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/requests/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/requests/init.rb": {
         "lines": [
           null,
           null,
@@ -1381,7 +1392,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/requests/search_keyword.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/requests/search_keyword.rb": {
         "lines": [
           null,
           null,
@@ -1408,7 +1419,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/services/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/services/init.rb": {
         "lines": [
           null,
           null,
@@ -1417,7 +1428,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/services/add_shops.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/services/list_shops.rb": {
         "lines": [
           null,
           null,
@@ -1434,83 +1445,44 @@
           1,
           1,
           1,
-          1,
           null,
           1,
+          3,
+          3,
           null,
-          1,
-          7,
-          7,
-          6,
+          3,
           null,
-          1,
-          null,
+          0,
           null,
           null,
           1,
-          6,
+          3,
           null,
-          6,
+          3,
           1,
           null,
-          5,
+          2,
+          null,
           null,
           null,
           0,
           null,
           null,
           1,
-          5,
-          5,
-          5,
+          2,
+          2,
+          3,
           null,
-          5,
-          10,
-          10,
-          5,
+          2,
           null,
-          5,
-          10,
-          null,
-          null,
-          null,
-          null,
-          5,
-          1,
-          null,
-          4,
-          null,
-          null,
-          0,
-          null,
-          null,
-          1,
-          4,
-          5,
-          5,
-          null,
-          4,
-          4,
-          null,
-          0,
-          null,
-          null,
-          null,
-          1,
-          10,
-          10,
-          5,
-          5,
-          null,
-          5,
-          null,
+          2,
           null,
           null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/services/helpers/shop_parser.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/services/helpers/shop_parser.rb": {
         "lines": [
           null,
           null,
@@ -1541,7 +1513,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/services/helpers/shop_finder.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/services/helpers/shop_finder.rb": {
         "lines": [
           null,
           null,
@@ -1625,7 +1597,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/services/extract_shop.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/services/extract_shop.rb": {
         "lines": [
           null,
           null,
@@ -1640,104 +1612,145 @@
           1,
           null,
           1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
           null,
           1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/services/get_shop_menu.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          4,
-          4,
-          4,
-          4,
-          null,
-          4,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/services/list_shops.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          3,
-          3,
-          null,
-          3,
-          null,
-          0,
-          null,
-          null,
-          1,
-          3,
-          null,
-          3,
-          1,
-          null,
+          2,
+          2,
           2,
           null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/services/add_shops.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          7,
+          7,
+          6,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          6,
+          null,
+          6,
+          1,
+          null,
+          5,
           null,
           null,
           0,
           null,
           null,
           1,
-          2,
-          2,
-          3,
+          5,
+          5,
+          5,
           null,
-          2,
+          5,
+          10,
+          10,
+          4,
           null,
-          2,
+          6,
+          14,
+          null,
+          null,
+          null,
+          null,
+          5,
+          1,
+          null,
+          4,
+          null,
+          null,
+          0,
+          null,
+          null,
+          1,
+          4,
+          5,
+          5,
+          null,
+          4,
+          4,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          10,
+          10,
+          4,
+          4,
+          null,
+          6,
+          null,
           null,
           null,
           null,
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/controllers/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/services/get_shop_menu.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          4,
+          4,
+          4,
+          4,
+          null,
+          4,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/controllers/init.rb": {
         "lines": [
           null,
           null,
@@ -1746,7 +1759,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/controllers/app.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/controllers/app.rb": {
         "lines": [
           null,
           null,
@@ -1764,28 +1777,28 @@
           null,
           null,
           1,
+          12,
+          null,
+          null,
+          12,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           11,
-          null,
-          null,
           11,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          10,
-          10,
           7,
           null,
           4,
@@ -1806,15 +1819,15 @@
           null,
           null,
           null,
-          3,
-          1,
+          4,
+          2,
           null,
-          1,
-          1,
+          2,
+          2,
           null,
-          1,
+          2,
           null,
-          1,
+          2,
           null,
           null,
           null,
@@ -1833,7 +1846,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/controllers/lib/init.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/controllers/lib/init.rb": {
         "lines": [
           null,
           null,
@@ -1842,7 +1855,25 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/controllers/lib/cache_control.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/controllers/lib/environment.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          4,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/app/application/controllers/lib/cache_control.rb": {
         "lines": [
           null,
           null,
@@ -1872,25 +1903,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/app/application/controllers/lib/environment.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          3,
-          null,
-          null,
-          1,
-          3,
-          null,
-          null,
-          null
-        ]
-      },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/spec/helpers/vcr_helper.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/spec/helpers/vcr_helper.rb": {
         "lines": [
           null,
           null,
@@ -1914,8 +1927,8 @@
           null,
           1,
           11,
-          971,
-          971,
+          459,
+          459,
           null,
           null,
           11,
@@ -1931,7 +1944,7 @@
           null
         ]
       },
-      "/mnt/c/ubuntu_share/teamproject/DrinkKing/api-DrinkKing/spec/helpers/database_helper.rb": {
+      "/Users/timchen/NTHU/SOA/DrinkKing-api/spec/helpers/database_helper.rb": {
         "lines": [
           null,
           null,
@@ -1946,14 +1959,14 @@
           null,
           null,
           1,
-          0,
-          0,
-          0,
+          11,
+          11,
+          11,
           null,
           null
         ]
       }
     },
-    "timestamp": 1608375082
+    "timestamp": 1608471051
   }
 }

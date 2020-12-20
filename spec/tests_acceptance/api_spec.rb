@@ -17,7 +17,7 @@ describe 'Test API routes' do
 
   before do
     VcrHelper.configure_vcr_for_googlemap
-    # DatabaseHelper.wipe_database
+    DatabaseHelper.wipe_database
   end
 
   after do
@@ -117,10 +117,10 @@ describe 'Test API routes' do
       search_keyword = DrinkKing::Request::SearchKeyword.new(KEYWORD)
       DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword)
 
-      # get "/api/v1/extractions/#{SHOPID}"
-      # _(last_response.status).must_equal 202
-      #
-      # 30.times { sleep(1) and print('.') }
+      get "/api/v1/extractions/#{SHOPID}"
+      _(last_response.status).must_equal 202
+
+      30.times { sleep(1) and print('.') }
 
       get "/api/v1/extractions/#{SHOPID}"
       _(last_response.status).must_equal 200
