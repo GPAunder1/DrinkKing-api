@@ -16,7 +16,7 @@ describe 'AddShops Service Integration Test' do
     VcrHelper.eject_vcr
   end
 
-  describe 'List shops(include recommend drink and menu) to show on map' do
+  describe 'List shops to show on map' do
     before do
       DatabaseHelper.wipe_database
     end

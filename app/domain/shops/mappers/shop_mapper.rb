@@ -48,7 +48,7 @@ module DrinkKing
           opening_now: opening_now,
           rating: rating,
           reviews: reviews,
-          recommend_drink: nil
+          recommend_drink: ''
         )
       end
 

@@ -15,7 +15,7 @@ module DrinkKing
       def call(input)
         shopid = input[:shop_id]
         recommend_drink = Repository::Shops.find_recommend_drink(shopid)
-        return Success(Response::ApiResult.new(status: :ok, message: recommend_drink)) if recommend_drink != nil
+        return Success(Response::ApiResult.new(status: :ok, message: recommend_drink)) unless recommend_drink.empty?
 
         # Success(Response::ApiResult.new(status: :ok, message: temp_recommend_drink))
         Messaging::Queue

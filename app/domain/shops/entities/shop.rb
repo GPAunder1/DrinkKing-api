@@ -18,10 +18,10 @@ module DrinkKing
       attribute :opening_now,     Strict::String.optional
       attribute :rating,          Strict::Integer | Strict::Float
       attribute :reviews,         Strict::Array.of(Review)
-      attribute :recommend_drink, Strict::String.optional
+      attribute :recommend_drink, Strict::String
 
       def to_attr_hash
-        to_hash.reject { |key, _| %i[id reviews recommend_drink].include? key }
+        to_hash.reject { |key, _| %i[id reviews].include? key }
       end
     end
   end
