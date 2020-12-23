@@ -4,6 +4,7 @@ require 'roar/decorator'
 require 'roar/json'
 
 require_relative 'review_representer'
+require_relative 'menu_representer'
 
 module DrinkKing
   module Representer

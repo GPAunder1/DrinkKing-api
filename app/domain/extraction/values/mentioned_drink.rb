@@ -15,6 +15,7 @@ module DrinkKing
         @menu_list = drinks.map { |drink| drink['name'] }
       end
       def mention_drink(characters)
+        # puts characters
         characters.select { |_, pos| pos == 'DRINK_NOUN' }.keys[0]
       end
     end

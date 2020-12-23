@@ -39,7 +39,7 @@ describe 'Domain extraction by Tim' do
     it 'should get recommend drink' do
       rebuilt = DrinkKing::Mapper::ReviewsExtractionMapper.find_by_shopname(KEYWORD)
       # puts rebuilt.recommend_drink
-      refute_empty rebuilt.recommend_drink
+      refute_empty rebuilt.find_recommend_drink
     end
   end
 end

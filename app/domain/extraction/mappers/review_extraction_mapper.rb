@@ -29,12 +29,8 @@ module DrinkKing
       def self.tokenize(sentence)
         uri = URI(SERVER_URL + '/tokenize'.to_s)
         res = Net::HTTP.post_form(uri, 'sentence' => sentence)
-        words = res.body.force_encoding(Encoding::UTF_8).split(' ')
-
-        uri = URI(SERVER_URL + '/pos'.to_s)
-        res = Net::HTTP.post_form(uri, 'sentence' => sentence)
-        pos = res.body.force_encoding(Encoding::UTF_8).split(' ')
-        Hash[words.zip(pos)]
+        words = res.body.force_encoding(Encoding::UTF_8)
+        JSON.parse(words)
       end
 
       private_class_method :rebuild_entity, :tokenize

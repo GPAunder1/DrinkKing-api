@@ -4,6 +4,18 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.1)
+    aws-eventstream (1.1.0)
+    aws-partitions (1.410.0)
+    aws-sdk-core (3.110.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.239.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-sqs (1.35.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.2.2)
+      aws-eventstream (~> 1, >= 1.0.2)
     concurrent-ruby (1.1.7)
     crack (0.4.4)
     database_cleaner (1.8.5)
@@ -93,6 +105,7 @@ GEM
       ffi-compiler
     ice_nine (0.11.2)
     jieba_rb (0.0.5)
+    jmespath (1.4.0)
     kwalify (0.7.2)
     listen (3.3.3)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -158,6 +171,10 @@ GEM
       sexp_processor (~> 4.9)
     sequel (5.39.0)
     sexp_processor (4.15.1)
+    shoryuken (5.0.5)
+      aws-sdk-core (>= 2)
+      concurrent-ruby
+      thor
     simplecov (0.20.0)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
@@ -166,6 +183,7 @@ GEM
     simplecov_json_formatter (0.1.2)
     sqlite3 (1.4.2)
     string-similarity (2.1.0)
+    thor (1.0.1)
     uber (0.1.0)
     unf (0.1.4)
       unf_ext
@@ -181,6 +199,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-sdk-sqs (~> 1)
   database_cleaner (~> 1.8)
   dry-monads
   dry-struct (~> 1.3)
@@ -209,6 +228,7 @@ DEPENDENCIES
   roda (~> 3.8)
   rubocop (~> 1.4)
   sequel (~> 5.0)
+  shoryuken (~> 5)
   simplecov (~> 0)
   sqlite3 (~> 1.4)
   string-similarity

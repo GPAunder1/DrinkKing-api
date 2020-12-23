@@ -47,7 +47,8 @@ module DrinkKing
           map_url: map_url,
           opening_now: opening_now,
           rating: rating,
-          reviews: reviews
+          reviews: reviews,
+          recommend_drink: ''
         )
       end
 

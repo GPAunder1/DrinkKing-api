@@ -10,10 +10,19 @@ module DrinkKing
     class ExtractShop
       include Dry::Monads::Result::Mixin
 
+      PROCESSING_MSG = 'Processing the request'
+
       def call(input)
         shopid = input[:shop_id]
-        recommend_drink = DrinkKing::Mapper::ReviewsExtractionMapper.find_by_shopid(shopid).recommend_drink
-        Success(Response::ApiResult.new(status: :ok, message: recommend_drink))
+        recommend_drink = Repository::Shops.find_recommend_drink(shopid)
+        return Success(Response::ApiResult.new(status: :ok, message: recommend_drink)) unless recommend_drink.empty?
+
+        # Success(Response::ApiResult.new(status: :ok, message: temp_recommend_drink))
+        Messaging::Queue
+          .new(App.config.EXTRACT_QUEUE_URL, App.config)
+          .send(input[:shop_id])
+
+        Failure(Response::ApiResult.new(status: :processing, message: PROCESSING_MSG))
       end
     end
   end

@@ -16,6 +16,7 @@ Sequel.migration do
       String      :map_url
       String      :opening_now
       Float       :rating
+      String      :recommend_drink
 
       DateTime :created_at
       DateTime :updated_at

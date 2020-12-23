@@ -17,6 +17,7 @@ module DrinkKing
 
       def self.rebuild_entity(shop_entity)
         DrinkKing::Entity::ReviewsExtraction.new(
+          id: shop_entity.id,
           name: shop_entity.name,
           reviews: DrinkKing::Mapper::ReviewExtractionMapper.rebuild_many(shop_entity.reviews)
         )

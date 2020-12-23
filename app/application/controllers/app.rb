@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'roda'
+require_relative 'lib/init'
 
 module DrinkKing
   # The class is responible for routing the url
@@ -41,15 +42,7 @@ module DrinkKing
               search_keyword = Request::SearchKeyword.new(search_keyword)
               result = Service::AddShops.new.call(search_keyword: search_keyword)
 
-              if result.failure?
-                failed = Representer::HttpResponse.new(result.failure)
-                routing.halt failed.http_status_code, failed.to_json
-              end
-
-              http_response = Representer::HttpResponse.new(result.value!)
-              response.status = http_response.http_status_code
-              # result.value!.message.to_json ## test code
-              Representer::ShopsList.new(result.value!.message).to_json
+              Representer::For.new(result).status_and_body(response)
             end
           end
 
@@ -58,15 +51,7 @@ module DrinkKing
             routing.get do
               result = Service::ListShops.new.call(search_keyword: routing.params['keyword'])
 
-              if result.failure?
-                failed = Representer::HttpResponse.new(result.failure)
-                routing.halt failed.http_status_code, failed.to_json
-              end
-
-              http_response = Representer::HttpResponse.new(result.value!)
-              response.status = http_response.http_status_code
-
-              Representer::ShopsList.new(result.value!.message).to_json
+              Representer::For.new(result).status_and_body(response)
             end
           end
         end
@@ -75,34 +60,22 @@ module DrinkKing
           routing.on String do |shopid|
             # GET /api/v1/extractions/{shopid}
             routing.get do
-              response.cache_control public: true, max_age: 3600
+              Cache::Control.new(response).turn_on if Env.new(App).production?
 
               result = Service::ExtractShop.new.call(shop_id: shopid)
-              if result.failure?
-                failed = Representer::HttpResponse.new(result.failure)
-                routing.halt failed.http_status_code, failed.to_json
-              end
-              http_response = Representer::HttpResponse.new(result.value!)
-              response.status = http_response.http_status_code
-              result.value!.message.to_json
-              # Representer::ShopsList.new(result.value!.message).to_json
+
+              Representer::For.new(result).status_and_body(response)
             end
           end
         end
 
         # GET /api/v1/menus?keyword={keyword}&searchby={shop/drink}
         routing.get 'menus' do
-          response.cache_control public: true, max_age: 3600
+          Cache::Control.new(response).turn_on if Env.new(App).production?
 
           result = Service::ShopMenu.new.call({ keyword: routing.params['keyword'], searchby:routing.params['searchby'] })
-          if result.failure?
-            failed = Representer::HttpResponse.new(result.failure)
-            routing.halt failed.http_status_code, failed.to_json
-          end
-          http_response = Representer::HttpResponse.new(result.value!)
-          response.status = http_response.http_status_code
-          # Representer::Menu.new(result.value!.message).to_json
-          result.value!.message.to_json
+
+          Representer::For.new(result).status_and_body(response)
         end
       end
     end
