@@ -15,8 +15,9 @@ module DrinkKing
         @menu_list = drinks.map { |drink| drink['name'] }
       end
       def mention_drink(characters)
-        # puts characters
-        characters.select { |_, pos| pos == 'DRINK_NOUN' }.keys[0]
+        selected_mention_drink = characters.select { |_, pos| pos == 'DRINK_NOUN' }.keys[0]
+        return 'not mentioned' if selected_mention_drink.nil?
+        selected_mention_drink
       end
     end
   end
