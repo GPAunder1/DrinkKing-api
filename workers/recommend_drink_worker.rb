@@ -27,7 +27,7 @@ module RecommendDrink
       puts "#{job.shop_id}=======#{job.id}"
       DrinkKing::Mapper::ReviewsExtractionMapper.find_by_shopid(job.shop_id).find_recommend_drink
       # Keep sending finished status to any latecoming subscribers
-      job.report_each_second(5) { RecommendDrink::RecommendDrinkMonitor.finished_percent }
+      job.report_each_second(2) { RecommendDrink::RecommendDrinkMonitor.finished_percent }
     rescue StandardError => error
       puts "#{error}"
       puts 'No shop has to be extracted at this moment'

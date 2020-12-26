@@ -31,7 +31,7 @@ module DrinkKing
         end
 
         def places(keyword, location, picked_api)
-          parameter = "location=#{location[0]},#{location[1]}&radius=1500&keyword=#{keyword}&language=zh-TW"
+          parameter = "location=#{location[0]},#{location[1]}&radius=3000&keyword=#{keyword}&language=zh-TW"
           url = get_request_url(picked_api, parameter)
           call_api_url(url)
         end
