@@ -61,8 +61,8 @@ module DrinkKing
             # GET /api/v1/extractions/{shopid}
             routing.get do
               Cache::Control.new(response).turn_on if Env.new(App).production?
-
-              result = Service::ExtractShop.new.call(shop_id: shopid)
+              request_id = [request.env, request.path, Time.now.to_f].hash
+              result = Service::ExtractShop.new.call(shop_id: shopid, request_id: request_id)
 
               Representer::For.new(result).status_and_body(response)
             end

@@ -20,9 +20,16 @@ module DrinkKing
         # Success(Response::ApiResult.new(status: :ok, message: temp_recommend_drink))
         Messaging::Queue
           .new(App.config.EXTRACT_QUEUE_URL, App.config)
-          .send(input[:shop_id])
+          .send(extract_request_json(input))
 
         Failure(Response::ApiResult.new(status: :processing, message: PROCESSING_MSG))
+      end
+
+      # helper method
+      def extract_request_json(input)
+        Response::ExtractRequest.new(input[:shop_id], input[:request_id])
+          .then { Representer::ExtractionRequest.new(_1) }
+          .then(&:to_json)
       end
     end
   end
