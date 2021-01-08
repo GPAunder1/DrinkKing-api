@@ -35,6 +35,8 @@ describe 'AddShops Service Integration Test' do
       rebuilt = result.value!.message.shops
 
       shops.map.with_index do |shop, i|
+        next unless shop.name.include?('可不可熟成紅茶')
+
         _(rebuilt[i].placeid).must_equal(shop.placeid)
         _(rebuilt[i].name).must_equal(shop.name)
         _(rebuilt[i].address).must_equal(shop.address)

@@ -20,9 +20,9 @@ describe 'get shop extractions test' do
     search_keyword = DrinkKing::Request::SearchKeyword.new(KEYWORD)
     DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword)
     result = DrinkKing::Service::ExtractShop.new.call(shop_id: SHOPID)
-    _(result.failure.message).must_include 'Processing the request'
+    _(result.failure.message.to_s).must_include 'request_id'
     30.times { sleep(1) and print('.') }
     result = DrinkKing::Service::ExtractShop.new.call(shop_id: SHOPID)
-    _(result.success?).must_equal true
+    _(result.failure.message).must_equal RECOMMEND_DRINK
   end
 end

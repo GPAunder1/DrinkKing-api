@@ -17,7 +17,7 @@ describe 'Testing GooglemapApi Library' do
   describe 'Place information' do
     it 'checking the shop name' do
       places = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
-      _(places.size).must_equal CORRECT.size
+      _(places.size).must_be :>=, 10
     end
 
     it 'checking bad token' do

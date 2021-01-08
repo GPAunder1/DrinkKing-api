@@ -36,6 +36,10 @@ gem 'http', '~> 4.0'
 # Asynchronicity
 # gem 'concurrent-ruby', '~> 1.1'
 gem 'aws-sdk-sqs', '~> 1'
+gem 'concurrent-ruby', '~> 1.1'
+
+# WOKERS
+gem 'faye', '~> 1'
 gem 'shoryuken', '~> 5'
 
 # Database

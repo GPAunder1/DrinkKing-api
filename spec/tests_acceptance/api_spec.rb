@@ -44,7 +44,7 @@ describe 'Test API routes' do
       _(last_response.status).must_equal 200
 
       body = JSON.parse(last_response.body)
-      shop = body['shops'][0]
+      shop = body['shops'][2]
       _(shop['placeid']).must_equal SHOPID
       _(shop['name']).must_equal SHOPNAME
       _(shop['reviews'].count).must_equal 5
@@ -81,7 +81,7 @@ describe 'Test API routes' do
       _(last_response.status).must_equal 201
 
       body = JSON.parse(last_response.body)
-      shop = body['shops'][0]
+      shop = body['shops'][2]
       _(shop['placeid']).must_equal SHOPID
       _(shop['name']).must_equal SHOPNAME
       _(shop['reviews'].count).must_equal 5
@@ -104,7 +104,7 @@ describe 'Test API routes' do
     end
 
     it '(SAD) should fail if no shop is found from menu with a googlemapAPI' do
-      post URI.escape('/api/v1/shops/軒苑')
+      post URI.escape('/api/v1/shops/川越茶飲')
 
       _(last_response.status).must_equal 404
       _(JSON.parse(last_response.body)['status']).must_equal 'not_found'
@@ -125,7 +125,7 @@ describe 'Test API routes' do
       get "/api/v1/extractions/#{SHOPID}"
       _(last_response.status).must_equal 200
       body = JSON.parse(last_response.body)
-      _(body).must_equal RECOMMEND_DRINK
+      _(body['message']).must_include RECOMMEND_DRINK
     end
   end
 

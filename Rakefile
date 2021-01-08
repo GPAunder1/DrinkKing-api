@@ -22,18 +22,20 @@ end
 
 desc 'Keep restarting web app upon changes'
 task :rerack do
-  sh "rerun -c rackup --ignore 'coverage/*'"
+  sh "rerun -c 'puma config.ru -p 9090' --ignore 'coverage/*"
 end
 
-namespace :run do
-  desc 'Run API in dev mode'
-  task :dev do
-    sh 'rerun -c "rackup -p 9090"'
-  end
+namespace :api do
+  namespace :run do
+    desc 'Run API in dev mode'
+    task :dev do
+      sh 'puma config.ru -p 9090'
+    end
 
-  desc 'Run API in test mode'
-  task :test do
-    sh 'RACK_ENV=test rackup -p 9090'
+    desc 'Run API in test mode'
+    task :test do
+      sh 'RACK_ENV=test puma config.ru -p 9090'
+    end
   end
 end
 
@@ -175,7 +177,7 @@ namespace :queues do
   task :purge => :config do
     q_url = @sqs.get_queue_url(queue_name: @api.config.EXTRACT_QUEUE).queue_url
     @sqs.purge_queue(queue_url: q_url)
-    puts "Queue #{queue_name} purged"
+    puts "Queue #{@api.config.EXTRACT_QUEUE} purged"
   rescue StandardError => e
     puts "Error purging queue: #{e}"
   end
