@@ -20,19 +20,21 @@ module DrinkKing
       def check_input_validation(input)
         search_keyword = input[:search_keyword].call
         if search_keyword.success?
-          Success(search_keyword.value!)
+          input[:search_keyword] = search_keyword.value!
+          Success(input)
         else
           Failure(Response::ApiResult.new(status: :bad_request, message: 'Please enter keyword related to drink'))
         end
       end
 
       def find_shops_in_menu(input)
-        shopname_list = ShopFinder.new(input).find_shopname
+        shopname_list = ShopFinder.new(input[:search_keyword]).find_shopname
 
         if shopname_list.empty?
           Failure(Response::ApiResult.new(status: :not_found, message: 'No shop is found from menu'))
         else
-          Success(shopname_list)
+          input[:shopname_list] = shopname_list
+          Success(input)
         end
       rescue StandardError => error
         Failure(Response::ApiResult.new(status: :internal_error, message: error.to_s))
@@ -43,8 +45,8 @@ module DrinkKing
         valid_error_message = 'No result'
         error_message = "Error with finding shops from googlemap"
 
-        input.map do |shopname|
-          api_result = shop_from_googlemap(shopname.split[0])
+        input[:shopname_list].map do |shopname|
+          api_result = shop_from_googlemap(shopname.split[0], input[:latitude], input[:longitude])
           if api_result.is_a?(String)
             error_message = api_result
           else
@@ -75,8 +77,8 @@ module DrinkKing
       end
 
       # following are support methods that other services could use
-      def shop_from_googlemap(input)
-        response = Googlemap::ShopMapper.new(App.config.API_TOKEN).find(input)
+      def shop_from_googlemap(shopname, latitude, longitude)
+        response = Googlemap::ShopMapper.new(App.config.API_TOKEN).find(shopname, latitude, longitude)
         if response.is_a? String
           error_message = 'Error with Gmap API: ' + response
           error_message
