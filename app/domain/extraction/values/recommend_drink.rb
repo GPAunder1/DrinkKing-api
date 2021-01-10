@@ -8,6 +8,7 @@ module DrinkKing
         return 'no recommend' if sorted_review.rating <= 2
         mention_drink_in_review = sorted_review.mention_drink
         return mention_drink_in_review unless mention_drink_in_review == 'not mentioned'
+        return 'no recommend'
       end
     end
   end

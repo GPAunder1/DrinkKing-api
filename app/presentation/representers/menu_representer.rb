@@ -12,6 +12,7 @@ module DrinkKing
       include Roar::JSON
 
       property :shopname
+      property :fb_url
       collection :drinks, extend: Representer::Drink, class: OpenStruct
     end
   end

@@ -6160,7 +6160,7 @@
   },
   {
     "shopname": "日出茶太",
-    "fb_url": "https://zh-tw.facebook.com/chatime.tw/",
+    "fb_url": "https://www.facebook.com/chatime.tw/",
     "drinks": [
       {
         "name": "太極厚茶拿鐵",
@@ -14066,8 +14066,8 @@
         "price": 30
       },
       {
-        "name": "",
-        "english_name": "純火冬瓜茶",
+        "name": "純火冬瓜茶",
+        "english_name": "",
         "price": 30
       },
       {
