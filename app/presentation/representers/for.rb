@@ -3,7 +3,7 @@
 require_relative 'shops_representer'
 require_relative 'menu_representer'
 require_relative 'http_response_representer'
-
+require_relative 'shops_page_representer'
 module DrinkKing
   module Representer
     # Returns appropriate representer for response object
@@ -12,6 +12,7 @@ module DrinkKing
         Response::ShopsList => ShopsList,
         # Entity::Shop        => Shop,
         # String              => HttpResponse
+        Response::ShopsPage => ShopsPage
       }.freeze
 
       attr_reader :status_rep, :body_rep
