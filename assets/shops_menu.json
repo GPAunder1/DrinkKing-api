@@ -944,7 +944,7 @@
   },
   {
     "shopname": "出櫃茶飲",
-    "fb_url": "https://www.facebook.com/出櫃冷飲新竹食品店-102887651120760/",
+    "fb_url": "https://www.facebook.com/openyourdoor2016",
     "drinks": [
       {
         "name": "草莓芝士厚奶蓋",
@@ -5663,7 +5663,7 @@
   },
   {
     "shopname": "茶棧",
-    "fb_url":"https://www.facebook.com/茶棧-新竹林森店-113741237109177/",
+    "fb_url":"https://www.facebook.com/chazhantw",
     "drinks": [
       {
         "name": "珍珠奶茶",
@@ -8117,7 +8117,7 @@
   },
   {
     "shopname": "珍煮丹",
-    "fb_url": "https://www.facebook.com/珍煮丹新竹巨城店-397599307481375/",
+    "fb_url": "https://www.facebook.com/truedantw",
     "drinks": [
       {
         "name": "遇見",
@@ -9206,267 +9206,6 @@
         "name": "法式脆皮牛角",
         "english_name": "French Crispy Croissant",
         "price": 45
-      }
-    ]
-  },
-  {
-    "shopname": "POLOCAFÉ",
-    "fb_url": "https://www.facebook.com/thepolocafebigcity",
-    "drinks": [
-      {
-        "name": "蒜香辣味海鮮義大利麵",
-        "english_name": "Spicy Seafood Pasta with Garlic",
-        "price": 360
-      },
-      {
-        "name": "蘑菇起司烤餅",
-        "english_name": "Mushroom&Cheese Quesadillas",
-        "price": 140
-      },
-      {
-        "name": "香煎紐奧良雞肉帕里尼",
-        "english_name": "New Orleans Chicken Panini",
-        "price": 150
-      },
-      {
-        "name": "美式咖啡",
-        "english_name": "Americano",
-        "price": 105
-      },
-      {
-        "name": "拿鐵",
-        "english_name": "Latte",
-        "price": 130
-      },
-      {
-        "name": "十勝乳酪塔",
-        "english_name": "Tokachi Cheese tart",
-        "price": 140
-      },
-      {
-        "name": "橄欖油炒野菇鮮蔬義大利麵",
-        "english_name": "Stir-Fried Mushroom and Vegetables Pasta with Olive Oil",
-        "price": 240
-      },
-      {
-        "name": "煙燻嫩鴨胸蒜味蛤蠣義大利麵",
-        "english_name": "Smoked Duck Breast and Clam Pasta with Garlic",
-        "price": 280
-      },
-      {
-        "name": "墨西哥辣味雞肉番茄義大利麵",
-        "english_name": "Mexican Spicy Chicken Pasta with Tomato Sauce",
-        "price": 280
-      },
-      {
-        "name": "挪威鮭魚青醬燉飯",
-        "english_name": "Norway Salmon Risotto with Pesto Sauce",
-        "price": 320
-      },
-      {
-        "name": "細燉番茄牛筋義大利麵",
-        "english_name": "Stewed Beef Tendon Pasta with Tomato Sauce",
-        "price": 300
-      },
-      {
-        "name": "北海道干貝海膽燉飯",
-        "english_name": "Hokkaido Scallop and Sea Urchin Risotto",
-        "price": 360
-      },
-      {
-        "name": "蒜味白酒培根鮮蝦義大利麵Stir-Fried",
-        "english_name": "Spaghetti with Wine Garlic,Bacon and Shrimp",
-        "price": 280
-      },
-      {
-        "name": "細燉麻辣牛筋義大利麵Hot",
-        "english_name": "and Spicy Stewed Beef Tendon Pasta",
-        "price": 300
-      },
-      {
-        "name": "蘑菇起司烤餅",
-        "english_name": "Mushroom&Cheese Quesadillas",
-        "price": 140
-      },
-      {
-        "name": "墨西哥辣味牛肉起司烤餅",
-        "english_name": "Maxican Spicy Beef Quesadilla with Cheese Combo",
-        "price": 150
-      },
-      {
-        "name": "費城牛肉烤餅",
-        "english_name": "Philly Cheese steak Quesadilla",
-        "price": 160
-      },
-      {
-        "name": "香煎紐奧良雞肉帕里尼",
-        "english_name": "New Orleans Chicken Panini",
-        "price": 150
-      },
-      {
-        "name": "墨西哥辣味牛肉起司帕里尼",
-        "english_name": "Beef&Jalapeno Pepper Panini",
-        "price": 160
-      },
-      {
-        "name": "黃金酥炸洋蔥圈Onion",
-        "english_name": "Rings",
-        "price": 120
-      },
-      {
-        "name": "酥炸松露薯條",
-        "english_name": "Truffle French Fries",
-        "price": 150
-      },
-      {
-        "name": "香酥雞塊",
-        "english_name": "Chicken Nuggets",
-        "price": 150
-      },
-      {
-        "name": "水牛城辣雞翅",
-        "english_name": "Buffalo Wings",
-        "price": 180
-      },
-      {
-        "name": "酥炸椒麻雞翅小腿",
-        "english_name": "Crispy Fried Hot & Spicy Chicken Wings",
-        "price": 180
-      },
-      {
-        "name": "豪華總匯拼盤",
-        "english_name": "Deluxe Assorted Platter",
-        "price": 150
-      },
-      {
-        "name": "美式咖啡",
-        "english_name": "Americano",
-        "price": 105
-      },
-      {
-        "name": "拿鐵",
-        "english_name": "Latte",
-        "price": 130
-      },
-      {
-        "name": "烤黑糖拿鐵",
-        "english_name": "Red Suger Latte",
-        "price": 140
-      },
-      {
-        "name": "玫瑰情人拿鐵",
-        "english_name": "",
-        "price": 140
-      },
-      {
-        "name": "風味拿鐵",
-        "english_name": "Flavored Latte",
-        "price": 140
-      },
-      {
-        "name": "卡布奇諾",
-        "english_name": "Cappuccino",
-        "price": 130
-      },
-      {
-        "name": "焦糖瑪奇朵",
-        "english_name": "Caramel Macchiato",
-        "price": 150
-      },
-      {
-        "name": "金桔檸檬蜂蜜香柚茶",
-        "english_name": "Kumquat Lemon Juice Mix Honey Citron Tea",
-        "price": 160
-      },
-      {
-        "name": "法芙娜鮮奶巧克飲",
-        "english_name": "Hot Chocolate Milk",
-        "price": 130
-      },
-      {
-        "name": "榛果鮮奶巧克飲",
-        "english_name": "Hot Chocolate Milk With Hazelnut",
-        "price": 130
-      },
-      {
-        "name": "法芙娜摩卡咖啡",
-        "english_name": "Hot Chocolate Coffee Mocha",
-        "price": 150
-      },
-      {
-        "name": "十勝乳酪塔",
-        "english_name": "Tokachi Cheese tart",
-        "price": 140
-      },
-      {
-        "name": "楓糖半熟乳酪塔",
-        "english_name": "Maple Custard Pastry",
-        "price": 95
-      },
-      {
-        "name": "白莓戀人",
-        "english_name": "",
-        "price": 140
-      },
-      {
-        "name": "焦糖流心巧克力塔",
-        "english_name": "",
-        "price": 135
-      },
-      {
-        "name": "紳士的品格",
-        "english_name": "",
-        "price": 145
-      },
-      {
-        "name": "象牙白咖啡慕斯",
-        "english_name": "Coffee Mousse",
-        "price": 95
-      },
-      {
-        "name": "法式檸檬塔",
-        "english_name": "Lemon Tart",
-        "price": 100
-      },
-      {
-        "name": "有機深焙黑豆茶",
-        "english_name": "Organic Roasted Black Soybean Tea",
-        "price": 150
-      },
-      {
-        "name": "木槿野莓果茶",
-        "english_name": "HIBISCUS & WILD BERRIES",
-        "price": 150
-      },
-      {
-        "name": "有機精選紅茶",
-        "english_name": "Black Tea",
-        "price": 140
-      },
-      {
-        "name": "芙香蘋果果茶",
-        "english_name": "Apple & Hibiscus",
-        "price": 150
-      },
-      {
-        "name": "山竹瑪黛茶",
-        "english_name": "Mangosteen & Mate",
-        "price": 150
-      },
-      {
-        "name": "康福茶",
-        "english_name": "Comfort Mint",
-        "price": 150
-      },
-      {
-        "name": "玫瑰紅棗茶",
-        "english_name": " Jujube Tea ",
-        "price": 150
-      },
-      {
-        "name": "東方美人茶",
-        "english_name": "Oriental Beauty Oolong Tea",
-        "price": 170
       }
     ]
   },
