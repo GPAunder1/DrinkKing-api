@@ -84,8 +84,9 @@ module DrinkKing
           Representer::For.new(result).status_and_body(response)
         end
 
+        # GET /api/v1/promotion?keyword={keyword}
         routing.get 'promotion' do
-          result = Service::Promotion.new.call
+          result = Service::Promotion.new.call({ keyword: routing.params['keyword']})
           # result.value!.message.to_json
           Representer::For.new(result).status_and_body(response)
           # Representer::For.new(result)

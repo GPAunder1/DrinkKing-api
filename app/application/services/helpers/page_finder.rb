@@ -7,12 +7,42 @@ module DrinkKing
       end
 
       def self.load_posts
-        file = File.read('assets/shop_post_test.json')
+        file = File.read('assets/shop_post.json')
         JSON.parse(file,object_class: OpenStruct)
       end
 
       def all_posts
         @posts
+      end
+
+      def clean_data
+        @posts.map do |shop|
+          new_post = shop['posts'].reject { |post| post['text'].empty? }
+          shop['posts'] = new_post
+          shop
+        end
+      end
+
+      def buy_one_for_one_free
+        # @posts.map do |shop|
+        #   new_post = shop['posts'].select { |post| post['text'].include? "買一送一" }
+        #   puts "----#{new_post}"
+        #   shop['posts'] = new_post
+        #   shop
+        # end
+        @posts.reject do |shop|
+          new_post = shop['posts'].select { |post| post['text'].include?'買一送一' }
+          shop['posts'] = new_post
+          shop['posts'].empty?
+        end
+      end
+
+      def new_drink
+        @posts.reject do |shop|
+          new_post = shop['posts'].select { |post| post['text'].include?'新品' }
+          shop['posts'] = new_post
+          shop['posts'].empty?
+        end
       end
     end
   end
