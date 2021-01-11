@@ -6338,13 +6338,13 @@
         "price": 60
       },
       {
-        "name": "",
-        "english_name": "初戀百香綠 Passion Fruit Green Tea",
+        "name": "初戀百香綠",
+        "english_name": "Passion Fruit Green Tea",
         "price": 50
       },
       {
-        "name": "",
-        "english_name": "初戀百香青 Passion Fruit Light Oolong",
+        "name": "初戀百香青",
+        "english_name": "Passion Fruit Light Oolong",
         "price": 50
       },
       {
@@ -6403,13 +6403,13 @@
         "price": 50
       },
       {
-        "name": "",
-        "english_name": "黃金蜂蜜綠茶 Honey Green Tea",
+        "name": "黃金蜂蜜綠茶",
+        "english_name": "Honey Green Tea",
         "price": 45
       },
       {
-        "name": "",
-        "english_name": "黃金蜂蜜青茶 Honey Light Oolong",
+        "name": "黃金蜂蜜青茶",
+        "english_name": "Honey Light Oolong",
         "price": 45
       },
       {
@@ -12250,8 +12250,8 @@
         "price": 45
       },
       {
-        "name": "",
-        "english_name": "芒果青茶",
+        "name": "芒果青茶",
+        "english_name": "",
         "price": 40
       },
       {
