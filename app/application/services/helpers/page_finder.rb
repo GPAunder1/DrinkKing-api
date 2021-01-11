@@ -24,12 +24,6 @@ module DrinkKing
       end
 
       def buy_one_for_one_free
-        # @posts.map do |shop|
-        #   new_post = shop['posts'].select { |post| post['text'].include? "買一送一" }
-        #   puts "----#{new_post}"
-        #   shop['posts'] = new_post
-        #   shop
-        # end
         @posts.reject do |shop|
           new_post = shop['posts'].select { |post| post['text'].include?'買一送一' }
           shop['posts'] = new_post
