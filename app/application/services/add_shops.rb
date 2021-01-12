@@ -43,7 +43,8 @@ module DrinkKing
       def find_shops_from_googlemap(input)
         shops = []
         valid_error_message = 'No result'
-        error_message = "Error with finding shops from googlemap"
+        error_message = "Error with finding shops from googlemap" # test message
+        error_message = "No shop is found nearby."
 
         input[:shopname_list].map do |shopname|
           api_result = shop_from_googlemap(shopname.split[0], input[:latitude], input[:longitude])
