@@ -33,7 +33,7 @@ module DrinkKing
 
       def new_drink
         @posts.reject do |shop|
-          new_post = shop['posts'].select { |post| post['text'].match? /新品|上市/ }
+          new_post = shop['posts'].select { |post| post['text'].match? /新品|上市|冬季/ }
           shop['posts'] = new_post
           shop['posts'].empty?
         end
