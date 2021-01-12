@@ -14030,5 +14030,1540 @@
         "price": 55
       }
     ]
+  },
+  {
+    "shopname": "有茶氏手工茶飲店",
+    "drinks": [
+      {
+        "name": "紅茶鮮奶茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "柳橙青茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "黃金茶拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "鳳梨青茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "碳培烏龍奶茶",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "柳橙青茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "碳培烏龍奶茶",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "草莓紅茶",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "黃金茶拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "鳳梨青茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "檸檬蒟蒻",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "阿華田",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "擂茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "蘋果香橙紅茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "紅茶鮮奶茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "冬瓜青茶",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "葡萄柚綠茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "青茶",
+        "english_name": "",
+        "price": 40
+      },
+      {
+        "name": "碳培烏龍茶",
+        "english_name": "",
+        "price": 40
+      },
+      {
+        "name": "紅茶",
+        "english_name": "",
+        "price": 40
+      },
+      {
+        "name": "黃金烏龍茶",
+        "english_name": "",
+        "price": 40
+      },
+      {
+        "name": "波霸奶茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "珍珠奶茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "芒果奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "肉桂芒果奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "巧克力芒果奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "巧克力奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "奶茶",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "蜂蜜奶茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "桂圓奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "冬瓜鮮奶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "仙草奶凍",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "多多綠茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "檸檬青茶",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "蜂蜜青茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "冬瓜仙草凍",
+        "english_name": "",
+        "price": 45
+      },
+      {
+        "name": "百香芒果綠茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "水果茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "蘋果檸檬綠",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "蜂蜜紅茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "蜂蜜綠茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "柳橙綠茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "葡萄柚青茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "玫瑰香橙紅茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "金桔檸檬",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "鳳梨柳橙汁",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "芒果多多",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "檸檬多多",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "蜂蜜檸檬汁",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "葡萄柚多多",
+        "english_name": "",
+        "price": 75
+      },
+      {
+        "name": "蛋蜜汁",
+        "english_name": "",
+        "price": 75
+      },
+      {
+        "name": "薄荷蛋蜜汁",
+        "english_name": "",
+        "price": 75
+      },
+      {
+        "name": "薑母茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "薑母鮮奶茶",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "金桔薑茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "紅棗薑茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "桂圓紅棗茶",
+        "english_name": "",
+        "price": 45
+      }
+    ]
+  },
+  {
+    "shopname": "小佐お茶作",
+    "drinks": [
+      {
+        "name": "伊莉亞拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "夕燒白玉奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "日向拿鐵",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "夕燒白玉",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "香芋鮮奶",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "夕燒白玉奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "冬瓜檸檬",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "玄米入煎茶",
+        "english_name": "",
+        "price": 40
+      },
+      {
+        "name": "森半抹茶拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "日向紅茶",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "藍帶綠茶",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "黃金麥茶",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "懷古冬瓜茶",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "台灣四季青茶",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "焙火烏龍茶",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "日式靜岡玉露",
+        "english_name": "",
+        "price": 40
+      },
+      {
+        "name": "伊莉亞紅茶",
+        "english_name": "",
+        "price": 40
+      },
+      {
+        "name": "冬瓜紅茶",
+        "english_name": "",
+        "price": 45
+      },
+      {
+        "name": "冬瓜玉露",
+        "english_name": "",
+        "price": 45
+      },
+      {
+        "name": "冬瓜青茶",
+        "english_name": "",
+        "price": 45
+      },
+      {
+        "name": "多多綠茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "檸檬風味綠茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "檸檬風味紅茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "冬瓜檸檬愛玉",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "白蔗青茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "冬瓜紫玉",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "香橙紅茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "香橙綠茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "森半抹茶檸檬",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "日向奶茶",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "綠奶茶",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "烏龍奶茶",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "青奶茶",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "阿華田",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "玉露奶茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "白玉奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "伊莉亞奶茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "金時奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "夕燒奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "布丁奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "紫玉奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "烏瓦奶茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "檸檬汁",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "檸檬愛玉",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "檸檬多多",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "冬瓜鮮奶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "日向拿鐵",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "綠茶拿鐵",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "玄米拿鐵",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "玉露拿鐵",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "伊莉亞拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "香芋鮮奶",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "烏瓦拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "森半抹茶拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "夕燒白湯",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "夕燒白玉",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "夕燒金時",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "夕燒布丁",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "黃金柚子茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "黑糖薑茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "薑汁奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "薑汁鮮奶",
+        "english_name": "",
+        "price": 70
+      }
+    ]
+  },
+  {
+    "shopname": "茗漾",
+    "drinks": [
+      {
+        "name": "岩鹽鐵觀音",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "岩鹽可可",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "岩鹽紅茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "黑岩鹽鐵觀音奶茶",
+        "english_name": "",
+        "price": 75
+      },
+      {
+        "name": "黑岩鹽奶茶",
+        "english_name": "",
+        "price": 75
+      },
+      {
+        "name": "咖啡凍奶",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "岩鹽鐵觀音",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "岩鹽可可",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "冬瓜檸檬",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "岩鹽綠抹茶",
+        "english_name": "",
+        "price": 85
+      },
+      {
+        "name": "蔗香青茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "鳳梨釀冰茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "香橙綠茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "多多綠茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "岩選綠茶",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "蜜香紅茶",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "語露青茶",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "桂香烏龍",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "鐵觀音烏龍",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "仙草甘茶",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "古味冬瓜茶",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "岩鹽青茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "岩鹽冬瓜",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "岩鹽仙草甘茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "岩鹽黑糖厚珍奶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "岩鹽紅茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "岩鹽綠茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "黑岩鹽奶茶",
+        "english_name": "",
+        "price": 75
+      },
+      {
+        "name": "黑岩鹽鐵觀音奶茶",
+        "english_name": "",
+        "price": 75
+      },
+      {
+        "name": "紅茶拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "岩語奶茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "岩語奶綠",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "珍珠奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "鐵觀音奶茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "可可奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "黑糖珍珠鮮奶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "咖啡凍奶",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "蔗香青茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "冬瓜檸檬",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "多多綠茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "香橙綠茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "紅柚綠茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "蜂蜜檸檬",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "鳳梨釀冰茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "岩選水果茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "蜜香桂花烏龍",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "黑糖薑茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "薑汁奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "岩鹽薑茶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "薑汁拿鐵",
+        "english_name": "",
+        "price": 65
+      }
+    ]
+  },
+  {
+    "shopname": "飽足感 創意飲品與乳清飲品專賣",
+    "drinks": [
+      {
+        "name": "草莓輕雪酪",
+        "english_name": "",
+        "price": 85
+      },
+      {
+        "name": "經典蜂蜜乳清",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "香橙綠",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "日式抹茶拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "芒果重乳檸檬",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "嘎逼奶霜",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "恐龍奶茶",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "芒果氣泡飲",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "草莓輕雪酪",
+        "english_name": "",
+        "price": 85
+      },
+      {
+        "name": "飽足",
+        "english_name": "3 號",
+        "price": 70
+      },
+      {
+        "name": "經典熟成紅",
+        "english_name": "",
+        "price": 40
+      },
+      {
+        "name": "英式伯爵紅",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "台灣鮮綠茶",
+        "english_name": "",
+        "price": 40
+      },
+      {
+        "name": "原萃高山青",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "深焙鐵觀音",
+        "english_name": "",
+        "price": 35
+      },
+      {
+        "name": "小葉蜜香紅",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "貴妃荔枝紅",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "桂花烏龍",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "蜜桃烏龍",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "經典紅奶茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "珍珠奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "英式伯爵奶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "茉香綠奶茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "高山青奶茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "鐵觀音奶茶",
+        "english_name": "",
+        "price": 55
+      },
+      {
+        "name": "經典紅茶拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "英式伯爵拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "茉香綠拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "高山青拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "鐵觀音拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "日式抹茶拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "濃醇可可拿鐵",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "香橙綠",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "香橙伯爵",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "百香綠",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "百香紅",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "檸檬綠",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "檸檬紅",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "檸檬青",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "百香奇異果冰沙",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "港式重乳檸檬",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "曲奇奶茶",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "多多多多綠",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "多多多多冰沙",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "人生紅綠燈",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "榛巧遇見你",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "草莓重乳檸檬",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "芒果重乳檸檬",
+        "english_name": "",
+        "price": 70
+      },
+      {
+        "name": "草莓氣泡飲",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "芒果氣泡飲",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "草莓輕雪酪",
+        "english_name": "",
+        "price": 85
+      },
+      {
+        "name": "芒果輕雪酪",
+        "english_name": "",
+        "price": 85
+      },
+      {
+        "name": "經典可可乳清",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "經典抹茶乳清",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "經典蜂蜜乳清",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "經典咖啡乳清",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "草莓雪酪乳清",
+        "english_name": "",
+        "price": 99
+      },
+      {
+        "name": "芒果雪酪乳清",
+        "english_name": "",
+        "price": 99
+      },
+      {
+        "name": "經典紅茶拿鐵乳清",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "伯爵紅茶拿鐵乳清",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "茉香綠茶拿鐵乳清",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "高山青茶拿鐵乳清",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "深焙鐵觀音拿鐵乳清",
+        "english_name": "",
+        "price": 80
+      },
+      {
+        "name": "飽足",
+        "english_name": "1 號",
+        "price": 65
+      },
+      {
+        "name": "飽足",
+        "english_name": "2 號",
+        "price": 70
+      },
+      {
+        "name": "飽足",
+        "english_name": "3 號",
+        "price": 70
+      },
+      {
+        "name": "飽足",
+        "english_name": "4 號",
+        "price": 70
+      },
+      {
+        "name": "飽足",
+        "english_name": "5 號",
+        "price": 70
+      },
+      {
+        "name": "黑糖薑汁茶",
+        "english_name": "",
+        "price": 50
+      },
+      {
+        "name": "黑糖薑汁拿鐵",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "黑糖薑汁奶茶",
+        "english_name": "",
+        "price": 60
+      },
+      {
+        "name": "ㄧ杯熱牛奶",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "可可紫米紅豆",
+        "english_name": "",
+        "price": 65
+      },
+      {
+        "name": "抹茶紫米紅豆",
+        "english_name": "",
+        "price": 65
+      }
+    ]
+  },
+  {
+    "shopname": "一碗茶茶飲",
+    "drinks": [
+      {
+        "name": "綿羊小芋圓",
+        "english_name": "Fresh Milk with Milk Foam and Taro Ball",
+        "price": 55
+      },
+      {
+        "name": "波波撞奶",
+        "english_name": "Fresh Milk with Tapioca",
+        "price": 55
+      },
+      {
+        "name": "大吉嶺鮮奶茶",
+        "english_name": "Darjeeling Fresh Milk Tea",
+        "price": 65
+      },
+      {
+        "name": "甘蔗檸檬",
+        "english_name": "Sugar Cane with Lemon",
+        "price": 55
+      },
+      {
+        "name": "紅茶拿鐵",
+        "english_name": "Black Tea Latte",
+        "price": 70
+      },
+      {
+        "name": "南洋水果茶",
+        "english_name": "Nanyang Fruit Tea",
+        "price": 65
+      },
+      {
+        "name": "甘蔗檸檬",
+        "english_name": "Sugar Cane with Lemon",
+        "price": 55
+      },
+      {
+        "name": "紅茶拿鐵",
+        "english_name": "Black Tea Latte",
+        "price": 90
+      },
+      {
+        "name": "綿羊小芋圓",
+        "english_name": "Fresh Milk with Milk Foam and Taro Ball",
+        "price": 60
+      },
+      {
+        "name": "鳳梨綠茶",
+        "english_name": "Pineapple Green Tea",
+        "price": 40
+      },
+      {
+        "name": "阿薩姆紅茶",
+        "english_name": "Assam Black Tea",
+        "price": 40
+      },
+      {
+        "name": "茉香綠茶",
+        "english_name": "Jasmine Green Tea",
+        "price": 40
+      },
+      {
+        "name": "文山青茶",
+        "english_name": "Wenshan Light Oolong",
+        "price": 40
+      },
+      {
+        "name": "碳培烏龍",
+        "english_name": "Roasted Oolong",
+        "price": 40
+      },
+      {
+        "name": "大吉嶺紅茶",
+        "english_name": "Darjeeling Black Tea",
+        "price": 40
+      },
+      {
+        "name": "話梅綠茶",
+        "english_name": "Plum Green Tea",
+        "price": 40
+      },
+      {
+        "name": "話梅紅茶",
+        "english_name": "Plum Black Tea",
+        "price": 35
+      },
+      {
+        "name": "蜜茶",
+        "english_name": "Honey Tea",
+        "price": 40
+      },
+      {
+        "name": "蜂蜜紅茶",
+        "english_name": "Honey Black Tea",
+        "price": 40
+      },
+      {
+        "name": "蜂蜜綠茶",
+        "english_name": "Honey Green Tea",
+        "price": 45
+      },
+      {
+        "name": "奶茶",
+        "english_name": "Milk Tea",
+        "price": 45
+      },
+      {
+        "name": "綠奶茶",
+        "english_name": "Green Milk Tea",
+        "price": 45
+      },
+      {
+        "name": "奶烏龍茶",
+        "english_name": "Oolong Milk Tea",
+        "price": 45
+      },
+      {
+        "name": "奶青茶",
+        "english_name": "Light Oolong Milk Tea",
+        "price": 45
+      },
+      {
+        "name": "大珍珠奶茶",
+        "english_name": "Milk Tea with Tapioca",
+        "price": 45
+      },
+      {
+        "name": "大珍珠奶綠",
+        "english_name": "Green Milk Tea with Tapioca",
+        "price": 65
+      },
+      {
+        "name": "仙草凍奶茶",
+        "english_name": "Milk Tea with Herb Jelly",
+        "price": 65
+      },
+      {
+        "name": "仙草凍奶綠",
+        "english_name": "Green Milk Tea with Herb Jelly",
+        "price": 55
+      },
+      {
+        "name": "綠茶拿鐵",
+        "english_name": "Green Tea Latte",
+        "price": 55
+      },
+      {
+        "name": "烏龍拿鐵",
+        "english_name": "Oolong Tea Latte",
+        "price": 55
+      },
+      {
+        "name": "波波撞奶",
+        "english_name": "Fresh Milk with Tapioca",
+        "price": 55
+      },
+      {
+        "name": "大吉嶺鮮奶茶",
+        "english_name": "Darjeeling Fresh Milk Tea",
+        "price": 60
+      },
+      {
+        "name": "阿華田拿鐵",
+        "english_name": "Ovaltine Latte",
+        "price": 60
+      },
+      {
+        "name": "巧克力拿鐵",
+        "english_name": "Chocolate Latte",
+        "price": 60
+      },
+      {
+        "name": "黑糖鮮奶珍珠",
+        "english_name": "Brown Sugar Fresh Milk with Tapioca",
+        "price": 70
+      },
+      {
+        "name": "紅豆紅茶拿鐵",
+        "english_name": "Black Tea Latte with Red Bean",
+        "price": 80
+      },
+      {
+        "name": "仙草紅茶拿鐵",
+        "english_name": "Black Tea Latte with Grass Jelly",
+        "price": 70
+      },
+      {
+        "name": "綠豆沙鮮奶",
+        "english_name": "",
+        "price": 85
+      },
+      {
+        "name": "芋頭牛奶",
+        "english_name": "Taro Milk",
+        "price": 55
+      },
+      {
+        "name": "鮮百香綠茶",
+        "english_name": "Passion Fruit Green Tea",
+        "price": 55
+      },
+      {
+        "name": "鮮百香紅茶",
+        "english_name": "Passion Fruit Black Tea",
+        "price": 50
+      },
+      {
+        "name": "檸檬汁",
+        "english_name": "Lemon Juice",
+        "price": 50
+      },
+      {
+        "name": "檸檬綠茶",
+        "english_name": "Lemon Green Tea",
+        "price": 50
+      },
+      {
+        "name": "檸檬紅茶",
+        "english_name": "Lemon Balck Tea",
+        "price": 60
+      },
+      {
+        "name": "金桔檸檬",
+        "english_name": "Kumquat Lemon",
+        "price": 65
+      },
+      {
+        "name": "翠玉檸檬",
+        "english_name": "Jade Lemon",
+        "price": 75
+      },
+      {
+        "name": "鳳梨百香果冰茶",
+        "english_name": "Pineapple and Passion Fruit  Iced Tea",
+        "price": 35
+      },
+      {
+        "name": "冬瓜茶",
+        "english_name": "White Gourd Drink",
+        "price": 40
+      },
+      {
+        "name": "冬瓜青茶",
+        "english_name": "White Gourd Light Oolong",
+        "price": 40
+      },
+      {
+        "name": "冬瓜波霸",
+        "english_name": "White Gourd Drink with Pearl",
+        "price": 50
+      },
+      {
+        "name": "冬瓜檸檬",
+        "english_name": "White Gourd Drink with Lemon",
+        "price": 55
+      },
+      {
+        "name": "冬瓜鮮奶",
+        "english_name": "White Gourd Fresh Milk",
+        "price": 50
+      },
+      {
+        "name": "冬瓜仙草",
+        "english_name": "White Gourd Drink with Grass Jelly",
+        "price": 50
+      },
+      {
+        "name": "冬瓜小芋圓",
+        "english_name": "White Gourd Drink with Taro Ball",
+        "price": 60
+      },
+      {
+        "name": "養樂多綠茶",
+        "english_name": "Yakult Green Tea",
+        "price": 75
+      },
+      {
+        "name": "檸檬養樂多",
+        "english_name": "Lemon Yakult",
+        "price": 55
+      },
+      {
+        "name": "甘蔗紅茶",
+        "english_name": "Sugar Cane Black Tea",
+        "price": 55
+      },
+      {
+        "name": "甘蔗綠茶",
+        "english_name": "Sugar Cane Green Tea",
+        "price": 55
+      },
+      {
+        "name": "甘蔗青茶",
+        "english_name": "Sugar Cane Light Oolong",
+        "price": 65
+      }
+    ]
   }
 ]
