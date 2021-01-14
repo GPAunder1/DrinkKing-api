@@ -4,7 +4,7 @@ require_relative '../../helpers/spec_helper.rb'
 require_relative '../../helpers/vcr_helper.rb'
 require_relative '../../helpers/database_helper.rb'
 
-describe 'AddShops Service Integration Test' do
+describe 'ListShops Service Integration Test' do
   VcrHelper.setup_vcr
   DatabaseHelper.setup_database_cleaner
 
@@ -23,7 +23,7 @@ describe 'AddShops Service Integration Test' do
 
     it '(HAPPY) should be able to process shops entirely' do
       # GIVEN: has at least one shop found by search keyword
-      shops = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
+      shops = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD, LATITUDE, LONGITUDE)
       db_shop = DrinkKing::Repository::For.entity(shops[0]).find_or_create(shops[0])
 
       # WHEN: user goes to the shop map page

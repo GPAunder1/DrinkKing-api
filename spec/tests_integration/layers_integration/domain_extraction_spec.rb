@@ -19,7 +19,7 @@ describe 'Domain extraction by Tim' do
   describe 'Creating domain_reviews_entity' do
     before do
       # add shop into database before reviewsextraction
-      places = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
+      places = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD, LATITUDE, LONGITUDE)
       places.map do |place|
         DrinkKing::Repository::For.entity(place).find_or_create(place)
       end

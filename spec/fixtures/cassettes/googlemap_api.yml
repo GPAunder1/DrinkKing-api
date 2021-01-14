@@ -14990,4 +14990,3020 @@ http_interactions:
            "status" : "OK"
         }
   recorded_at: Sat, 26 Dec 2020 07:23:41 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6&language=zh-TW&location=,&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 14:57:40 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:02:40 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=31
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "INVALID_REQUEST"
+        }
+  recorded_at: Thu, 14 Jan 2021 14:57:39 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E5%B7%9D%E8%B6%8A%E8%8C%B6%E9%A3%B2&language=zh-TW&location=,&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 14:57:41 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:02:41 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=13
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "INVALID_REQUEST"
+        }
+  recorded_at: Thu, 14 Jan 2021 14:57:40 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E6%97%A5%E5%87%BA%E8%8C%B6%E5%A4%AA&language=zh-TW&location=,&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 14:57:42 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:02:42 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=29
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "INVALID_REQUEST"
+        }
+  recorded_at: Thu, 14 Jan 2021 14:57:41 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E8%BB%92%E8%8B%91%E7%B4%94%E6%B7%A8%E7%B4%85%E8%8C%B6&language=zh-TW&location=,&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 14:57:42 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:02:42 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=29
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "INVALID_REQUEST"
+        }
+  recorded_at: Thu, 14 Jan 2021 14:57:41 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E6%9E%97%E8%A8%98%E5%8F%A4%E6%84%8F%E5%A5%B6%E8%8C%B6&language=zh-TW&location=,&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 14:57:42 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:02:42 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=28
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "INVALID_REQUEST"
+        }
+  recorded_at: Thu, 14 Jan 2021 14:57:41 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=ComeBuy&language=zh-TW&location=,&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 14:57:42 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:02:42 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=28
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "INVALID_REQUEST"
+        }
+  recorded_at: Thu, 14 Jan 2021 14:57:42 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E9%AE%AE%E8%8C%B6%E9%81%93&language=zh-TW&location=,&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 14:57:42 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=27
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "error_message" : "You have exceeded your rate-limit for this API.",
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "OVER_QUERY_LIMIT"
+        }
+  recorded_at: Thu, 14 Jan 2021 14:57:42 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=LAG%E7%B4%AF%E6%93%B1%E5%96%AE%E5%93%81%E9%AE%AE%E5%A5%B6%E8%8C%B6%E5%A0%82&language=zh-TW&location=,&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 14:57:43 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:02:43 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=31
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "INVALID_REQUEST"
+        }
+  recorded_at: Thu, 14 Jan 2021 14:57:42 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E9%A3%BD%E8%B6%B3%E6%84%9F&language=zh-TW&location=,&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 14:57:43 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:02:43 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=22
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "INVALID_REQUEST"
+        }
+  recorded_at: Thu, 14 Jan 2021 14:57:42 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6&language=zh-TW&location=24.7961217,120.996669&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:08:01 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:13:01 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=644
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7981675,
+                       "lng" : 120.9977783
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79952667989272,
+                          "lng" : 120.9991652298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.79682702010728,
+                          "lng" : 120.9964655701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "可不可熟成紅茶",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3120,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117710101393215238187\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwL7KmvvppaQotffDiaj2GqBqMb2cS0m-Fhpc5ushp7mRJMulSPK6Mgb42JY53WXC0I3zDK9JFuT5XObbX6dttGPeUrdNpyhA6ZQKACVr_ESnTctnLHc3xqlQ7A4tNVY2Uxsg7F1VvDdNNDHLDnNU4tGKooBbnAD72MfdF2k-ilFWFwF",
+                       "width" : 4160
+                    }
+                 ],
+                 "place_id" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
+                 "plus_code" : {
+                    "compound_code" : "QXXX+74 東區 新竹市",
+                    "global_code" : "7QP2QXXX+74"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4,
+                 "reference" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 366,
+                 "vicinity" : "東區建功一路45-7號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7915733,
+                       "lng" : 121.0155724
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79295682989272,
+                          "lng" : 121.0169398298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.79025717010728,
+                          "lng" : 121.0142401701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "可不可熟成紅茶 新竹關埔店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 636,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107373358259295692335\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwIOSlrKwrk3Ewi47oHIjNuMqcrMWT7kD_0A-2FHODEg3DckXuuL38NX-ePqsg1xzAKOB8dUUj7Q3wiPicgQ7OWmb6Liv92vdmzp9RZKKwwKgRYZO66UhamD95ALqBhI432GsrNFnPz9ZXrr8Ry4heC6BAtO2_Qrp-27aijgPlduD10D",
+                       "width" : 637
+                    }
+                 ],
+                 "place_id" : "ChIJX55bPh03aDQRpQ2t5maGaCE",
+                 "plus_code" : {
+                    "compound_code" : "Q2R8+J6 東區 新竹市",
+                    "global_code" : "7QP3Q2R8+J6"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.5,
+                 "reference" : "ChIJX55bPh03aDQRpQ2t5maGaCE",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 143,
+                 "vicinity" : "東區埔頂一路176號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7797191,
+                       "lng" : 121.005421
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.78107647989272,
+                          "lng" : 121.0067188298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.77837682010728,
+                          "lng" : 121.0040191701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "可不可熟成紅茶-新竹竹科店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/104920950190387945902\"\u003e鏡音皮卡\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwKKFK5F6ZH8RYejUPiOnL1DI2DD-6TYQOqjKowp4L3MgcVziPDflNXPGwiJmwTZUcRkNJhu8ZRZ7SSapsZMV5I5NJuN2id-r0We4mh4wx5F0qcSkYTtrg7EN7cYNlkA45JkLqhQurLCLkev4-1grqQ9D2XDw1wlMUEvsr_FIXnEIoB0",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJk2CGyW83aDQRy4nny6Q6xUM",
+                 "plus_code" : {
+                    "compound_code" : "Q2H4+V5 東區 新竹市",
+                    "global_code" : "7QP3Q2H4+V5"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.2,
+                 "reference" : "ChIJk2CGyW83aDQRy4nny6Q6xUM",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 60,
+                 "vicinity" : "東區工業東二路1號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7965409,
+                       "lng" : 120.9756213
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79794857989273,
+                          "lng" : 120.9769289798927
+                       },
+                       "southwest" : {
+                          "lat" : 24.79524892010728,
+                          "lng" : 120.9742293201073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "可不可熟成紅茶-新竹食品店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 758,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/113881915059552093597\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwJd20S_lr4vvKbO_3GzvEzyx17xeB8PQKiWBAesWr-txFBkooRiJp8hsSVqXureeOu8x9q95RqYpDzbk099lhnYkHb02nFjDLiZmDlkXifrYdir6pUjH_7IdEvBOAwOJu7cscfKaJfaDf1DaxBYdtNxA1qpSzKeSlW_SeMDL7iPKw_h",
+                       "width" : 1110
+                    }
+                 ],
+                 "place_id" : "ChIJFaoVjSY1aDQRugcbMCe5ync",
+                 "plus_code" : {
+                    "compound_code" : "QXWG+J6 東區 新竹市",
+                    "global_code" : "7QP2QXWG+J6"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.2,
+                 "reference" : "ChIJFaoVjSY1aDQRugcbMCe5ync",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 25,
+                 "vicinity" : "東區食品路187號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.8088042,
+                       "lng" : 120.9747131
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.81010587989272,
+                          "lng" : 120.9759832798927
+                       },
+                       "southwest" : {
+                          "lat" : 24.80740622010728,
+                          "lng" : 120.9732836201073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+                 "name" : "可不可熟成紅茶 巨城店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2428,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103996344439267930860\"\u003e77 Aki\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwLvCgT19FsRygPtL5RmE323WzG_AuZl60GePdXpF1WbfrvFFqI1XX6m42XY7uIq9ezNInLH0dujWCtFMtIyDq5xV415XXs1beCcCLcMe3-IIP7a5RHSNw8YlCt5jAR0tXCouNWdaKI5Be1dXEKz9_l2eoRzbdXiiPaIUcuhSyxUN42B",
+                       "width" : 2429
+                    }
+                 ],
+                 "place_id" : "ChIJNxVDuLc1aDQRb2ynhnaIC4s",
+                 "plus_code" : {
+                    "compound_code" : "RX5F+GV 東區 新竹市",
+                    "global_code" : "7QP2RX5F+GV"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.2,
+                 "reference" : "ChIJNxVDuLc1aDQRb2ynhnaIC4s",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 137,
+                 "vicinity" : "東區民權路150號"
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Thu, 14 Jan 2021 15:08:01 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=snidnsicndsivndsivdsv&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6&language=zh-TW&location=24.7961217,120.996669&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token snidnsicndsivndsivdsv
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:08:09 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=3
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "error_message" : "The provided API key is invalid.",
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "REQUEST_DENIED"
+        }
+  recorded_at: Thu, 14 Jan 2021 15:08:08 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=dcnisndisncsdc&language=zh-TW&location=24.7961217,120.996669&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:08:11 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:13:11 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=348
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+  recorded_at: Thu, 14 Jan 2021 15:08:10 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E6%97%A5%E5%87%BA%E8%8C%B6%E5%A4%AA&language=zh-TW&location=24.7961217,120.996669&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:32:55 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:37:55 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=538
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.801727,
+                       "lng" : 120.9903348
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.80301707989273,
+                          "lng" : 120.9916609298928
+                       },
+                       "southwest" : {
+                          "lat" : 24.80031742010728,
+                          "lng" : 120.9889612701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "Chatime日出茶太-新竹忠孝店(加盟)",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107644017577850915159\"\u003eJett Chen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwLUZJHoc4DH4PM4n5pYhqbtkvod7Uqa_tgP6HDKRRewLsc_jVvbNanDN13HZH7bsKdhyBEd1K8WUm7PDNsvnHiKpN-fGGvYJcJ6ret9hLSGK3AiODaytwod-It1ehmx9EzeUGYqWlhr7UvsDA-K21JlhZR6UpcDkcFBn4Bm_SQJjgvW",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJceXmz1E3aDQRiQBpkdxdrIM",
+                 "plus_code" : {
+                    "compound_code" : "RX2R+M4 東區 新竹市",
+                    "global_code" : "7QP2RX2R+M4"
+                 },
+                 "rating" : 3,
+                 "reference" : "ChIJceXmz1E3aDQRiQBpkdxdrIM",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 31,
+                 "vicinity" : "東區忠孝路27巷2號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.8094861,
+                       "lng" : 120.974721
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.81061087989272,
+                          "lng" : 120.9761602298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.80791122010728,
+                          "lng" : 120.9734605701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "Chatime日出茶太-新竹巨城店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/109266930730831173240\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwIhmdYLJctXjnIPCDqW1NSUaBwYQjTnGhAn3YPejSKfySj8T1z4zKTYY1Py8EE5YG-ERx2Lnh3Af0oIN-tntWa37aD1bar4dSLG4KrRnOPe0NWSwglKJi25VFo93FHxtib8O5DHIPS1kPblOJ7waUE9g6fyngfXeNUC1220ovDuzgCD",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJzUE73sQ1aDQRXqvIw6_nc3M",
+                 "plus_code" : {
+                    "compound_code" : "RX5F+QV 東區 新竹市",
+                    "global_code" : "7QP2RX5F+QV"
+                 },
+                 "rating" : 3.9,
+                 "reference" : "ChIJzUE73sQ1aDQRXqvIw6_nc3M",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 241,
+                 "vicinity" : "東區中央路229號4樓"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7979075,
+                       "lng" : 120.9771945
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79917102989272,
+                          "lng" : 120.9786118298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.79647137010728,
+                          "lng" : 120.9759121701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "Chatime日出茶太-新竹食品店(加盟)",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/108088239372020113834\"\u003e陳子平\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwLLBrdJnk4t7gkAa_sspysTA7zOkVPbluR6nEMO0IY_aQlfWTp_r5d9oj0Tl9gyP4DN9ghruFWFRhVJ-ZrkehnJ38wJbOOqk_tXDAgOR2k3Rdil-UT9bXL35A7KoevHNnZBB4tQKKU4WPyeU7kwT7iUqB0_H4Ibs6IF0GlBUqNICT5E",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJzd6YUfg1aDQRT84EyJfJpL4",
+                 "plus_code" : {
+                    "compound_code" : "QXXG+5V 東區 新竹市",
+                    "global_code" : "7QP2QXXG+5V"
+                 },
+                 "rating" : 4.2,
+                 "reference" : "ChIJzd6YUfg1aDQRT84EyJfJpL4",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 9,
+                 "vicinity" : "東區食品路130號"
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Thu, 14 Jan 2021 15:32:55 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E8%BB%92%E8%8B%91%E7%B4%94%E6%B7%A8%E7%B4%85%E8%8C%B6&language=zh-TW&location=24.7961217,120.996669&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:32:56 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:37:56 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=454
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.8160065,
+                       "lng" : 120.9744585
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.81737207989272,
+                          "lng" : 120.9757925298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.81467242010728,
+                          "lng" : 120.9730928701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "軒苑純淨紅茶-光華店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1296,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103556789615674621221\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwJ_WhkI9ByvPfgO4jUH8yI3wfhYa5ty7e7Ab-2fuLFD4r2owlXHnIciSj4jKahBojRQ4HOqOQFKespNHynk-icdfiVo7eK18QzZiH6Kn2GJOydzJ_Ra1lqiY8hx369KWM0pWbzQEy35hyMipAxcIPhHkj6hh_OV2HCxSeSWTDR-sMtw",
+                       "width" : 1264
+                    }
+                 ],
+                 "place_id" : "ChIJ6UGrRs41aDQROQcBmDvAWoQ",
+                 "plus_code" : {
+                    "compound_code" : "RX8F+CQ 北區 新竹市",
+                    "global_code" : "7QP2RX8F+CQ"
+                 },
+                 "rating" : 4.4,
+                 "reference" : "ChIJ6UGrRs41aDQROQcBmDvAWoQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 188,
+                 "vicinity" : "北區光華東街42號"
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Thu, 14 Jan 2021 15:32:55 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E6%9E%97%E8%A8%98%E5%8F%A4%E6%84%8F%E5%A5%B6%E8%8C%B6&language=zh-TW&location=24.7961217,120.996669&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:32:56 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:37:56 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=469
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7845225,
+                       "lng" : 121.0146616
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.78582787989272,
+                          "lng" : 121.0159915298928
+                       },
+                       "southwest" : {
+                          "lat" : 24.78312822010728,
+                          "lng" : 121.0132918701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "林記-古意奶茶-新竹光復店",
+                 "photos" : [
+                    {
+                       "height" : 440,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/113038762399105868306\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwLTUBwzkHrC8KNICJwMD9krWjiRIv5qzFw2x7uyLYUn-PiZNJ7sO01LMkYPQW2KPW52IGl1wQIpbB0J19lGsVLmwXcdVGbkxhzxzM1EG6z_u5l7YoxQNU2vdBpiKyxRbkujChl_C-kiHdwjDYY7Pm4cuKQO-Nv_jIGZKO57NoCO1YSa",
+                       "width" : 550
+                    }
+                 ],
+                 "place_id" : "ChIJQRVScQg3aDQRvLqOBtRCm_c",
+                 "plus_code" : {
+                    "compound_code" : "Q2M7+RV 東區 新竹市",
+                    "global_code" : "7QP3Q2M7+RV"
+                 },
+                 "rating" : 4.6,
+                 "reference" : "ChIJQRVScQg3aDQRvLqOBtRCm_c",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 14,
+                 "vicinity" : "東區光復路一段404號"
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Thu, 14 Jan 2021 15:32:56 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,formatted_phone_number,opening_hours,reviews,url&key=<GOOGLEMAP_TOKEN>&language=zh-TW&place_id=ChIJQRVScQg3aDQRvLqOBtRCm_c
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:32:57 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:37:57 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=198
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "result" : {
+              "formatted_address" : "300台灣新竹市東區光復路一段404號",
+              "formatted_phone_number" : "03 567 8195",
+              "reviews" : [
+                 {
+                    "author_name" : "邱毓淇（Yuki）",
+                    "author_url" : "https://www.google.com/maps/contrib/115077135729551341289/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14GitsGziY46XfON5zOvVNWThsQ4AEcncVf9FteQAW6Q=s128-c0x00000000-cc-rp-mo-ba2",
+                    "rating" : 5,
+                    "relative_time_description" : "1 個月前",
+                    "text" : "珍奶大推～尤其給有在追奶的產後媽咪～每次喝完奶都會變多～大推",
+                    "time" : 1608015341
+                 },
+                 {
+                    "author_name" : "王俊凱",
+                    "author_url" : "https://www.google.com/maps/contrib/101915351975067109891/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh4.googleusercontent.com/-6LpyY-ZnbIw/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmsdHEjcU3ap36iS9vpp6MXfWZdrw/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+                    "rating" : 5,
+                    "relative_time_description" : "1 個月前",
+                    "text" : "青茶好喝不會澀\n珍奶無糖剛好 好喝\n環保杯 可以省2元",
+                    "time" : 1607235196
+                 },
+                 {
+                    "author_name" : "Victoria Ria",
+                    "author_url" : "https://www.google.com/maps/contrib/105826355195180070506/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14GgYYnmeCzESx8R2nE30kI7KvAwDA5o0W5uSVoeSLcg=s128-c0x00000000-cc-rp-mo-ba2",
+                    "rating" : 5,
+                    "relative_time_description" : "4 個月前",
+                    "text" : "訂Foodpanda外送速度超快，一下就送到。現場買也是很快一下就拿到。這家奶茶是古早味口味，是用奶粉泡的，這家就是傳統的泡沫珍奶，喜歡喝傳統泡沫珍奶的應該會喜歡這家。",
+                    "time" : 1597803168
+                 },
+                 {
+                    "author_name" : "直播分享公社",
+                    "author_url" : "https://www.google.com/maps/contrib/108631225185071521951/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14Gi7OBY6HO82D6K5qN1_9UkgGhBIm_Y5y4EOAUbH=s128-c0x00000000-cc-rp-mo-ba6",
+                    "rating" : 5,
+                    "relative_time_description" : "2 個月前",
+                    "text" : "奶茶很好喝，綿密順口。",
+                    "time" : 1604741817
+                 },
+                 {
+                    "author_name" : "楊凱棋",
+                    "author_url" : "https://www.google.com/maps/contrib/114279402472171094445/reviews",
+                    "language" : "zh-Hant",
+                    "profile_photo_url" : "https://lh3.googleusercontent.com/-fdMeeUzivBE/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuck1eSt2zWCvTCh4yh4wflZyXjaGxQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                    "rating" : 5,
+                    "relative_time_description" : "2 個月前",
+                    "text" : "濃濃奶香味",
+                    "time" : 1604742880
+                 }
+              ],
+              "url" : "https://maps.google.com/?cid=17841927827168869052"
+           },
+           "status" : "OK"
+        }
+  recorded_at: Thu, 14 Jan 2021 15:32:56 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=ComeBuy&language=zh-TW&location=24.7961217,120.996669&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:32:57 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:37:57 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=645
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.798229,
+                       "lng" : 120.9972061
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79966442989272,
+                          "lng" : 120.9985120298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.79696477010728,
+                          "lng" : 120.9958123701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "思茶MissingTea手作飲品 新竹清大店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2084,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/114017452596147342372\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwIiW5MfRgLZN0jELkHTWe-viI68GDhH9j2Z9Nfuo7TxeZdWWkjo2Af836WSXEN-SVSsGAXBXpAoBF65hdsh87K9QVjUKcymNO5IL8fgfY0LzT0nJSDLD12DNMgnxkz1gm8z7OIQrpOrVC8_XSg_gDPGVqGQYiLx0ITUuxwvGGfhlqeQ",
+                       "width" : 2084
+                    }
+                 ],
+                 "place_id" : "ChIJYSfjW083aDQR7clpJNhT7rk",
+                 "plus_code" : {
+                    "compound_code" : "QXXW+7V 東區 新竹市",
+                    "global_code" : "7QP2QXXW+7V"
+                 },
+                 "rating" : 4.9,
+                 "reference" : "ChIJYSfjW083aDQR7clpJNhT7rk",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 329,
+                 "vicinity" : "東區建新路46號"
+              },
+              {
+                 "business_status" : "CLOSED_PERMANENTLY",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.784756,
+                       "lng" : 120.999498
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.78617177989272,
+                          "lng" : 121.0008700298928
+                       },
+                       "southwest" : {
+                          "lat" : 24.78347212010728,
+                          "lng" : 120.9981703701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "COMEBUY新竹交大店",
+                 "permanently_closed" : true,
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/110040616020561432728\"\u003eLi-Chi Ku\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwLmZNS7TTvy9g2JFaneAxqBrdSF3GhDA8My48db1PMV4yvydrEWa2g9-5wRMKAwPbg4T5rmFQ9CsCemvqfP9zvnMz_CYR9rA82QpzCl5c_mXDOOCvJgA1T47UgT-eiGHoggrlYCCCXKvIkb7qUWYadDf4k47717mvY3q7JdJ1rp_ExS",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJ3xh1sho2aDQR7YH9wsqK_EI",
+                 "plus_code" : {
+                    "compound_code" : "QXMX+WQ 東區 新竹市",
+                    "global_code" : "7QP2QXMX+WQ"
+                 },
+                 "rating" : 3.8,
+                 "reference" : "ChIJ3xh1sho2aDQR7YH9wsqK_EI",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 33,
+                 "vicinity" : "東區大學路1001號 女二舍餐廳"
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Thu, 14 Jan 2021 15:32:57 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,formatted_phone_number,opening_hours,reviews,url&key=<GOOGLEMAP_TOKEN>&language=zh-TW&place_id=ChIJYSfjW083aDQR7clpJNhT7rk
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:32:58 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:37:58 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=197
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "{\n   \"html_attributions\" : [],\n   \"result\" : {\n      \"formatted_address\"
+        : \"300台灣新竹市東區建新路46號\",\n      \"formatted_phone_number\" : \"03 572 1666\",\n
+        \     \"opening_hours\" : {\n         \"open_now\" : false,\n         \"periods\"
+        : [\n            {\n               \"close\" : {\n                  \"day\"
+        : 0,\n                  \"time\" : \"2200\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 0,\n                  \"time\" : \"1000\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 1,\n                  \"time\" : \"2200\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 1,\n                  \"time\" : \"1000\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 2,\n
+        \                 \"time\" : \"2200\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 2,\n                  \"time\" : \"1000\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 3,\n                  \"time\" : \"2200\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 3,\n                  \"time\" : \"1000\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 4,\n
+        \                 \"time\" : \"2200\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 4,\n                  \"time\" : \"1000\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 5,\n                  \"time\" : \"2200\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 5,\n                  \"time\" : \"1000\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 6,\n
+        \                 \"time\" : \"2200\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 6,\n                  \"time\" : \"1000\"\n
+        \              }\n            }\n         ],\n         \"weekday_text\" :
+        [\n            \"星期一: 10:00 – 22:00\",\n            \"星期二: 10:00 – 22:00\",\n
+        \           \"星期三: 10:00 – 22:00\",\n            \"星期四: 10:00 – 22:00\",\n
+        \           \"星期五: 10:00 – 22:00\",\n            \"星期六: 10:00 – 22:00\",\n
+        \           \"星期日: 10:00 – 22:00\"\n         ]\n      },\n      \"reviews\"
+        : [\n         {\n            \"author_name\" : \"Sindy Wu\",\n            \"author_url\"
+        : \"https://www.google.com/maps/contrib/115344873292764460132/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/a-/AOh14Gj7P9Jij7YBh1EVQq6xPQB8dIep5vGpbf6ytDvyqw=s128-c0x00000000-cc-rp-mo-ba2\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"1
+        個月前\",\n            \"text\" : \"每次來新竹找朋友，不管在新竹哪裡一定找附近分店買杯來喝。真的很讚，這次點了淡雅奶茶溫熱不加糖，一開始很後悔，真的很「淡雅」沒味道的奶茶。沒想到，越喝越順口且不會像一般奶茶的死甜跟越喝越渴。認真推，偶爾來新竹買杯小確幸的絕佳選擇\",\n
+        \           \"time\" : 1607180784\n         },\n         {\n            \"author_name\"
+        : \"吳桓任\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/115963704445749007452/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh6.googleusercontent.com/-YKd_PCYlQOU/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmaTKLhvXkTfkuA2yfcWZ9wOF8RaQ/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"3
+        個月前\",\n            \"text\" : \"想借這裡告解一下⋯⋯今天中午去買飲料（擂奶茶）時，店員很nice地遞給我飲料和吸管。我本來想問：「這個品項有料嗎、會一定需要用吸管喝嗎？如果沒有的話就不用了」這樣，但不知道為什麼當下問出「這個有必要用到吸管嗎」這樣沒禮貌的問句，然後還沒有當下意識到，印象中妳表情蠻困惑甚至有點委屈⋯真的很抱歉！一直都很喜歡喝你們的飲料，希望不要因為我的失言而讓你的Monday更Blue\U0001F62D\",\n
+        \           \"time\" : 1602478052\n         },\n         {\n            \"author_name\"
+        : \"Rebecca Chen\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/111742541310933420576/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/-CSdXhHsOy48/AAAAAAAAAAI/AAAAAAAAuac/AMZuuckXkMG6vpqa7Pp50o0GZ1pJr_FYqQ/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"2
+        個月前\",\n            \"text\" : \"五顆星是特別給這個分店的店員～\\n每次來消費 不管是哪位店員都非常親切\\n今晚上客人很多，態度還是很好
+        沒有一絲不耐\U0001F44D\\n本身就是思茶的愛好者\\n但住家附近分店的態度很差\\n後來都會特別跑來這間分店買\",\n            \"time\"
+        : 1603471285\n         },\n         {\n            \"author_name\" : \"Rich
+        Chen\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/104658782533417504254/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/a-/AOh14Gj7KjpkvouBHkgugg4TJyUwv7euLVPtqpP26idWIg=s128-c0x00000000-cc-rp-mo-ba3\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"2
+        個月前\",\n            \"text\" : \"擂茶及擂茶鮮奶都很完美，濃濃的擂茶味，不會喝起來粉粉的感覺，搭配鮮奶也不會喝起來水水的這點很棒，愛喝鮮奶類的絕對不要錯過!\",\n
+        \           \"time\" : 1604070735\n         },\n         {\n            \"author_name\"
+        : \"Amber Chen\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/100661420687540837388/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/a-/AOh14GhE5dDRjQ0_it-tNUI2ZdrwsffuqMEZCRfRZVwjCw=s128-c0x00000000-cc-rp-mo-ba4\",\n
+        \           \"rating\" : 4,\n            \"relative_time_description\" : \"4
+        個月前\",\n            \"text\" : \"黑糖珍溜鮮奶 55\\n甜度不能調整 就是黑糖的甜\\n去冰來說整體有點太甜\\n建議可以加一些冰塊綜合掉糖度\\n裡面有粉條跟珍珠
+        以口感來說很不錯\",\n            \"time\" : 1600012440\n         }\n      ],\n      \"url\"
+        : \"https://maps.google.com/?cid=13397738129262758381\"\n   },\n   \"status\"
+        : \"OK\"\n}\n"
+  recorded_at: Thu, 14 Jan 2021 15:32:57 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E9%AE%AE%E8%8C%B6%E9%81%93&language=zh-TW&location=24.7961217,120.996669&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:32:58 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:37:58 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=608
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.79762,
+                       "lng" : 120.9960218
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79893282989272,
+                          "lng" : 120.9973414298928
+                       },
+                       "southwest" : {
+                          "lat" : 24.79623317010727,
+                          "lng" : 120.9946417701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "鮮茶道-清大店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/109665090117947936405\"\u003e鮮茶道-清大店\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwLmQGOhZ-MbCA1IUUPbazfwUJXxuR0SVVOnWag2XR2-8wWfK60c6NJsAbhXlrZ48sqyZgG91PHUjgqvz0FaWEOw0UFavLwqms1QfrTpTtJW8u8WnvO9DE4GT6LD7IHfNu9xLZ3XBffNku5tP3nRMHrJhoS5m6HgZlMzzzzwjOFlWhkn",
+                       "width" : 2250
+                    }
+                 ],
+                 "place_id" : "ChIJW9SvJnM2aDQRE24IBUXWN4U",
+                 "plus_code" : {
+                    "compound_code" : "QXXW+2C 東區 新竹市",
+                    "global_code" : "7QP2QXXW+2C"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.1,
+                 "reference" : "ChIJW9SvJnM2aDQRE24IBUXWN4U",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 75,
+                 "vicinity" : "東區光復路二段440號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7848624,
+                       "lng" : 120.9898383
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.78627132989272,
+                          "lng" : 120.9912257798927
+                       },
+                       "southwest" : {
+                          "lat" : 24.78357167010727,
+                          "lng" : 120.9885261201073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "樂活鮮瓶新竹寶山門市",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1152,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103100350344858434600\"\u003e林鈺珀\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwLCyjUyauSOJ80kRLkcfsL8Mjb3VGruBpHReqbkqsos9ba3Bfsp9rtgRjzLsgQxpcG1EMjcDFVCU-gt3ZflZYCfgG_8rxripbCibjd9vRK989_mqPsDofhLQobkCG7AdMOae7ZKBh3ruBMDVscVzZdop6gGvkHxVPfey4HaDo4L9V3P",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJa4UkoQc2aDQRPiuBJuUgGT0",
+                 "plus_code" : {
+                    "compound_code" : "QXMQ+WW 東區 新竹市",
+                    "global_code" : "7QP2QXMQ+WW"
+                 },
+                 "rating" : 4.4,
+                 "reference" : "ChIJa4UkoQc2aDQRPiuBJuUgGT0",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 25,
+                 "vicinity" : "東區寶山路412號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7841954,
+                       "lng" : 121.0158234
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.78546112989272,
+                          "lng" : 121.0171395298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.78276147010728,
+                          "lng" : 121.0144398701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "星鮮喝手搖飲料專賣",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1707,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/104185046732642728511\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwIA3D05QJSpzv9xFlEATGrRCJlVIWJOV89QhCJxWsOhurTp_UZhwdJk60PABVepVNBH_T2vkeJRu9Sq3wp3qK_3lAqzfkQINVPs7iwMaMSAYT0zO532H98SRKqS6caZPOqHE9CQhZNfyqMeUxw0lNtPONummsWxv5icSok_ayZ6p0gV",
+                       "width" : 1200
+                    }
+                 ],
+                 "place_id" : "ChIJgyHMtv03aDQRdw8udS6XNSE",
+                 "plus_code" : {
+                    "compound_code" : "Q2M8+M8 東區 新竹市",
+                    "global_code" : "7QP3Q2M8+M8"
+                 },
+                 "rating" : 4.9,
+                 "reference" : "ChIJgyHMtv03aDQRdw8udS6XNSE",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 83,
+                 "vicinity" : "東區光復路一段362-21號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.784872,
+                       "lng" : 121.0138608
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.78615407989272,
+                          "lng" : 121.0151803298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.78345442010728,
+                          "lng" : 121.0124806701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "大苑子",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/116774255239057181052\"\u003eLee Mandy\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwKmYUgwhSBQCNj3cUF6l0vAVzJA55msZ75kvsLX42sRCPQehkgrk0807Hjo3OR8XHwwf7yImmX8JS7qZpAbhuqPbWfb_1WqcLUhsr_IUmQVpxYsR31qzm-By_I3oIUPeUOgOe2SXTauat6qkrIm3cfpSwyiO0bmsXLPVVmYaXG5QAAS",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJKWr2Vjw2aDQRD9vR63VpwpM",
+                 "plus_code" : {
+                    "compound_code" : "Q2M7+WG 東區 新竹市",
+                    "global_code" : "7QP3Q2M7+WG"
+                 },
+                 "price_level" : 2,
+                 "rating" : 3.9,
+                 "reference" : "ChIJKWr2Vjw2aDQRD9vR63VpwpM",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 100,
+                 "vicinity" : "東區光復路一段444號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7848364,
+                       "lng" : 121.0138236
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.78613977989272,
+                          "lng" : 121.0151522798927
+                       },
+                       "southwest" : {
+                          "lat" : 24.78344012010728,
+                          "lng" : 121.0124526201073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "日分茶",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103559022737663658787\"\u003eMaggie Huang\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwI0lFomYm5AwL8hsaS2NZCJrnQxw6CtBlgQrZUDoPZvkMtTMMlNUbVT1LuV1LMHXoZRfXtvs2NCrvNna50WqHQr2iiQ69ZiMw1XHS-zmSObUByuKsSwMSZ6QzE9ce3rRs13nBWooQquikaFjWNh-_j-48YBOZyddilrp8snwVV0E4wM",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJ268ands3aDQRfOUFuBonSOY",
+                 "plus_code" : {
+                    "compound_code" : "Q2M7+WG 東區 新竹市",
+                    "global_code" : "7QP3Q2M7+WG"
+                 },
+                 "rating" : 2.9,
+                 "reference" : "ChIJ268ands3aDQRfOUFuBonSOY",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 145,
+                 "vicinity" : "東區光復路一段446號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7969615,
+                       "lng" : 120.9983823
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79828577989272,
+                          "lng" : 120.9996544298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.79558612010728,
+                          "lng" : 120.9969547701072
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "大苑子茶飲專賣店 新竹清大店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/106468958982602997771\"\u003eYang Evan\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwJvQBDUZM6wCItEzi-Kezepa1blf2erTJ9efOlSQPvbBiRKRFRJc-k6zjfWTZEzlJT1aknw3Dm4QnUOM7qmDsLPX6rKWt90k3w8Wn16zjl3XbPjz0cySKAxnRT1szL1c5Cq5CJlVVkGMQxfIloqRU4e-23pVoGPlMAEnXPN0LDZbsho",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJsaeyunI2aDQRa-ffcfxLfGA",
+                 "plus_code" : {
+                    "compound_code" : "QXWX+Q9 東區 新竹市",
+                    "global_code" : "7QP2QXWX+Q9"
+                 },
+                 "rating" : 3.9,
+                 "reference" : "ChIJsaeyunI2aDQRa-ffcfxLfGA",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 98,
+                 "vicinity" : "東區建功一路12號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7967309,
+                       "lng" : 120.9757475
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79809067989272,
+                          "lng" : 120.9770900798927
+                       },
+                       "southwest" : {
+                          "lat" : 24.79539102010728,
+                          "lng" : 120.9743904201073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "康青龍新竹食品店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2656,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/110065162320624366181\"\u003e京少\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwJrk2l-WlRWWyp-Eh-VKAt_44pUTyRJKwfrG_w6WiNe6UocnehzGHLOhpj7y_E8w_6AuAMpCQzN6L5ZWz8qVNo6Hf1DfpS0hX6VSpuitKAxDXShJ33uFilblMYvtW9Y-lFwfGmqT6jnCxLtNaxVZ57nfM_CgP-gMWvBc-P_QhI_b0_J",
+                       "width" : 1992
+                    }
+                 ],
+                 "place_id" : "ChIJ-1dKr-g1aDQRBQPmgCVyP60",
+                 "plus_code" : {
+                    "compound_code" : "QXWG+M7 東區 新竹市",
+                    "global_code" : "7QP2QXWG+M7"
+                 },
+                 "rating" : 4.1,
+                 "reference" : "ChIJ-1dKr-g1aDQRBQPmgCVyP60",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 83,
+                 "vicinity" : "東區食品路179號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.813085,
+                       "lng" : 120.9897495
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.81440262989272,
+                          "lng" : 120.9911266798927
+                       },
+                       "southwest" : {
+                          "lat" : 24.81170297010727,
+                          "lng" : 120.9884270201073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "御守茶手搖茶飲店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 280,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/106076522996582203837\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwJNPs_nOQlHoUpIMOG5lhqmR40StZASosUVIxzzn6RDM6MXPMjuApcyEKyRfw5QXwXz3LkcKewnNQGUtwfvwiUEJfXOwww0sWjq-AmdyMfSvLgFhFqxDqrGPw3rOvPII8wzcIN7lkHN_2S-RWSwgiiaJz5my20B0rR7tYiTlG2ajqBm",
+                       "width" : 497
+                    }
+                 ],
+                 "place_id" : "ChIJKzW0CUWPDhQRd7EhiwD3TGY",
+                 "plus_code" : {
+                    "compound_code" : "RX7Q+6V 東區 新竹市",
+                    "global_code" : "7QP2RX7Q+6V"
+                 },
+                 "rating" : 4.2,
+                 "reference" : "ChIJKzW0CUWPDhQRd7EhiwD3TGY",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 18,
+                 "vicinity" : "東區中華路一段254號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.777197,
+                       "lng" : 120.9835751
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.77856292989272,
+                          "lng" : 120.9849095298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.77586327010728,
+                          "lng" : 120.9822098701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "手作功夫茶 高翠店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1749,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/108521758554211779786\"\u003e手作功夫茶 竹科店\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwLvosbulGWCgz87qhFAvFdOioOekgOnzORLpBxKKj5a1_tEk2ID06_7J7uFaG44j-nAJ69NuDaMidxWzLMWLvRPr6XrrAtz31Kwtj-zeJYCo8gVxXI4069FgSuCyKgAxqkPdQMqSRqNcni2W1DlGdqZB7ka36hrz7-CWSybZDnaPgfx",
+                       "width" : 2481
+                    }
+                 ],
+                 "place_id" : "ChIJ3y0N8zw2aDQR9Vnx87G-75k",
+                 "plus_code" : {
+                    "compound_code" : "QXGM+VC 東區 新竹市",
+                    "global_code" : "7QP2QXGM+VC"
+                 },
+                 "rating" : 4.1,
+                 "reference" : "ChIJ3y0N8zw2aDQR9Vnx87G-75k",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 164,
+                 "vicinity" : "東區高翠路373號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.784089,
+                       "lng" : 121.016086
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.78536337989272,
+                          "lng" : 121.0174055798928
+                       },
+                       "southwest" : {
+                          "lat" : 24.78266372010728,
+                          "lng" : 121.0147059201073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "一手私藏世界紅茶-竹科店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4608,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/114198428335656054542\"\u003e劉馨蓮\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwJX62PmEi7Z-LE0QYHJMz3i5dVLTUmI604n2d87Ih3C_1ESUoHFhkc3-_hrPwpw9E_BBmNgNIHUQXJK390jp9Cvb1DIkEfH5R_DLzbFJXsvZe2znW1sesDUAs4uiWJUMBt7GNtbTKxfH9e6SLC3KaW6b2_f3Rt8LNYyRQ-zsM7x9Ckr",
+                       "width" : 2592
+                    }
+                 ],
+                 "place_id" : "ChIJNZypgzs2aDQR62gzj-kVK24",
+                 "plus_code" : {
+                    "compound_code" : "Q2M8+JC 東區 新竹市",
+                    "global_code" : "7QP3Q2M8+JC"
+                 },
+                 "rating" : 4.2,
+                 "reference" : "ChIJNZypgzs2aDQR62gzj-kVK24",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 94,
+                 "vicinity" : "東區光復路一段362-15號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.801727,
+                       "lng" : 120.9903348
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.80301707989273,
+                          "lng" : 120.9916609298928
+                       },
+                       "southwest" : {
+                          "lat" : 24.80031742010728,
+                          "lng" : 120.9889612701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "Chatime日出茶太-新竹忠孝店(加盟)",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107644017577850915159\"\u003eJett Chen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwLuzU8juUpIOeWMGgEhZjEp9lP_8jJsl2QEzmILozDcuXapg4HXoa3AhW1hHi_hWNutNUK6fCuMbIZ1Boyxh2WG7ObyJiucfD0Pf8upPRwIti3ZpUr7i9bgLo0jYWRAaPeqfJKHczBrOt3UhwFw7LKNckU-2UqXLw5wDdXOjInsWfgh",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJceXmz1E3aDQRiQBpkdxdrIM",
+                 "plus_code" : {
+                    "compound_code" : "RX2R+M4 東區 新竹市",
+                    "global_code" : "7QP2RX2R+M4"
+                 },
+                 "rating" : 3,
+                 "reference" : "ChIJceXmz1E3aDQRiQBpkdxdrIM",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 31,
+                 "vicinity" : "東區忠孝路27巷2號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7847487,
+                       "lng" : 121.0142834
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.78601682989272,
+                          "lng" : 121.0155966798927
+                       },
+                       "southwest" : {
+                          "lat" : 24.78331717010727,
+                          "lng" : 121.0128970201073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "麻古茶坊MACU新竹園區店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 911,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/104367411157811121709\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwKv8jwYOkD2WzOcUvqiGFXjrWR0pop1B__acpZPKgcHpoS-SvA4QvE61iOQXjDZG8bDjAm9OIiB3ZmSHLcqaYNul0EEowvGJ4o_999AWeW9Np9rfzndkvCrvVUpp2tfXaIgsP846JHAaQp3eGtPS5AgugUbs9UMMtieDIeWAp-m53oo",
+                       "width" : 1500
+                    }
+                 ],
+                 "place_id" : "ChIJfYbfGrc3aDQRO9Ucu6r2CDs",
+                 "plus_code" : {
+                    "compound_code" : "Q2M7+VP 東區 新竹市",
+                    "global_code" : "7QP3Q2M7+VP"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.5,
+                 "reference" : "ChIJfYbfGrc3aDQRO9Ucu6r2CDs",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 68,
+                 "vicinity" : "東區光復路一段424號"
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Thu, 14 Jan 2021 15:32:58 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,formatted_phone_number,opening_hours,reviews,url&key=<GOOGLEMAP_TOKEN>&language=zh-TW&place_id=ChIJgyHMtv03aDQRdw8udS6XNSE
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:32:58 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:37:58 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=224
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "{\n   \"html_attributions\" : [],\n   \"result\" : {\n      \"formatted_address\"
+        : \"300台灣新竹市東區光復路一段362-21號\",\n      \"formatted_phone_number\" : \"03 666
+        3707\",\n      \"opening_hours\" : {\n         \"open_now\" : false,\n         \"periods\"
+        : [\n            {\n               \"close\" : {\n                  \"day\"
+        : 1,\n                  \"time\" : \"2230\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 1,\n                  \"time\" : \"1030\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 2,\n                  \"time\" : \"2230\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 2,\n                  \"time\" : \"1030\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 3,\n
+        \                 \"time\" : \"2230\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 3,\n                  \"time\" : \"1030\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 4,\n                  \"time\" : \"2230\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 4,\n                  \"time\" : \"1030\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 5,\n
+        \                 \"time\" : \"2230\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 5,\n                  \"time\" : \"1030\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 6,\n                  \"time\" : \"2230\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 6,\n                  \"time\" : \"1030\"\n               }\n            }\n
+        \        ],\n         \"weekday_text\" : [\n            \"星期一: 10:30 – 22:30\",\n
+        \           \"星期二: 10:30 – 22:30\",\n            \"星期三: 10:30 – 22:30\",\n
+        \           \"星期四: 10:30 – 22:30\",\n            \"星期五: 10:30 – 22:30\",\n
+        \           \"星期六: 10:30 – 22:30\",\n            \"星期日: 休息\"\n         ]\n
+        \     },\n      \"reviews\" : [\n         {\n            \"author_name\" :
+        \"多喝水\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/114900865447340445969/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/-JeIEAaRk9_c/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmqT_jXW2alo0ivq2p_FlDw7nCO9w/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 4,\n            \"relative_time_description\" : \"1
+        週前\",\n            \"text\" : \"海鹽玫瑰鮮奶茶用主恩鮮奶，很濃郁的奶香夾雜玫瑰味很特別。\\n小芋圓鮮奶茶的小芋圓很好咬。\",\n
+        \           \"time\" : 1609933992\n         },\n         {\n            \"author_name\"
+        : \"Lin pure\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/107332799776696071447/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh5.googleusercontent.com/-5zticFwkJqU/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmjLBJzU8uUmXDz1FwCuOvLkDddGA/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"1
+        個月前\",\n            \"text\" : \"那麼優質的飲料店，一定要幫推一下。\\n喝了很多人推薦的海鹽玫瑰鮮奶茶（配主恩鮮奶，微糖去冰，還加了珍珠）。\\n鹹鹹的玫瑰奶味道真的蠻順口，不會太甜，但平常喝無糖的我下次會想試無糖。珍珠真的超Q，超好吃。\\n\\n飲料品項多，用料實在，真心大推。\",\n
+        \           \"time\" : 1605886252\n         },\n         {\n            \"author_name\"
+        : \"珍珠小芋圓\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/118067877034964187429/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/a-/AOh14GgrVLujLLVgcv2pyU7csRD9Gkyt4J3NoJipI37L=s128-c0x00000000-cc-rp-mo\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"4
+        週前\",\n            \"text\" : \"奶好喝 茶好喝\\n珍珠好吃 小芋圓好吃\\n服務態度更是爆表的好\\n飲料愛好者的首選\\n明天開始買爆\U0001F924\U0001F924\U0001F924\",\n
+        \           \"time\" : 1608111787\n         },\n         {\n            \"author_name\"
+        : \"Li-Ching Cheng\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/114108296687808312585/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/a-/AOh14Gjhnh4i4vVbizR6q_F9NbrDvZb0h28_L3rwlQKOyw=s128-c0x00000000-cc-rp-mo-ba6\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"2
+        個月前\",\n            \"text\" : \"#星鮮喝 ⭐5\\n\U0001F4CD新竹市東區光復路一段362-21號\\n➪➪➪滑滑有菜單\\n✍︎今日點餐\\n#皇家伯爵紅茶
+        $30\\n#冬瓜檸檬 $45 +珍Q5元\\n✔︎伯爵紅茶愛好者的你.一定要來喝！\\n✔︎珍珠Q軟好吃.東檸酸甜度剛剛好\\n\U0001F516\\n#ricegrass_tw
+        #新竹美食 #新竹飲料\\n#新竹手搖 #新竹伯爵紅茶 #伯爵紅茶\\n#hsinchudrink #新竹美食地圖 #foodstagram\\n#新竹一日遊
+        #foodphotography #yummy\",\n            \"time\" : 1605441637\n         },\n
+        \        {\n            \"author_name\" : \"KE KE\",\n            \"author_url\"
+        : \"https://www.google.com/maps/contrib/115715493460975410511/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/a-/AOh14GiXroj3Xtnd19Yld0CAOUifKFChj-GMalKxY2DDow=s128-c0x00000000-cc-rp-mo\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"2
+        個月前\",\n            \"text\" : \"之前喝過熟成紅鮮奶茶和小芋圓鮮奶茶都很喜歡～今天嘗試推薦的海鹽玫瑰鮮奶茶，很特別地不是一般的鮮奶油鹹奶蓋，而是在奶茶中喝到淡淡的鹹味，加上玫瑰香氣，覺得是很有層次的飲品，今天做溫的也很香很好喝\U0001F44D～而且老闆和老闆娘都很親切～推薦給喜歡嘗鮮愛喝飲料的朋友\U0001F60B\",\n
+        \           \"time\" : 1604488232\n         }\n      ],\n      \"url\" : \"https://maps.google.com/?cid=2392985002807529335\"\n
+        \  },\n   \"status\" : \"OK\"\n}\n"
+  recorded_at: Thu, 14 Jan 2021 15:32:58 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,formatted_phone_number,opening_hours,reviews,url&key=<GOOGLEMAP_TOKEN>&language=zh-TW&place_id=ChIJNZypgzs2aDQR62gzj-kVK24
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:32:59 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:37:59 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=200
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "{\n   \"html_attributions\" : [],\n   \"result\" : {\n      \"formatted_address\"
+        : \"300台灣新竹市東區光復路一段362-15號\",\n      \"formatted_phone_number\" : \"03 577
+        0106\",\n      \"opening_hours\" : {\n         \"open_now\" : false,\n         \"periods\"
+        : [\n            {\n               \"close\" : {\n                  \"day\"
+        : 0,\n                  \"time\" : \"1800\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 0,\n                  \"time\" : \"1100\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 1,\n                  \"time\" : \"2000\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 1,\n                  \"time\" : \"1000\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 2,\n
+        \                 \"time\" : \"2000\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 2,\n                  \"time\" : \"1000\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 3,\n                  \"time\" : \"2000\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 3,\n                  \"time\" : \"1000\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 4,\n
+        \                 \"time\" : \"2000\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 4,\n                  \"time\" : \"1000\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 5,\n                  \"time\" : \"2000\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 5,\n                  \"time\" : \"1000\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 6,\n
+        \                 \"time\" : \"1800\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 6,\n                  \"time\" : \"1100\"\n
+        \              }\n            }\n         ],\n         \"weekday_text\" :
+        [\n            \"星期一: 10:00 – 20:00\",\n            \"星期二: 10:00 – 20:00\",\n
+        \           \"星期三: 10:00 – 20:00\",\n            \"星期四: 10:00 – 20:00\",\n
+        \           \"星期五: 10:00 – 20:00\",\n            \"星期六: 11:00 – 18:00\",\n
+        \           \"星期日: 11:00 – 18:00\"\n         ]\n      },\n      \"reviews\"
+        : [\n         {\n            \"author_name\" : \"chen Hanna\",\n            \"author_url\"
+        : \"https://www.google.com/maps/contrib/116078263731265432223/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/a-/AOh14Ggs-8gbPr6HxXFFV3QSUw014-DdGW6hZsKOVDVkcSI=s128-c0x00000000-cc-rp-mo-ba3\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"4
+        週前\",\n            \"text\" : \"紅茶愛店！從台南起家的時候就一直愛喝，但是現在已經變成普通的飲料店了\U0001F625\U0001F625新竹店動作快速，口味也蠻標準的，還是推推！\",\n
+        \           \"time\" : 1608119429\n         },\n         {\n            \"author_name\"
+        : \"瑋博林\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/113303003936948802454/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh4.googleusercontent.com/-YYg_qUZwieo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckoF5x2K6hKy3Se5NXzkf7xdsEXNQ/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 2,\n            \"relative_time_description\" : \"1
+        個月前\",\n            \"text\" : \"建議不要在客人面前教育新人（口氣不佳）,使得消費體驗並不是很好~謝謝！\",\n
+        \           \"time\" : 1606738983\n         },\n         {\n            \"author_name\"
+        : \"Ihsin Chen\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/102713693609062915102/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/a-/AOh14Gg7wAPmvkc1D8-zr6qQh69SkNgCsWRCe96hvSxo=s128-c0x00000000-cc-rp-mo\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"1
+        個月前\",\n            \"text\" : \"夏卡爾紅茶有蜜桃香 但是微糖還是有點太甜\\n可能一份糖剛剛好\",\n            \"time\"
+        : 1608013277\n         },\n         {\n            \"author_name\" : \"邱毓淇（Yuki）\",\n
+        \           \"author_url\" : \"https://www.google.com/maps/contrib/115077135729551341289/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/a-/AOh14GitsGziY46XfON5zOvVNWThsQ4AEcncVf9FteQAW6Q=s128-c0x00000000-cc-rp-mo-ba2\",\n
+        \           \"rating\" : 2,\n            \"relative_time_description\" : \"1
+        個月前\",\n            \"text\" : \"今天點了泰奶-沒什麼味道，珍珠厚黑奶-珍珠很粉、味道尚可，不是很推。\",\n            \"time\"
+        : 1608015239\n         },\n         {\n            \"author_name\" : \"Barbie
+        Huang\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/113908117904938960573/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh5.googleusercontent.com/-ChMojEE3SrM/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclOExH94zz990bF9yTHTKCwo5pefg/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg\",\n
+        \           \"rating\" : 3,\n            \"relative_time_description\" : \"2
+        個月前\",\n            \"text\" : \"#新竹飲料\\n一直很喜歡這個連鎖品牌的紅茶，可惜高雄門市已結束營業，英式格雷伯爵紅茶茶味很得我心，德式太厚奶茶有點可惜，覺得應該要再濃郁一些會更好。\",\n
+        \           \"time\" : 1603759605\n         }\n      ],\n      \"url\" : \"https://maps.google.com/?cid=7938462861044705515\"\n
+        \  },\n   \"status\" : \"OK\"\n}\n"
+  recorded_at: Thu, 14 Jan 2021 15:32:58 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/details/json?fields=formatted_address,formatted_phone_number,opening_hours,reviews,url&key=<GOOGLEMAP_TOKEN>&language=zh-TW&place_id=ChIJfYbfGrc3aDQRO9Ucu6r2CDs
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:32:59 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:37:59 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=213
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "{\n   \"html_attributions\" : [],\n   \"result\" : {\n      \"formatted_address\"
+        : \"300台灣新竹市東區光復路一段424號\",\n      \"formatted_phone_number\" : \"03 666 3320\",\n
+        \     \"opening_hours\" : {\n         \"open_now\" : false,\n         \"periods\"
+        : [\n            {\n               \"close\" : {\n                  \"day\"
+        : 0,\n                  \"time\" : \"2200\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 0,\n                  \"time\" : \"1000\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 1,\n                  \"time\" : \"2200\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 1,\n                  \"time\" : \"1000\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 2,\n
+        \                 \"time\" : \"2200\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 2,\n                  \"time\" : \"1000\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 3,\n                  \"time\" : \"2200\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 3,\n                  \"time\" : \"1000\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 4,\n
+        \                 \"time\" : \"2200\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 4,\n                  \"time\" : \"1000\"\n
+        \              }\n            },\n            {\n               \"close\"
+        : {\n                  \"day\" : 5,\n                  \"time\" : \"2200\"\n
+        \              },\n               \"open\" : {\n                  \"day\"
+        : 5,\n                  \"time\" : \"1000\"\n               }\n            },\n
+        \           {\n               \"close\" : {\n                  \"day\" : 6,\n
+        \                 \"time\" : \"2200\"\n               },\n               \"open\"
+        : {\n                  \"day\" : 6,\n                  \"time\" : \"1000\"\n
+        \              }\n            }\n         ],\n         \"weekday_text\" :
+        [\n            \"星期一: 10:00 – 22:00\",\n            \"星期二: 10:00 – 22:00\",\n
+        \           \"星期三: 10:00 – 22:00\",\n            \"星期四: 10:00 – 22:00\",\n
+        \           \"星期五: 10:00 – 22:00\",\n            \"星期六: 10:00 – 22:00\",\n
+        \           \"星期日: 10:00 – 22:00\"\n         ]\n      },\n      \"reviews\"
+        : [\n         {\n            \"author_name\" : \"蔡沂倫\",\n            \"author_url\"
+        : \"https://www.google.com/maps/contrib/102003468122849870196/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh5.googleusercontent.com/-oVBuKrLp_vE/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclAgPbOLrsM1ps39jOZ0JbnTZzYLw/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"本週\",\n
+        \           \"text\" : \"店員服務態度真的很親切，雖然我只是臨時起意在這個冷爆的天氣去買一瓶熱可可，但是兩位店員都很親切的為我點餐、做飲料、語氣超級好的提醒說帶瓶裝回購可以折10元，最後兩位都禮貌的說再見。像這種的店員真的很難很難再遇到了，下次天冷的話一定會再回去買的！\",\n
+        \           \"time\" : 1610271251\n         },\n         {\n            \"author_name\"
+        : \"Chun-Chieh Huang\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/114584726000175339111/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/-dh_qkaEjvjs/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmVY1if7Qn6FXQhrjAzcgBqyyNiQA/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"1
+        個月前\",\n            \"text\" : \"這間分店服務認真熱忱，自帶環保杯會特意提醒其他店員要再沖一次杯子，這點非常好！很多店家不但沒有做到這點，甚至特別跟店家要求稍微沖一下，對方還不願意做！這點就跟你自己在家用自己的餐具一樣，太久沒用難免都會要沖洗一下保平安，何況是不知道情況的容器，一個小小動作，是不是站在客人角度來著想，還是嫌麻煩只是想賺個錢而已，一看就知道，這給客人的體驗就差非常非常大！有做的店家我一律給予鼓勵！\",\n
+        \           \"time\" : 1605956035\n         },\n         {\n            \"author_name\"
+        : \"彭小雞\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/103163875169867589927/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh5.googleusercontent.com/-vwCFanZMpGI/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckK90M6qfI1eoCi3ERsh43reJ4OKQ/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 3,\n            \"relative_time_description\" : \"1
+        個月前\",\n            \"text\" : \"12/5下午約14:50打電話去訂一杯金萱雙Q自取店員說約5分鐘可取，15:00到現場還沒做好還跟我說珍珠要等⋯那我想請問打電話先訂的意義何在？麻煩如果現場料想不足是否可注意一下，我懂飲料店的辛苦，已經趕時間了也先前去訂了這樣感覺真的蠻差的!\",\n
+        \           \"time\" : 1607153562\n         },\n         {\n            \"author_name\"
+        : \"廖佩于\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/108327781130427154515/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh6.googleusercontent.com/-qvmaJg5tVMc/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckXhzCyP3ZMoR-N86JnYRv9id1B_A/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"1
+        週前\",\n            \"text\" : \"這家晚班服務態度超好，店員都很NICE，還不買爆這家店\U0001F606\",\n
+        \           \"time\" : 1609755322\n         },\n         {\n            \"author_name\"
+        : \"黃黃佑民\",\n            \"author_url\" : \"https://www.google.com/maps/contrib/103461473992971414578/reviews\",\n
+        \           \"language\" : \"zh-Hant\",\n            \"profile_photo_url\"
+        : \"https://lh3.googleusercontent.com/-i2RTZlHXX00/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnkHqYq7u4R9y4zhospQyYFb8YmaA/s128-c0x00000000-cc-rp-mo/photo.jpg\",\n
+        \           \"rating\" : 5,\n            \"relative_time_description\" : \"1
+        個月前\",\n            \"text\" : \"替我們服務的店員態度很棒，對待小孩也很有耐心（女服務員真的有差），點了芝芝葡萄，雙Q
+        都在水準之上，大推\U0001F44D\",\n            \"time\" : 1606193368\n         }\n      ],\n
+        \     \"url\" : \"https://maps.google.com/?cid=4253921061195535675\"\n   },\n
+        \  \"status\" : \"OK\"\n}\n"
+  recorded_at: Thu, 14 Jan 2021 15:32:58 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=LAG%E7%B4%AF%E6%93%B1%E5%96%AE%E5%93%81%E9%AE%AE%E5%A5%B6%E8%8C%B6%E5%A0%82&language=zh-TW&location=24.7961217,120.996669&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:33:00 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:38:00 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=481
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+  recorded_at: Thu, 14 Jan 2021 15:32:59 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E9%A3%BD%E8%B6%B3%E6%84%9F&language=zh-TW&location=24.7961217,120.996669&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:33:00 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:38:00 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=444
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+  recorded_at: Thu, 14 Jan 2021 15:32:59 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<GOOGLEMAP_TOKEN>&keyword=%E5%8F%AF%E4%B8%8D%E5%8F%AF%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6&language=zh-TW&location=24.7961217,120.996669&radius=2000
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - token <GOOGLEMAP_TOKEN>
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/4.4.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 14 Jan 2021 15:49:36 GMT
+      Expires:
+      - Thu, 14 Jan 2021 15:54:36 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=607
+      Alt-Svc:
+      - h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7981675,
+                       "lng" : 120.9977783
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79952667989272,
+                          "lng" : 120.9991652298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.79682702010728,
+                          "lng" : 120.9964655701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "可不可熟成紅茶",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3120,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117710101393215238187\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwI2u2r6xZp4iv9k3bBlLcSiJZNM0oO5wO0l4-3xbqIfFKL4U9e9cHtCih8yz6PY13GWXoamvpBI60kg9tQS7evYyCiEPF80WJ26id_To-eKKI4wxrh0Aa3RtWkdQ6xfdDo0zufW-U8s052xLnuIUW1nB2g2L6RQI0kUyh5iedj5x2-D",
+                       "width" : 4160
+                    }
+                 ],
+                 "place_id" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
+                 "plus_code" : {
+                    "compound_code" : "QXXX+74 東區 新竹市",
+                    "global_code" : "7QP2QXXX+74"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4,
+                 "reference" : "ChIJj-JB7XI2aDQReyt7-6gXNXk",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 366,
+                 "vicinity" : "東區建功一路45-7號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7915733,
+                       "lng" : 121.0155724
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79295682989272,
+                          "lng" : 121.0169398298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.79025717010728,
+                          "lng" : 121.0142401701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "name" : "可不可熟成紅茶 新竹關埔店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 636,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107373358259295692335\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwKCr8ppztB0Ixs1RFybkQDAQYy2TOVEhTRqYG7lWm0Kz9Rqipfn31cNS-C4YtAsnl2ptZ-lX8CSmrqfjUzQHVKAmm_OmHXuC89bXAzGlBdqzjU-3o2LpkL0EGngHCxIuMaJgdarRxb5N7VKLyx2X3CpnHEVKFhvRU5wDqHM4LDcHDJ7",
+                       "width" : 637
+                    }
+                 ],
+                 "place_id" : "ChIJX55bPh03aDQRpQ2t5maGaCE",
+                 "plus_code" : {
+                    "compound_code" : "Q2R8+J6 東區 新竹市",
+                    "global_code" : "7QP3Q2R8+J6"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.5,
+                 "reference" : "ChIJX55bPh03aDQRpQ2t5maGaCE",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 143,
+                 "vicinity" : "東區埔頂一路176號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7797191,
+                       "lng" : 121.005421
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.78107647989272,
+                          "lng" : 121.0067188298927
+                       },
+                       "southwest" : {
+                          "lat" : 24.77837682010728,
+                          "lng" : 121.0040191701073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "可不可熟成紅茶-新竹竹科店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/104920950190387945902\"\u003e鏡音皮卡\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwLvJk8Nffm03rMYLJL3IDl1vhQTPQunPlMcp0w6Qpd4yqMMrbN0poDFtgCAMVfxtmuXu3CaZ8z4q71rwYiUgUFLcyeWTefZuzUJfPbZG8TymHFUoXn3-eXa_bgzLT6GfhZvrdg7j2oAPRrjvGxXlaMCjiSWS4huXIemWrdwHNfkkNhS",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJk2CGyW83aDQRy4nny6Q6xUM",
+                 "plus_code" : {
+                    "compound_code" : "Q2H4+V5 東區 新竹市",
+                    "global_code" : "7QP3Q2H4+V5"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.2,
+                 "reference" : "ChIJk2CGyW83aDQRy4nny6Q6xUM",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 60,
+                 "vicinity" : "東區工業東二路1號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7965409,
+                       "lng" : 120.9756213
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79794857989273,
+                          "lng" : 120.9769289798927
+                       },
+                       "southwest" : {
+                          "lat" : 24.79524892010728,
+                          "lng" : 120.9742293201073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "name" : "可不可熟成紅茶-新竹食品店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 758,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/113881915059552093597\"\u003eA Google User\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwK9lp0pBtEFfYAsGV5iGPxUAz5ZjgAaw5LuDaeT4jJJCfbaYpnhO-l2u3FzwQcGIsubZc-HVXZnPyDlVD0Oplw2nrRz9M78MaKu3W5FFddo-OrPwYCRqVX5R54XR_CHBVasIHWnS5i6trbwxPOjTaBPyNBpbiBnKVinXoePakGiToxw",
+                       "width" : 1110
+                    }
+                 ],
+                 "place_id" : "ChIJFaoVjSY1aDQRugcbMCe5ync",
+                 "plus_code" : {
+                    "compound_code" : "QXWG+J6 東區 新竹市",
+                    "global_code" : "7QP2QXWG+J6"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.2,
+                 "reference" : "ChIJFaoVjSY1aDQRugcbMCe5ync",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 25,
+                 "vicinity" : "東區食品路187號"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.8088042,
+                       "lng" : 120.9747131
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.81010587989272,
+                          "lng" : 120.9759832798927
+                       },
+                       "southwest" : {
+                          "lat" : 24.80740622010728,
+                          "lng" : 120.9732836201073
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+                 "name" : "可不可熟成紅茶 巨城店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2428,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103996344439267930860\"\u003e77 Aki\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "ATtYBwJCYBQxHERcPd_P2bgW6dOQcnum1B7iOIRrqo7nl8BrKuKmFMskD2d9suPp5H-OKSj_VBtl-1b98RGbLWBZDem6lV9i1RLRU2ix_5y8LWazGMcQVCgtOaQTbiphNe6Ly5bPlhJggtdUoWRKtX0ziDI2ospgQ-YrUJfcr_x6wlXLKng5",
+                       "width" : 2429
+                    }
+                 ],
+                 "place_id" : "ChIJNxVDuLc1aDQRb2ynhnaIC4s",
+                 "plus_code" : {
+                    "compound_code" : "RX5F+GV 東區 新竹市",
+                    "global_code" : "7QP2RX5F+GV"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.2,
+                 "reference" : "ChIJNxVDuLc1aDQRb2ynhnaIC4s",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 137,
+                 "vicinity" : "東區民權路150號"
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Thu, 14 Jan 2021 15:49:35 GMT
 recorded_with: VCR 6.0.0

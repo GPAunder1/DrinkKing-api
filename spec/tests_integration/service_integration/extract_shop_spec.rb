@@ -18,7 +18,7 @@ describe 'get shop extractions test' do
   end
   it 'recommend drink' do
     search_keyword = DrinkKing::Request::SearchKeyword.new(KEYWORD)
-    DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword)
+    DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword, latitude: LATITUDE, longitude: LONGITUDE)
     result = DrinkKing::Service::ExtractShop.new.call(shop_id: SHOPID)
     _(result.failure.message.to_s).must_include 'request_id'
     30.times { sleep(1) and print('.') }
