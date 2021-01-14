@@ -12,9 +12,9 @@ module DrinkKing
         @gateway = @gateway_class.new(@token)
       end
 
-      def find(keyword)
-        # future extension:current location
-        data = @gateway.nearbyplaces_data(keyword, [24.7961217, 120.9966699])
+      def find(keyword, latitude, longitude)
+        # future extension:current location - done at 2021/1/9 :)
+        data = @gateway.nearbyplaces_data(keyword, [latitude, longitude])
         Parsers::ApiResponse.new(data).apierror? ? build_entity(data) : raise_error(data)
       end
 

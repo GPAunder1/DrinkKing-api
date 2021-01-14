@@ -22,7 +22,7 @@ describe 'Integration Tests of GoogleMap API and Database' do
     end
 
     it 'Saving place from GoogleMap to database' do
-      places = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
+      places = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD, LATITUDE, LONGITUDE)
       places.map do |place|
         rebuilt = DrinkKing::Repository::For.entity(place).find_or_create(place)
 

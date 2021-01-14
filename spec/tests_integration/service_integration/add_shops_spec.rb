@@ -23,11 +23,11 @@ describe 'AddShops Service Integration Test' do
 
     it '(HAPPY) should be able to find and save shops to database' do
       # GIVEN: a valid search keyword to find shops
-      shops = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD)
+      shops = DrinkKing::Googlemap::ShopMapper.new(TOKEN).find(KEYWORD, LATITUDE, LONGITUDE)
       keyword_request = DrinkKing::Request::SearchKeyword.new(KEYWORD)
 
       # WHEN: the service is called with the request form object
-      result = DrinkKing::Service::AddShops.new.call(search_keyword: keyword_request)
+      result = DrinkKing::Service::AddShops.new.call(search_keyword: keyword_request, latitude: LATITUDE, longitude: LONGITUDE)
 
       # THEN: the result should be success
       _(result.success?).must_equal true
@@ -60,10 +60,10 @@ describe 'AddShops Service Integration Test' do
     it '(HAPPY) should be able to find and return existing shops in database' do
       # GIVEN: a valid search keyword to find shops and the shop are already in database
       keyword_request = DrinkKing::Request::SearchKeyword.new(KEYWORD)
-      db_shops = DrinkKing::Service::AddShops.new.call(search_keyword: keyword_request).value!.message.shops
+      db_shops = DrinkKing::Service::AddShops.new.call(search_keyword: keyword_request, latitude: LATITUDE, longitude: LONGITUDE).value!.message.shops
 
       # WHEN: the service is called with the request form object
-      result = DrinkKing::Service::AddShops.new.call(search_keyword: keyword_request)
+      result = DrinkKing::Service::AddShops.new.call(search_keyword: keyword_request, latitude: LATITUDE, longitude: LONGITUDE)
 
       # THEN: the result should be success
       _(result.success?).must_equal true

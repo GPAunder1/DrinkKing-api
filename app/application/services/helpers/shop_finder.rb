@@ -49,24 +49,19 @@ module DrinkKing
 
       def search_by_shopname(keyword)
         result = []
-        @menu.map { |shop_menu| result << shop_menu if shop_menu['shopname'].include?(keyword) || keyword.include?(shop_menu['shopname']) }
+        @menu.each { |shop_menu| result << shop_menu if shop_menu['shopname'].include?(keyword) || keyword.include?(shop_menu['shopname']) }
         result
       end
 
       def search_by_drinkname(keyword)
         result = []
+
         # return all menu
-        @menu.map do |shop_menu|
-          result << shop_menu unless shop_menu['drinks'].select { |drink| drink['name'].include?keyword }.empty?
+        @menu.each do |shop_menu|
+          result << shop_menu unless shop_menu['drinks'].select { |drink| drink['name'].include? keyword }.empty?
+          result << shop_menu unless shop_menu['drinks'].select { |drink| drink['english_name'].downcase.include? keyword.downcase }.empty?
         end
-        # @menu.map do |shop_menu|
-        #   select_shop = { 'shopname' => '', 'drinks' => [] }
-        #   drinks = []
-        #   shop_menu['drinks'].map { |drink| drinks << drink['name'] if drink['name'].include?keyword }
-        #   select_shop['shopname'] = shop_menu['shopname']
-        #   select_shop['drinks'] = drinks
-        #   result << select_shop unless drinks.empty?
-        # end
+
         result
       end
 

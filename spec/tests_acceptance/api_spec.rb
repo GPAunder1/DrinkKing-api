@@ -38,13 +38,14 @@ describe 'Test API routes' do
   describe 'List shops route' do
     it '(HAPPY) should be able to return shop lists' do
       search_keyword = DrinkKing::Request::SearchKeyword.new(KEYWORD)
-      DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword)
+      DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword, latitude: LATITUDE, longitude: LONGITUDE)
 
       get URI.escape("/api/v1/shops?keyword=#{KEYWORD}")
       _(last_response.status).must_equal 200
 
       body = JSON.parse(last_response.body)
-      shop = body['shops'][2]
+      shop = body['shops'][0]
+
       _(shop['placeid']).must_equal SHOPID
       _(shop['name']).must_equal SHOPNAME
       _(shop['reviews'].count).must_equal 5
@@ -53,7 +54,7 @@ describe 'Test API routes' do
 
     it '(HAPPY) should be able to return shop lists that keyword is related both with shopname and drinkname' do
       search_keyword = DrinkKing::Request::SearchKeyword.new(DRINKNAME)
-      DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword)
+      DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword, latitude: LATITUDE, longitude: LONGITUDE)
 
       get URI.escape("/api/v1/shops?keyword=#{DRINKNAME}")
       _(last_response.status).must_equal 200
@@ -76,12 +77,13 @@ describe 'Test API routes' do
 
   describe 'Add shops route' do
     it '(HAPPY) should be able to add shops to database' do
-      post URI.escape("/api/v1/shops/#{SHOPNAME}")
+      post URI.escape("/api/v1/shops/#{SHOPNAME}?latitude=#{LATITUDE}&longitude=#{LONGITUDE}")
 
       _(last_response.status).must_equal 201
 
       body = JSON.parse(last_response.body)
-      shop = body['shops'][2]
+      shop = body['shops'][0]
+
       _(shop['placeid']).must_equal SHOPID
       _(shop['name']).must_equal SHOPNAME
       _(shop['reviews'].count).must_equal 5
@@ -115,7 +117,7 @@ describe 'Test API routes' do
   describe 'Extract shop route' do
     it 'should be able to extract shop' do
       search_keyword = DrinkKing::Request::SearchKeyword.new(KEYWORD)
-      DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword)
+      DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword, latitude: LATITUDE, longitude: LONGITUDE)
 
       get "/api/v1/extractions/#{SHOPID}"
       _(last_response.status).must_equal 202

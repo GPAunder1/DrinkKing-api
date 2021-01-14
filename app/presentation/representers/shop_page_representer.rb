@@ -3,17 +3,16 @@
 require 'roar/decorator'
 require 'roar/json'
 
-require_relative 'drink_representer'
+require_relative 'post_representer'
 
 module DrinkKing
   module Representer
     # Represent menu as json
-    class Menu < Roar::Decorator
+    class ShopPage < Roar::Decorator
       include Roar::JSON
 
       property :shopname
-      property :fb_url
-      collection :drinks, extend: Representer::Drink, class: OpenStruct
+      collection :posts, extend: Representer::Post, class: OpenStruct
     end
   end
 end

@@ -37,10 +37,16 @@ module DrinkKing
       routing.on 'api/v1' do
         routing.on 'shops' do
           routing.on String do |search_keyword|
-            # POST /api/v1/shops/{KEYWORD}
+            # POST /api/v1/shops/{KEYWORD}?latitude=xxx&longitude=xxx
             routing.post do
+              latitude = routing.params['latitude']
+              longitude = routing.params['longitude']
               search_keyword = Request::SearchKeyword.new(search_keyword)
-              result = Service::AddShops.new.call(search_keyword: search_keyword)
+              result = Service::AddShops.new.call(
+                                                    search_keyword: search_keyword,
+                                                    latitude: latitude,
+                                                    longitude: longitude
+                                                  )
 
               Representer::For.new(result).status_and_body(response)
             end
@@ -76,6 +82,14 @@ module DrinkKing
           result = Service::ShopMenu.new.call({ keyword: routing.params['keyword'], searchby:routing.params['searchby'] })
 
           Representer::For.new(result).status_and_body(response)
+        end
+
+        # GET /api/v1/promotion?keyword={keyword}
+        routing.get 'promotion' do
+          result = Service::Promotion.new.call({ keyword: routing.params['keyword']})
+          # result.value!.message.to_json
+          Representer::For.new(result).status_and_body(response)
+          # Representer::For.new(result)
         end
       end
     end

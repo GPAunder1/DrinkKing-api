@@ -16,8 +16,6 @@ describe 'get shop menu test' do
     VcrHelper.eject_vcr
   end
   it 'get shop menu' do
-    search_keyword = DrinkKing::Request::SearchKeyword.new(KEYWORD)
-    DrinkKing::Service::AddShops.new.call(search_keyword: search_keyword)
     result = DrinkKing::Service::ShopMenu.new.call(keyword: KEYWORD).value!.message[0]
     _(result['shopname']).must_include KEYWORD
   end
